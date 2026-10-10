@@ -1,0 +1,53 @@
+# Radar des Cotes : lit Telegram toutes les 15 min, analyse les cotes toutes les 2 h (8 h - 22 h, heure de Paris).
+name: Radar des Cotes
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Europe/Paris
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vérifier PowerShell (7.5 minimum)
+        shell: bash
+        run: |
+          v=$(pwsh -NoProfile -Command '$v = $PSVersionTable.PSVersion; $v.Major * 100 + $v.Minor')
+          if [ "$v" -lt 705 ]; then
+            wget -q https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/powershell_7.5.0-1.deb_amd64.deb
+            sudo dpkg -i powershell_7.5.0-1.deb_amd64.deb
+          fi
+          pwsh -NoProfile -Command '$PSVersionTable.PSVersion.ToString()'
+
+      - name: Analyse des cotes et messages Telegram
+        shell: pwsh
+        run: |
+          $env:PAGE_URL = "https://$($env:GITHUB_REPOSITORY_OWNER.ToLower()).github.io/$($env:GITHUB_REPOSITORY.Split('/')[1])/"
+          ./radar.ps1
+
+      - name: Enregistrer les résultats
+        shell: bash
+        run: |
+          git config user.name "radar-des-cotes"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A etat docs/data
+          if ! git diff --cached --quiet; then
+            git commit -m "Radar : mise à jour"
+            git pull --rebase
+            git push
+          fi
