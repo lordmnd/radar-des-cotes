@@ -11,8 +11,6 @@
     "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
     "soccer_germany_bundesliga2": "2026-10-10T07:55:51.3355456Z"
   },
-  "lastAnalysis": "2026-10-10T15:15:46Z",
-  "rejected": [],
   "bets": [
     {
       "n": 1,
@@ -59,7 +57,6 @@
       "status": "en attente"
     }
   ],
-  "bankroll0": 80,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -156,14 +153,10 @@
       "status": "en attente"
     }
   ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "usedToday": 10,
-  "nextBet": 2,
   "remaining": 490,
+  "bankroll0": 80,
+  "rejected": [],
+  "lastAnalysis": "2026-10-10T15:15:46Z",
   "events": {
     "3bb1d920fd29104775ac4f4878cbbf67": {
       "eventId": "3bb1d920fd29104775ac4f4878cbbf67",
@@ -1686,6 +1679,13 @@
         }
       ]
     }
+  },
+  "usedToday": 10,
+  "nextBet": 2,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
   },
   "day": "2026-10-10"
 }
