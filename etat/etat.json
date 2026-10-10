@@ -1,7 +1,18 @@
 {
-  "bankroll0": 80,
-  "remaining": 490,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
+    "soccer_france_ligue_two": "2026-10-10T07:55:51.3355456Z",
+    "soccer_epl": "2026-10-10T07:55:51.3355456Z",
+    "soccer_efl_champ": "2026-10-10T07:55:51.3355456Z",
+    "soccer_spain_la_liga": "2026-10-10T07:55:51.3355456Z",
+    "soccer_spain_segunda_division": "2026-10-10T07:55:51.3355456Z",
+    "soccer_italy_serie_a": "2026-10-10T07:55:51.3355456Z",
+    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga2": "2026-10-10T07:55:51.3355456Z"
+  },
   "lastAnalysis": "2026-10-10T11:20:05Z",
+  "usedToday": 10,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -99,11 +110,10 @@
     }
   ],
   "tg": {
-    "offset": 0,
-    "chatId": null,
+    "offset": 177479724,
+    "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "rejected": [],
   "bets": [
     {
       "n": 1,
@@ -150,20 +160,6 @@
       "status": "en attente"
     }
   ],
-  "nextBet": 2,
-  "day": "2026-10-10",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
-    "soccer_france_ligue_two": "2026-10-10T07:55:51.3355456Z",
-    "soccer_epl": "2026-10-10T07:55:51.3355456Z",
-    "soccer_efl_champ": "2026-10-10T07:55:51.3355456Z",
-    "soccer_spain_la_liga": "2026-10-10T07:55:51.3355456Z",
-    "soccer_spain_segunda_division": "2026-10-10T07:55:51.3355456Z",
-    "soccer_italy_serie_a": "2026-10-10T07:55:51.3355456Z",
-    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga2": "2026-10-10T07:55:51.3355456Z"
-  },
   "events": {
     "3bb1d920fd29104775ac4f4878cbbf67": {
       "eventId": "3bb1d920fd29104775ac4f4878cbbf67",
@@ -1687,5 +1683,9 @@
       ]
     }
   },
-  "usedToday": 10
+  "bankroll0": 80,
+  "nextBet": 2,
+  "day": "2026-10-10",
+  "rejected": [],
+  "remaining": 490
 }
