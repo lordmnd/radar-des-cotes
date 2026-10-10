@@ -22,8 +22,8 @@
           "pickName": "Victoire TSG Hoffenheim",
           "odd": 1.49,
           "p": 0.692,
-          "result": null,
-          "score": null
+          "result": "perdu",
+          "score": "2-3"
         },
         {
           "eventId": "3aa72885e0aa107c62843749f7930a9a",
@@ -44,7 +44,7 @@
         }
       ],
       "manualStatus": null,
-      "status": "en attente"
+      "status": "perdu"
     }
   ]
 }
