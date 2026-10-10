@@ -1,47 +1,10 @@
 {
   "2026-10-10": {
     "date": "2026-10-10",
-    "updatedAt": "2026-10-10T11:20:05Z",
-    "eventsScanned": 57,
-    "valueBets": 5,
+    "updatedAt": "2026-10-10T13:16:57Z",
+    "eventsScanned": 44,
+    "valueBets": 3,
     "top": [
-      {
-        "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-        "sportKey": "soccer_germany_bundesliga",
-        "league": "Bundesliga",
-        "home": "TSG Hoffenheim",
-        "away": "Hamburger SV",
-        "kickoff": "2026-10-10T13:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire TSG Hoffenheim",
-        "names": [
-          "Victoire TSG Hoffenheim",
-          "Match nul",
-          "Victoire Hamburger SV"
-        ],
-        "odd": 1.49,
-        "p": 0.692,
-        "fairOdd": 1.445,
-        "ev": 0.031,
-        "quality": 0.0451,
-        "kelly": 0.0634,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.49,
-          4.98,
-          6.98
-        ],
-        "refOdds": [
-          1.41,
-          5.28,
-          7.03
-        ],
-        "margin1x": 0.0152
-      },
       {
         "eventId": "3aa72885e0aa107c62843749f7930a9a",
         "sportKey": "soccer_france_ligue_one",
@@ -80,41 +43,78 @@
         "margin1x": 0.0152
       },
       {
-        "eventId": "2fd48be0a24ed906187067d4170bf010",
-        "sportKey": "soccer_germany_bundesliga",
-        "league": "Bundesliga",
-        "home": "Union Berlin",
-        "away": "Elversberg",
-        "kickoff": "2026-10-10T13:30:00Z",
+        "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Nice",
+        "away": "Strasbourg",
+        "kickoff": "2026-10-11T13:00:00Z",
         "market": "1N2",
         "marketKey": "h2h",
         "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Strasbourg",
         "names": [
-          "Victoire Union Berlin",
+          "Victoire Nice",
           "Match nul",
-          "Victoire Elversberg"
+          "Victoire Strasbourg"
         ],
-        "odd": 3.9,
-        "p": 0.2664,
-        "fairOdd": 3.754,
-        "ev": 0.0388,
-        "quality": 0.0225,
-        "kelly": 0.0134,
+        "odd": 3.07,
+        "p": 0.3328,
+        "fairOdd": 3.005,
+        "ev": 0.0216,
+        "quality": 0.0149,
+        "kelly": 0.0104,
         "refSource": "Pinnacle",
         "odds1x": [
-          2.42,
-          3.9,
-          2.9
+          2.36,
+          3.75,
+          3.07
         ],
         "refOdds": [
-          2.45,
-          3.61,
-          2.87
+          2.38,
+          3.72,
+          2.91
         ],
-        "margin1x": 0.0145
+        "margin1x": 0.0161
+      },
+      {
+        "eventId": "551f242223b1625f458d1a2ea212a0c3",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Real Madrid",
+        "away": "Villarreal",
+        "kickoff": "2026-10-10T19:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Villarreal",
+        "names": [
+          "Victoire Real Madrid",
+          "Match nul",
+          "Victoire Villarreal"
+        ],
+        "odd": 7.6,
+        "p": 0.1349,
+        "fairOdd": 7.414,
+        "ev": 0.0251,
+        "quality": 0.0097,
+        "kelly": 0.0038,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.4,
+          5.84,
+          7.6
+        ],
+        "refOdds": [
+          1.39,
+          5.81,
+          6.88
+        ],
+        "margin1x": 0.0171
       }
     ],
     "combo": null
