@@ -1,5 +1,25 @@
 {
+  "lastAnalysis": "2026-10-10T13:16:57Z",
+  "rejected": [],
+  "usedToday": 10,
   "remaining": 490,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
+    "soccer_france_ligue_two": "2026-10-10T07:55:51.3355456Z",
+    "soccer_epl": "2026-10-10T07:55:51.3355456Z",
+    "soccer_efl_champ": "2026-10-10T07:55:51.3355456Z",
+    "soccer_spain_la_liga": "2026-10-10T07:55:51.3355456Z",
+    "soccer_spain_segunda_division": "2026-10-10T07:55:51.3355456Z",
+    "soccer_italy_serie_a": "2026-10-10T07:55:51.3355456Z",
+    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga2": "2026-10-10T07:55:51.3355456Z"
+  },
   "events": {
     "3bb1d920fd29104775ac4f4878cbbf67": {
       "eventId": "3bb1d920fd29104775ac4f4878cbbf67",
@@ -1523,7 +1543,6 @@
       ]
     }
   },
-  "rejected": [],
   "bets": [
     {
       "n": 1,
@@ -1571,26 +1590,6 @@
     }
   ],
   "day": "2026-10-10",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
-    "soccer_france_ligue_two": "2026-10-10T07:55:51.3355456Z",
-    "soccer_epl": "2026-10-10T07:55:51.3355456Z",
-    "soccer_efl_champ": "2026-10-10T07:55:51.3355456Z",
-    "soccer_spain_la_liga": "2026-10-10T07:55:51.3355456Z",
-    "soccer_spain_segunda_division": "2026-10-10T07:55:51.3355456Z",
-    "soccer_italy_serie_a": "2026-10-10T07:55:51.3355456Z",
-    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga2": "2026-10-10T07:55:51.3355456Z"
-  },
-  "usedToday": 10,
-  "nextBet": 2,
-  "lastAnalysis": "2026-10-10T13:16:57Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1687,5 +1686,6 @@
       "status": "en attente"
     }
   ],
+  "nextBet": 2,
   "bankroll0": 80
 }
