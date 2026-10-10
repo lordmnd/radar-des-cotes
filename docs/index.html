@@ -1,0 +1,1019 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Radar des Cotes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout : tableau de cotes — en-tête compact, onglets, saisie puis résultats ; tout s'empile en une colonne sur mobile */
+:root{
+  --bg:#ECF0EE; --surface:#FFFFFF; --sunk:#E2E8E5; --ink:#12201B; --muted:#56665F; --line:#CDD7D3;
+  --accent:#2440C2; --accent-ink:#FFFFFF; --accent-soft:#DFE5FB;
+  --good:#12704A; --good-bg:#D9F0E4; --warn:#8E5B00; --warn-bg:#F6EAD0; --bad:#AE2A1F; --bad-bg:#F8E0DC;
+  --f-display:'Barlow Condensed','Arial Narrow',sans-serif;
+  --f-body:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;
+  --r:8px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D1412; --surface:#151F1C; --sunk:#1B2824; --ink:#E3ECE8; --muted:#94A59F; --line:#2A3833;
+  --accent:#8FA3FF; --accent-ink:#0D1412; --accent-soft:#222C55;
+  --good:#5BCB8E; --good-bg:#16352A; --warn:#E6B657; --warn-bg:#3A2F14; --bad:#FF8F84; --bad-bg:#43211E;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0D1412; --surface:#151F1C; --sunk:#1B2824; --ink:#E3ECE8; --muted:#94A59F; --line:#2A3833;
+  --accent:#8FA3FF; --accent-ink:#0D1412; --accent-soft:#222C55;
+  --good:#5BCB8E; --good-bg:#16352A; --warn:#E6B657; --warn-bg:#3A2F14; --bad:#FF8F84; --bad-bg:#43211E;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:16px;padding-block:20px 48px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:.01em}
+h1{font-size:2.4rem;font-weight:700;text-transform:uppercase;line-height:1}
+h2{font-size:1.6rem;font-weight:600}
+h3{font-size:1.2rem;font-weight:600}
+p{margin:0}
+.muted{color:var(--muted)}
+.small{font-size:.84rem}
+.mono,.num,input.in-num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;padding-bottom:14px;border-bottom:2px solid var(--ink)}
+.brand{display:flex;flex-direction:column;gap:6px}
+.brand .tag{color:var(--muted);max-width:60ch}
+.board{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.board b{color:var(--ink);font-weight:600}
+nav.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:16px 0 20px}
+nav.tabs button{font-family:var(--f-display);font-size:1.1rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase;background:transparent;color:var(--muted);border:1px solid transparent;border-radius:var(--r);padding:6px 14px;cursor:pointer}
+nav.tabs button:hover{color:var(--ink);background:var(--sunk)}
+nav.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:var(--r);padding:8px 14px;font-weight:600;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}
+.ghost{background:transparent;border:1px solid var(--line);border-radius:6px;padding:4px 9px;cursor:pointer;color:var(--ink);font-size:.84rem}
+.ghost:hover{background:var(--sunk)}
+.ghost.x{color:var(--bad);font-weight:700}
+input[type=text],select,textarea{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 8px;min-width:0}
+textarea{width:100%;font-family:var(--f-mono);font-size:.84rem;line-height:1.45;resize:vertical;color:var(--ink)}
+.intro{max-width:72ch;margin-bottom:16px;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.stack{display:flex;flex-direction:column;gap:18px}
+.controls{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:flex-end}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.field label,.lbl{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600}
+.field input{width:8.5rem}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r)}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap;vertical-align:middle}
+th{font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;background:var(--sunk)}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right}
+td input{width:6rem}
+td input.in-name{width:10rem;font-family:var(--f-body)}
+td.acts{display:flex;gap:6px}
+tr.sel td{background:var(--accent-soft)}
+.src{display:block;font-size:.68rem;color:var(--muted);font-family:var(--f-body)}
+.pill{display:inline-block;font-size:.74rem;font-weight:700;padding:2px 9px;border-radius:99px;letter-spacing:.02em}
+.pill.good{background:var(--good-bg);color:var(--good)}
+.pill.warn{background:var(--warn-bg);color:var(--warn)}
+.pill.bad{background:var(--bad-bg);color:var(--bad)}
+.pos{color:var(--good);font-weight:600}
+.neg{color:var(--bad)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.kpi .v{font-family:var(--f-display);font-size:2rem;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi .s{font-size:.8rem;color:var(--muted)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+@media (max-width:860px){.two{grid-template-columns:minmax(0,1fr)}}
+.detail{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px 20px}
+.detail div{display:flex;flex-direction:column;border-top:1px solid var(--line);padding-top:6px}
+.detail .v{font-family:var(--f-mono);font-size:1.05rem;font-weight:600}
+.note{border-left:3px solid var(--warn);background:var(--warn-bg);padding:10px 12px;border-radius:0 6px 6px 0;font-size:.88rem}
+.note.info{border-color:var(--accent);background:var(--accent-soft)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+canvas{width:100%;height:320px;display:block}
+.grid-score td{text-align:center;font-family:var(--f-mono);font-size:.8rem;padding:6px 4px}
+.grid-score th{text-align:center}
+.prob3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.prob3 .kpi .v{font-size:1.7rem}
+.bar{height:6px;background:var(--sunk);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+details summary{cursor:pointer;font-weight:600}
+.guide{max-width:75ch;display:flex;flex-direction:column;gap:18px}
+.guide section{display:flex;flex-direction:column;gap:6px}
+.guide code{font-family:var(--f-mono);background:var(--sunk);padding:1px 5px;border-radius:4px;font-size:.88em}
+footer{margin-top:32px;padding-top:14px;border-top:1px solid var(--line);font-size:.82rem;color:var(--muted)}
+.err{color:var(--bad);font-size:.88rem}
+.combo{border:2px solid var(--accent)}
+.combo .big{font-family:var(--f-display);font-size:3.2rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.combo .mid{font-family:var(--f-display);font-size:2rem;font-weight:600;line-height:1.1}
+.combo-head{display:flex;flex-wrap:wrap;gap:12px 32px;align-items:flex-end}
+.combo-head > div{display:flex;flex-direction:column;gap:2px}
+.leg{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 16px;padding-top:10px;border-top:1px solid var(--line)}
+.leg .odd{font-family:var(--f-mono);font-size:1.25rem;font-weight:600;text-align:right}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.74rem;border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--muted)}
+.chip.on{border-color:var(--good);color:var(--good)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:.88rem}
+.meta b{font-family:var(--f-mono);font-weight:600}
+.hist{display:flex;flex-direction:column}
+.hist div{display:grid;grid-template-columns:7rem minmax(0,1fr) auto;gap:12px;padding:7px 0;border-top:1px solid var(--line);font-size:.9rem}
+.live{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--good);margin-right:6px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Radar des Cotes</h1>
+      <p class="tag">Mesurez la marge du bookmaker, la probabilité réelle d'un résultat et l'espérance de gain de chaque pari. L'outil repère les paris à valeur positive et dimensionne la mise selon le risque.</p>
+    </div>
+    <div class="board" aria-label="Rappel des formules">
+      <span>Proba implicite = <b>1 / cote</b></span>
+      <span>EV = <b>p × cote − 1</b></span>
+      <span>Kelly = <b>EV / (cote − 1)</b></span>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="top" aria-selected="true">Top 10 du jour</button>
+    <button role="tab" data-tab="paris" aria-selected="false">Mes paris</button>
+    <button role="tab" data-tab="analyse" aria-selected="false">Analyse d'un match</button>
+    <button role="tab" data-tab="compare" aria-selected="false">Comparateur</button>
+    <button role="tab" data-tab="poisson" aria-selected="false">Modèle Poisson</button>
+    <button role="tab" data-tab="sim" aria-selected="false">Simulateur</button>
+    <button role="tab" data-tab="guide" aria-selected="false">Guide</button>
+  </nav>
+
+  <!-- ===================== TOP 10 DU JOUR ===================== -->
+  <section id="tab-top" class="stack">
+    <div class="panel" id="t-status"><p class="muted">Chargement des résultats…</p></div>
+    <div id="t-combo"></div>
+    <div class="panel">
+      <div class="row" style="justify-content:space-between"><h2>Les 10 meilleurs paris 1xBet</h2><span class="small muted" id="t-sub"></span></div>
+      <div class="tablewrap"><table><thead><tr><th class="num">#</th><th>Match</th><th>Pari</th><th class="num">Cote 1xBet</th><th class="num">Cote juste</th><th class="num">Proba</th><th class="num">Valeur</th><th class="num">Score qualité</th><th class="num">Mise ¼ Kelly</th><th></th></tr></thead><tbody id="t-body"></tbody></table></div>
+      <p class="small muted">Classement par score qualité : la valeur du pari divisée par son risque. Un favori à petite cote et un outsider se comparent ainsi équitablement. La mise suit la bankroll réglée dans l'onglet Analyse.</p>
+    </div>
+    <div class="panel" id="notifs">
+      <div class="row" style="justify-content:space-between"><h2>Historique des notifications</h2><span class="small muted" id="t-nsub"></span></div>
+      <p class="small muted">Chaque combiné qui vous a été signalé, avec les cotes au moment de l'alerte et le résultat réel une fois les matchs joués. Conservé 30 jours.</p>
+      <div class="kpis" id="t-stats"></div>
+      <div class="stack" style="gap:0" id="t-notifs"></div>
+    </div>
+    <div class="panel"><h3>Historique des 14 derniers jours</h3><div class="hist" id="t-hist"></div></div>
+  </section>
+
+  <!-- ===================== MES PARIS ===================== -->
+  <section id="tab-paris" class="stack" hidden>
+    <div class="kpis" id="m-kpis"></div>
+    <p class="note" id="m-warn" hidden></p>
+    <div class="two">
+      <div class="panel">
+        <h3>Enregistrer un pari</h3>
+        <div class="field"><label for="m-match">Match</label><select id="m-match"></select></div>
+        <div class="controls" id="m-free" hidden>
+          <div class="field"><label for="m-home">Équipe à domicile</label><input id="m-home" type="text"></div>
+          <div class="field"><label for="m-away">Équipe à l'extérieur</label><input id="m-away" type="text"></div>
+        </div>
+        <div class="controls">
+          <div class="field"><label for="m-mkt">Type de pari</label>
+            <select id="m-mkt"><option value="h2h">1N2</option><option value="dc">Double chance</option><option value="totals">Plus/moins de buts</option><option value="spreads">Handicap asiatique</option></select></div>
+          <div class="field" id="m-line-f" hidden><label for="m-line" id="m-line-l">Ligne</label><input id="m-line" type="text" inputmode="decimal" value="2,5"></div>
+          <div class="field"><label for="m-sel">Choix</label><select id="m-sel"></select></div>
+          <div class="field"><label for="m-odd">Cote 1xBet</label><input id="m-odd" type="text" inputmode="decimal"></div>
+          <button class="ghost" id="m-addleg">+ Ajouter au pari</button>
+        </div>
+        <div class="stack" style="gap:0" id="m-legs"></div>
+        <div class="controls">
+          <div class="field"><label for="m-stake">Mise (€)</label><input id="m-stake" type="text" inputmode="decimal"></div>
+          <div class="field"><label for="m-total">Cote totale</label><input id="m-total" type="text" inputmode="decimal"></div>
+          <button class="btn" id="m-save">Enregistrer le pari</button>
+        </div>
+        <p class="small muted" id="m-hint">Choisissez un match, ajoutez une ou plusieurs sélections, puis indiquez la mise.</p>
+      </div>
+      <div class="panel">
+        <h3>Bankroll</h3>
+        <div class="controls"><div class="field"><label for="m-bank0">Bankroll de départ (€)</label><input id="m-bank0" type="text" inputmode="decimal"></div><button class="ghost" id="m-bank-save">Enregistrer</button></div>
+        <canvas id="m-chart" style="height:190px" aria-label="Évolution de la bankroll"></canvas>
+        <p class="small muted">Les paris s'enregistrent par le robot Telegram : le bouton ouvre Telegram avec le pari prêt, il suffit de toucher « Démarrer ». Le résultat est récupéré automatiquement environ 2 h 15 après chaque match, et le robot vous l'envoie.</p>
+      </div>
+    </div>
+    <div class="panel"><h2>Historique de mes paris</h2><div class="stack" style="gap:0" id="m-list"></div></div>
+  </section>
+
+  <!-- ===================== ANALYSE ===================== -->
+  <section id="tab-analyse" class="stack" hidden>
+    <p class="intro">Saisissez les cotes d'un marché (par exemple 1 / N / 2). Ajoutez si possible les cotes d'un bookmaker de référence réputé précis (type Pinnacle) ou votre propre estimation en %. L'outil retire la marge, estime la probabilité réelle et calcule la valeur de chaque issue. Les chiffres affichés sont un exemple.</p>
+    <div class="panel">
+      <div class="controls">
+        <div class="field"><label for="a-method">Retrait de la marge</label>
+          <select id="a-method"><option value="shin">Shin (recommandé)</option><option value="power">Puissance</option><option value="prop">Proportionnel</option></select></div>
+        <div class="field"><label for="a-bank">Bankroll (€)</label><input id="a-bank" type="text" inputmode="decimal" value="1000"></div>
+        <div class="field"><label for="a-kelly">Fraction de Kelly</label>
+          <select id="a-kelly"><option value="1">Kelly complet</option><option value="0.5">1/2 Kelly</option><option value="0.25" selected>1/4 Kelly (prudent)</option><option value="0.125">1/8 Kelly</option></select></div>
+        <div class="field"><label for="a-minev">Valeur minimale (%)</label><input id="a-minev" type="text" inputmode="decimal" value="2"></div>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Issue</th><th>Cote bookmaker</th><th>Cote référence</th><th>Ma proba (%)</th><th class="num">Proba implicite</th><th class="num">Proba estimée</th><th class="num">Cote juste</th><th class="num">Valeur (EV)</th><th class="num">Mise conseillée</th><th>Verdict</th><th></th></tr></thead>
+          <tbody id="a-body"></tbody>
+        </table>
+      </div>
+      <div class="row">
+        <button class="ghost" id="a-add">+ Ajouter une issue</button>
+        <button class="ghost" id="a-p3">Modèle 1 / N / 2</button>
+        <button class="ghost" id="a-p2">Modèle 2 issues</button>
+      </div>
+      <p id="a-err" class="err" hidden></p>
+    </div>
+
+    <div class="kpis" id="a-kpis"></div>
+
+    <div class="panel" id="a-detail"></div>
+  </section>
+
+  <!-- ===================== COMPARATEUR ===================== -->
+  <section id="tab-compare" class="stack" hidden>
+    <p class="intro">Collez les cotes de plusieurs bookmakers, une ligne par bookmaker et par match. Première ligne : <span class="mono">match;bookmaker;</span> puis le nom des issues. Le séparateur peut être le point-virgule, la tabulation (copier-coller depuis Excel) ou la virgule. L'outil calcule une probabilité de consensus, trouve la meilleure cote disponible, classe les paris par valeur et détecte les surebets.</p>
+    <div class="two">
+      <div class="panel">
+        <label class="lbl" for="c-csv">Cotes (exemple modifiable)</label>
+        <textarea id="c-csv" rows="15" spellcheck="false"></textarea>
+        <div class="row"><button class="btn" id="c-run">Analyser les cotes</button><button class="ghost" id="c-reset">Recharger l'exemple</button></div>
+        <p id="c-err" class="err" hidden></p>
+      </div>
+      <div class="panel">
+        <div class="controls">
+          <div class="field"><label for="c-ref">Probabilité de référence</label><select id="c-ref"></select></div>
+          <div class="field"><label for="c-method">Retrait de la marge</label>
+            <select id="c-method"><option value="shin">Shin</option><option value="power">Puissance</option><option value="prop">Proportionnel</option></select></div>
+          <div class="field"><label for="c-minev">Valeur minimale (%)</label><input id="c-minev" type="text" inputmode="decimal" value="1"></div>
+        </div>
+        <h3>Marge moyenne par bookmaker</h3>
+        <p class="small muted">Plus la marge est basse, plus le bookmaker rend d'argent aux joueurs sur le long terme.</p>
+        <div class="tablewrap"><table><thead><tr><th>Bookmaker</th><th class="num">Matchs</th><th class="num">Marge moyenne</th><th class="num">Retour joueur</th></tr></thead><tbody id="c-books"></tbody></table></div>
+      </div>
+    </div>
+    <div class="kpis" id="c-kpis"></div>
+    <div class="panel">
+      <div class="row" style="justify-content:space-between"><h2>Meilleurs paris détectés</h2>
+        <label class="small row"><input type="checkbox" id="c-all"> Afficher toutes les issues</label></div>
+      <div class="tablewrap"><table><thead><tr><th>Match</th><th>Issue</th><th class="num">Meilleure cote</th><th>Chez</th><th class="num">Proba estimée</th><th class="num">Cote juste</th><th class="num">Valeur (EV)</th><th class="num">Kelly</th><th>Verdict</th><th></th></tr></thead><tbody id="c-best"></tbody></table></div>
+    </div>
+    <div class="panel">
+      <h2>Surebets (arbitrages)</h2>
+      <p class="small muted">Quand la somme des 1/cote des meilleures cotes est inférieure à 1, miser sur toutes les issues chez différents bookmakers garantit un gain. Les cotes bougent vite et les bookmakers limitent souvent ces comptes.</p>
+      <div id="c-arb"></div>
+    </div>
+  </section>
+
+  <!-- ===================== POISSON ===================== -->
+  <section id="tab-poisson" class="stack" hidden>
+    <p class="intro">Pour le football, la loi de Poisson estime la probabilité de chaque score à partir du nombre de buts attendus par équipe. Vous obtenez vos propres probabilités, indépendantes du bookmaker, à comparer aux cotes proposées.</p>
+    <div class="two">
+      <div class="panel">
+        <h3>Buts attendus</h3>
+        <div class="controls">
+          <div class="field"><label for="p-lh">Équipe à domicile</label><input id="p-lh" type="text" inputmode="decimal" value="1,65"></div>
+          <div class="field"><label for="p-la">Équipe à l'extérieur</label><input id="p-la" type="text" inputmode="decimal" value="1,10"></div>
+        </div>
+        <details>
+          <summary>Calculer depuis les moyennes de buts de la saison</summary>
+          <div class="stack" style="margin-top:12px">
+            <div class="controls">
+              <div class="field"><label for="p-hs">Dom. : buts marqués / match à dom.</label><input id="p-hs" type="text" inputmode="decimal" value="1,90"></div>
+              <div class="field"><label for="p-hc">Dom. : buts encaissés / match à dom.</label><input id="p-hc" type="text" inputmode="decimal" value="0,95"></div>
+              <div class="field"><label for="p-as">Ext. : buts marqués / match à l'ext.</label><input id="p-as" type="text" inputmode="decimal" value="1,15"></div>
+              <div class="field"><label for="p-ac">Ext. : buts encaissés / match à l'ext.</label><input id="p-ac" type="text" inputmode="decimal" value="1,35"></div>
+              <div class="field"><label for="p-lgh">Ligue : buts / match à dom.</label><input id="p-lgh" type="text" inputmode="decimal" value="1,55"></div>
+              <div class="field"><label for="p-lga">Ligue : buts / match à l'ext.</label><input id="p-lga" type="text" inputmode="decimal" value="1,20"></div>
+            </div>
+            <div><button class="ghost" id="p-apply">Appliquer ces moyennes</button></div>
+            <p class="small muted">Force d'attaque × faiblesse défensive adverse × moyenne de la ligue. Prenez au moins 8 à 10 matchs de données.</p>
+          </div>
+        </details>
+        <div class="prob3" id="p-1n2"></div>
+      </div>
+      <div class="panel">
+        <h3>Scores les plus probables</h3>
+        <div class="tablewrap"><table class="grid-score" id="p-grid"></table></div>
+        <p class="small muted">Lignes : buts de l'équipe à domicile. Colonnes : buts de l'équipe à l'extérieur.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <h2>Marchés et valeur</h2>
+      <p class="small muted">Entrez la cote du bookmaker pour chaque marché qui vous intéresse. Laissez vide pour ignorer.</p>
+      <div class="tablewrap"><table><thead><tr><th>Marché</th><th class="num">Proba modèle</th><th class="num">Cote juste</th><th>Cote bookmaker</th><th class="num">Valeur (EV)</th><th>Verdict</th><th></th></tr></thead><tbody id="p-mk"></tbody></table></div>
+      <p class="note">Le modèle de Poisson simple sous-estime un peu les matchs nuls et les scores serrés. Il ne connaît ni les blessures, ni la motivation, ni la météo. Exigez une valeur d'au moins 5 % avant de le suivre.</p>
+    </div>
+  </section>
+
+  <!-- ===================== SIMULATEUR ===================== -->
+  <section id="tab-sim" class="stack" hidden>
+    <p class="intro">Même un pari à valeur positive perd souvent. Le simulateur rejoue des milliers de fois une série de paris pour montrer l'éventail des résultats possibles : gains probables, pires séries et risque de ruine selon la taille des mises.</p>
+    <div class="panel">
+      <div class="controls">
+        <div class="field"><label for="s-bank">Bankroll de départ (€)</label><input id="s-bank" type="text" inputmode="decimal" value="1000"></div>
+        <div class="field"><label for="s-n">Nombre de paris</label><input id="s-n" type="text" inputmode="numeric" value="500"></div>
+        <div class="field"><label for="s-p">Proba réelle de gagner (%)</label><input id="s-p" type="text" inputmode="decimal" value="28,1"></div>
+        <div class="field"><label for="s-o">Cote</label><input id="s-o" type="text" inputmode="decimal" value="3,80"></div>
+        <div class="field"><label for="s-mode">Type de mise</label>
+          <select id="s-mode"><option value="kelly">Fraction de Kelly</option><option value="pct">% de la bankroll</option><option value="fixed">Montant fixe (€)</option></select></div>
+        <div class="field"><label for="s-val" id="s-val-l">Fraction</label><input id="s-val" type="text" inputmode="decimal" value="0,25"></div>
+        <div class="field"><label for="s-sims">Simulations</label>
+          <select id="s-sims"><option>500</option><option selected>2000</option><option>5000</option></select></div>
+        <button class="btn" id="s-run">Lancer la simulation</button>
+      </div>
+      <p id="s-info" class="small muted"></p>
+    </div>
+    <div class="kpis" id="s-kpis"></div>
+    <div class="panel">
+      <div class="row" style="justify-content:space-between"><h3>Évolution de la bankroll</h3>
+        <span class="small muted row" style="gap:14px"><span><span class="mono" style="color:var(--accent)">━</span> médiane</span><span>zone foncée : 50 % des cas</span><span>zone claire : 90 % des cas</span></span></div>
+      <canvas id="s-canvas" aria-label="Graphique de l'évolution de la bankroll simulée"></canvas>
+    </div>
+  </section>
+
+  <!-- ===================== GUIDE ===================== -->
+  <section id="tab-guide" hidden>
+    <div class="guide">
+      <section><h2>La cote cache une probabilité</h2>
+        <p>Une cote de <code>2,50</code> correspond à une probabilité implicite de 1 / 2,50 = 40 %. Si vous additionnez les probabilités implicites de toutes les issues d'un match, vous obtenez plus de 100 %. L'excédent est la <strong>marge du bookmaker</strong> : avec 105 %, il garde environ 5 % des mises sur le long terme.</p></section>
+      <section><h2>Retirer la marge</h2>
+        <p>Pour retrouver les probabilités « justes », on retire la marge. La méthode <strong>proportionnelle</strong> la répartit également. Les méthodes <strong>Shin</strong> et <strong>puissance</strong> tiennent compte du fait que les bookmakers chargent davantage les outsiders (biais favori-outsider) ; elles sont généralement plus précises.</p></section>
+      <section><h2>Un pari a de la valeur quand…</h2>
+        <p>…la cote proposée est supérieure à la cote juste. L'espérance de gain par euro misé vaut <code>EV = p × cote − 1</code>. Exemple : probabilité réelle 45 %, cote 2,40 → EV = 0,45 × 2,40 − 1 = +8 %. Sur un grand nombre de paris semblables, vous gagneriez en moyenne 8 centimes par euro misé.</p>
+        <p>Tout repose sur <strong>p</strong>, la probabilité réelle. Sans estimation meilleure que celle du marché, l'EV est négative : c'est la marge. Les sources les plus fiables sont, dans l'ordre : les cotes d'un bookmaker à faible marge (référence), le consensus de plusieurs bookmakers, puis un modèle statistique comme Poisson.</p></section>
+      <section><h2>Combien miser : le critère de Kelly</h2>
+        <p>Kelly donne la part de bankroll qui maximise la croissance à long terme : <code>f = EV / (cote − 1)</code>. Le Kelly complet est très volatil et suppose que votre probabilité est exacte. En pratique, on mise 1/4 ou 1/2 Kelly.</p></section>
+      <section><h2>Le rapport gain / risque</h2>
+        <p>Une grosse cote rapporte beaucoup mais perd souvent. L'écart-type d'un pari vaut <code>cote × √(p(1−p))</code> par euro misé. L'outil divise l'EV par cet écart-type pour obtenir un <strong>score qualité</strong> comparable entre favoris et outsiders, et estime le nombre de paris semblables nécessaires pour être en bénéfice avec 95 % de confiance.</p></section>
+      <section><h2>Limites à garder en tête</h2>
+        <p>Aucun outil ne garantit un gain. Les estimations peuvent être fausses, les cotes changent jusqu'au coup d'envoi et les bookmakers limitent les comptes gagnants. Notez vos paris pour vérifier dans le temps si vous battez la cote de clôture : c'est le meilleur indicateur d'une vraie compétence.</p>
+        <p class="note">Ne misez que de l'argent que vous pouvez perdre. Si le jeu devient une source de stress ou de dettes, parlez-en à un proche ou à un service d'aide aux joueurs de votre pays (en France : Joueurs Info Service, 09 74 75 13 13).</p></section>
+    </div>
+  </section>
+
+  <footer>Données mises à jour par le robot Radar des Cotes (GitHub Actions) toutes les 15 minutes, analyse des cotes toutes les 2 heures de 8 h à 22 h. Les cotes d'exemple des onglets d'analyse sont fictives.</footer>
+</div>
+
+<script>
+(() => {
+'use strict';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const num = v => { if (v == null) return NaN; v = String(v).trim().replace(/\s/g,'').replace(',', '.'); return v === '' ? NaN : Number(v); };
+const fmt = (x, d = 2) => Number.isFinite(x) ? x.toLocaleString('fr-FR', {minimumFractionDigits:d, maximumFractionDigits:d}) : '—';
+const pct = (x, d = 1) => Number.isFinite(x) ? (x*100).toLocaleString('fr-FR', {minimumFractionDigits:d, maximumFractionDigits:d}) + ' %' : '—';
+const spct = (x, d = 1) => Number.isFinite(x) ? (x > 0 ? '+' : '') + pct(x, d) : '—';
+const eur = (x, d = 2) => Number.isFinite(x) ? x.toLocaleString('fr-FR', {style:'currency', currency:'EUR', minimumFractionDigits:d, maximumFractionDigits:d}) : '—';
+const evCls = x => x > 0 ? 'pos' : x < 0 ? 'neg' : '';
+function verdict(ev, minEv){
+  if (!Number.isFinite(ev)) return '';
+  if (ev >= minEv) return '<span class="pill good">Value bet</span>';
+  if (ev > 0) return '<span class="pill warn">Valeur faible</span>';
+  return '<span class="pill bad">À éviter</span>';
+}
+
+/* ---------- stockage local (facultatif) ---------- */
+const KEY = 'radar-cotes-v1';
+let store = {};
+try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+
+/* ---------- onglets ---------- */
+const tabs = [...document.querySelectorAll('nav.tabs button')];
+function showTab(name){
+  tabs.forEach(b => b.setAttribute('aria-selected', b.dataset.tab === name));
+  document.querySelectorAll('section[id^="tab-"]').forEach(s => s.hidden = s.id !== 'tab-' + name);
+  if (name === 'sim' && lastSim) drawSim(lastSim);
+  if (name === 'paris') renderParis();
+  try { localStorage.setItem(KEY + '-tab', name); } catch (e) {}
+}
+tabs.forEach(b => b.addEventListener('click', () => showTab(b.dataset.tab)));
+
+/* ---------- mathématiques ---------- */
+function bisect(f, lo, hi, it = 80){
+  let flo = f(lo);
+  for (let i = 0; i < it; i++){ const m = (lo+hi)/2, fm = f(m); if ((fm > 0) === (flo > 0)) { lo = m; flo = fm; } else hi = m; }
+  return (lo+hi)/2;
+}
+function demargin(odds, method){
+  const pi = odds.map(o => 1/o), S = pi.reduce((a,b) => a+b, 0);
+  if (method === 'prop' || S <= 1.0000001) return pi.map(p => p/S);
+  if (method === 'power'){
+    const k = bisect(k => pi.reduce((a,p) => a + Math.pow(p,k), 0) - 1, 1, 20);
+    const r = pi.map(p => Math.pow(p,k)), t = r.reduce((a,b)=>a+b,0); return r.map(x => x/t);
+  }
+  const g = z => pi.map(p => (Math.sqrt(z*z + 4*(1-z)*p*p/S) - z) / (2*(1-z)));
+  const z = bisect(z => g(z).reduce((a,b)=>a+b,0) - 1, 0, 0.6);
+  const r = g(z), t = r.reduce((a,b)=>a+b,0); return r.map(x => x/t);
+}
+const kellyF = (p, o) => { const ev = p*o - 1; return ev > 0 ? ev/(o-1) : 0; };
+
+/* =============== ANALYSE D'UN MATCH =============== */
+const PRESET3 = [
+  {name:'1 (domicile)', odd:'2,10', ref:'2,20', mine:''},
+  {name:'N (nul)', odd:'3,40', ref:'3,50', mine:''},
+  {name:'2 (extérieur)', odd:'3,80', ref:'3,45', mine:''}];
+const PRESET2 = [{name:'Joueur A', odd:'1,62', ref:'1,66', mine:''},{name:'Joueur B', odd:'2,45', ref:'2,30', mine:''}];
+const A = { rows: Array.isArray(store.aRows) && store.aRows.length ? store.aRows : JSON.parse(JSON.stringify(PRESET3)), sel: null };
+
+function renderA(){
+  const tb = $('#a-body'); tb.innerHTML = '';
+  A.rows.forEach((r, i) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td><input type="text" class="in-name" id="a-n${i}" data-i="${i}" data-f="name" value="${esc(r.name)}" aria-label="Nom de l'issue"></td>
+      <td><input type="text" class="in-num" id="a-o${i}" data-i="${i}" data-f="odd" inputmode="decimal" value="${esc(r.odd)}" aria-label="Cote bookmaker"></td>
+      <td><input type="text" class="in-num" id="a-r${i}" data-i="${i}" data-f="ref" inputmode="decimal" value="${esc(r.ref)}" placeholder="—" aria-label="Cote de référence"></td>
+      <td><input type="text" class="in-num" id="a-m${i}" data-i="${i}" data-f="mine" inputmode="decimal" value="${esc(r.mine)}" placeholder="—" aria-label="Ma probabilité en %"></td>
+      <td class="num" data-k="imp"></td><td class="num" data-k="p"></td><td class="num" data-k="fair"></td>
+      <td class="num" data-k="ev"></td><td class="num" data-k="stake"></td><td data-k="ver"></td>
+      <td class="acts"><button class="ghost" data-act="detail" data-i="${i}">Détail</button><button class="ghost x" data-act="del" data-i="${i}" aria-label="Supprimer l'issue">×</button></td>`;
+    tb.appendChild(tr);
+  });
+  calcA();
+}
+$('#a-body').addEventListener('input', e => {
+  const t = e.target; if (!t.dataset.f) return;
+  A.rows[+t.dataset.i][t.dataset.f] = t.value; store.aRows = A.rows; save(); calcA();
+});
+$('#a-body').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return; const i = +b.dataset.i;
+  if (b.dataset.act === 'del'){ if (A.rows.length > 2){ A.rows.splice(i,1); A.sel = null; store.aRows = A.rows; save(); renderA(); } }
+  else { A.sel = i; calcA(); }
+});
+$('#a-add').addEventListener('click', () => { A.rows.push({name:'Issue ' + (A.rows.length+1), odd:'', ref:'', mine:''}); store.aRows = A.rows; save(); renderA(); });
+$('#a-p3').addEventListener('click', () => { A.rows = JSON.parse(JSON.stringify(PRESET3)); A.sel = null; store.aRows = A.rows; save(); renderA(); });
+$('#a-p2').addEventListener('click', () => { A.rows = JSON.parse(JSON.stringify(PRESET2)); A.sel = null; store.aRows = A.rows; save(); renderA(); });
+['#a-method','#a-bank','#a-kelly','#a-minev'].forEach(s => $(s).addEventListener('input', calcA));
+
+let lastA = null;
+function calcA(){
+  const method = $('#a-method').value, bank = num($('#a-bank').value), kf = num($('#a-kelly').value), minEv = num($('#a-minev').value)/100 || 0;
+  const odds = A.rows.map(r => num(r.odd)), refs = A.rows.map(r => num(r.ref));
+  const valid = odds.every(o => o > 1), refOk = refs.every(o => o > 1);
+  const err = $('#a-err');
+  if (!valid){ err.hidden = false; err.textContent = 'Chaque issue doit avoir une cote bookmaker supérieure à 1 (exemple : 2,35).'; } else err.hidden = true;
+  const bookFair = valid ? demargin(odds, method) : null;
+  const refFair = refOk ? demargin(refs, method) : null;
+  const res = A.rows.map((r, i) => {
+    const o = odds[i], mine = num(r.mine)/100;
+    let p = NaN, src = '';
+    if (mine > 0 && mine < 1){ p = mine; src = 'votre estimation'; }
+    else if (refFair){ p = refFair[i]; src = 'cote de référence'; }
+    else if (bookFair){ p = bookFair[i]; src = 'ce bookmaker'; }
+    const ev = p*o - 1, k = kellyF(p, o), stake = k*kf*bank;
+    return {name:r.name, o, imp:1/o, p, src, fair:1/p, ev, k, stake};
+  });
+  const tb = $('#a-body');
+  res.forEach((x, i) => {
+    const tr = tb.rows[i]; if (!tr) return;
+    const set = (k, h) => tr.querySelector(`[data-k="${k}"]`).innerHTML = h;
+    set('imp', o_ok(x.o) ? pct(x.imp) : '—');
+    set('p', Number.isFinite(x.p) ? pct(x.p) + `<span class="src">${x.src}</span>` : '—');
+    set('fair', fmt(x.fair));
+    set('ev', `<span class="${evCls(x.ev)}">${spct(x.ev)}</span>`);
+    set('stake', x.stake > 0 ? eur(x.stake) + `<span class="src">${pct(x.k*kf)} de la bankroll</span>` : '—');
+    set('ver', o_ok(x.o) ? verdict(x.ev, minEv) : '');
+    tr.classList.toggle('sel', i === (A.sel ?? -1));
+  });
+  // indicateurs
+  const S = valid ? odds.reduce((a,o) => a + 1/o, 0) : NaN;
+  const Sr = refOk ? refs.reduce((a,o) => a + 1/o, 0) : NaN;
+  const bestI = res.reduce((b, x, i) => (Number.isFinite(x.ev) && (b < 0 || x.ev > res[b].ev)) ? i : b, -1);
+  const best = res[bestI];
+  const usingBook = res.every(x => x.src === 'ce bookmaker');
+  $('#a-kpis').innerHTML = `
+    <div class="kpi"><span class="lbl">Marge du bookmaker</span><span class="v">${pct(S-1)}</span><span class="s">Retour joueur : ${pct(1/S)}</span></div>
+    <div class="kpi"><span class="lbl">Marge de la référence</span><span class="v">${refOk ? pct(Sr-1) : '—'}</span><span class="s">${refOk ? 'Écart avec ce bookmaker : ' + spct(S-Sr) : 'Ajoutez des cotes de référence'}</span></div>
+    <div class="kpi"><span class="lbl">Meilleure issue</span><span class="v ${best ? evCls(best.ev) : ''}">${best ? spct(best.ev) : '—'}</span><span class="s">${best ? esc(best.name) + ' à ' + fmt(best.o) : ''}</span></div>
+    <div class="kpi"><span class="lbl">Mise conseillée</span><span class="v">${best && best.stake > 0 ? eur(best.stake, 0) : '0 €'}</span><span class="s">${best && best.stake > 0 ? 'Sur ' + esc(best.name) : 'Aucune issue rentable'}</span></div>`;
+  lastA = {res, kf, bank, minEv, usingBook};
+  const di = A.sel != null && res[A.sel] ? A.sel : bestI;
+  renderDetail(di >= 0 ? res[di] : null);
+}
+function o_ok(o){ return o > 1; }
+
+function renderDetail(x){
+  const el = $('#a-detail');
+  if (!x || !Number.isFinite(x.p) || !(x.o > 1)){ el.innerHTML = '<p class="muted">Saisissez des cotes valides pour voir le détail du risque.</p>'; return; }
+  const {res, kf, bank, minEv, usingBook} = lastA;
+  const stake = x.stake > 0 ? x.stake : 10;
+  const sd1 = x.o*Math.sqrt(x.p*(1-x.p));
+  const quality = x.ev / sd1;
+  const nConf = x.ev > 0 ? Math.ceil(Math.pow(1.645*sd1/x.ev, 2)) : Infinity;
+  const loseStreak = Math.log(0.05)/Math.log(1-x.p); // série de défaites atteinte avec 5 % de chances sur 1 essai… approximation
+  el.innerHTML = `
+    <div class="row" style="justify-content:space-between"><h2>Gain contre risque : ${esc(x.name)} à ${fmt(x.o)}</h2>
+      <button class="btn" id="a-sim">Simuler ce pari sur la durée</button></div>
+    ${usingBook ? '<p class="note">Sans cote de référence ni estimation personnelle, la probabilité vient du bookmaker lui-même : la valeur est alors toujours négative et égale à sa marge. Ajoutez une référence pour détecter une vraie opportunité.</p>' : ''}
+    <div class="detail">
+      <div><span class="lbl">Mise ${x.stake > 0 ? 'conseillée' : 'd\'exemple'}</span><span class="v">${eur(stake)}</span></div>
+      <div><span class="lbl">Gain net si gagné</span><span class="v pos">+${eur(stake*(x.o-1))}</span></div>
+      <div><span class="lbl">Perte si perdu</span><span class="v neg">−${eur(stake)}</span></div>
+      <div><span class="lbl">Chance de gagner</span><span class="v">${pct(x.p)}</span></div>
+      <div><span class="lbl">Chance de perdre</span><span class="v">${pct(1-x.p)}</span></div>
+      <div><span class="lbl">Gain moyen attendu</span><span class="v ${evCls(x.ev)}">${eur(stake*x.ev)}</span></div>
+      <div><span class="lbl">Écart-type du résultat</span><span class="v">±${eur(stake*sd1)}</span></div>
+      <div><span class="lbl">Cote minimale rentable</span><span class="v">${fmt(1/x.p)}</span></div>
+      <div><span class="lbl">Score qualité (EV / risque)</span><span class="v ${evCls(quality)}">${fmt(quality, 3)}</span></div>
+      <div><span class="lbl">Paris pour 95 % de confiance</span><span class="v">${Number.isFinite(nConf) ? nConf.toLocaleString('fr-FR') : 'jamais'}</span></div>
+    </div>
+    <p class="small muted">Lecture : le score qualité compare la valeur au risque, ce qui permet de comparer un favori et un outsider. Au-dessus de 0,05 c'est intéressant, au-dessus de 0,10 c'est rare. « Paris pour 95 % de confiance » indique combien de paris semblables il faut enchaîner pour être en bénéfice dans 95 % des cas. Avec une probabilité de ${pct(x.p,0)}, une série de ${Math.round(loseStreak)} défaites d'affilée reste tout à fait possible.</p>`;
+  $('#a-sim').addEventListener('click', () => prefillSim(x.p, x.o));
+}
+
+/* =============== COMPARATEUR =============== */
+const SAMPLE = `match;bookmaker;1;N;2
+PSG - Lyon;Pinnacle;1,52;4,60;6,30
+PSG - Lyon;Betclic;1,48;4,50;6,00
+PSG - Lyon;Winamax;1,50;4,40;6,80
+PSG - Lyon;Unibet;1,47;4,55;6,25
+Marseille - Lens;Pinnacle;2,25;3,40;3,35
+Marseille - Lens;Betclic;2,20;3,30;3,25
+Marseille - Lens;Winamax;2,38;3,25;3,20
+Marseille - Lens;Unibet;2,18;3,35;3,30
+Nice - Rennes;Pinnacle;2,60;3,25;2,85
+Nice - Rennes;Betclic;2,55;3,20;2,80
+Nice - Rennes;Winamax;2,50;3,45;2,75
+Nice - Rennes;Unibet;2,75;3,35;2,95
+Lille - Monaco;Pinnacle;2,40;3,45;2,95
+Lille - Monaco;Betclic;2,35;3,35;2,90
+Lille - Monaco;Winamax;2,32;3,50;2,92
+Lille - Monaco;Unibet;2,36;3,40;3,05`;
+$('#c-csv').value = typeof store.csv === 'string' && store.csv.trim() ? store.csv : SAMPLE;
+$('#c-reset').addEventListener('click', () => { $('#c-csv').value = SAMPLE; store.csv = SAMPLE; save(); runC(true); });
+$('#c-run').addEventListener('click', () => { store.csv = $('#c-csv').value; save(); runC(true); });
+$('#c-csv').addEventListener('input', () => { store.csv = $('#c-csv').value; save(); });
+['#c-ref','#c-method','#c-minev','#c-all'].forEach(s => $(s).addEventListener('input', () => runC(false)));
+
+function parseCSV(text){
+  const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l && !l.startsWith('#'));
+  if (lines.length < 2) return {error:'Il faut une ligne d\'en-tête et au moins une ligne de cotes.'};
+  const d = lines[0].includes('\t') ? '\t' : lines[0].includes(';') ? ';' : ',';
+  const split = l => l.split(d).map(c => c.trim());
+  const head = split(lines[0]); const outcomes = head.slice(2);
+  if (outcomes.length < 2) return {error:'L\'en-tête doit contenir : match, bookmaker, puis au moins deux issues.'};
+  const matches = new Map(); let bad = 0;
+  for (const l of lines.slice(1)){
+    const c = split(l); if (c.length < 2 + outcomes.length){ bad++; continue; }
+    const odds = c.slice(2, 2 + outcomes.length).map(num);
+    if (!matches.has(c[0])) matches.set(c[0], []);
+    matches.get(c[0]).push({book:c[1], odds});
+  }
+  return {outcomes, matches, bad};
+}
+
+function runC(resetRef){
+  const parsed = parseCSV($('#c-csv').value), err = $('#c-err');
+  if (parsed.error){ err.hidden = false; err.textContent = parsed.error; return; }
+  err.hidden = !parsed.bad; if (parsed.bad) err.textContent = parsed.bad + ' ligne(s) ignorée(s) : nombre de colonnes insuffisant.';
+  const {outcomes, matches} = parsed;
+  const books = [...new Set([...matches.values()].flat().map(r => r.book))];
+  const refSel = $('#c-ref'), prev = refSel.value;
+  refSel.innerHTML = '<option value="__cons">Consensus du marché</option>' + books.map(b => `<option value="${esc(b)}">${esc(b)}</option>`).join('');
+  refSel.value = (!resetRef && [...refSel.options].some(o => o.value === prev)) ? prev : (books.includes('Pinnacle') ? 'Pinnacle' : '__cons');
+  const ref = refSel.value, method = $('#c-method').value, minEv = (num($('#c-minev').value) || 0)/100, showAll = $('#c-all').checked;
+
+  const bookStats = new Map(); const bets = []; const arbs = [];
+  for (const [match, rows] of matches){
+    const full = rows.filter(r => r.odds.every(o => o > 1));
+    full.forEach(r => { const S = r.odds.reduce((a,o)=>a+1/o,0); const st = bookStats.get(r.book) || {n:0, m:0}; st.n++; st.m += S-1; bookStats.set(r.book, st); r.fair = demargin(r.odds, method); });
+    let probs = null, srcLbl = '';
+    const refRow = ref !== '__cons' && full.find(r => r.book === ref);
+    if (refRow){ probs = refRow.fair; srcLbl = ref; }
+    else if (full.length){ probs = outcomes.map((_, j) => full.reduce((a,r) => a + r.fair[j], 0)/full.length); const t = probs.reduce((a,b)=>a+b,0); probs = probs.map(p => p/t); srcLbl = 'consensus (' + full.length + ')'; }
+    if (!probs) continue;
+    const best = outcomes.map((_, j) => rows.reduce((b, r) => (r.odds[j] > 1 && (!b || r.odds[j] > b.o)) ? {o:r.odds[j], book:r.book} : b, null));
+    best.forEach((b, j) => { if (!b) return; const p = probs[j], ev = p*b.o - 1; bets.push({match, outcome:outcomes[j], o:b.o, book:b.book, p, ev, k:kellyF(p, b.o), src:srcLbl}); });
+    if (best.every(Boolean)){
+      const S = best.reduce((a,b)=>a+1/b.o,0);
+      if (S < 1) arbs.push({match, S, best});
+    }
+  }
+  const bk = [...bookStats.entries()].map(([b, s]) => ({b, n:s.n, m:s.m/s.n})).sort((a,b) => a.m - b.m);
+  $('#c-books').innerHTML = bk.map(x => `<tr><td>${esc(x.b)}</td><td class="num">${x.n}</td><td class="num">${pct(x.m, 2)}</td><td class="num">${pct(1/(1+x.m), 2)}</td></tr>`).join('') || '<tr><td colspan="4" class="muted">Aucune donnée.</td></tr>';
+
+  bets.sort((a,b) => b.ev - a.ev);
+  const shown = showAll ? bets : bets.filter(b => b.ev >= minEv);
+  const tb = $('#c-best');
+  tb.innerHTML = shown.map((b, i) => `<tr><td>${esc(b.match)}</td><td>${esc(b.outcome)}</td><td class="num">${fmt(b.o)}</td><td>${esc(b.book)}</td>
+    <td class="num">${pct(b.p)}<span class="src">${esc(b.src)}</span></td><td class="num">${fmt(1/b.p)}</td><td class="num"><span class="${evCls(b.ev)}">${spct(b.ev)}</span></td>
+    <td class="num">${b.k > 0 ? pct(b.k) : '—'}</td><td>${verdict(b.ev, minEv)}</td><td><button class="ghost" data-i="${i}">Simuler</button></td></tr>`).join('')
+    || `<tr><td colspan="10" class="muted">Aucun pari au-dessus de ${pct(minEv)} de valeur. Baissez le seuil ou cochez « Afficher toutes les issues ».</td></tr>`;
+  tb.onclick = e => { const btn = e.target.closest('button'); if (!btn) return; const b = shown[+btn.dataset.i]; prefillSim(b.p, b.o); };
+
+  const vb = bets.filter(b => b.ev >= minEv);
+  $('#c-kpis').innerHTML = `
+    <div class="kpi"><span class="lbl">Matchs analysés</span><span class="v">${matches.size}</span><span class="s">${books.length} bookmakers, ${outcomes.length} issues par match</span></div>
+    <div class="kpi"><span class="lbl">Value bets trouvés</span><span class="v ${vb.length ? 'pos' : ''}">${vb.length}</span><span class="s">Valeur ≥ ${pct(minEv)}</span></div>
+    <div class="kpi"><span class="lbl">Meilleure valeur</span><span class="v ${bets[0] ? evCls(bets[0].ev) : ''}">${bets[0] ? spct(bets[0].ev) : '—'}</span><span class="s">${bets[0] ? esc(bets[0].match) + ' · ' + esc(bets[0].outcome) + ' chez ' + esc(bets[0].book) : ''}</span></div>
+    <div class="kpi"><span class="lbl">Surebets</span><span class="v ${arbs.length ? 'pos' : ''}">${arbs.length}</span><span class="s">${arbs.length ? 'Gain garanti jusqu\'à ' + pct(Math.max(...arbs.map(a => 1/a.S - 1)), 2) : 'Aucun arbitrage'}</span></div>`;
+
+  $('#c-arb').innerHTML = arbs.length ? arbs.map(a => {
+    const total = 100;
+    return `<div class="stack" style="gap:8px;margin-bottom:14px"><p><strong>${esc(a.match)}</strong> · gain garanti <span class="pos">${spct(1/a.S - 1, 2)}</span> (somme des 1/cote : ${fmt(a.S, 4)})</p>
+      <div class="tablewrap"><table><thead><tr><th>Issue</th><th>Bookmaker</th><th class="num">Cote</th><th class="num">Mise pour ${total} €</th><th class="num">Retour</th></tr></thead><tbody>
+      ${a.best.map((b, j) => { const st = total*(1/b.o)/a.S; return `<tr><td>${esc(outcomes[j])}</td><td>${esc(b.book)}</td><td class="num">${fmt(b.o)}</td><td class="num">${eur(st)}</td><td class="num">${eur(st*b.o)}</td></tr>`; }).join('')}
+      </tbody></table></div></div>`;
+  }).join('') : '<p class="muted">Aucun surebet dans ces cotes.</p>';
+}
+
+/* =============== POISSON =============== */
+const pois = (k, l) => { let p = Math.exp(-l); for (let i = 1; i <= k; i++) p *= l/i; return p; };
+const MK = [
+  ['1','Victoire domicile (1)'],['N','Match nul (N)'],['2','Victoire extérieur (2)'],
+  ['1N','Double chance 1N'],['N2','Double chance N2'],['12','Double chance 12'],
+  ['o15','Plus de 1,5 buts'],['u15','Moins de 1,5 buts'],['o25','Plus de 2,5 buts'],['u25','Moins de 2,5 buts'],
+  ['o35','Plus de 3,5 buts'],['u35','Moins de 3,5 buts'],['by','Les deux équipes marquent : oui'],['bn','Les deux équipes marquent : non']];
+const P = { odds: store.pOdds || {'1':'1,95','N':'3,60','2':'4,10','o25':'1,90','u25':'1,95','by':'1,85'} };
+(function renderPMk(){
+  $('#p-mk').innerHTML = MK.map(([k, l]) => `<tr data-k="${k}"><td>${l}</td><td class="num" data-c="p"></td><td class="num" data-c="f"></td>
+    <td><input type="text" class="in-num" id="p-o-${k}" data-k="${k}" inputmode="decimal" value="${esc(P.odds[k] || '')}" placeholder="—" aria-label="Cote bookmaker ${l}"></td>
+    <td class="num" data-c="ev"></td><td data-c="v"></td><td data-c="s"></td></tr>`).join('');
+})();
+$('#p-mk').addEventListener('input', e => { const k = e.target.dataset.k; if (!k) return; P.odds[k] = e.target.value; store.pOdds = P.odds; save(); calcP(); });
+$('#p-mk').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; prefillSim(+b.dataset.p, +b.dataset.o); });
+['#p-lh','#p-la'].forEach(s => $(s).addEventListener('input', calcP));
+$('#p-apply').addEventListener('click', () => {
+  const v = id => num($(id).value);
+  const lgh = v('#p-lgh'), lga = v('#p-lga');
+  const lh = (v('#p-hs')/lgh) * (v('#p-ac')/lgh) * lgh;
+  const la = (v('#p-as')/lga) * (v('#p-hc')/lga) * lga;
+  if (Number.isFinite(lh) && Number.isFinite(la)){ $('#p-lh').value = fmt(lh); $('#p-la').value = fmt(la); calcP(); }
+});
+function calcP(){
+  const lh = num($('#p-lh').value), la = num($('#p-la').value);
+  if (!(lh > 0 && la > 0)) return;
+  const N = 11, M = [];
+  for (let i = 0; i < N; i++){ M[i] = []; for (let j = 0; j < N; j++) M[i][j] = pois(i, lh)*pois(j, la); }
+  let h = 0, d = 0, a = 0, o15 = 0, o25 = 0, o35 = 0, by = 0, tot = 0;
+  for (let i = 0; i < N; i++) for (let j = 0; j < N; j++){
+    const p = M[i][j]; tot += p;
+    if (i > j) h += p; else if (i === j) d += p; else a += p;
+    if (i+j > 1) o15 += p; if (i+j > 2) o25 += p; if (i+j > 3) o35 += p; if (i > 0 && j > 0) by += p;
+  }
+  [h,d,a,o15,o25,o35,by] = [h,d,a,o15,o25,o35,by].map(x => x/tot);
+  const pr = {'1':h,'N':d,'2':a,'1N':h+d,'N2':d+a,'12':h+a,o15,u15:1-o15,o25,u25:1-o25,o35,u35:1-o35,by,bn:1-by};
+  $('#p-1n2').innerHTML = [['Domicile',h],['Nul',d],['Extérieur',a]].map(([l,p]) =>
+    `<div class="kpi"><span class="lbl">${l}</span><span class="v">${pct(p,0)}</span><div class="bar"><i style="width:${(p*100).toFixed(1)}%"></i></div><span class="s">Cote juste ${fmt(1/p)}</span></div>`).join('');
+  const show = 6; let max = 0; for (let i = 0; i < show; i++) for (let j = 0; j < show; j++) max = Math.max(max, M[i][j]);
+  let g = '<thead><tr><th></th>' + Array.from({length:show}, (_, j) => `<th>${j}</th>`).join('') + '</tr></thead><tbody>';
+  for (let i = 0; i < show; i++){
+    g += `<tr><th>${i}</th>` + Array.from({length:show}, (_, j) => { const p = M[i][j]/tot, w = Math.round(M[i][j]/max*70);
+      return `<td style="background:color-mix(in srgb, var(--accent) ${w}%, transparent);color:${w > 40 ? 'var(--accent-ink)' : 'var(--ink)'}" title="${i}-${j} : ${pct(p)}">${(p*100).toFixed(1)}</td>`; }).join('') + '</tr>';
+  }
+  $('#p-grid').innerHTML = g + '</tbody>';
+  document.querySelectorAll('#p-mk tr').forEach(tr => {
+    const k = tr.dataset.k, p = pr[k], o = num(P.odds[k]);
+    const c = n => tr.querySelector(`[data-c="${n}"]`);
+    c('p').textContent = pct(p); c('f').textContent = fmt(1/p);
+    if (o > 1){ const ev = p*o - 1; c('ev').innerHTML = `<span class="${evCls(ev)}">${spct(ev)}</span>`; c('v').innerHTML = verdict(ev, 0.05);
+      c('s').innerHTML = `<button class="ghost" data-p="${p}" data-o="${o}">Simuler</button>`; }
+    else { c('ev').textContent = '—'; c('v').innerHTML = ''; c('s').innerHTML = ''; }
+  });
+}
+
+/* =============== SIMULATEUR =============== */
+const valLabels = {kelly:['Fraction','0,25'], pct:['% par pari','2'], fixed:['Mise (€)','20']};
+$('#s-mode').addEventListener('change', () => { const [l, v] = valLabels[$('#s-mode').value]; $('#s-val-l').textContent = l; $('#s-val').value = v; });
+$('#s-run').addEventListener('click', runSim);
+function prefillSim(p, o){
+  $('#s-p').value = fmt(p*100, 1); $('#s-o').value = fmt(o, 2);
+  showTab('sim'); runSim(); window.scrollTo({top:0});
+}
+let lastSim = null;
+function runSim(){
+  const bank0 = num($('#s-bank').value), n = Math.min(5000, Math.round(num($('#s-n').value))), p = num($('#s-p').value)/100, o = num($('#s-o').value);
+  const mode = $('#s-mode').value, val = num($('#s-val').value), sims = +$('#s-sims').value;
+  const info = $('#s-info');
+  if (!(bank0 > 0 && n > 0 && p > 0 && p < 1 && o > 1 && val > 0)){ info.textContent = 'Vérifiez les valeurs : bankroll, nombre de paris, probabilité entre 0 et 100, cote supérieure à 1.'; return; }
+  const ev = p*o - 1, kf = kellyF(p, o);
+  info.innerHTML = `Valeur du pari : <span class="${evCls(ev)}">${spct(ev)}</span> · Kelly complet : ${pct(kf)} de la bankroll` + (mode === 'kelly' && kf === 0 ? ' · <span class="neg">valeur négative, Kelly conseille de ne pas miser</span>' : '');
+  const W = n + 1, paths = new Float32Array(sims*W), finals = new Float64Array(sims), dds = new Float64Array(sims);
+  let ruined = 0, dd50 = 0, maxLoseStreak = 0, sumStreak = 0;
+  for (let s = 0; s < sims; s++){
+    let b = bank0, peak = b, mdd = 0, streak = 0, ms = 0, dead = false; paths[s*W] = b;
+    for (let i = 1; i <= n; i++){
+      if (!dead){
+        let st = mode === 'fixed' ? val : mode === 'pct' ? b*val/100 : b*kf*val;
+        st = Math.min(st, b);
+        if (st > 0){
+          if (Math.random() < p){ b += st*(o-1); streak = 0; } else { b -= st; streak++; if (streak > ms) ms = streak; }
+        }
+        if (b < bank0*0.01 || (mode === 'fixed' && b < val)) dead = true;
+        if (b > peak) peak = b; const dd = 1 - b/peak; if (dd > mdd) mdd = dd;
+      }
+      paths[s*W + i] = b;
+    }
+    finals[s] = b; dds[s] = mdd; if (dead) ruined++; if (mdd >= 0.5) dd50++; sumStreak += ms; if (ms > maxLoseStreak) maxLoseStreak = ms;
+  }
+  const q = (arr, x) => arr[Math.min(arr.length-1, Math.max(0, Math.floor(x*(arr.length-1))))];
+  const fs = Float64Array.from(finals).sort(), ds = Float64Array.from(dds).sort();
+  const step = Math.max(1, Math.ceil(n/240)), idx = [], bands = {p5:[],p25:[],p50:[],p75:[],p95:[]};
+  const col = new Float64Array(sims);
+  for (let i = 0; i <= n; i += step){
+    for (let s = 0; s < sims; s++) col[s] = paths[s*W + i]; col.sort();
+    idx.push(i); bands.p5.push(q(col,.05)); bands.p25.push(q(col,.25)); bands.p50.push(q(col,.5)); bands.p75.push(q(col,.75)); bands.p95.push(q(col,.95));
+  }
+  if (idx[idx.length-1] !== n){ for (let s = 0; s < sims; s++) col[s] = paths[s*W + n]; col.sort(); idx.push(n);
+    bands.p5.push(q(col,.05)); bands.p25.push(q(col,.25)); bands.p50.push(q(col,.5)); bands.p75.push(q(col,.75)); bands.p95.push(q(col,.95)); }
+  const samples = [0,1,2].map(k => { const s = Math.floor(Math.random()*sims); return idx.map(i => paths[s*W + i]); });
+  const profit = finals.reduce((a, f) => a + (f > bank0 ? 1 : 0), 0)/sims;
+  $('#s-kpis').innerHTML = `
+    <div class="kpi"><span class="lbl">Chance de finir en gain</span><span class="v ${profit >= .5 ? 'pos' : 'neg'}">${pct(profit,0)}</span><span class="s">Après ${n.toLocaleString('fr-FR')} paris</span></div>
+    <div class="kpi"><span class="lbl">Bankroll finale médiane</span><span class="v">${eur(q(fs,.5),0)}</span><span class="s">5 % des cas sous ${eur(q(fs,.05),0)}, 5 % au-dessus de ${eur(q(fs,.95),0)}</span></div>
+    <div class="kpi"><span class="lbl">Pire baisse (médiane)</span><span class="v">${pct(q(ds,.5),0)}</span><span class="s">Chute de 50 % ou plus : ${pct(dd50/sims,0)} des cas</span></div>
+    <div class="kpi"><span class="lbl">Risque de ruine</span><span class="v ${ruined ? 'neg' : 'pos'}">${pct(ruined/sims,1)}</span><span class="s">Pire série de défaites : ${maxLoseStreak} (moyenne ${Math.round(sumStreak/sims)})</span></div>`;
+  lastSim = {idx, bands, samples, bank0, n};
+  drawSim(lastSim);
+}
+function niceTicks(min, max, count){
+  const span = max - min || 1, raw = span/count, mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  const step = [1,2,2.5,5,10].map(m => m*mag).find(s => s >= raw);
+  const out = []; for (let v = Math.ceil(min/step)*step; v <= max + 1e-9; v += step) out.push(v); return out;
+}
+function drawSim(r){
+  const c = $('#s-canvas'); if (!c.clientWidth) return;
+  const dpr = window.devicePixelRatio || 1, w = c.clientWidth, h = c.clientHeight;
+  c.width = w*dpr; c.height = h*dpr; const g = c.getContext('2d'); g.setTransform(dpr,0,0,dpr,0,0); g.clearRect(0,0,w,h);
+  const cs = getComputedStyle(document.documentElement), v = n => cs.getPropertyValue(n).trim();
+  const pad = {l:64, r:14, t:12, b:28};
+  let lo = Math.min(r.bank0, ...r.bands.p5), hi = Math.max(r.bank0, ...r.bands.p95);
+  r.samples.forEach(s => s.forEach(x => { if (x < hi*1.3) hi = Math.max(hi, x); lo = Math.min(lo, x); }));
+  const padY = (hi - lo)*0.06; lo = Math.max(0, lo - padY); hi += padY;
+  const X = i => pad.l + i/r.n*(w - pad.l - pad.r), Y = y => pad.t + (1 - (y - lo)/(hi - lo))*(h - pad.t - pad.b);
+  g.font = '11px ' + v('--f-mono'); g.fillStyle = v('--muted'); g.strokeStyle = v('--line'); g.lineWidth = 1;
+  niceTicks(lo, hi, 5).forEach(t => { const y = Math.round(Y(t)) + .5; g.beginPath(); g.moveTo(pad.l, y); g.lineTo(w - pad.r, y); g.stroke();
+    g.textAlign = 'right'; g.textBaseline = 'middle'; g.fillText(Math.round(t).toLocaleString('fr-FR') + ' €', pad.l - 8, y); });
+  niceTicks(0, r.n, Math.max(2, Math.floor(w/110))).forEach(t => { g.textAlign = 'center'; g.textBaseline = 'top'; g.fillText(String(t), X(t), h - pad.b + 8); });
+  const band = (a, b, alpha) => { g.beginPath(); r.idx.forEach((i, k) => k ? g.lineTo(X(i), Y(a[k])) : g.moveTo(X(i), Y(a[k])));
+    for (let k = r.idx.length - 1; k >= 0; k--) g.lineTo(X(r.idx[k]), Y(b[k])); g.closePath(); g.globalAlpha = alpha; g.fillStyle = v('--accent'); g.fill(); g.globalAlpha = 1; };
+  band(r.bands.p5, r.bands.p95, .13); band(r.bands.p25, r.bands.p75, .26);
+  const line = (arr, color, width, alpha) => { g.beginPath(); r.idx.forEach((i, k) => { const y = Y(Math.min(hi, arr[k])); k ? g.lineTo(X(i), y) : g.moveTo(X(i), y); });
+    g.strokeStyle = color; g.lineWidth = width; g.globalAlpha = alpha; g.stroke(); g.globalAlpha = 1; };
+  r.samples.forEach(s => line(s, v('--muted'), 1, .55));
+  g.setLineDash([4,4]); g.beginPath(); g.moveTo(pad.l, Y(r.bank0)); g.lineTo(w - pad.r, Y(r.bank0)); g.strokeStyle = v('--ink'); g.globalAlpha = .5; g.stroke(); g.globalAlpha = 1; g.setLineDash([]);
+  line(r.bands.p50, v('--accent'), 2.5, 1);
+  const last = r.bands.p50[r.bands.p50.length-1]; g.fillStyle = v('--accent'); g.beginPath(); g.arc(X(r.n), Y(last), 4, 0, Math.PI*2); g.fill();
+}
+let rT; window.addEventListener('resize', () => { clearTimeout(rT); rT = setTimeout(() => lastSim && drawSim(lastSim), 120); });
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => lastSim && drawSim(lastSim));
+new MutationObserver(() => lastSim && drawSim(lastSim)).observe(document.documentElement, {attributes:true, attributeFilter:['data-theme']});
+
+/* =============== TOP 10 DU JOUR (données écrites par la recherche automatique) =============== */
+const T = {state:'loading', latest:null, hist:[]};
+const fmtKo = iso => { const d = new Date(iso); return isNaN(d) ? '—' : d.toLocaleString('fr-FR', {weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}); };
+const ago = iso => { const m = Math.round((Date.now() - new Date(iso))/60000); if (!Number.isFinite(m)) return '';
+  if (m < 1) return "à l'instant"; if (m < 60) return `il y a ${m} min`; const h = Math.floor(m/60); return h < 48 ? `il y a ${h} h` : `il y a ${Math.floor(h/24)} j`; };
+const bankNow = () => num($('#a-bank').value) || 0;
+function analyseLeg(x){
+  const n = x.names || ['1 (' + x.home + ')', 'N (nul)', '2 (' + x.away + ')'];
+  A.rows = n.map((name, j) => ({name, odd: fmt(x.odds1x[j]), ref: fmt(x.refOdds[j], 3), mine:''}));
+  A.sel = x.idx ?? ['1','N','2'].indexOf(x.pick); store.aRows = A.rows; save(); renderA(); showTab('analyse'); window.scrollTo({top:0});
+}
+const RES = {'gagné':'good', 'perdu':'bad', 'en attente':'warn', 'inconnu':'warn'};
+const resPill = s => `<span class="pill ${RES[s] || 'warn'}">${esc(s ? s[0].toUpperCase() + s.slice(1) : 'En attente')}</span>`;
+const mkt = x => x.market ? `<span class="chip">${esc(x.market)}</span> ` : '';
+function renderTop(){
+  const L = T.latest, st = $('#t-status');
+  if (T.state === 'nodb'){ st.innerHTML = '<p class="muted">Les données ne sont pas encore disponibles. Elles apparaîtront après le premier passage du robot (toutes les 15 minutes).</p>'; }
+  else if (T.state === 'loading'){ st.innerHTML = '<p class="muted">Chargement des résultats…</p>'; }
+  else if (!L){ st.innerHTML = '<p class="muted">Aucune analyse reçue pour l\'instant. Les résultats apparaîtront ici après le premier passage de la recherche automatique.</p>'; }
+  else if (L.status === 'erreur'){ st.innerHTML = `<p class="note">${esc(L.message)}</p><p class="small muted">Dernière tentative ${ago(L.generatedAt)} (${fmtKo(L.generatedAt)}).</p>`; }
+  else {
+    st.innerHTML = `<div class="meta"><span><span class="live"></span>Dernière analyse <b>${ago(L.generatedAt)}</b> (${fmtKo(L.generatedAt)})</span>
+      <span>Matchs analysés <b>${L.eventsScanned}</b>, dont <b>${L.eventsWith1xbet}</b> avec cotes 1xBet</span>
+      <span>Value bets <b>${L.valueBets}</b> (valeur ≥ ${pct(L.minEv,0)})</span>
+      <span>Crédits API restants <b>${L.creditsRemaining ?? '—'}</b></span></div>
+      <div class="chips">${(L.leagues || []).map(l => `<span class="chip ${l.events ? 'on' : ''}" title="${esc(l.status)}">${esc(l.name)} · ${l.events ? l.events + ' match' + (l.events > 1 ? 's' : '') : esc(l.status)}</span>`).join('')}</div>
+      <p class="small muted">Matchs qui commencent dans les ${L.windowHours} prochaines heures. Paris analysés : ${esc((L.markets || ['1N2']).join(', '))}. Référence : cotes Pinnacle sans marge.</p>`;
+  }
+  const c = L && L.status !== 'erreur' ? L.combo : null, cb = $('#t-combo');
+  if (c){
+    const sp = c.stakePct ?? 0, stake = sp > 0 ? bankNow()*sp : 10;
+    cb.innerHTML = `<div class="panel combo">
+      <div class="combo-head">
+        <div><span class="lbl">Combiné proposé</span><span class="big">${fmt(c.totalOdds)}</span></div>
+        <div><span class="lbl">Chance de passer</span><span class="mid">${pct(c.prob,0)}</span></div>
+        <div><span class="lbl">Valeur</span><span class="mid ${evCls(c.ev)}">${spct(c.ev)}</span></div>
+        <div><span class="lbl">Mise conseillée</span><span class="mid">${sp > 0 ? eur(stake) : '—'}</span><span class="small muted">${sp > 0 ? pct(sp) + ' de votre bankroll (¼ Kelly)' : ''}</span></div>
+        <div><span class="lbl">Si le combiné passe</span><span class="small">gain net <span class="pos">+${eur(stake*(c.totalOdds-1))}</span><br>sinon perte de ${eur(stake)}</span></div>
+      </div>
+      ${c.verified ? `<p class="small"><span class="pill good">Cotes vérifiées</span> <span class="muted">en direct sur 1xBet et Pinnacle ${fmtKo(c.verifiedAt)}, juste avant l'alerte</span></p>` : ''}
+      <div class="stack" style="gap:0">${c.legs.map(x => `<div class="leg"><div>${mkt(x)}<strong>${esc(x.pickName)}</strong><span class="small muted"> · ${esc(x.home)} – ${esc(x.away)} · ${esc(x.league)} · ${fmtKo(x.kickoff)}</span><br>
+        <span class="small muted">Chance ${pct(x.p)} · cote juste ${fmt(x.fairOdd)} · valeur ${spct(x.ev)}</span></div><div class="odd">${fmt(x.odd)}</div></div>`).join('')}</div>
+      <div class="row"><button class="btn" id="t-combo-sim">Simuler ce combiné sur la durée</button>
+        <span class="small muted">Vous décidez. Vérifiez sur 1xBet que les cotes n'ont pas baissé avant de parier. La mise suit la bankroll réglée dans l'onglet Analyse.</span></div></div>`;
+    $('#t-combo-sim').onclick = () => prefillSim(c.prob, c.totalOdds);
+  } else if (L && L.status !== 'erreur'){
+    cb.innerHTML = `${L.comboNote ? `<p class="note">${esc(L.comboNote)}</p>` : ''}<p class="note info">Pas de combiné pour l'instant. Conditions : 2 ou 3 matchs différents, chacun à valeur positive et à plus de ${pct(L.legMinProb ?? 0.5, 0)} de chances, pour une cote totale d'au moins ${fmt(L.comboTarget)}. Vous serez prévenu dès qu'il y en a un.</p>`;
+  } else cb.innerHTML = '';
+  const top = L && L.status !== 'erreur' ? (L.top || []) : [], tb = $('#t-body'), bank = bankNow();
+  $('#t-sub').textContent = top.length ? `${top.length} pari${top.length > 1 ? 's' : ''} retenu${top.length > 1 ? 's' : ''}` : '';
+  tb.innerHTML = top.map((x, i) => `<tr><td class="num">${i+1}</td>
+    <td>${esc(x.home)} – ${esc(x.away)}<span class="src">${esc(x.league)} · ${fmtKo(x.kickoff)}</span></td>
+    <td>${mkt(x)}<strong>${esc(x.pickName)}</strong></td>
+    <td class="num">${fmt(x.odd)}</td><td class="num">${fmt(x.fairOdd)}<span class="src">${esc(x.refSource)}</span></td>
+    <td class="num">${pct(x.p)}</td><td class="num"><span class="${evCls(x.ev)}">${spct(x.ev)}</span></td>
+    <td class="num">${fmt(x.quality, 3)}</td><td class="num">${eur(bank * x.kelly * 0.25)}</td>
+    <td class="acts"><button class="ghost" data-act="an" data-i="${i}">Analyser</button><button class="ghost" data-act="sim" data-i="${i}">Simuler</button></td></tr>`).join('')
+    || `<tr><td colspan="10" class="muted">${L && L.status === 'ok' ? 'Aucun pari 1xBet au-dessus du seuil de valeur pour les prochaines heures.' : 'Les paris apparaîtront ici après la première analyse.'}</td></tr>`;
+  tb.onclick = e => { const b = e.target.closest('button'); if (!b) return; const x = top[+b.dataset.i]; if (b.dataset.act === 'an') analyseLeg(x); else prefillSim(x.p, x.odd); };
+  const nl = (L && L.notifications) || [];
+  const S = L && L.stats;
+  $('#t-nsub').textContent = nl.length ? `${nl.length} notification${nl.length > 1 ? 's' : ''}` : '';
+  $('#t-stats').innerHTML = S ? `
+    <div class="kpi"><span class="lbl">Combinés terminés</span><span class="v">${S.settled}</span><span class="s">${S.won} gagné${S.won > 1 ? 's' : ''} · ${S.lost} perdu${S.lost > 1 ? 's' : ''} · ${S.notified - S.settled} en cours</span></div>
+    <div class="kpi"><span class="lbl">Rendement (mise de 1 par combiné)</span><span class="v ${evCls(S.profitUnits)}">${S.settled ? spct(S.roi) : '—'}</span><span class="s">${S.settled ? 'Bénéfice : ' + (S.profitUnits > 0 ? '+' : '') + fmt(S.profitUnits) + ' mise(s)' : 'Aucun combiné terminé'}</span></div>
+    <div class="kpi"><span class="lbl">Écart avec la dernière cote Pinnacle</span><span class="v ${evCls(S.avgClv)}">${S.avgClv != null ? spct(S.avgClv) : '—'}</span><span class="s">${S.clvLegs ? 'Moyenne sur ' + S.clvLegs + ' pari' + (S.clvLegs > 1 ? 's' : '') + '. Positif = la méthode bat le marché.' : 'Mesuré à l\'approche des matchs'}</span></div>` : '';
+  $('#t-notifs').innerHTML = nl.length ? nl.map(n => `<div class="leg" style="grid-template-columns:minmax(0,1fr) auto">
+      <div><strong>${fmtKo(n.at)}</strong> <span class="small muted">· ${ago(n.at)}</span> ${resPill(n.status)}<br>
+        ${(n.legs || []).map(x => `<span class="small">${x.result ? resPill(x.result) + ' ' : ''}${mkt(x)}${esc(x.pickName)} <span class="muted">(${esc(x.home)} – ${esc(x.away)}${x.score ? ', score ' + esc(x.score) : ', ' + fmtKo(x.kickoff)})</span> <span class="mono">${fmt(x.odd)}</span>${x.closeFairOdd ? ` <span class="muted">· dernière cote juste ${fmt(x.closeFairOdd)} (${spct(x.odd/x.closeFairOdd - 1)})</span>` : ''}</span>`).join('<br>')}<br>
+        <span class="small muted">Chance de passer ${pct(n.prob,0)} · valeur ${spct(n.ev)} · seuil de cote ${fmt(n.target)}${n.stakePct ? ' · mise conseillée ' + pct(n.stakePct) : ''}</span></div>
+      <div class="odd">${fmt(n.totalOdds)}</div></div>`).join('')
+    : '<p class="small muted">Aucune notification pour l\'instant.</p>';
+  $('#t-hist').innerHTML = T.hist.length ? T.hist.map(h => `<div><span class="mono">${esc(h.date)}</span><span>${h.valueBets} value bet${h.valueBets > 1 ? 's' : ''} sur ${h.eventsScanned} matchs${h.top && h.top[0] ? ' · meilleur : ' + esc(h.top[0].home) + ' – ' + esc(h.top[0].away) + ' (' + spct(h.top[0].ev) + ')' : ''}</span>
+    <span class="mono">${h.combo ? 'combiné ' + fmt(h.combo.totalOdds) : '—'}</span></div>`).join('') : '<p class="small muted">L\'historique se remplit jour après jour.</p>';
+}
+$('#a-bank').addEventListener('input', () => { if (T.latest) renderTop(); });
+
+/* =============== MES PARIS =============== */
+const M = {db:null, bets:[], bank0:null, legs:[], bankSynced:false};
+const MKT = {h2h:'1N2', dc:'Double chance', totals:'Buts', spreads:'Handicap asiatique'};
+const sgn = x => (x > 0 ? '+' : '') + fmt(x, 1).replace(/,0$/, '');
+const fmtLine = x => fmt(x, 2).replace(/0$/, '').replace(/,$/, '');
+function betStatus(b){ return b.status || 'en attente'; }
+function betProfit(b){ const s = betStatus(b); return s === 'gagné' ? b.stake*(b.totalOdds-1) : s === 'perdu' ? -b.stake : 0; }
+function curMatch(){ const v = $('#m-match').value; return v === '__free' ? null : ((T.latest && T.latest.matches) || []).find(m => m.eventId === v) || null; }
+function selOptions(){
+  const m = curMatch(), mk = $('#m-mkt').value, h = m ? m.home : ($('#m-home').value || 'Domicile'), a = m ? m.away : ($('#m-away').value || 'Extérieur');
+  const line = num($('#m-line').value);
+  $('#m-line-f').hidden = !(mk === 'totals' || mk === 'spreads');
+  $('#m-line-l').textContent = mk === 'spreads' ? 'Handicap de ' + h : 'Nombre de buts';
+  const opts = mk === 'h2h' ? [`Victoire ${h}`, 'Match nul', `Victoire ${a}`]
+    : mk === 'dc' ? [`1X : ${h} ou nul`, '12 : pas de nul', `X2 : nul ou ${a}`]
+    : mk === 'totals' ? [`Plus de ${fmtLine(line)} buts`, `Moins de ${fmtLine(line)} buts`]
+    : [`${h} ${sgn(line)}`, `${a} ${sgn(-line)}`];
+  const prev = $('#m-sel').selectedIndex;
+  $('#m-sel').innerHTML = opts.map((o, i) => `<option value="${i}">${esc(o)}</option>`).join('');
+  if (prev >= 0 && prev < opts.length) $('#m-sel').selectedIndex = prev;
+  prefillOdd();
+}
+function legInfo(){
+  const m = curMatch(), mk = $('#m-mkt').value, idx = +$('#m-sel').value, line = num($('#m-line').value);
+  const lineKey = (mk === 'totals' || mk === 'spreads') && Number.isFinite(line) ? String(line) : '';
+  let odd1x = NaN, p = NaN;
+  if (m){
+    const find = (k, ln) => (m.markets || []).find(x => x.marketKey === k && (ln === '' ? x.line === '' : num(x.line) === num(ln)));
+    if (mk === 'dc'){ const h = find('h2h', ''); if (h) p = [h.p[0]+h.p[1], h.p[0]+h.p[2], h.p[1]+h.p[2]][idx]; }
+    else { const x = find(mk, lineKey); if (x){ odd1x = x.odds1x[idx]; p = x.p[idx]; } }
+  }
+  return {m, mk, idx, lineKey, odd1x, p};
+}
+function prefillOdd(){ const i = legInfo(); $('#m-odd').value = Number.isFinite(i.odd1x) ? fmt(i.odd1x) : ''; }
+function refreshMatchSelect(){
+  const list = (T.latest && T.latest.matches) || [], cur = $('#m-match').value;
+  const byL = {}; list.forEach(m => (byL[m.league] = byL[m.league] || []).push(m));
+  $('#m-match').innerHTML = Object.keys(byL).map(l => `<optgroup label="${esc(l)}">${byL[l].map(m => `<option value="${esc(m.eventId)}">${fmtKo(m.kickoff)} · ${esc(m.home)} – ${esc(m.away)}</option>`).join('')}</optgroup>`).join('');
+  if (!list.length) $('#m-match').innerHTML = '<option value="">Aucun match disponible pour l\'instant</option>';
+  if ([...$('#m-match').options].some(o => o.value === cur)) $('#m-match').value = cur;
+  $('#m-free').hidden = $('#m-match').value !== '__free';
+  selOptions();
+}
+function renderLegs(){
+  $('#m-legs').innerHTML = M.legs.map((l, i) => `<div class="leg"><div>${mkt(l)}<strong>${esc(l.pickName)}</strong><span class="small muted"> · ${esc(l.home)} – ${esc(l.away)}${l.kickoff ? ' · ' + fmtKo(l.kickoff) : ''}${Number.isFinite(l.p) ? ' · chance ' + pct(l.p) : ''}</span></div>
+    <div class="row"><span class="odd">${fmt(l.odd)}</span><button class="ghost x" data-i="${i}" aria-label="Retirer">×</button></div></div>`).join('');
+  const tot = M.legs.reduce((a, l) => a*l.odd, 1);
+  $('#m-total').value = M.legs.length ? fmt(tot) : '';
+  updateHint();
+}
+function updateHint(){
+  const stake = num($('#m-stake').value), tot = num($('#m-total').value), bank = currentBank();
+  const ps = M.legs.map(l => l.p);
+  let h = M.legs.length ? '' : 'Choisissez un match, ajoutez une ou plusieurs sélections, puis indiquez la mise.';
+  if (M.legs.length && ps.every(Number.isFinite) && tot > 1){
+    const P = ps.reduce((a, b) => a*b, 1), ev = P*tot - 1, k = Math.max(0, ev)/(tot-1)*0.25;
+    h = `Chance estimée ${pct(P,0)} · valeur ${spct(ev)} · mise conseillée (¼ Kelly) ${Number.isFinite(bank) ? eur(bank*k) : pct(k)}.`;
+    if (stake > 0 && Number.isFinite(bank) && bank > 0 && stake/bank > 0.05) h += ` Attention : cette mise représente ${pct(stake/bank,0)} de votre bankroll.`;
+  }
+  $('#m-hint').textContent = h;
+}
+function currentBank(){ return M.bank0 == null ? NaN : M.bank0 + M.bets.reduce((a, b) => a + betProfit(b), 0); }
+['#m-match','#m-mkt','#m-line','#m-home','#m-away'].forEach(s => $(s).addEventListener('input', () => { $('#m-free').hidden = $('#m-match').value !== '__free'; selOptions(); }));
+$('#m-sel').addEventListener('input', prefillOdd);
+['#m-stake','#m-total'].forEach(s => $(s).addEventListener('input', updateHint));
+$('#m-addleg').addEventListener('click', () => {
+  const i = legInfo(), odd = num($('#m-odd').value);
+  if (!(odd > 1)){ $('#m-hint').textContent = 'Indiquez la cote 1xBet de cette sélection (par exemple 1,49).'; return; }
+  if (!i.m && !($('#m-home').value.trim() && $('#m-away').value.trim())){ $('#m-hint').textContent = 'Indiquez les deux équipes du match.'; return; }
+  M.legs.push({eventId: i.m ? i.m.eventId : null, sportKey: i.m ? i.m.sportKey : null, league: i.m ? i.m.league : '', home: i.m ? i.m.home : $('#m-home').value.trim(),
+    away: i.m ? i.m.away : $('#m-away').value.trim(), kickoff: i.m ? i.m.kickoff : null, marketKey: i.mk, market: MKT[i.mk], line: i.lineKey, idx: i.idx,
+    pickName: $('#m-sel').selectedOptions[0].textContent, odd, p: Number.isFinite(i.p) ? +i.p.toFixed(4) : null});
+  renderLegs();
+});
+$('#m-legs').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; M.legs.splice(+b.dataset.i, 1); renderLegs(); });
+/* Les paris et réglages passent par le robot Telegram : la page ouvre Telegram avec un code prêt à envoyer. */
+const cnum = x => String(Math.round(x*100)/100).replace('-', 'm').replace('.', 'p');
+function openTg(code, okText){
+  if (!M.bot){ $('#m-hint').textContent = 'Le robot Telegram n\'est pas encore relié : envoyez-lui d\'abord /start dans Telegram, puis attendez le prochain passage (15 min au plus).'; return false; }
+  const url = `https://t.me/${M.bot}?start=${code}`;
+  const a = document.createElement('a'); a.href = url; a.target = '_blank'; a.rel = 'noopener'; document.body.appendChild(a); a.click(); a.remove();
+  $('#m-hint').innerHTML = esc(okText) + ` Si Telegram ne s'ouvre pas, <a href="${esc(url)}" target="_blank" rel="noopener">touchez ce lien</a>.`;
+  return true;
+}
+$('#m-save').addEventListener('click', () => {
+  const stake = num($('#m-stake').value), tot = num($('#m-total').value);
+  if (!M.legs.length){ $('#m-hint').textContent = 'Ajoutez au moins une sélection au pari.'; return; }
+  if (M.legs.length > 3){ $('#m-hint').textContent = 'Trois sélections au maximum par pari.'; return; }
+  if (!(stake > 0) || !(tot > 1)){ $('#m-hint').textContent = 'Indiquez la mise en euros et la cote totale.'; return; }
+  const code = [cnum(stake), cnum(tot), ...M.legs.map(l => l.eventId.slice(0, 6) + ({h2h:'h', dc:'d', totals:'t', spreads:'s'}[l.marketKey]) + l.idx
+    + (l.line !== '' ? cnum(num(l.line)) : '') + 'o' + cnum(l.odd))].join('_');
+  if (code.length > 64){ $('#m-hint').textContent = 'Ce pari est trop long pour être envoyé en une fois : retirez une sélection.'; return; }
+  if (openTg(code, 'Telegram s\'ouvre : touchez « Démarrer » pour envoyer le pari au robot. Il le confirmera dans les 15 minutes.')){ M.legs = []; renderLegs(); $('#m-stake').value = ''; }
+});
+$('#m-bank-save').addEventListener('click', () => {
+  const v = num($('#m-bank0').value); if (!(v > 0)) return;
+  openTg('bk' + cnum(v), 'Telegram s\'ouvre : touchez « Démarrer » pour régler la bankroll de départ.');
+});
+let delArm = null;
+$('#m-list').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  const id = b.dataset.id, act = b.dataset.act;
+  if (act === 'del' && delArm !== id){ delArm = id; b.textContent = 'Confirmer la suppression'; setTimeout(() => { if (delArm === id){ delArm = null; renderParis(); } }, 4000); return; }
+  delArm = null;
+  const c = {'gagné':'g', 'perdu':'l', 'remboursé':'v', 'auto':'a', 'del':'d'}[act];
+  if (c) openTg('r' + c + id, 'Telegram s\'ouvre : touchez « Démarrer » pour confirmer. La page se mettra à jour dans les 15 minutes.');
+});
+function drawBank(pts){
+  const c = $('#m-chart'); if (!c.clientWidth) return;
+  const dpr = window.devicePixelRatio || 1, w = c.clientWidth, h = c.clientHeight; c.width = w*dpr; c.height = h*dpr;
+  const g = c.getContext('2d'); g.setTransform(dpr,0,0,dpr,0,0); g.clearRect(0,0,w,h);
+  const cs = getComputedStyle(document.documentElement), v = n => cs.getPropertyValue(n).trim();
+  if (pts.length < 2){ g.fillStyle = v('--muted'); g.font = '12px ' + v('--f-body'); g.fillText('La courbe apparaîtra après vos premiers paris terminés.', 8, h/2); return; }
+  const pad = {l:52, r:10, t:10, b:20}, lo = Math.min(...pts)*0.95, hi = Math.max(...pts)*1.05;
+  const X = i => pad.l + i/(pts.length-1)*(w-pad.l-pad.r), Y = y => pad.t + (1-(y-lo)/(hi-lo||1))*(h-pad.t-pad.b);
+  g.font = '11px ' + v('--f-mono'); g.fillStyle = v('--muted'); g.strokeStyle = v('--line'); g.textAlign = 'right'; g.textBaseline = 'middle';
+  niceTicks(lo, hi, 3).forEach(t => { const y = Math.round(Y(t))+.5; g.beginPath(); g.moveTo(pad.l, y); g.lineTo(w-pad.r, y); g.stroke(); g.fillText(Math.round(t) + ' €', pad.l-6, y); });
+  g.setLineDash([4,4]); g.strokeStyle = v('--ink'); g.globalAlpha = .4; g.beginPath(); g.moveTo(pad.l, Y(pts[0])); g.lineTo(w-pad.r, Y(pts[0])); g.stroke(); g.setLineDash([]); g.globalAlpha = 1;
+  g.beginPath(); pts.forEach((p, i) => i ? g.lineTo(X(i), Y(p)) : g.moveTo(X(i), Y(p))); g.strokeStyle = v('--accent'); g.lineWidth = 2.5; g.stroke();
+  g.fillStyle = v('--accent'); g.beginPath(); g.arc(X(pts.length-1), Y(pts[pts.length-1]), 4, 0, Math.PI*2); g.fill();
+}
+function renderParis(){
+  const bets = [...M.bets].sort((a, b) => String(a.createdAt).localeCompare(String(b.createdAt)));
+  const bank0 = M.bank0, settled = bets.filter(b => ['gagné','perdu'].includes(betStatus(b)));
+  const profit = bets.reduce((a, b) => a + betProfit(b), 0), pendingStake = bets.filter(b => betStatus(b) === 'en attente').reduce((a, b) => a + b.stake, 0);
+  const staked = settled.reduce((a, b) => a + b.stake, 0), won = settled.filter(b => betStatus(b) === 'gagné').length;
+  let run = bank0 ?? 0; const shares = []; const pts = bank0 != null ? [bank0] : [];
+  bets.forEach(b => { if (bank0 != null && run > 0) shares.push(b.stake/run); const pr = betProfit(b); if (['gagné','perdu'].includes(betStatus(b))){ run += pr; pts.push(run); } });
+  const avgShare = shares.length ? shares.reduce((a, b) => a + b, 0)/shares.length : NaN;
+  $('#m-kpis').innerHTML = `
+    <div class="kpi"><span class="lbl">Bankroll actuelle</span><span class="v">${bank0 != null ? eur(bank0 + profit) : '—'}</span><span class="s">${pendingStake ? eur(pendingStake) + ' engagés sur des paris en cours' : 'Aucun pari en cours'}</span></div>
+    <div class="kpi"><span class="lbl">Bénéfice total</span><span class="v ${evCls(profit)}">${(profit > 0 ? '+' : '') + eur(profit)}</span><span class="s">${bank0 ? 'Soit ' + spct(profit/bank0) + ' depuis le départ' : ''}</span></div>
+    <div class="kpi"><span class="lbl">Paris terminés</span><span class="v">${settled.length}</span><span class="s">${won} gagné${won > 1 ? 's' : ''} · ${settled.length - won} perdu${settled.length - won > 1 ? 's' : ''} · ${bets.length - settled.length} en cours ou autre</span></div>
+    <div class="kpi"><span class="lbl">Rendement</span><span class="v ${evCls(profit)}">${staked ? spct(settled.reduce((a, b) => a + betProfit(b), 0)/staked) : '—'}</span><span class="s">Bénéfice divisé par les mises des paris terminés</span></div>`;
+  const warn = $('#m-warn');
+  warn.hidden = !(avgShare > 0.05);
+  if (!warn.hidden) warn.textContent = `Vos mises représentent en moyenne ${pct(avgShare,0)} de votre bankroll. Au-delà de 5 %, une courte série de défaites peut vider le compte, même avec des paris à valeur positive. Les mises conseillées (¼ Kelly) sont en général entre 0,5 et 3 %.`;
+  if (bank0 != null && document.activeElement !== $('#m-bank0')) $('#m-bank0').value = fmt(bank0);
+  if (bank0 != null && !M.bankSynced){ M.bankSynced = true; $('#a-bank').value = String(Math.round((bank0 + profit)*100)/100).replace('.', ','); calcA(); if (T.latest) renderTop(); }
+  $('#m-list').innerHTML = [...bets].reverse().map(b => {
+    const st = betStatus(b), rl = b.legs || [], pr = betProfit(b);
+    const ps = (b.legs || []).map(l => l.p), P = ps.length && ps.every(x => Number.isFinite(x)) ? ps.reduce((a, x) => a*x, 1) : NaN;
+    return `<div class="leg"><div><strong>Pari n°${esc(b.id)}</strong> <span class="small muted">· ${fmtKo(b.createdAt)}</span> ${resPill(st)}${b.manualStatus ? ' <span class="small muted">(indiqué par vous)</span>' : ''}<br>
+      ${(b.legs || []).map((l, i) => `<span class="small">${rl[i] && rl[i].result ? resPill(rl[i].result) + ' ' : ''}${mkt(l)}${esc(l.pickName)} <span class="muted">(${esc(l.home)} – ${esc(l.away)}${rl[i] && rl[i].score ? ', score ' + esc(rl[i].score) : l.kickoff ? ', ' + fmtKo(l.kickoff) : ''})</span> <span class="mono">${fmt(l.odd)}</span></span>`).join('<br>')}<br>
+      <span class="small muted">Mise ${eur(b.stake)} · gain possible +${eur(b.stake*(b.totalOdds-1))}${Number.isFinite(P) ? ' · chance estimée ' + pct(P,0) + ' · valeur ' + spct(P*b.totalOdds-1) : ''}</span>
+      <div class="row" style="margin-top:6px"><button class="ghost" data-id="${esc(b.id)}" data-act="gagné">Gagné</button><button class="ghost" data-id="${esc(b.id)}" data-act="perdu">Perdu</button><button class="ghost" data-id="${esc(b.id)}" data-act="remboursé">Remboursé</button>${b.manualStatus ? `<button class="ghost" data-id="${esc(b.id)}" data-act="auto">Résultat automatique</button>` : ''}<button class="ghost x" data-id="${esc(b.id)}" data-act="del">Supprimer</button></div></div>
+      <div style="text-align:right"><span class="odd">${fmt(b.totalOdds)}</span><br><span class="mono ${evCls(pr)}">${st === 'en attente' ? '' : (pr > 0 ? '+' : '') + eur(pr)}</span></div></div>`;
+  }).join('') || '<p class="small muted">Aucun pari enregistré pour l\'instant.</p>';
+  drawBank(pts);
+}
+window.addEventListener('resize', () => renderParis());
+
+/* Données écrites par le robot (GitHub Actions) dans docs/data, relues toutes les 5 minutes */
+async function loadData(){
+  const get = n => fetch(`data/${n}.json?t=${Date.now()}`, {cache:'no-store'}).then(r => r.ok ? r.json() : null).catch(() => null);
+  const [r, p, h] = await Promise.all([get('resultat'), get('paris'), get('historique')]);
+  if (!r && !p){ T.state = 'nodb'; renderTop(); renderParis(); refreshMatchSelect(); return; }
+  T.state = 'ready'; T.latest = r;
+  T.hist = h ? Object.values(h).sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 14) : [];
+  M.bets = p && p.bets ? p.bets.map(b => Object.assign({}, b, {id: String(b.n)})) : [];
+  M.bank0 = p && p.bankroll0 != null ? p.bankroll0 : null;
+  M.bot = (p && p.botUsername) || (r && r.botUsername) || null;
+  renderTop(); refreshMatchSelect(); renderParis();
+}
+loadData();
+setInterval(loadData, 5*60*1000);
+setInterval(() => { if (T.latest) renderTop(); }, 60000);
+
+/* ---------- démarrage ---------- */
+renderA(); runC(true); calcP(); runSim();
+let startTab = 'top'; try { startTab = localStorage.getItem(KEY + '-tab') || 'top'; } catch (e) {}
+if (location.hash && document.getElementById('tab-' + location.hash.slice(1))) startTab = location.hash.slice(1);
+if (location.hash === '#notifs') startTab = 'top';
+showTab(startTab);
+})();
+</script>
+
+</body></html>
