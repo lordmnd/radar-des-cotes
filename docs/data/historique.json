@@ -1,47 +1,10 @@
 {
   "2026-10-10": {
     "date": "2026-10-10",
-    "updatedAt": "2026-10-10T17:15:02Z",
-    "eventsScanned": 23,
-    "valueBets": 3,
+    "updatedAt": "2026-10-10T19:15:35Z",
+    "eventsScanned": 14,
+    "valueBets": 1,
     "top": [
-      {
-        "eventId": "3aa72885e0aa107c62843749f7930a9a",
-        "sportKey": "soccer_france_ligue_one",
-        "league": "Ligue 1",
-        "home": "Lorient",
-        "away": "Paris FC",
-        "kickoff": "2026-10-10T18:45:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Paris FC",
-        "names": [
-          "Victoire Lorient",
-          "Match nul",
-          "Victoire Paris FC"
-        ],
-        "odd": 2.2,
-        "p": 0.4659,
-        "fairOdd": 2.146,
-        "ev": 0.0251,
-        "quality": 0.0229,
-        "kelly": 0.0209,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.67,
-          3.47,
-          2.2
-        ],
-        "refOdds": [
-          3.81,
-          3.41,
-          2.09
-        ],
-        "margin1x": 0.0152
-      },
       {
         "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
         "sportKey": "soccer_france_ligue_one",
@@ -78,43 +41,6 @@
           2.91
         ],
         "margin1x": 0.0161
-      },
-      {
-        "eventId": "551f242223b1625f458d1a2ea212a0c3",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Real Madrid",
-        "away": "Villarreal",
-        "kickoff": "2026-10-10T19:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Villarreal",
-        "names": [
-          "Victoire Real Madrid",
-          "Match nul",
-          "Victoire Villarreal"
-        ],
-        "odd": 7.6,
-        "p": 0.1349,
-        "fairOdd": 7.414,
-        "ev": 0.0251,
-        "quality": 0.0097,
-        "kelly": 0.0038,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.4,
-          5.84,
-          7.6
-        ],
-        "refOdds": [
-          1.39,
-          5.81,
-          6.88
-        ],
-        "margin1x": 0.0171
       }
     ],
     "combo": null
