@@ -1,4 +1,11 @@
 {
+  "lastAnalysis": "2026-10-11T16:17:02Z",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "usedToday": 19,
   "events": {
     "3bb1d920fd29104775ac4f4878cbbf67": {
       "eventId": "3bb1d920fd29104775ac4f4878cbbf67",
@@ -1882,26 +1889,10 @@
       ]
     }
   },
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "remaining": 463,
+  "bankroll0": 80,
   "nextBet": 2,
-  "usedToday": 19,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
-    "soccer_france_ligue_two": "2026-10-10T17:15:02.6180653Z",
-    "soccer_epl": "2026-10-10T07:55:51.3355456Z",
-    "soccer_efl_champ": "2026-10-11T06:22:19.5075826Z",
-    "soccer_spain_la_liga": "2026-10-11T06:22:19.5075826Z",
-    "soccer_spain_segunda_division": "2026-10-11T06:22:19.5075826Z",
-    "soccer_italy_serie_a": "2026-10-11T06:22:19.5075826Z",
-    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga2": "2026-10-11T06:22:19.5075826Z"
-  },
+  "day": "2026-10-11",
+  "rejected": [],
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2006,8 +1997,19 @@
       "status": "perdu"
     }
   ],
-  "bankroll0": 80,
-  "day": "2026-10-11",
+  "remaining": 463,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
+    "soccer_france_ligue_two": "2026-10-10T17:15:02.6180653Z",
+    "soccer_epl": "2026-10-10T07:55:51.3355456Z",
+    "soccer_efl_champ": "2026-10-11T06:22:19.5075826Z",
+    "soccer_spain_la_liga": "2026-10-11T06:22:19.5075826Z",
+    "soccer_spain_segunda_division": "2026-10-11T06:22:19.5075826Z",
+    "soccer_italy_serie_a": "2026-10-11T06:22:19.5075826Z",
+    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga2": "2026-10-11T06:22:19.5075826Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -2053,7 +2055,5 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ],
-  "lastAnalysis": "2026-10-11T16:17:02Z",
-  "rejected": []
+  ]
 }
