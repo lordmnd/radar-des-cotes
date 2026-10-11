@@ -1,48 +1,10 @@
 {
   "2026-10-11": {
     "date": "2026-10-11",
-    "updatedAt": "2026-10-11T18:19:22Z",
-    "eventsScanned": 7,
-    "valueBets": 1,
-    "top": [
-      {
-        "eventId": "66a4f4201806b928c9007116727fdd61",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Real Racing Club de Santander",
-        "away": "Valencia",
-        "kickoff": "2026-10-11T19:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Real Racing Club de Santander",
-        "names": [
-          "Victoire Real Racing Club de Santander",
-          "Match nul",
-          "Victoire Valencia"
-        ],
-        "odd": 2.34,
-        "p": 0.4368,
-        "fairOdd": 2.29,
-        "ev": 0.022,
-        "quality": 0.019,
-        "kelly": 0.0164,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.34,
-          3.67,
-          3.16
-        ],
-        "refOdds": [
-          2.23,
-          3.57,
-          3.29
-        ],
-        "margin1x": 0.0163
-      }
-    ],
+    "updatedAt": "2026-10-11T20:16:11Z",
+    "eventsScanned": 4,
+    "valueBets": 0,
+    "top": [],
     "combo": null
   },
   "2026-10-10": {

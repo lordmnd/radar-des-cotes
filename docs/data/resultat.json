@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-11T18:19:22Z",
+  "generatedAt": "2026-10-11T20:16:11Z",
   "creditsRemaining": 463,
   "creditsUsedToday": 19,
   "dailyBudget": 22,
@@ -15,6 +15,12 @@
     "Handicap asiatique"
   ],
   "leagues": [
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 0,
+      "status": "pas de match"
+    },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
@@ -40,90 +46,45 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 1,
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 4,
       "status": "cache",
-      "ageHours": 34.4
+      "ageHours": 13.9
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 12.0
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
       "events": 2,
       "status": "cache",
-      "ageHours": 12.0
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 5,
-      "status": "cache",
-      "ageHours": 12.0
+      "ageHours": 13.9
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 1,
       "status": "cache",
-      "ageHours": 25.1
+      "ageHours": 27.0
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 34.4
-    }
-  ],
-  "eventsScanned": 7,
-  "eventsWith1xbet": 7,
-  "valueBets": 1,
-  "top": [
+      "ageHours": 36.3
+    },
     {
-      "eventId": "66a4f4201806b928c9007116727fdd61",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Racing Club de Santander",
-      "away": "Valencia",
-      "kickoff": "2026-10-11T19:00:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 0,
-      "pick": "1",
-      "pickName": "Victoire Real Racing Club de Santander",
-      "names": [
-        "Victoire Real Racing Club de Santander",
-        "Match nul",
-        "Victoire Valencia"
-      ],
-      "odd": 2.34,
-      "p": 0.4368,
-      "fairOdd": 2.29,
-      "ev": 0.022,
-      "quality": 0.019,
-      "kelly": 0.0164,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        2.34,
-        3.67,
-        3.16
-      ],
-      "refOdds": [
-        2.23,
-        3.57,
-        3.29
-      ],
-      "margin1x": 0.0163
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 13.9
     }
   ],
+  "eventsScanned": 4,
+  "eventsWith1xbet": 4,
+  "valueBets": 0,
+  "top": [],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -243,90 +204,6 @@
   },
   "matches": [
     {
-      "eventId": "407f7d03157d1dfad384876e6a6bc910",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Cagliari",
-      "away": "Juventus",
-      "kickoff": "2026-10-11T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            6.55,
-            4.17,
-            1.61
-          ],
-          "p": [
-            0.1441,
-            0.2417,
-            0.6142
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.07,
-            1.88
-          ],
-          "p": [
-            0.4657,
-            0.5343
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "66a4f4201806b928c9007116727fdd61",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Racing Club de Santander",
-      "away": "Valencia",
-      "kickoff": "2026-10-11T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.34,
-            3.67,
-            3.16
-          ],
-          "p": [
-            0.4368,
-            0.2698,
-            0.2934
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "e30010afc86f011e4de86e15f2f6ddb1",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Cádiz CF",
-      "away": "Sporting Gijón",
-      "kickoff": "2026-10-11T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.19,
-            3.28,
-            3.57
-          ],
-          "p": [
-            0.4547,
-            0.2955,
-            0.2498
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "8fd7558e7ee137b7c2df589a99585840",
       "sportKey": "soccer_spain_segunda_division",
       "league": "La Liga 2",
@@ -387,30 +264,6 @@
       ]
     },
     {
-      "eventId": "0f2e7ff90b994f31d5cd48a9680943e1",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Atalanta BC",
-      "away": "Venezia",
-      "kickoff": "2026-10-12T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.63,
-            4.28,
-            5.97
-          ],
-          "p": [
-            0.6217,
-            0.2265,
-            0.1518
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "fc9cdbc6bd9fd25f947caba859944c79",
       "sportKey": "soccer_spain_segunda_division",
       "league": "La Liga 2",
@@ -430,6 +283,30 @@
             0.4193,
             0.3065,
             0.2742
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "0f2e7ff90b994f31d5cd48a9680943e1",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Venezia",
+      "kickoff": "2026-10-12T16:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.63,
+            4.28,
+            5.97
+          ],
+          "p": [
+            0.6217,
+            0.2265,
+            0.1518
           ]
         }
       ]
