@@ -1,4 +1,124 @@
 {
+  "2026-10-11": {
+    "date": "2026-10-11",
+    "updatedAt": "2026-10-11T06:22:19Z",
+    "eventsScanned": 26,
+    "valueBets": 4,
+    "top": [
+      {
+        "eventId": "66a4f4201806b928c9007116727fdd61",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Real Racing Club de Santander",
+        "away": "Valencia",
+        "kickoff": "2026-10-11T19:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Real Racing Club de Santander",
+        "names": [
+          "Victoire Real Racing Club de Santander",
+          "Match nul",
+          "Victoire Valencia"
+        ],
+        "odd": 2.34,
+        "p": 0.4368,
+        "fairOdd": 2.29,
+        "ev": 0.022,
+        "quality": 0.019,
+        "kelly": 0.0164,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.34,
+          3.67,
+          3.16
+        ],
+        "refOdds": [
+          2.23,
+          3.57,
+          3.29
+        ],
+        "margin1x": 0.0163
+      },
+      {
+        "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Nice",
+        "away": "Strasbourg",
+        "kickoff": "2026-10-11T13:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Strasbourg",
+        "names": [
+          "Victoire Nice",
+          "Match nul",
+          "Victoire Strasbourg"
+        ],
+        "odd": 3.07,
+        "p": 0.3328,
+        "fairOdd": 3.005,
+        "ev": 0.0216,
+        "quality": 0.0149,
+        "kelly": 0.0104,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.36,
+          3.75,
+          3.07
+        ],
+        "refOdds": [
+          2.38,
+          3.72,
+          2.91
+        ],
+        "margin1x": 0.0161
+      },
+      {
+        "eventId": "2547c0dbddd26d23fa532228e36348cb",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Como",
+        "away": "AS Roma",
+        "kickoff": "2026-10-11T10:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Como",
+          "Match nul",
+          "Victoire AS Roma"
+        ],
+        "odd": 3.73,
+        "p": 0.274,
+        "fairOdd": 3.65,
+        "ev": 0.0221,
+        "quality": 0.0133,
+        "kelly": 0.0081,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.61,
+          3.73,
+          2.74
+        ],
+        "refOdds": [
+          2.55,
+          3.51,
+          2.8
+        ],
+        "margin1x": 0.0162
+      }
+    ],
+    "combo": null
+  },
   "2026-10-10": {
     "date": "2026-10-10",
     "updatedAt": "2026-10-10T19:15:35Z",

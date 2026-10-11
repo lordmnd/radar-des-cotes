@@ -39,8 +39,8 @@
           "pickName": "X2 : nul ou Paris FC",
           "odd": 1.322,
           "p": 0.7482,
-          "result": null,
-          "score": null
+          "result": "perdu",
+          "score": "1-0"
         }
       ],
       "manualStatus": null,
