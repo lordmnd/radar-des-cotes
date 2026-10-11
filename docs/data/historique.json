@@ -1,9 +1,9 @@
 {
   "2026-10-11": {
     "date": "2026-10-11",
-    "updatedAt": "2026-10-11T08:18:12Z",
-    "eventsScanned": 26,
-    "valueBets": 4,
+    "updatedAt": "2026-10-11T10:16:49Z",
+    "eventsScanned": 25,
+    "valueBets": 3,
     "top": [
       {
         "eventId": "66a4f4201806b928c9007116727fdd61",
@@ -80,41 +80,41 @@
         "margin1x": 0.0161
       },
       {
-        "eventId": "2547c0dbddd26d23fa532228e36348cb",
+        "eventId": "946716d7e5e52822f08be8cb95193d9d",
         "sportKey": "soccer_italy_serie_a",
         "league": "Serie A",
-        "home": "Como",
-        "away": "AS Roma",
-        "kickoff": "2026-10-11T10:30:00Z",
+        "home": "Lecce",
+        "away": "Bologna",
+        "kickoff": "2026-10-11T13:00:00Z",
         "market": "1N2",
         "marketKey": "h2h",
         "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Lecce",
         "names": [
-          "Victoire Como",
+          "Victoire Lecce",
           "Match nul",
-          "Victoire AS Roma"
+          "Victoire Bologna"
         ],
-        "odd": 3.73,
-        "p": 0.274,
-        "fairOdd": 3.65,
-        "ev": 0.0221,
-        "quality": 0.0133,
-        "kelly": 0.0081,
+        "odd": 4.58,
+        "p": 0.2228,
+        "fairOdd": 4.489,
+        "ev": 0.0203,
+        "quality": 0.0107,
+        "kelly": 0.0057,
         "refSource": "Pinnacle",
         "odds1x": [
-          2.61,
-          3.73,
-          2.74
+          4.58,
+          3.44,
+          1.98
         ],
         "refOdds": [
-          2.55,
-          3.51,
-          2.8
+          4.28,
+          3.34,
+          1.99
         ],
-        "margin1x": 0.0162
+        "margin1x": 0.0141
       }
     ],
     "combo": null

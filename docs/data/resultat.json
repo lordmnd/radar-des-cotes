@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-11T08:18:12Z",
+  "generatedAt": "2026-10-11T10:16:49Z",
   "creditsRemaining": 465,
   "creditsUsedToday": 17,
   "dailyBudget": 22,
@@ -16,79 +16,79 @@
   ],
   "leagues": [
     {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 7,
-      "status": "cache",
-      "ageHours": 1.9
-    },
-    {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 1,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 3,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 5,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 8,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 3,
       "status": "cache",
-      "ageHours": 24.4
+      "ageHours": 26.3
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 4,
       "status": "cache",
-      "ageHours": 24.4
+      "ageHours": 26.3
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 6,
+      "status": "cache",
+      "ageHours": 3.9
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 3,
       "status": "cache",
-      "ageHours": 24.4
+      "ageHours": 26.3
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 2,
       "status": "cache",
-      "ageHours": 24.4
+      "ageHours": 26.3
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 1,
       "status": "cache",
-      "ageHours": 15.1
+      "ageHours": 17.0
     }
   ],
-  "eventsScanned": 26,
-  "eventsWith1xbet": 25,
-  "valueBets": 4,
+  "eventsScanned": 25,
+  "eventsWith1xbet": 24,
+  "valueBets": 3,
   "top": [
     {
       "eventId": "66a4f4201806b928c9007116727fdd61",
@@ -163,43 +163,6 @@
         2.91
       ],
       "margin1x": 0.0161
-    },
-    {
-      "eventId": "2547c0dbddd26d23fa532228e36348cb",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Como",
-      "away": "AS Roma",
-      "kickoff": "2026-10-11T10:30:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 1,
-      "pick": "N",
-      "pickName": "Match nul",
-      "names": [
-        "Victoire Como",
-        "Match nul",
-        "Victoire AS Roma"
-      ],
-      "odd": 3.73,
-      "p": 0.274,
-      "fairOdd": 3.65,
-      "ev": 0.0221,
-      "quality": 0.0133,
-      "kelly": 0.0081,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        2.61,
-        3.73,
-        2.74
-      ],
-      "refOdds": [
-        2.55,
-        3.51,
-        2.8
-      ],
-      "margin1x": 0.0162
     },
     {
       "eventId": "946716d7e5e52822f08be8cb95193d9d",
@@ -337,7 +300,7 @@
           "idx": 2,
           "closeFairOdd": 3.005,
           "closeOdd1x": 3.07,
-          "closeSeenAt": "2026-10-11T08:18:12Z"
+          "closeSeenAt": "2026-10-11T10:16:49Z"
         }
       ],
       "signature": "5d3606630a2d3a218a6340d082c1bdc6|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
@@ -355,30 +318,6 @@
     "clvLegs": 4
   },
   "matches": [
-    {
-      "eventId": "2547c0dbddd26d23fa532228e36348cb",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Como",
-      "away": "AS Roma",
-      "kickoff": "2026-10-11T10:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.61,
-            3.73,
-            2.74
-          ],
-          "p": [
-            0.3804,
-            0.274,
-            0.3456
-          ]
-        }
-      ]
-    },
     {
       "eventId": "e0fe5ad17865ef24994316c5e46dc8b1",
       "sportKey": "soccer_efl_champ",
@@ -533,30 +472,6 @@
       "markets": []
     },
     {
-      "eventId": "946716d7e5e52822f08be8cb95193d9d",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Lecce",
-      "away": "Bologna",
-      "kickoff": "2026-10-11T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.58,
-            3.44,
-            1.98
-          ],
-          "p": [
-            0.2228,
-            0.2879,
-            0.4893
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "c0f72699f32ec193b64fd54092fe268d",
       "sportKey": "soccer_italy_serie_a",
       "league": "Serie A",
@@ -576,6 +491,30 @@
             0.5697,
             0.2425,
             0.1878
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "946716d7e5e52822f08be8cb95193d9d",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Lecce",
+      "away": "Bologna",
+      "kickoff": "2026-10-11T13:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            4.58,
+            3.44,
+            1.98
+          ],
+          "p": [
+            0.2228,
+            0.2879,
+            0.4893
           ]
         }
       ]
@@ -701,30 +640,6 @@
       ]
     },
     {
-      "eventId": "2997b68cc93f62d8a1dee9f06bedbefd",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Sociedad",
-      "away": "Deportivo La Coruña",
-      "kickoff": "2026-10-11T14:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.66,
-            4.21,
-            5.75
-          ],
-          "p": [
-            0.6027,
-            0.2297,
-            0.1676
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "b6634ca0e08a2c96f3fb7504966c9eb6",
       "sportKey": "soccer_spain_segunda_division",
       "league": "La Liga 2",
@@ -744,6 +659,30 @@
             0.5849,
             0.2325,
             0.1827
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "2997b68cc93f62d8a1dee9f06bedbefd",
+      "sportKey": "soccer_spain_la_liga",
+      "league": "La Liga",
+      "home": "Real Sociedad",
+      "away": "Deportivo La Coruña",
+      "kickoff": "2026-10-11T14:15:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.66,
+            4.21,
+            5.75
+          ],
+          "p": [
+            0.6027,
+            0.2297,
+            0.1676
           ]
         }
       ]
@@ -869,30 +808,6 @@
       ]
     },
     {
-      "eventId": "e30010afc86f011e4de86e15f2f6ddb1",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Cádiz CF",
-      "away": "Sporting Gijón",
-      "kickoff": "2026-10-11T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.19,
-            3.28,
-            3.57
-          ],
-          "p": [
-            0.4547,
-            0.2955,
-            0.2498
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "66a4f4201806b928c9007116727fdd61",
       "sportKey": "soccer_spain_la_liga",
       "league": "La Liga",
@@ -912,6 +827,30 @@
             0.4368,
             0.2698,
             0.2934
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "e30010afc86f011e4de86e15f2f6ddb1",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Cádiz CF",
+      "away": "Sporting Gijón",
+      "kickoff": "2026-10-11T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.19,
+            3.28,
+            3.57
+          ],
+          "p": [
+            0.4547,
+            0.2955,
+            0.2498
           ]
         }
       ]
