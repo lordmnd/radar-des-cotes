@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-11T14:16:17Z",
-  "creditsRemaining": 465,
-  "creditsUsedToday": 17,
+  "generatedAt": "2026-10-11T16:17:02Z",
+  "creditsRemaining": 463,
+  "creditsUsedToday": 19,
   "dailyBudget": 22,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -22,70 +22,69 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_germany_bundesliga",
+      "name": "Bundesliga",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 0,
       "status": "pas de match"
     },
     {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 30.3
-    },
-    {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 30.3
-    },
-    {
-      "key": "soccer_epl",
-      "name": "Premier League",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 30.3
-    },
-    {
-      "key": "soccer_germany_bundesliga",
-      "name": "Bundesliga",
       "events": 1,
       "status": "cache",
-      "ageHours": 30.3
+      "ageHours": 32.4
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 32.4
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 4,
+      "events": 3,
       "status": "cache",
-      "ageHours": 7.9
+      "ageHours": 9.9
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
-      "events": 3,
+      "events": 2,
       "status": "cache",
-      "ageHours": 7.9
+      "ageHours": 9.9
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 6,
+      "events": 5,
       "status": "cache",
-      "ageHours": 7.9
+      "ageHours": 9.9
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 1,
       "status": "cache",
-      "ageHours": 21.0
+      "ageHours": 23.0
+    },
+    {
+      "key": "soccer_epl",
+      "name": "Premier League",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 32.4
     }
   ],
-  "eventsScanned": 10,
-  "eventsWith1xbet": 10,
+  "eventsScanned": 7,
+  "eventsWith1xbet": 7,
   "valueBets": 1,
   "top": [
     {
@@ -224,7 +223,9 @@
           "idx": 2,
           "closeFairOdd": 3.005,
           "closeOdd1x": 3.07,
-          "closeSeenAt": "2026-10-11T12:21:23Z"
+          "closeSeenAt": "2026-10-11T12:21:23Z",
+          "score": "2-1",
+          "result": "perdu"
         }
       ],
       "signature": "5d3606630a2d3a218a6340d082c1bdc6|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
@@ -242,90 +243,6 @@
     "clvLegs": 4
   },
   "matches": [
-    {
-      "eventId": "1cf64166dda1e0da8b325161deb39662",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Sassuolo",
-      "away": "AC Milan",
-      "kickoff": "2026-10-11T16:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.28,
-            3.9,
-            1.91
-          ],
-          "p": [
-            0.2255,
-            0.2533,
-            0.5212
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "984691837d31fd0c59c088f377f55f75",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Betis",
-      "away": "CA Osasuna",
-      "kickoff": "2026-10-11T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.57,
-            4.62,
-            6.09
-          ],
-          "p": [
-            0.6375,
-            0.2107,
-            0.1518
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "61302089b5064e90f300782acbcb1cd8",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Mallorca",
-      "away": "Las Palmas",
-      "kickoff": "2026-10-11T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.61,
-            4.23,
-            5.42
-          ],
-          "p": [
-            0.6176,
-            0.221,
-            0.1614
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.76,
-            2.1
-          ],
-          "p": [
-            0.5225,
-            0.4775
-          ]
-        }
-      ]
-    },
     {
       "eventId": "407f7d03157d1dfad384876e6a6bc910",
       "sportKey": "soccer_italy_serie_a",
