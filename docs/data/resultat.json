@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-11T06:22:19Z",
+  "generatedAt": "2026-10-11T08:18:12Z",
   "creditsRemaining": 465,
   "creditsUsedToday": 17,
   "dailyBudget": 22,
@@ -16,73 +16,74 @@
   ],
   "leagues": [
     {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 6,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 7,
+      "status": "cache",
+      "ageHours": 1.9
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 1,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 1.9
     },
     {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 3,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 1.9
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
-      "events": 4,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 5,
+      "status": "cache",
+      "ageHours": 1.9
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 7,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 8,
+      "status": "cache",
+      "ageHours": 1.9
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 3,
       "status": "cache",
-      "ageHours": 22.4
+      "ageHours": 24.4
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
-      "events": 3,
+      "events": 4,
       "status": "cache",
-      "ageHours": 22.4
+      "ageHours": 24.4
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 3,
       "status": "cache",
-      "ageHours": 22.4
+      "ageHours": 24.4
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 2,
       "status": "cache",
-      "ageHours": 22.4
+      "ageHours": 24.4
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 15.1
     }
   ],
   "eventsScanned": 26,
@@ -336,7 +337,7 @@
           "idx": 2,
           "closeFairOdd": 3.005,
           "closeOdd1x": 3.07,
-          "closeSeenAt": "2026-10-11T06:22:19Z"
+          "closeSeenAt": "2026-10-11T08:18:12Z"
         }
       ],
       "signature": "5d3606630a2d3a218a6340d082c1bdc6|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
