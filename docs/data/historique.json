@@ -1,9 +1,9 @@
 {
   "2026-10-11": {
     "date": "2026-10-11",
-    "updatedAt": "2026-10-11T12:21:23Z",
-    "eventsScanned": 19,
-    "valueBets": 3,
+    "updatedAt": "2026-10-11T14:16:17Z",
+    "eventsScanned": 10,
+    "valueBets": 1,
     "top": [
       {
         "eventId": "66a4f4201806b928c9007116727fdd61",
@@ -41,80 +41,6 @@
           3.29
         ],
         "margin1x": 0.0163
-      },
-      {
-        "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
-        "sportKey": "soccer_france_ligue_one",
-        "league": "Ligue 1",
-        "home": "Nice",
-        "away": "Strasbourg",
-        "kickoff": "2026-10-11T13:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Strasbourg",
-        "names": [
-          "Victoire Nice",
-          "Match nul",
-          "Victoire Strasbourg"
-        ],
-        "odd": 3.07,
-        "p": 0.3328,
-        "fairOdd": 3.005,
-        "ev": 0.0216,
-        "quality": 0.0149,
-        "kelly": 0.0104,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.36,
-          3.75,
-          3.07
-        ],
-        "refOdds": [
-          2.38,
-          3.72,
-          2.91
-        ],
-        "margin1x": 0.0161
-      },
-      {
-        "eventId": "946716d7e5e52822f08be8cb95193d9d",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Lecce",
-        "away": "Bologna",
-        "kickoff": "2026-10-11T13:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Lecce",
-        "names": [
-          "Victoire Lecce",
-          "Match nul",
-          "Victoire Bologna"
-        ],
-        "odd": 4.58,
-        "p": 0.2228,
-        "fairOdd": 4.489,
-        "ev": 0.0203,
-        "quality": 0.0107,
-        "kelly": 0.0057,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          4.58,
-          3.44,
-          1.98
-        ],
-        "refOdds": [
-          4.28,
-          3.34,
-          1.99
-        ],
-        "margin1x": 0.0141
       }
     ],
     "combo": null
