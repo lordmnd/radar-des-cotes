@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-12T07:52:36Z",
+  "generatedAt": "2026-10-12T09:53:02Z",
   "creditsRemaining": 448,
   "creditsUsedToday": 15,
   "dailyBudget": 22,
@@ -44,42 +44,42 @@
       "name": "La Liga 2",
       "events": 4,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 2,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 1,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 8,
       "status": "cache",
-      "ageHours": 25.5
+      "ageHours": 27.5
     }
   ],
   "eventsScanned": 9,
