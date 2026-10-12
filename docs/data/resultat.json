@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-11T20:16:11Z",
-  "creditsRemaining": 463,
-  "creditsUsedToday": 19,
-  "dailyBudget": 22,
+  "generatedAt": "2026-10-12T06:01:12Z",
+  "creditsRemaining": 448,
+  "creditsUsedToday": 15,
+  "dailyBudget": 23,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -49,42 +49,154 @@
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 4,
-      "status": "cache",
-      "ageHours": 13.9
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 2,
-      "status": "cache",
-      "ageHours": 13.9
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 1,
-      "status": "cache",
-      "ageHours": 27.0
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
-      "status": "cache",
-      "ageHours": 36.3
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
-      "status": "cache",
-      "ageHours": 13.9
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 4,
-  "eventsWith1xbet": 4,
-  "valueBets": 0,
-  "top": [],
+  "eventsScanned": 9,
+  "eventsWith1xbet": 9,
+  "valueBets": 4,
+  "top": [
+    {
+      "eventId": "0f2e7ff90b994f31d5cd48a9680943e1",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Venezia",
+      "kickoff": "2026-10-12T16:30:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 0,
+      "pick": "1",
+      "pickName": "Victoire Atalanta BC",
+      "names": [
+        "Victoire Atalanta BC",
+        "Match nul",
+        "Victoire Venezia"
+      ],
+      "odd": 1.6,
+      "p": 0.6379,
+      "fairOdd": 1.568,
+      "ev": 0.0206,
+      "quality": 0.0268,
+      "kelly": 0.0344,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        1.6,
+        4.63,
+        5.76
+      ],
+      "refOdds": [
+        1.53,
+        4.38,
+        6.39
+      ],
+      "margin1x": 0.0146
+    },
+    {
+      "eventId": "f4a28510bb0c835280a2aca709c19d50",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Udinese",
+      "kickoff": "2026-10-12T18:45:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 1,
+      "pick": "N",
+      "pickName": "Match nul",
+      "names": [
+        "Victoire Torino",
+        "Match nul",
+        "Victoire Udinese"
+      ],
+      "odd": 3.35,
+      "p": 0.3067,
+      "fairOdd": 3.26,
+      "ev": 0.0276,
+      "quality": 0.0179,
+      "kelly": 0.0117,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        2.39,
+        3.35,
+        3.35
+      ],
+      "refOdds": [
+        2.42,
+        3.15,
+        3.31
+      ],
+      "margin1x": 0.0154
+    },
+    {
+      "eventId": "529fc26c7774d5b469932e275c668921",
+      "sportKey": "soccer_spain_la_liga",
+      "league": "La Liga",
+      "home": "Levante",
+      "away": "Sevilla",
+      "kickoff": "2026-10-12T19:00:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 0,
+      "pick": "1",
+      "pickName": "Victoire Levante",
+      "names": [
+        "Victoire Levante",
+        "Match nul",
+        "Victoire Sevilla"
+      ],
+      "odd": 2.87,
+      "p": 0.3567,
+      "fairOdd": 2.803,
+      "ev": 0.0238,
+      "quality": 0.0173,
+      "kelly": 0.0127,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        2.87,
+        3.43,
+        2.67
+      ],
+      "refOdds": [
+        2.72,
+        3.24,
+        2.81
+      ],
+      "margin1x": 0.0145
+    }
+  ],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -220,9 +332,9 @@
             4.04
           ],
           "p": [
-            0.4782,
-            0.2898,
-            0.232
+            0.4896,
+            0.2847,
+            0.2258
           ]
         },
         {
@@ -233,8 +345,8 @@
             1.97
           ],
           "p": [
-            0.5,
-            0.5
+            0.5027,
+            0.4973
           ]
         }
       ]
@@ -251,14 +363,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.37,
-            3.32,
-            3.13
+            2.49,
+            3.26,
+            3.0
           ],
           "p": [
-            0.3877,
-            0.2974,
-            0.3149
+            0.3762,
+            0.3036,
+            0.3202
           ]
         }
       ]
@@ -280,9 +392,9 @@
             3.38
           ],
           "p": [
-            0.4193,
-            0.3065,
-            0.2742
+            0.4171,
+            0.3104,
+            0.2725
           ]
         }
       ]
@@ -299,14 +411,134 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.63,
-            4.28,
-            5.97
+            1.6,
+            4.63,
+            5.76
           ],
           "p": [
-            0.6217,
-            0.2265,
-            0.1518
+            0.6379,
+            0.2166,
+            0.1455
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "f4a28510bb0c835280a2aca709c19d50",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Udinese",
+      "kickoff": "2026-10-12T18:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.39,
+            3.35,
+            3.35
+          ],
+          "p": [
+            0.4017,
+            0.3067,
+            0.2915
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "1abc2ac67c0776b1afb48749fe005ee2",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Dijon",
+      "away": "Metz",
+      "kickoff": "2026-10-12T18:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.66,
+            3.54,
+            2.4
+          ],
+          "p": [
+            0.35,
+            0.2638,
+            0.3862
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "6c14ecd9bce26382c5cc5d5f5f28128f",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Tenerife",
+      "away": "Girona FC",
+      "kickoff": "2026-10-12T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.8,
+            3.25,
+            2.65
+          ],
+          "p": [
+            0.33,
+            0.3082,
+            0.3618
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "acd5bd945dd953ad1e300df5bfe696f9",
+      "sportKey": "soccer_epl",
+      "league": "Premier League",
+      "home": "Coventry City",
+      "away": "Newcastle United",
+      "kickoff": "2026-10-12T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.29,
+            3.69,
+            2.27
+          ],
+          "p": [
+            0.2968,
+            0.2687,
+            0.4344
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "529fc26c7774d5b469932e275c668921",
+      "sportKey": "soccer_spain_la_liga",
+      "league": "La Liga",
+      "home": "Levante",
+      "away": "Sevilla",
+      "kickoff": "2026-10-12T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.87,
+            3.43,
+            2.67
+          ],
+          "p": [
+            0.3567,
+            0.2982,
+            0.3451
           ]
         }
       ]
