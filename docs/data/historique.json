@@ -1,85 +1,10 @@
 {
   "2026-10-12": {
     "date": "2026-10-12",
-    "updatedAt": "2026-10-12T18:21:05Z",
-    "eventsScanned": 5,
-    "valueBets": 3,
-    "top": [
-      {
-        "eventId": "f4a28510bb0c835280a2aca709c19d50",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Torino",
-        "away": "Udinese",
-        "kickoff": "2026-10-12T18:45:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
-        "names": [
-          "Victoire Torino",
-          "Match nul",
-          "Victoire Udinese"
-        ],
-        "odd": 3.35,
-        "p": 0.3067,
-        "fairOdd": 3.26,
-        "ev": 0.0276,
-        "quality": 0.0179,
-        "kelly": 0.0117,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.39,
-          3.35,
-          3.35
-        ],
-        "refOdds": [
-          2.42,
-          3.15,
-          3.31
-        ],
-        "margin1x": 0.0154
-      },
-      {
-        "eventId": "529fc26c7774d5b469932e275c668921",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Levante",
-        "away": "Sevilla",
-        "kickoff": "2026-10-12T19:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Levante",
-        "names": [
-          "Victoire Levante",
-          "Match nul",
-          "Victoire Sevilla"
-        ],
-        "odd": 2.87,
-        "p": 0.3567,
-        "fairOdd": 2.803,
-        "ev": 0.0238,
-        "quality": 0.0173,
-        "kelly": 0.0127,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.87,
-          3.43,
-          2.67
-        ],
-        "refOdds": [
-          2.72,
-          3.24,
-          2.81
-        ],
-        "margin1x": 0.0145
-      }
-    ],
+    "updatedAt": "2026-10-12T20:18:56Z",
+    "eventsScanned": 0,
+    "valueBets": 0,
+    "top": [],
     "combo": null
   },
   "2026-10-11": {
