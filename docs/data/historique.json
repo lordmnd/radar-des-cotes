@@ -1,47 +1,10 @@
 {
   "2026-10-12": {
     "date": "2026-10-12",
-    "updatedAt": "2026-10-12T16:02:01Z",
-    "eventsScanned": 7,
-    "valueBets": 4,
+    "updatedAt": "2026-10-12T18:21:05Z",
+    "eventsScanned": 5,
+    "valueBets": 3,
     "top": [
-      {
-        "eventId": "0f2e7ff90b994f31d5cd48a9680943e1",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Atalanta BC",
-        "away": "Venezia",
-        "kickoff": "2026-10-12T16:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Atalanta BC",
-        "names": [
-          "Victoire Atalanta BC",
-          "Match nul",
-          "Victoire Venezia"
-        ],
-        "odd": 1.6,
-        "p": 0.6379,
-        "fairOdd": 1.568,
-        "ev": 0.0206,
-        "quality": 0.0268,
-        "kelly": 0.0344,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.6,
-          4.63,
-          5.76
-        ],
-        "refOdds": [
-          1.53,
-          4.38,
-          6.39
-        ],
-        "margin1x": 0.0146
-      },
       {
         "eventId": "f4a28510bb0c835280a2aca709c19d50",
         "sportKey": "soccer_italy_serie_a",
