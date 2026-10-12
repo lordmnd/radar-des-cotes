@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-12T11:52:18Z",
+  "generatedAt": "2026-10-12T14:02:08Z",
   "creditsRemaining": 448,
   "creditsUsedToday": 15,
   "dailyBudget": 22,
@@ -42,48 +42,48 @@
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 3,
+      "events": 2,
       "status": "cache",
-      "ageHours": 5.9
+      "ageHours": 8.0
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 2,
       "status": "cache",
-      "ageHours": 5.9
+      "ageHours": 8.0
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 1,
       "status": "cache",
-      "ageHours": 5.9
+      "ageHours": 8.0
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 5.9
+      "ageHours": 8.0
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 5.9
+      "ageHours": 8.0
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 8,
       "status": "cache",
-      "ageHours": 29.5
+      "ageHours": 31.7
     }
   ],
-  "eventsScanned": 8,
-  "eventsWith1xbet": 8,
+  "eventsScanned": 7,
+  "eventsWith1xbet": 7,
   "valueBets": 4,
   "top": [
     {
@@ -316,30 +316,6 @@
     "clvLegs": 4
   },
   "matches": [
-    {
-      "eventId": "8a4e09b20dd89e2f756af1907269766f",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Burgos CF",
-      "away": "Granada CF",
-      "kickoff": "2026-10-12T14:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.49,
-            3.26,
-            3.0
-          ],
-          "p": [
-            0.3762,
-            0.3036,
-            0.3202
-          ]
-        }
-      ]
-    },
     {
       "eventId": "fc9cdbc6bd9fd25f947caba859944c79",
       "sportKey": "soccer_spain_segunda_division",
