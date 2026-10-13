@@ -1,11 +1,5 @@
 {
-  "day": "2026-10-13",
-  "lastAnalysis": "2026-10-12T20:18:56Z",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
+  "nextBet": 2,
   "bets": [
     {
       "n": 1,
@@ -2055,10 +2049,6 @@
       ]
     }
   },
-  "remaining": 448,
-  "nextBet": 2,
-  "rejected": [],
-  "usedToday": 0,
   "bankroll0": 80,
   "fetched": {
     "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
@@ -2175,5 +2165,15 @@
       "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
       "status": "perdu"
     }
-  ]
+  ],
+  "rejected": [],
+  "day": "2026-10-13",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "lastAnalysis": "2026-10-12T20:18:56Z",
+  "remaining": 448,
+  "usedToday": 0
 }
