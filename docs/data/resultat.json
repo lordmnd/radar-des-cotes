@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-13T11:50:50Z",
-  "creditsRemaining": 445,
-  "creditsUsedToday": 3,
+  "generatedAt": "2026-10-13T14:06:27Z",
+  "creditsRemaining": 442,
+  "creditsUsedToday": 6,
   "dailyBudget": 23,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -73,12 +73,12 @@
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 12,
-      "status": "cache",
-      "ageHours": 5.8
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 8,
-  "eventsWith1xbet": 8,
+  "eventsScanned": 12,
+  "eventsWith1xbet": 12,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -211,26 +211,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.03,
+            2.05,
             3.44,
-            3.48
+            3.42
           ],
           "p": [
-            0.4597,
-            0.2808,
-            0.2595
+            0.4547,
+            0.283,
+            0.2623
           ]
         },
         {
           "marketKey": "totals",
           "line": "2.5",
           "odds1x": [
-            1.97,
-            1.78
+            1.95,
+            1.79
           ],
           "p": [
-            0.4668,
-            0.5332
+            0.4695,
+            0.5305
           ]
         }
       ]
@@ -252,9 +252,9 @@
             7.19
           ],
           "p": [
-            0.6952,
-            0.1841,
-            0.1207
+            0.6976,
+            0.1828,
+            0.1196
           ]
         }
       ]
@@ -271,26 +271,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.62,
-            3.94,
-            5.03
+            1.66,
+            3.85,
+            4.8
           ],
           "p": [
-            0.5934,
-            0.2342,
-            0.1724
+            0.5947,
+            0.2377,
+            0.1676
           ]
         },
         {
           "marketKey": "totals",
           "line": "2.5",
           "odds1x": [
-            1.8,
-            1.94
+            1.82,
+            1.92
           ],
           "p": [
-            0.5201,
-            0.4799
+            0.5172,
+            0.4828
           ]
         }
       ]
@@ -307,14 +307,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.65,
-            4.25,
-            4.4
+            1.61,
+            4.3,
+            4.64
           ],
           "p": [
-            0.5753,
-            0.2126,
-            0.2121
+            0.6016,
+            0.2093,
+            0.1891
           ]
         }
       ]
@@ -331,26 +331,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.42,
-            3.44,
-            2.7
+            2.4,
+            3.32,
+            2.85
           ],
           "p": [
-            0.3848,
-            0.2798,
-            0.3353
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.83,
-            1.91
-          ],
-          "p": [
-            0.4987,
-            0.5013
+            0.3997,
+            0.2877,
+            0.3126
           ]
         }
       ]
@@ -367,14 +355,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.26,
-            3.34,
-            3.05
+            2.24,
+            3.28,
+            3.13
           ],
           "p": [
-            0.4097,
-            0.2788,
-            0.3116
+            0.425,
+            0.2836,
+            0.2915
           ]
         }
       ]
@@ -391,14 +379,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.56,
-            4.15,
-            5.31
+            1.47,
+            4.4,
+            6.17
           ],
           "p": [
-            0.6268,
-            0.213,
-            0.1602
+            0.6603,
+            0.1994,
+            0.1403
           ]
         }
       ]
@@ -415,14 +403,122 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.5,
-            3.68,
-            1.95
+            3.45,
+            3.6,
+            1.99
           ],
           "p": [
-            0.2768,
+            0.2583,
+            0.2541,
+            0.4876
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "35d7cc4a96b152b4a31b0b151cb70feb",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Queens Park Rangers",
+      "away": "Derby County",
+      "kickoff": "2026-10-14T18:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.69,
+            3.88,
+            4.55
+          ],
+          "p": [
+            0.5777,
+            0.2341,
+            0.1882
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "a6a5201c913ad65608fee5eb63532c62",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Norwich City",
+      "away": "Southampton",
+      "kickoff": "2026-10-14T18:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.36,
+            3.82,
+            2.57
+          ],
+          "p": [
+            0.3975,
             0.2504,
-            0.4728
+            0.3521
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "6e99ceb52a57b3410b81067110589458",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "kickoff": "2026-10-14T18:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.28,
+            3.4,
+            2.97
+          ],
+          "p": [
+            0.4306,
+            0.2682,
+            0.3012
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.9,
+            1.84
+          ],
+          "p": [
+            0.496,
+            0.504
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "b6f4ecaf15915781326083408fba0e52",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Lincoln City",
+      "away": "West Ham United",
+      "kickoff": "2026-10-14T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            4.6,
+            4.05,
+            1.65
+          ],
+          "p": [
+            0.2103,
+            0.2261,
+            0.5636
           ]
         }
       ]
