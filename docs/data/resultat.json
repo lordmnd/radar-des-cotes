@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-13T07:51:55Z",
+  "generatedAt": "2026-10-13T09:50:34Z",
   "creditsRemaining": 445,
   "creditsUsedToday": 3,
   "dailyBudget": 23,
@@ -74,7 +74,7 @@
       "name": "Championship",
       "events": 12,
       "status": "cache",
-      "ageHours": 1.8
+      "ageHours": 3.8
     }
   ],
   "eventsScanned": 8,
