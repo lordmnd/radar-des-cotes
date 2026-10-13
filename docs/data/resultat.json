@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-13T18:01:21Z",
+  "generatedAt": "2026-10-13T19:52:43Z",
   "creditsRemaining": 442,
   "creditsUsedToday": 6,
   "dailyBudget": 23,
@@ -72,13 +72,13 @@
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
-      "events": 12,
+      "events": 4,
       "status": "cache",
-      "ageHours": 3.9
+      "ageHours": 5.8
     }
   ],
-  "eventsScanned": 12,
-  "eventsWith1xbet": 12,
+  "eventsScanned": 4,
+  "eventsWith1xbet": 4,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -199,222 +199,6 @@
     "clvLegs": 4
   },
   "matches": [
-    {
-      "eventId": "59aa75d21f765e6ec2c671f4d8e76a27",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Bristol City",
-      "away": "Blackburn Rovers",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.05,
-            3.44,
-            3.42
-          ],
-          "p": [
-            0.4547,
-            0.283,
-            0.2623
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.95,
-            1.79
-          ],
-          "p": [
-            0.4695,
-            0.5305
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "bd2a85de0af046a3b15fdfac6e78d0c5",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Wolverhampton Wanderers",
-      "away": "Bolton Wanderers",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.38,
-            4.85,
-            7.19
-          ],
-          "p": [
-            0.6976,
-            0.1828,
-            0.1196
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "6742eb24c0e60f9d3fec73a2aa324227",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Burnley",
-      "away": "Charlton Athletic",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.66,
-            3.85,
-            4.8
-          ],
-          "p": [
-            0.5947,
-            0.2377,
-            0.1676
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.82,
-            1.92
-          ],
-          "p": [
-            0.5172,
-            0.4828
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "3cd5667183559b0598e304d98a23cc20",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Cardiff City",
-      "away": "Watford",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.61,
-            4.3,
-            4.64
-          ],
-          "p": [
-            0.6016,
-            0.2093,
-            0.1891
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "a1b3fc4030f9f511934c8165151346a3",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Millwall",
-      "away": "Swansea City",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.4,
-            3.32,
-            2.85
-          ],
-          "p": [
-            0.3997,
-            0.2877,
-            0.3126
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "c46cfc0e1bcc460e455e006428cd4e83",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Wrexham AFC",
-      "away": "West Bromwich Albion",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.24,
-            3.28,
-            3.13
-          ],
-          "p": [
-            0.425,
-            0.2836,
-            0.2915
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "c12dc476d773ac521742384d8d8d1481",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Birmingham City",
-      "away": "Preston North End",
-      "kickoff": "2026-10-13T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.47,
-            4.4,
-            6.17
-          ],
-          "p": [
-            0.6603,
-            0.1994,
-            0.1403
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "b7eaf1b7d03aaf459509c65197a1fa26",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Stoke City",
-      "away": "Middlesbrough",
-      "kickoff": "2026-10-13T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.45,
-            3.6,
-            1.99
-          ],
-          "p": [
-            0.2583,
-            0.2541,
-            0.4876
-          ]
-        }
-      ]
-    },
     {
       "eventId": "35d7cc4a96b152b4a31b0b151cb70feb",
       "sportKey": "soccer_efl_champ",
