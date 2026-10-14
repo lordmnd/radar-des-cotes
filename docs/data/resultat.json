@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-13T19:52:43Z",
-  "creditsRemaining": 442,
-  "creditsUsedToday": 6,
-  "dailyBudget": 23,
+  "generatedAt": "2026-10-14T06:35:10Z",
+  "creditsRemaining": 439,
+  "creditsUsedToday": 3,
+  "dailyBudget": 24,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -73,8 +73,8 @@
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 4,
-      "status": "cache",
-      "ageHours": 5.8
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
   "eventsScanned": 4,
@@ -211,14 +211,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.69,
-            3.88,
-            4.55
+            1.65,
+            3.94,
+            4.75
           ],
           "p": [
-            0.5777,
-            0.2341,
-            0.1882
+            0.5929,
+            0.2302,
+            0.1769
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.76,
+            1.99
+          ],
+          "p": [
+            0.5147,
+            0.4853
           ]
         }
       ]
@@ -235,14 +247,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.36,
+            2.35,
             3.82,
-            2.57
+            2.58
           ],
           "p": [
-            0.3975,
-            0.2504,
-            0.3521
+            0.393,
+            0.2511,
+            0.3559
           ]
         }
       ]
@@ -259,26 +271,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.28,
+            2.27,
             3.4,
-            2.97
+            2.99
           ],
           "p": [
-            0.4306,
-            0.2682,
-            0.3012
+            0.4048,
+            0.2843,
+            0.3109
           ]
         },
         {
           "marketKey": "totals",
           "line": "2.5",
           "odds1x": [
-            1.9,
-            1.84
+            1.92,
+            1.82
           ],
           "p": [
-            0.496,
-            0.504
+            0.4707,
+            0.5293
           ]
         }
       ]
@@ -295,14 +307,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            4.6,
-            4.05,
-            1.65
+            4.61,
+            3.94,
+            1.67
           ],
           "p": [
-            0.2103,
-            0.2261,
-            0.5636
+            0.2096,
+            0.2383,
+            0.552
           ]
         }
       ]
