@@ -1,23 +1,4 @@
 {
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "bankroll0": 80,
-  "nextBet": 2,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
-    "soccer_france_ligue_two": "2026-10-12T06:01:12.1381946Z",
-    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
-    "soccer_efl_champ": "2026-10-14T06:35:10.6775270Z",
-    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
-    "soccer_spain_segunda_division": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga2": "2026-10-11T06:22:19.5075826Z"
-  },
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -122,10 +103,6 @@
       "status": "perdu"
     }
   ],
-  "day": "2026-10-14",
-  "lastAnalysis": "2026-10-14T13:03:17Z",
-  "usedToday": 3,
-  "rejected": [],
   "bets": [
     {
       "n": 1,
@@ -172,7 +149,30 @@
       "status": "perdu"
     }
   ],
-  "remaining": 439,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
+    "soccer_france_ligue_two": "2026-10-12T06:01:12.1381946Z",
+    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
+    "soccer_efl_champ": "2026-10-14T15:14:59.1294400Z",
+    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
+    "soccer_spain_segunda_division": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga2": "2026-10-11T06:22:19.5075826Z"
+  },
+  "day": "2026-10-14",
+  "rejected": [],
+  "lastAnalysis": "2026-10-14T15:14:59Z",
+  "remaining": 436,
+  "nextBet": 2,
+  "bankroll0": 80,
+  "usedToday": 6,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "events": {
     "331406f6e1871f65240ff8e43707dd32": {
       "eventId": "331406f6e1871f65240ff8e43707dd32",
@@ -1611,26 +1611,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.65,
-            3.94,
-            4.75
+            1.66,
+            3.85,
+            4.8
           ],
           "p": [
-            0.5929,
-            0.2302,
-            0.1769
+            0.5766,
+            0.2394,
+            0.184
           ]
         },
         {
           "marketKey": "totals",
           "line": "2.5",
           "odds1x": [
-            1.76,
-            1.99
+            1.83,
+            1.91
           ],
           "p": [
-            0.5147,
-            0.4853
+            0.5066,
+            0.4934
           ]
         }
       ]
@@ -1647,14 +1647,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.35,
-            3.82,
-            2.58
+            2.33,
+            3.7,
+            2.66
           ],
           "p": [
-            0.393,
-            0.2511,
-            0.3559
+            0.3947,
+            0.2633,
+            0.342
           ]
         }
       ]
@@ -1676,9 +1676,9 @@
             2.99
           ],
           "p": [
-            0.4048,
-            0.2843,
-            0.3109
+            0.4083,
+            0.2791,
+            0.3126
           ]
         },
         {
@@ -1689,8 +1689,8 @@
             1.82
           ],
           "p": [
-            0.4707,
-            0.5293
+            0.4828,
+            0.5172
           ]
         }
       ]
@@ -1707,14 +1707,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            4.61,
-            3.94,
-            1.67
+            4.71,
+            3.78,
+            1.69
           ],
           "p": [
-            0.2096,
-            0.2383,
-            0.552
+            0.1843,
+            0.2356,
+            0.5801
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.87,
+            1.87
+          ],
+          "p": [
+            0.5119,
+            0.4881
           ]
         }
       ]
