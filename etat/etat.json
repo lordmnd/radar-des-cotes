@@ -1,42 +1,6 @@
 {
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
-    "soccer_france_ligue_two": "2026-10-12T06:01:12.1381946Z",
-    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
-    "soccer_efl_champ": "2026-10-14T15:14:59.1294400Z",
-    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
-    "soccer_spain_segunda_division": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga2": "2026-10-11T06:22:19.5075826Z"
-  },
-  "nextBet": 2,
+  "bankroll0": 80,
   "events": {
-    "3263d7997e69a2d57187c53aa3f1221d": {
-      "eventId": "3263d7997e69a2d57187c53aa3f1221d",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Arezzo",
-      "away": "Cremonese",
-      "kickoff": "2026-10-10T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.14,
-            3.08,
-            2.34
-          ],
-          "p": [
-            0.2872,
-            0.3058,
-            0.407
-          ]
-        }
-      ]
-    },
     "fcef931dd86b6c626a3bc0006639c22f": {
       "eventId": "fcef931dd86b6c626a3bc0006639c22f",
       "sportKey": "soccer_france_ligue_two",
@@ -1403,6 +1367,7 @@
       ]
     }
   },
+  "lastAnalysis": "2026-10-14T17:14:13Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1507,12 +1472,21 @@
       "status": "perdu"
     }
   ],
-  "remaining": 436,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
+  "rejected": [],
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
+    "soccer_france_ligue_two": "2026-10-12T06:01:12.1381946Z",
+    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
+    "soccer_efl_champ": "2026-10-14T15:14:59.1294400Z",
+    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
+    "soccer_spain_segunda_division": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga2": "2026-10-11T06:22:19.5075826Z"
   },
+  "remaining": 436,
+  "nextBet": 2,
   "bets": [
     {
       "n": 1,
@@ -1559,9 +1533,11 @@
       "status": "perdu"
     }
   ],
-  "lastAnalysis": "2026-10-14T17:14:13Z",
-  "bankroll0": 80,
-  "rejected": [],
   "day": "2026-10-14",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "usedToday": 6
 }
