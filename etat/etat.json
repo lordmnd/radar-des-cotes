@@ -1,17 +1,5 @@
 {
   "rejected": [],
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
-    "soccer_france_ligue_two": "2026-10-12T06:01:12.1381946Z",
-    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
-    "soccer_efl_champ": "2026-10-14T06:35:10.6775270Z",
-    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
-    "soccer_spain_segunda_division": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
-    "soccer_germany_bundesliga2": "2026-10-11T06:22:19.5075826Z"
-  },
   "bets": [
     {
       "n": 1,
@@ -58,134 +46,7 @@
       "status": "perdu"
     }
   ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "usedToday": 3,
-  "day": "2026-10-14",
   "events": {
-    "2f8e871a0f7f66ae22938028645e1066": {
-      "eventId": "2f8e871a0f7f66ae22938028645e1066",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Genoa",
-      "away": "Fiorentina",
-      "kickoff": "2026-10-10T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.45,
-            3.38,
-            2.33
-          ],
-          "p": [
-            0.2859,
-            0.2987,
-            0.4154
-          ]
-        }
-      ]
-    },
-    "80e0ce2fd3fae9a4a1fafc4a25339997": {
-      "eventId": "80e0ce2fd3fae9a4a1fafc4a25339997",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Empoli",
-      "away": "Palermo",
-      "kickoff": "2026-10-10T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.67,
-            3.48,
-            1.96
-          ],
-          "p": [
-            0.2349,
-            0.273,
-            0.4921
-          ]
-        }
-      ]
-    },
-    "7e624ab39c4b3406fdcf3bae75c18e0b": {
-      "eventId": "7e624ab39c4b3406fdcf3bae75c18e0b",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Virtus Entella",
-      "away": "Juve Stabia",
-      "kickoff": "2026-10-10T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.01,
-            3.05,
-            4.1
-          ],
-          "p": [
-            0.4773,
-            0.3091,
-            0.2136
-          ]
-        }
-      ]
-    },
-    "399fb77a197def79a24831a51ff317b4": {
-      "eventId": "399fb77a197def79a24831a51ff317b4",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Benevento",
-      "away": "Cesena FC",
-      "kickoff": "2026-10-10T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.86,
-            3.58,
-            3.95
-          ],
-          "p": [
-            0.49,
-            0.2686,
-            0.2414
-          ]
-        }
-      ]
-    },
-    "d4b4b1c6db1258fa90bb32e8b5548869": {
-      "eventId": "d4b4b1c6db1258fa90bb32e8b5548869",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Südtirol",
-      "away": "Ascoli",
-      "kickoff": "2026-10-10T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.5,
-            3.05,
-            2.88
-          ],
-          "p": [
-            0.3647,
-            0.315,
-            0.3203
-          ]
-        }
-      ]
-    },
     "f03c08c0ae5fd66c2d2df2053115bb94": {
       "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
       "sportKey": "soccer_germany_bundesliga",
@@ -2164,6 +2025,14 @@
       ]
     }
   },
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "day": "2026-10-14",
+  "usedToday": 3,
+  "remaining": 439,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2268,8 +2137,19 @@
       "status": "perdu"
     }
   ],
-  "lastAnalysis": "2026-10-14T10:54:17Z",
-  "remaining": 439,
+  "lastAnalysis": "2026-10-14T13:03:17Z",
   "nextBet": 2,
-  "bankroll0": 80
+  "bankroll0": 80,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-10T07:55:51.3355456Z",
+    "soccer_france_ligue_two": "2026-10-12T06:01:12.1381946Z",
+    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
+    "soccer_efl_champ": "2026-10-14T06:35:10.6775270Z",
+    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
+    "soccer_spain_segunda_division": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_b": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga": "2026-10-10T07:55:51.3355456Z",
+    "soccer_germany_bundesliga2": "2026-10-11T06:22:19.5075826Z"
+  }
 }
