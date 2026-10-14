@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-14T17:14:13Z",
+  "generatedAt": "2026-10-14T19:18:25Z",
   "creditsRemaining": 436,
   "creditsUsedToday": 6,
   "dailyBudget": 24,
@@ -30,6 +30,12 @@
     {
       "key": "soccer_epl",
       "name": "Premier League",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_efl_champ",
+      "name": "Championship",
       "events": 0,
       "status": "pas de match"
     },
@@ -68,17 +74,10 @@
       "name": "2. Bundesliga",
       "events": 0,
       "status": "pas de match"
-    },
-    {
-      "key": "soccer_efl_champ",
-      "name": "Championship",
-      "events": 4,
-      "status": "cache",
-      "ageHours": 2.0
     }
   ],
-  "eventsScanned": 4,
-  "eventsWith1xbet": 4,
+  "eventsScanned": 0,
+  "eventsWith1xbet": 0,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -198,139 +197,6 @@
     "avgClv": 0.0273,
     "clvLegs": 4
   },
-  "matches": [
-    {
-      "eventId": "35d7cc4a96b152b4a31b0b151cb70feb",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Queens Park Rangers",
-      "away": "Derby County",
-      "kickoff": "2026-10-14T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.66,
-            3.85,
-            4.8
-          ],
-          "p": [
-            0.5766,
-            0.2394,
-            0.184
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.83,
-            1.91
-          ],
-          "p": [
-            0.5066,
-            0.4934
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "a6a5201c913ad65608fee5eb63532c62",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Norwich City",
-      "away": "Southampton",
-      "kickoff": "2026-10-14T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.33,
-            3.7,
-            2.66
-          ],
-          "p": [
-            0.3947,
-            0.2633,
-            0.342
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "6e99ceb52a57b3410b81067110589458",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Portsmouth",
-      "away": "Sheffield United",
-      "kickoff": "2026-10-14T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.27,
-            3.4,
-            2.99
-          ],
-          "p": [
-            0.4083,
-            0.2791,
-            0.3126
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.92,
-            1.82
-          ],
-          "p": [
-            0.4828,
-            0.5172
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "b6f4ecaf15915781326083408fba0e52",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Lincoln City",
-      "away": "West Ham United",
-      "kickoff": "2026-10-14T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.71,
-            3.78,
-            1.69
-          ],
-          "p": [
-            0.1843,
-            0.2356,
-            0.5801
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.87,
-            1.87
-          ],
-          "p": [
-            0.5119,
-            0.4881
-          ]
-        }
-      ]
-    }
-  ],
+  "matches": [],
   "botUsername": "MyownfuturBot"
 }
