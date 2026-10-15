@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-15T06:02:35Z",
-  "creditsRemaining": 430,
-  "creditsUsedToday": 6,
+  "generatedAt": "2026-10-15T07:52:57Z",
+  "creditsRemaining": 418,
+  "creditsUsedToday": 18,
   "dailyBudget": 25,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -16,50 +16,8 @@
   ],
   "leagues": [
     {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
       "key": "soccer_epl",
       "name": "Premier League",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_efl_champ",
-      "name": "Championship",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_germany_bundesliga",
-      "name": "Bundesliga",
       "events": 0,
       "status": "pas de match"
     },
@@ -67,21 +25,108 @@
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 2,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 1.8
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 5,
+      "status": "cache",
+      "ageHours": 1.8
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 1,
       "status": "à jour",
       "ageHours": 0.0
+    },
+    {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_germany_bundesliga",
+      "name": "Bundesliga",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 73.9
+    },
+    {
+      "key": "soccer_efl_champ",
+      "name": "Championship",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 16.6
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 73.9
     }
   ],
-  "eventsScanned": 7,
-  "eventsWith1xbet": 7,
-  "valueBets": 0,
-  "top": [],
+  "eventsScanned": 11,
+  "eventsWith1xbet": 11,
+  "valueBets": 1,
+  "top": [
+    {
+      "eventId": "947bd5d924835af090d9cdc7bbdf10f6",
+      "sportKey": "soccer_germany_bundesliga",
+      "league": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Köln",
+      "kickoff": "2026-10-16T18:30:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 1,
+      "pick": "N",
+      "pickName": "Match nul",
+      "names": [
+        "Victoire Eintracht Frankfurt",
+        "Match nul",
+        "Victoire 1. FC Köln"
+      ],
+      "odd": 4.36,
+      "p": 0.235,
+      "fairOdd": 4.256,
+      "ev": 0.0245,
+      "quality": 0.0132,
+      "kelly": 0.0073,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        1.99,
+        4.36,
+        3.52
+      ],
+      "refOdds": [
+        1.99,
+        4.07,
+        3.49
+      ],
+      "margin1x": 0.016
+    }
+  ],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -400,6 +445,114 @@
           "p": [
             0.5205,
             0.4795
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "4dda6f111c072366c27f7f399442e63e",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Leganés",
+      "away": "Córdoba",
+      "kickoff": "2026-10-16T18:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.3,
+            3.67,
+            2.98
+          ],
+          "p": [
+            0.4119,
+            0.2654,
+            0.3228
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "9a691aeace75a589f2f920824522c830",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Hellas Verona",
+      "away": "US Catanzaro 1929",
+      "kickoff": "2026-10-16T18:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.78,
+            3.72,
+            4.18
+          ],
+          "p": [
+            0.5413,
+            0.2418,
+            0.2169
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "947bd5d924835af090d9cdc7bbdf10f6",
+      "sportKey": "soccer_germany_bundesliga",
+      "league": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Köln",
+      "kickoff": "2026-10-16T18:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.99,
+            4.36,
+            3.52
+          ],
+          "p": [
+            0.4896,
+            0.235,
+            0.2754
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "3.5",
+          "odds1x": [
+            1.94,
+            2.0
+          ],
+          "p": [
+            0.5119,
+            0.4881
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "66c168c030f3faad3983fcadc3060009",
+      "sportKey": "soccer_france_ligue_one",
+      "league": "Ligue 1",
+      "home": "Le Mans FC",
+      "away": "Toulouse",
+      "kickoff": "2026-10-16T18:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.12,
+            3.61,
+            2.39
+          ],
+          "p": [
+            0.3168,
+            0.2695,
+            0.4137
           ]
         }
       ]

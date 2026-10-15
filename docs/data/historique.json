@@ -1,10 +1,48 @@
 {
   "2026-10-15": {
     "date": "2026-10-15",
-    "updatedAt": "2026-10-15T06:02:35Z",
-    "eventsScanned": 7,
-    "valueBets": 0,
-    "top": [],
+    "updatedAt": "2026-10-15T07:52:57Z",
+    "eventsScanned": 11,
+    "valueBets": 1,
+    "top": [
+      {
+        "eventId": "947bd5d924835af090d9cdc7bbdf10f6",
+        "sportKey": "soccer_germany_bundesliga",
+        "league": "Bundesliga",
+        "home": "Eintracht Frankfurt",
+        "away": "1. FC Köln",
+        "kickoff": "2026-10-16T18:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Eintracht Frankfurt",
+          "Match nul",
+          "Victoire 1. FC Köln"
+        ],
+        "odd": 4.36,
+        "p": 0.235,
+        "fairOdd": 4.256,
+        "ev": 0.0245,
+        "quality": 0.0132,
+        "kelly": 0.0073,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.99,
+          4.36,
+          3.52
+        ],
+        "refOdds": [
+          1.99,
+          4.07,
+          3.49
+        ],
+        "margin1x": 0.016
+      }
+    ],
     "combo": null
   },
   "2026-10-14": {
