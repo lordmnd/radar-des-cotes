@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-14T19:18:25Z",
-  "creditsRemaining": 436,
+  "generatedAt": "2026-10-15T06:02:35Z",
+  "creditsRemaining": 430,
   "creditsUsedToday": 6,
-  "dailyBudget": 24,
+  "dailyBudget": 25,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -18,12 +18,6 @@
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
       "events": 0,
       "status": "pas de match"
     },
@@ -72,12 +66,20 @@
     {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
-      "events": 0,
-      "status": "pas de match"
+      "events": 2,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 5,
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 0,
-  "eventsWith1xbet": 0,
+  "eventsScanned": 7,
+  "eventsWith1xbet": 7,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -197,6 +199,211 @@
     "avgClv": 0.0273,
     "clvLegs": 4
   },
-  "matches": [],
+  "matches": [
+    {
+      "eventId": "f6efe77542b7ee5bfb4ee3bc1e7368c4",
+      "sportKey": "soccer_germany_bundesliga2",
+      "league": "2. Bundesliga",
+      "home": "FC Energie Cottbus",
+      "away": "1. FC Nürnberg",
+      "kickoff": "2026-10-16T16:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.1,
+            4.0,
+            2.01
+          ],
+          "p": [
+            0.2877,
+            0.2261,
+            0.4863
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "3.5",
+          "odds1x": [
+            1.87,
+            1.87
+          ],
+          "p": [
+            0.5134,
+            0.4866
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "150f424b7931458d08430ddeb256692f",
+      "sportKey": "soccer_germany_bundesliga2",
+      "league": "2. Bundesliga",
+      "home": "Holstein Kiel",
+      "away": "Hertha Berlin",
+      "kickoff": "2026-10-16T16:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.78,
+            3.88,
+            2.21
+          ],
+          "p": [
+            0.3322,
+            0.2307,
+            0.4371
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "edaa3d92448b18813c2cfaa2cdc3ee1e",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Annecy FC",
+      "away": "Nancy",
+      "kickoff": "2026-10-16T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.6,
+            3.35,
+            2.55
+          ],
+          "p": [
+            0.3579,
+            0.2815,
+            0.3607
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.93,
+            1.81
+          ],
+          "p": [
+            0.4835,
+            0.5165
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "8ac83e2cc04b2ce4ed6207a2a358e28c",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Grenoble",
+      "away": "Boulogne",
+      "kickoff": "2026-10-16T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.65,
+            3.12,
+            2.66
+          ],
+          "p": [
+            0.3481,
+            0.3039,
+            0.3481
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "fa3f1175dd921543e0f8683ea3464604",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Stade Lavallois",
+      "away": "Clermont",
+      "kickoff": "2026-10-16T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.08,
+            3.4,
+            3.4
+          ],
+          "p": [
+            0.4449,
+            0.2934,
+            0.2617
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "6fc216af56d1f8a4ef2b347a71730a4f",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Stade de Reims",
+      "away": "Dijon",
+      "kickoff": "2026-10-16T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.69,
+            3.98,
+            4.46
+          ],
+          "p": [
+            0.5615,
+            0.2298,
+            0.2087
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "c5d5c6dd1973565af14356756cc6fd6d",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Guingamp",
+      "away": "Pau FC",
+      "kickoff": "2026-10-16T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.07,
+            3.52,
+            3.31
+          ],
+          "p": [
+            0.4601,
+            0.2577,
+            0.2822
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.81,
+            1.93
+          ],
+          "p": [
+            0.5205,
+            0.4795
+          ]
+        }
+      ]
+    }
+  ],
   "botUsername": "MyownfuturBot"
 }
