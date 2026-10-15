@@ -1,31 +1,6 @@
 {
-  "lastAnalysis": "2026-10-15T09:54:26Z",
-  "rejected": [],
+  "usedToday": 18,
   "events": {
-    "e0fe5ad17865ef24994316c5e46dc8b1": {
-      "eventId": "e0fe5ad17865ef24994316c5e46dc8b1",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Southampton",
-      "away": "Portsmouth",
-      "kickoff": "2026-10-11T11:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.57,
-            4.15,
-            5.21
-          ],
-          "p": [
-            0.6251,
-            0.2113,
-            0.1637
-          ]
-        }
-      ]
-    },
     "c5c7c608e7281f13de08f5a7d17f2501": {
       "eventId": "c5c7c608e7281f13de08f5a7d17f2501",
       "sportKey": "soccer_germany_bundesliga2",
@@ -1428,6 +1403,8 @@
       ]
     }
   },
+  "lastAnalysis": "2026-10-15T09:54:26Z",
+  "bankroll0": 80,
   "fetched": {
     "soccer_france_ligue_one": "2026-10-15T07:52:57.3144246Z",
     "soccer_france_ligue_two": "2026-10-15T06:02:35.9533759Z",
@@ -1440,13 +1417,6 @@
     "soccer_germany_bundesliga": "2026-10-15T07:52:57.3144246Z",
     "soccer_germany_bundesliga2": "2026-10-15T06:02:35.9533759Z"
   },
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "nextBet": 2,
-  "remaining": 418,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1551,9 +1521,15 @@
       "status": "perdu"
     }
   ],
-  "usedToday": 18,
+  "rejected": [],
+  "nextBet": 2,
   "day": "2026-10-15",
-  "bankroll0": 80,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "remaining": 418,
   "bets": [
     {
       "n": 1,
