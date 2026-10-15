@@ -1,31 +1,7 @@
 {
-  "usedToday": 18,
+  "lastAnalysis": "2026-10-15T09:54:26Z",
   "rejected": [],
   "events": {
-    "2547c0dbddd26d23fa532228e36348cb": {
-      "eventId": "2547c0dbddd26d23fa532228e36348cb",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Como",
-      "away": "AS Roma",
-      "kickoff": "2026-10-11T10:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.61,
-            3.73,
-            2.74
-          ],
-          "p": [
-            0.3804,
-            0.274,
-            0.3456
-          ]
-        }
-      ]
-    },
     "e0fe5ad17865ef24994316c5e46dc8b1": {
       "eventId": "e0fe5ad17865ef24994316c5e46dc8b1",
       "sportKey": "soccer_efl_champ",
@@ -1452,9 +1428,6 @@
       ]
     }
   },
-  "bankroll0": 80,
-  "day": "2026-10-15",
-  "lastAnalysis": "2026-10-15T09:54:26Z",
   "fetched": {
     "soccer_france_ligue_one": "2026-10-15T07:52:57.3144246Z",
     "soccer_france_ligue_two": "2026-10-15T06:02:35.9533759Z",
@@ -1467,13 +1440,13 @@
     "soccer_germany_bundesliga": "2026-10-15T07:52:57.3144246Z",
     "soccer_germany_bundesliga2": "2026-10-15T06:02:35.9533759Z"
   },
-  "nextBet": 2,
-  "remaining": 418,
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
+  "nextBet": 2,
+  "remaining": 418,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1578,6 +1551,9 @@
       "status": "perdu"
     }
   ],
+  "usedToday": 18,
+  "day": "2026-10-15",
+  "bankroll0": 80,
   "bets": [
     {
       "n": 1,
