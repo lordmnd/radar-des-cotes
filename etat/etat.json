@@ -1,4 +1,15 @@
 {
+  "nextBet": 2,
+  "bankroll0": 80,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "remaining": 418,
+  "usedToday": 18,
+  "rejected": [],
+  "day": "2026-10-15",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -103,21 +114,6 @@
       "status": "perdu"
     }
   ],
-  "lastAnalysis": "2026-10-15T18:11:09Z",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-15T07:52:57.3144246Z",
-    "soccer_france_ligue_two": "2026-10-15T06:02:35.9533759Z",
-    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
-    "soccer_efl_champ": "2026-10-14T15:14:59.1294400Z",
-    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
-    "soccer_spain_segunda_division": "2026-10-15T07:52:57.3144246Z",
-    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_b": "2026-10-15T07:52:57.3144246Z",
-    "soccer_germany_bundesliga": "2026-10-15T07:52:57.3144246Z",
-    "soccer_germany_bundesliga2": "2026-10-15T06:02:35.9533759Z"
-  },
-  "remaining": 418,
-  "rejected": [],
   "events": {
     "0f2e7ff90b994f31d5cd48a9680943e1": {
       "eventId": "0f2e7ff90b994f31d5cd48a9680943e1",
@@ -139,54 +135,6 @@
             0.6379,
             0.2166,
             0.1455
-          ]
-        }
-      ]
-    },
-    "66a4f4201806b928c9007116727fdd61": {
-      "eventId": "66a4f4201806b928c9007116727fdd61",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Racing Club de Santander",
-      "away": "Valencia",
-      "kickoff": "2026-10-11T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.34,
-            3.67,
-            3.16
-          ],
-          "p": [
-            0.4368,
-            0.2698,
-            0.2934
-          ]
-        }
-      ]
-    },
-    "e30010afc86f011e4de86e15f2f6ddb1": {
-      "eventId": "e30010afc86f011e4de86e15f2f6ddb1",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Cádiz CF",
-      "away": "Sporting Gijón",
-      "kickoff": "2026-10-11T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.19,
-            3.28,
-            3.57
-          ],
-          "p": [
-            0.4547,
-            0.2955,
-            0.2498
           ]
         }
       ]
@@ -1102,13 +1050,17 @@
       "status": "perdu"
     }
   ],
-  "nextBet": 2,
-  "day": "2026-10-15",
-  "bankroll0": 80,
-  "usedToday": 18,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  }
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-15T07:52:57.3144246Z",
+    "soccer_france_ligue_two": "2026-10-15T06:02:35.9533759Z",
+    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
+    "soccer_efl_champ": "2026-10-14T15:14:59.1294400Z",
+    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
+    "soccer_spain_segunda_division": "2026-10-15T07:52:57.3144246Z",
+    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_b": "2026-10-15T07:52:57.3144246Z",
+    "soccer_germany_bundesliga": "2026-10-15T07:52:57.3144246Z",
+    "soccer_germany_bundesliga2": "2026-10-15T06:02:35.9533759Z"
+  },
+  "lastAnalysis": "2026-10-15T18:11:09Z"
 }
