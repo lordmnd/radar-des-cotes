@@ -1,90 +1,165 @@
 {
+  "nextBet": 2,
   "usedToday": 18,
-  "events": {
-    "c5c7c608e7281f13de08f5a7d17f2501": {
-      "eventId": "c5c7c608e7281f13de08f5a7d17f2501",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "VfL Bochum",
-      "away": "Arminia Bielefeld",
-      "kickoff": "2026-10-11T11:30:00Z",
-      "markets": [
+  "remaining": 418,
+  "rejected": [],
+  "lastAnalysis": "2026-10-15T11:51:57Z",
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
         {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
           "marketKey": "h2h",
+          "market": "1N2",
           "line": "",
-          "odds1x": [
-            2.28,
-            3.58,
-            2.84
-          ],
-          "p": [
-            0.421,
-            0.2664,
-            0.3126
-          ]
-        }
-      ]
-    },
-    "7bf8808d17b4001e62c11bf125a9ac34": {
-      "eventId": "7bf8808d17b4001e62c11bf125a9ac34",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Hertha Berlin",
-      "away": "Greuther Fürth",
-      "kickoff": "2026-10-11T11:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.54,
-            4.65,
-            4.87
-          ],
-          "p": [
-            0.6262,
-            0.1944,
-            0.1794
-          ]
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
         },
         {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.88,
-            1.86
-          ],
-          "p": [
-            0.4973,
-            0.5027
-          ]
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
         }
-      ]
-    },
-    "493003b887e713d8b4a45eff72a8a8b4": {
-      "eventId": "493003b887e713d8b4a45eff72a8a8b4",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "FC St. Pauli",
-      "away": "Karlsruher SC",
-      "kickoff": "2026-10-11T11:30:00Z",
-      "markets": [
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "log": [
+    {
+      "at": "2026-10-10T07:55:51Z",
+      "totalOdds": 4.574,
+      "prob": 0.2303,
+      "ev": 0.0535,
+      "target": 3.5,
+      "legs": [
         {
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "pick": "1",
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "kickoff": "2026-10-10T13:30:00Z",
+          "sportKey": "soccer_germany_bundesliga",
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
           "marketKey": "h2h",
           "line": "",
-          "odds1x": [
-            1.69,
-            4.2,
-            4.17
-          ],
-          "p": [
-            0.5611,
-            0.2176,
-            0.2213
-          ]
+          "market": "1N2",
+          "idx": 0,
+          "closeFairOdd": 1.445,
+          "closeOdd1x": 1.49,
+          "closeSeenAt": "2026-10-10T11:20:05Z",
+          "score": "2-3",
+          "result": "perdu"
+        },
+        {
+          "league": "Ligue 1",
+          "home": "Nice",
+          "away": "Strasbourg",
+          "pick": "2",
+          "pickName": "Victoire Strasbourg",
+          "odd": 3.07,
+          "kickoff": "2026-10-11T13:00:00Z",
+          "sportKey": "soccer_france_ligue_one",
+          "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
+          "marketKey": "h2h",
+          "line": "",
+          "market": "1N2",
+          "idx": 2,
+          "closeFairOdd": 3.005,
+          "closeOdd1x": 3.07,
+          "closeSeenAt": "2026-10-11T12:21:23Z",
+          "score": "2-1",
+          "result": "perdu"
         }
-      ]
+      ],
+      "signature": "5d3606630a2d3a218a6340d082c1bdc6|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
+      "status": "perdu"
     },
+    {
+      "at": "2026-10-10T08:15:55Z",
+      "totalOdds": 3.278,
+      "prob": 0.3224,
+      "ev": 0.0568,
+      "target": 2.5,
+      "legs": [
+        {
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "pick": "1",
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "kickoff": "2026-10-10T13:30:00Z",
+          "sportKey": "soccer_germany_bundesliga",
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "marketKey": "h2h",
+          "line": "",
+          "market": "1N2",
+          "idx": 0,
+          "closeFairOdd": 1.445,
+          "closeOdd1x": 1.49,
+          "closeSeenAt": "2026-10-10T11:20:05Z",
+          "score": "2-3",
+          "result": "perdu"
+        },
+        {
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "pick": "2",
+          "pickName": "Victoire Paris FC",
+          "odd": 2.2,
+          "kickoff": "2026-10-10T18:45:00Z",
+          "sportKey": "soccer_france_ligue_one",
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "marketKey": "h2h",
+          "line": "",
+          "market": "1N2",
+          "idx": 2,
+          "closeFairOdd": 2.146,
+          "closeOdd1x": 2.2,
+          "closeSeenAt": "2026-10-10T17:15:02Z",
+          "score": "1-0",
+          "result": "perdu"
+        }
+      ],
+      "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
+      "status": "perdu"
+    }
+  ],
+  "events": {
     "7daf7edaf572eba3ac86196c663d67d3": {
       "eventId": "7daf7edaf572eba3ac86196c663d67d3",
       "sportKey": "soccer_spain_la_liga",
@@ -1403,8 +1478,8 @@
       ]
     }
   },
-  "lastAnalysis": "2026-10-15T09:54:26Z",
   "bankroll0": 80,
+  "day": "2026-10-15",
   "fetched": {
     "soccer_france_ligue_one": "2026-10-15T07:52:57.3144246Z",
     "soccer_france_ligue_two": "2026-10-15T06:02:35.9533759Z",
@@ -1416,164 +1491,5 @@
     "soccer_italy_serie_b": "2026-10-15T07:52:57.3144246Z",
     "soccer_germany_bundesliga": "2026-10-15T07:52:57.3144246Z",
     "soccer_germany_bundesliga2": "2026-10-15T06:02:35.9533759Z"
-  },
-  "log": [
-    {
-      "at": "2026-10-10T07:55:51Z",
-      "totalOdds": 4.574,
-      "prob": 0.2303,
-      "ev": 0.0535,
-      "target": 3.5,
-      "legs": [
-        {
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "pick": "1",
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "kickoff": "2026-10-10T13:30:00Z",
-          "sportKey": "soccer_germany_bundesliga",
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 0,
-          "closeFairOdd": 1.445,
-          "closeOdd1x": 1.49,
-          "closeSeenAt": "2026-10-10T11:20:05Z",
-          "score": "2-3",
-          "result": "perdu"
-        },
-        {
-          "league": "Ligue 1",
-          "home": "Nice",
-          "away": "Strasbourg",
-          "pick": "2",
-          "pickName": "Victoire Strasbourg",
-          "odd": 3.07,
-          "kickoff": "2026-10-11T13:00:00Z",
-          "sportKey": "soccer_france_ligue_one",
-          "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 2,
-          "closeFairOdd": 3.005,
-          "closeOdd1x": 3.07,
-          "closeSeenAt": "2026-10-11T12:21:23Z",
-          "score": "2-1",
-          "result": "perdu"
-        }
-      ],
-      "signature": "5d3606630a2d3a218a6340d082c1bdc6|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
-      "status": "perdu"
-    },
-    {
-      "at": "2026-10-10T08:15:55Z",
-      "totalOdds": 3.278,
-      "prob": 0.3224,
-      "ev": 0.0568,
-      "target": 2.5,
-      "legs": [
-        {
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "pick": "1",
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "kickoff": "2026-10-10T13:30:00Z",
-          "sportKey": "soccer_germany_bundesliga",
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 0,
-          "closeFairOdd": 1.445,
-          "closeOdd1x": 1.49,
-          "closeSeenAt": "2026-10-10T11:20:05Z",
-          "score": "2-3",
-          "result": "perdu"
-        },
-        {
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "pick": "2",
-          "pickName": "Victoire Paris FC",
-          "odd": 2.2,
-          "kickoff": "2026-10-10T18:45:00Z",
-          "sportKey": "soccer_france_ligue_one",
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 2,
-          "closeFairOdd": 2.146,
-          "closeOdd1x": 2.2,
-          "closeSeenAt": "2026-10-10T17:15:02Z",
-          "score": "1-0",
-          "result": "perdu"
-        }
-      ],
-      "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
-      "status": "perdu"
-    }
-  ],
-  "rejected": [],
-  "nextBet": 2,
-  "day": "2026-10-15",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "remaining": 418,
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ]
+  }
 }
