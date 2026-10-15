@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-15T07:52:57Z",
+  "generatedAt": "2026-10-15T09:54:26Z",
   "creditsRemaining": 418,
   "creditsUsedToday": 18,
-  "dailyBudget": 25,
+  "dailyBudget": 24,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -26,63 +26,63 @@
       "name": "2. Bundesliga",
       "events": 2,
       "status": "cache",
-      "ageHours": 1.8
+      "ageHours": 3.9
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 5,
       "status": "cache",
-      "ageHours": 1.8
+      "ageHours": 3.9
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 1,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.0
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 1,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.0
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 1,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.0
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.0
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 1,
       "status": "cache",
-      "ageHours": 73.9
+      "ageHours": 75.9
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 1,
       "status": "cache",
-      "ageHours": 16.6
+      "ageHours": 18.7
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 73.9
+      "ageHours": 75.9
     }
   ],
   "eventsScanned": 11,
