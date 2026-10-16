@@ -1,11 +1,4 @@
 {
-  "rejected": [],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "bankroll0": 80,
   "events": {
     "0f2e7ff90b994f31d5cd48a9680943e1": {
       "eventId": "0f2e7ff90b994f31d5cd48a9680943e1",
@@ -27,42 +20,6 @@
             0.6379,
             0.2166,
             0.1455
-          ]
-        }
-      ]
-    },
-    "8fd7558e7ee137b7c2df589a99585840": {
-      "eventId": "8fd7558e7ee137b7c2df589a99585840",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Real Valladolid CF",
-      "away": "Albacete",
-      "kickoff": "2026-10-12T12:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.0,
-            3.38,
-            4.04
-          ],
-          "p": [
-            0.4896,
-            0.2847,
-            0.2258
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.87,
-            1.97
-          ],
-          "p": [
-            0.5027,
-            0.4973
           ]
         }
       ]
@@ -1580,6 +1537,18 @@
       ]
     }
   },
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-16T06:02:52.9159837Z",
+    "soccer_france_ligue_two": "2026-10-16T06:02:52.9159837Z",
+    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
+    "soccer_efl_champ": "2026-10-14T15:14:59.1294400Z",
+    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
+    "soccer_spain_segunda_division": "2026-10-16T06:02:52.9159837Z",
+    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_b": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-16T06:02:52.9159837Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -1626,6 +1595,10 @@
       "status": "perdu"
     }
   ],
+  "rejected": [],
+  "lastAnalysis": "2026-10-16T10:48:56Z",
+  "usedToday": 18,
+  "bankroll0": 80,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1731,20 +1704,11 @@
     }
   ],
   "day": "2026-10-16",
-  "nextBet": 2,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-16T06:02:52.9159837Z",
-    "soccer_france_ligue_two": "2026-10-16T06:02:52.9159837Z",
-    "soccer_epl": "2026-10-12T06:01:12.1381946Z",
-    "soccer_efl_champ": "2026-10-14T15:14:59.1294400Z",
-    "soccer_spain_la_liga": "2026-10-12T06:01:12.1381946Z",
-    "soccer_spain_segunda_division": "2026-10-16T06:02:52.9159837Z",
-    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_b": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-16T06:02:52.9159837Z"
+  "remaining": 400,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
   },
-  "lastAnalysis": "2026-10-16T10:48:56Z",
-  "usedToday": 18,
-  "remaining": 400
+  "nextBet": 2
 }
