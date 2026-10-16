@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-16T15:12:37Z",
+  "generatedAt": "2026-10-16T17:05:14Z",
   "creditsRemaining": 400,
   "creditsUsedToday": 18,
   "dailyBudget": 25,
@@ -16,78 +16,78 @@
   ],
   "leagues": [
     {
-      "key": "soccer_germany_bundesliga2",
-      "name": "2. Bundesliga",
-      "events": 6,
-      "status": "cache",
-      "ageHours": 9.2
-    },
-    {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 8,
       "status": "cache",
-      "ageHours": 9.2
+      "ageHours": 11.0
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 5,
       "status": "cache",
-      "ageHours": 9.2
+      "ageHours": 11.0
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 7,
       "status": "cache",
-      "ageHours": 9.2
+      "ageHours": 11.0
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 7,
       "status": "cache",
-      "ageHours": 9.2
+      "ageHours": 11.0
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 4,
       "status": "cache",
-      "ageHours": 9.2
+      "ageHours": 11.0
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 4,
       "status": "cache",
-      "ageHours": 105.2
+      "ageHours": 107.1
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 12,
       "status": "cache",
-      "ageHours": 48.0
+      "ageHours": 49.8
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 5,
       "status": "cache",
-      "ageHours": 105.2
+      "ageHours": 107.1
+    },
+    {
+      "key": "soccer_germany_bundesliga2",
+      "name": "2. Bundesliga",
+      "events": 4,
+      "status": "cache",
+      "ageHours": 11.0
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 5,
       "status": "cache",
-      "ageHours": 105.2
+      "ageHours": 107.1
     }
   ],
-  "eventsScanned": 33,
-  "eventsWith1xbet": 33,
+  "eventsScanned": 31,
+  "eventsWith1xbet": 31,
   "valueBets": 3,
   "top": [
     {
@@ -318,114 +318,6 @@
   },
   "matches": [
     {
-      "eventId": "f6efe77542b7ee5bfb4ee3bc1e7368c4",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "FC Energie Cottbus",
-      "away": "1. FC Nürnberg",
-      "kickoff": "2026-10-16T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.6,
-            4.25,
-            1.8
-          ],
-          "p": [
-            0.2533,
-            0.2131,
-            0.5336
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.8,
-            1.94
-          ],
-          "p": [
-            0.5252,
-            0.4748
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "150f424b7931458d08430ddeb256692f",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Holstein Kiel",
-      "away": "Hertha Berlin",
-      "kickoff": "2026-10-16T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.92,
-            3.95,
-            2.11
-          ],
-          "p": [
-            0.3119,
-            0.2304,
-            0.4577
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.98,
-            1.77
-          ],
-          "p": [
-            0.4748,
-            0.5252
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "c5d5c6dd1973565af14356756cc6fd6d",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Guingamp",
-      "away": "Pau FC",
-      "kickoff": "2026-10-16T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.15,
-            3.48,
-            3.15
-          ],
-          "p": [
-            0.4247,
-            0.2578,
-            0.3176
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.81,
-            1.93
-          ],
-          "p": [
-            0.5161,
-            0.4839
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "edaa3d92448b18813c2cfaa2cdc3ee1e",
       "sportKey": "soccer_france_ligue_two",
       "league": "Ligue 2",
@@ -534,6 +426,42 @@
       ]
     },
     {
+      "eventId": "c5d5c6dd1973565af14356756cc6fd6d",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Guingamp",
+      "away": "Pau FC",
+      "kickoff": "2026-10-16T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.15,
+            3.48,
+            3.15
+          ],
+          "p": [
+            0.4247,
+            0.2578,
+            0.3176
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.81,
+            1.93
+          ],
+          "p": [
+            0.5161,
+            0.4839
+          ]
+        }
+      ]
+    },
+    {
       "eventId": "947bd5d924835af090d9cdc7bbdf10f6",
       "sportKey": "soccer_germany_bundesliga",
       "league": "Bundesliga",
@@ -570,6 +498,30 @@
       ]
     },
     {
+      "eventId": "4dda6f111c072366c27f7f399442e63e",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Leganés",
+      "away": "Córdoba",
+      "kickoff": "2026-10-16T18:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.4,
+            3.59,
+            2.89
+          ],
+          "p": [
+            0.4131,
+            0.2635,
+            0.3234
+          ]
+        }
+      ]
+    },
+    {
       "eventId": "9a691aeace75a589f2f920824522c830",
       "sportKey": "soccer_italy_serie_b",
       "league": "Serie B",
@@ -601,30 +553,6 @@
           "p": [
             0.5305,
             0.4695
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "4dda6f111c072366c27f7f399442e63e",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Leganés",
-      "away": "Córdoba",
-      "kickoff": "2026-10-16T18:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.4,
-            3.59,
-            2.89
-          ],
-          "p": [
-            0.4131,
-            0.2635,
-            0.3234
           ]
         }
       ]
@@ -738,6 +666,30 @@
       ]
     },
     {
+      "eventId": "9cf0a53aff561ef4fdfe026e4ff1a59a",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Real Sociedad B",
+      "away": "Almería",
+      "kickoff": "2026-10-17T12:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.46,
+            3.63,
+            2.1
+          ],
+          "p": [
+            0.2753,
+            0.2625,
+            0.4622
+          ]
+        }
+      ]
+    },
+    {
       "eventId": "cb07e6b68d8c9fff69c1fcb5ba134b37",
       "sportKey": "soccer_france_ligue_two",
       "league": "Ligue 2",
@@ -793,54 +745,6 @@
             0.5791,
             0.2348,
             0.1861
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "9cf0a53aff561ef4fdfe026e4ff1a59a",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Real Sociedad B",
-      "away": "Almería",
-      "kickoff": "2026-10-17T12:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.46,
-            3.63,
-            2.1
-          ],
-          "p": [
-            0.2753,
-            0.2625,
-            0.4622
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "5342ca6f6dd14490f4a23e37685bd677",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Padova",
-      "away": "Virtus Entella",
-      "kickoff": "2026-10-17T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.37,
-            2.96,
-            3.23
-          ],
-          "p": [
-            0.3813,
-            0.3203,
-            0.2984
           ]
         }
       ]
@@ -954,25 +858,49 @@
       ]
     },
     {
-      "eventId": "0bf757f3bd903496ce2fa27bd0481869",
+      "eventId": "5342ca6f6dd14490f4a23e37685bd677",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Padova",
+      "away": "Virtus Entella",
+      "kickoff": "2026-10-17T13:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.37,
+            2.96,
+            3.23
+          ],
+          "p": [
+            0.3813,
+            0.3203,
+            0.2984
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "9a422e1aad1053828eaf629a58d901de",
       "sportKey": "soccer_germany_bundesliga",
       "league": "Bundesliga",
-      "home": "Elversberg",
-      "away": "Augsburg",
+      "home": "Werder Bremen",
+      "away": "SC Paderborn",
       "kickoff": "2026-10-17T13:30:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.55,
-            3.92,
-            2.71
+            1.84,
+            4.26,
+            4.21
           ],
           "p": [
-            0.3809,
-            0.2543,
-            0.3648
+            0.5474,
+            0.2201,
+            0.2324
           ]
         }
       ]
@@ -1038,30 +966,6 @@
       ]
     },
     {
-      "eventId": "9a422e1aad1053828eaf629a58d901de",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Werder Bremen",
-      "away": "SC Paderborn",
-      "kickoff": "2026-10-17T13:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.84,
-            4.26,
-            4.21
-          ],
-          "p": [
-            0.5474,
-            0.2201,
-            0.2324
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "d8eac776adb07b0e7f01d8736d097291",
       "sportKey": "soccer_germany_bundesliga",
       "league": "Bundesliga",
@@ -1081,6 +985,30 @@
             0.1813,
             0.2091,
             0.6096
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "0bf757f3bd903496ce2fa27bd0481869",
+      "sportKey": "soccer_germany_bundesliga",
+      "league": "Bundesliga",
+      "home": "Elversberg",
+      "away": "Augsburg",
+      "kickoff": "2026-10-17T13:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.55,
+            3.92,
+            2.71
+          ],
+          "p": [
+            0.3809,
+            0.2543,
+            0.3648
           ]
         }
       ]
