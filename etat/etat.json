@@ -1,22 +1,4 @@
 {
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-16T06:02:52.9159837Z",
-    "soccer_france_ligue_two": "2026-10-17T06:32:20.2575745Z",
-    "soccer_epl": "2026-10-17T06:32:20.2575745Z",
-    "soccer_efl_champ": "2026-10-17T06:32:20.2575745Z",
-    "soccer_spain_la_liga": "2026-10-17T06:32:20.2575745Z",
-    "soccer_spain_segunda_division": "2026-10-17T06:32:20.2575745Z",
-    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_b": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-17T06:32:20.2575745Z"
-  },
-  "day": "2026-10-17",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -121,178 +103,64 @@
       "status": "perdu"
     }
   ],
-  "usedToday": 18,
-  "lastAnalysis": "2026-10-17T16:56:30Z",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "lastAnalysis": "2026-10-17T18:58:14Z",
+  "remaining": 382,
+  "day": "2026-10-17",
+  "rejected": [],
+  "nextBet": 2,
   "bankroll0": 80,
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
+        {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
+          "marketKey": "h2h",
+          "market": "1N2",
+          "line": "",
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
+        },
+        {
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
+        }
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
   "events": {
-    "59aa75d21f765e6ec2c671f4d8e76a27": {
-      "eventId": "59aa75d21f765e6ec2c671f4d8e76a27",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Bristol City",
-      "away": "Blackburn Rovers",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.05,
-            3.44,
-            3.42
-          ],
-          "p": [
-            0.4547,
-            0.283,
-            0.2623
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.95,
-            1.79
-          ],
-          "p": [
-            0.4695,
-            0.5305
-          ]
-        }
-      ]
-    },
-    "bd2a85de0af046a3b15fdfac6e78d0c5": {
-      "eventId": "bd2a85de0af046a3b15fdfac6e78d0c5",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Wolverhampton Wanderers",
-      "away": "Bolton Wanderers",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.38,
-            4.85,
-            7.19
-          ],
-          "p": [
-            0.6976,
-            0.1828,
-            0.1196
-          ]
-        }
-      ]
-    },
-    "6742eb24c0e60f9d3fec73a2aa324227": {
-      "eventId": "6742eb24c0e60f9d3fec73a2aa324227",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Burnley",
-      "away": "Charlton Athletic",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.66,
-            3.85,
-            4.8
-          ],
-          "p": [
-            0.5947,
-            0.2377,
-            0.1676
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.82,
-            1.92
-          ],
-          "p": [
-            0.5172,
-            0.4828
-          ]
-        }
-      ]
-    },
-    "3cd5667183559b0598e304d98a23cc20": {
-      "eventId": "3cd5667183559b0598e304d98a23cc20",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Cardiff City",
-      "away": "Watford",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.61,
-            4.3,
-            4.64
-          ],
-          "p": [
-            0.6016,
-            0.2093,
-            0.1891
-          ]
-        }
-      ]
-    },
-    "a1b3fc4030f9f511934c8165151346a3": {
-      "eventId": "a1b3fc4030f9f511934c8165151346a3",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Millwall",
-      "away": "Swansea City",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.4,
-            3.32,
-            2.85
-          ],
-          "p": [
-            0.3997,
-            0.2877,
-            0.3126
-          ]
-        }
-      ]
-    },
-    "c46cfc0e1bcc460e455e006428cd4e83": {
-      "eventId": "c46cfc0e1bcc460e455e006428cd4e83",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Wrexham AFC",
-      "away": "West Bromwich Albion",
-      "kickoff": "2026-10-13T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.24,
-            3.28,
-            3.13
-          ],
-          "p": [
-            0.425,
-            0.2836,
-            0.2915
-          ]
-        }
-      ]
-    },
     "c12dc476d773ac521742384d8d8d1481": {
       "eventId": "c12dc476d773ac521742384d8d8d1481",
       "sportKey": "soccer_efl_champ",
@@ -2454,53 +2322,17 @@
       ]
     }
   },
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ],
-  "rejected": [],
-  "remaining": 382,
-  "nextBet": 2
+  "usedToday": 18,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-16T06:02:52.9159837Z",
+    "soccer_france_ligue_two": "2026-10-17T06:32:20.2575745Z",
+    "soccer_epl": "2026-10-17T06:32:20.2575745Z",
+    "soccer_efl_champ": "2026-10-17T06:32:20.2575745Z",
+    "soccer_spain_la_liga": "2026-10-17T06:32:20.2575745Z",
+    "soccer_spain_segunda_division": "2026-10-17T06:32:20.2575745Z",
+    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_b": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-17T06:32:20.2575745Z"
+  }
 }
