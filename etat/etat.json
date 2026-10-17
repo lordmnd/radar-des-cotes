@@ -1,4 +1,13 @@
 {
+  "day": "2026-10-17",
+  "remaining": 382,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "usedToday": 18,
+  "rejected": [],
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -103,7 +112,6 @@
       "status": "perdu"
     }
   ],
-  "lastAnalysis": "2026-10-17T10:43:33Z",
   "events": {
     "59aa75d21f765e6ec2c671f4d8e76a27": {
       "eventId": "59aa75d21f765e6ec2c671f4d8e76a27",
@@ -2434,24 +2442,7 @@
       ]
     }
   },
-  "day": "2026-10-17",
-  "rejected": [],
-  "nextBet": 2,
-  "remaining": 382,
   "bankroll0": 80,
-  "usedToday": 18,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-16T06:02:52.9159837Z",
-    "soccer_france_ligue_two": "2026-10-17T06:32:20.2575745Z",
-    "soccer_epl": "2026-10-17T06:32:20.2575745Z",
-    "soccer_efl_champ": "2026-10-17T06:32:20.2575745Z",
-    "soccer_spain_la_liga": "2026-10-17T06:32:20.2575745Z",
-    "soccer_spain_segunda_division": "2026-10-17T06:32:20.2575745Z",
-    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_b": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-17T06:32:20.2575745Z"
-  },
   "bets": [
     {
       "n": 1,
@@ -2498,9 +2489,18 @@
       "status": "perdu"
     }
   ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  }
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-16T06:02:52.9159837Z",
+    "soccer_france_ligue_two": "2026-10-17T06:32:20.2575745Z",
+    "soccer_epl": "2026-10-17T06:32:20.2575745Z",
+    "soccer_efl_champ": "2026-10-17T06:32:20.2575745Z",
+    "soccer_spain_la_liga": "2026-10-17T06:32:20.2575745Z",
+    "soccer_spain_segunda_division": "2026-10-17T06:32:20.2575745Z",
+    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_b": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-17T06:32:20.2575745Z"
+  },
+  "lastAnalysis": "2026-10-17T10:43:33Z",
+  "nextBet": 2
 }
