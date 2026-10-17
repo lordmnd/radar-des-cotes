@@ -1,9 +1,9 @@
 {
   "2026-10-17": {
     "date": "2026-10-17",
-    "updatedAt": "2026-10-17T14:55:59Z",
-    "eventsScanned": 23,
-    "valueBets": 3,
+    "updatedAt": "2026-10-17T16:56:30Z",
+    "eventsScanned": 19,
+    "valueBets": 1,
     "top": [
       {
         "eventId": "1051298b4aca6f07113309bff598a5c1",
@@ -41,80 +41,6 @@
           2.15
         ],
         "margin1x": 0.0161
-      },
-      {
-        "eventId": "846e496fc232b2fc20214754836727d0",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Real Betis",
-        "away": "Barcelona",
-        "kickoff": "2026-10-17T16:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Real Betis",
-        "names": [
-          "Victoire Real Betis",
-          "Match nul",
-          "Victoire Barcelona"
-        ],
-        "odd": 6.66,
-        "p": 0.1601,
-        "fairOdd": 6.245,
-        "ev": 0.0664,
-        "quality": 0.0272,
-        "kelly": 0.0117,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          6.66,
-          5.49,
-          1.46
-        ],
-        "refOdds": [
-          5.85,
-          5.66,
-          1.45
-        ],
-        "margin1x": 0.0172
-      },
-      {
-        "eventId": "9a64448205fdc4b95f45641bb946706c",
-        "sportKey": "soccer_germany_bundesliga",
-        "league": "Bundesliga",
-        "home": "Bayern Munich",
-        "away": "RB Leipzig",
-        "kickoff": "2026-10-17T16:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire RB Leipzig",
-        "names": [
-          "Victoire Bayern Munich",
-          "Match nul",
-          "Victoire RB Leipzig"
-        ],
-        "odd": 11.4,
-        "p": 0.0899,
-        "fairOdd": 11.122,
-        "ev": 0.025,
-        "quality": 0.0077,
-        "kelly": 0.0024,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.24,
-          8.05,
-          11.4
-        ],
-        "refOdds": [
-          1.23,
-          8.13,
-          10.04
-        ],
-        "margin1x": 0.0184
       }
     ],
     "combo": null
