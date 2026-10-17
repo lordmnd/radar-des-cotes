@@ -1,4 +1,16 @@
 {
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-16T06:02:52.9159837Z",
+    "soccer_france_ligue_two": "2026-10-17T06:32:20.2575745Z",
+    "soccer_epl": "2026-10-17T06:32:20.2575745Z",
+    "soccer_efl_champ": "2026-10-17T06:32:20.2575745Z",
+    "soccer_spain_la_liga": "2026-10-17T06:32:20.2575745Z",
+    "soccer_spain_segunda_division": "2026-10-17T06:32:20.2575745Z",
+    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
+    "soccer_italy_serie_b": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-17T06:32:20.2575745Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -45,28 +57,11 @@
       "status": "perdu"
     }
   ],
-  "nextBet": 2,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-16T06:02:52.9159837Z",
-    "soccer_france_ligue_two": "2026-10-17T06:32:20.2575745Z",
-    "soccer_epl": "2026-10-17T06:32:20.2575745Z",
-    "soccer_efl_champ": "2026-10-17T06:32:20.2575745Z",
-    "soccer_spain_la_liga": "2026-10-17T06:32:20.2575745Z",
-    "soccer_spain_segunda_division": "2026-10-17T06:32:20.2575745Z",
-    "soccer_italy_serie_a": "2026-10-12T06:01:12.1381946Z",
-    "soccer_italy_serie_b": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-17T06:32:20.2575745Z"
-  },
-  "bankroll0": 80,
-  "day": "2026-10-17",
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "lastAnalysis": "2026-10-17T14:55:59Z",
-  "usedToday": 18,
   "events": {
     "59aa75d21f765e6ec2c671f4d8e76a27": {
       "eventId": "59aa75d21f765e6ec2c671f4d8e76a27",
@@ -2397,8 +2392,10 @@
       ]
     }
   },
+  "lastAnalysis": "2026-10-17T14:55:59Z",
   "remaining": 382,
   "rejected": [],
+  "day": "2026-10-17",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2502,5 +2499,8 @@
       "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
       "status": "perdu"
     }
-  ]
+  ],
+  "nextBet": 2,
+  "usedToday": 18,
+  "bankroll0": 80
 }
