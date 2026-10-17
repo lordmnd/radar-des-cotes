@@ -1,9 +1,9 @@
 {
   "2026-10-17": {
     "date": "2026-10-17",
-    "updatedAt": "2026-10-17T12:52:09Z",
-    "eventsScanned": 43,
-    "valueBets": 4,
+    "updatedAt": "2026-10-17T14:55:59Z",
+    "eventsScanned": 23,
+    "valueBets": 3,
     "top": [
       {
         "eventId": "1051298b4aca6f07113309bff598a5c1",
@@ -80,38 +80,41 @@
         "margin1x": 0.0172
       },
       {
-        "eventId": "221916b8b36706ec52aa655a64e5f1d2",
+        "eventId": "9a64448205fdc4b95f45641bb946706c",
         "sportKey": "soccer_germany_bundesliga",
         "league": "Bundesliga",
-        "home": "Hamburger SV",
-        "away": "VfB Stuttgart",
-        "kickoff": "2026-10-17T13:30:00Z",
-        "market": "Buts",
-        "marketKey": "totals",
-        "line": "3.5",
-        "idx": 1,
-        "pick": "-3,5",
-        "pickName": "Moins de 3,5 buts",
+        "home": "Bayern Munich",
+        "away": "RB Leipzig",
+        "kickoff": "2026-10-17T16:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire RB Leipzig",
         "names": [
-          "Plus de 3,5 buts",
-          "Moins de 3,5 buts"
+          "Victoire Bayern Munich",
+          "Match nul",
+          "Victoire RB Leipzig"
         ],
-        "odd": 1.96,
-        "p": 0.5211,
-        "fairOdd": 1.919,
-        "ev": 0.0213,
-        "quality": 0.0218,
-        "kelly": 0.0222,
+        "odd": 11.4,
+        "p": 0.0899,
+        "fairOdd": 11.122,
+        "ev": 0.025,
+        "quality": 0.0077,
+        "kelly": 0.0024,
         "refSource": "Pinnacle",
         "odds1x": [
-          1.98,
-          1.96
+          1.24,
+          8.05,
+          11.4
         ],
         "refOdds": [
-          2.03,
-          1.87
+          1.23,
+          8.13,
+          10.04
         ],
-        "margin1x": 0.0153
+        "margin1x": 0.0184
       }
     ],
     "combo": null
