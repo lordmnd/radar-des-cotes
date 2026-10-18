@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-18T16:44:57Z",
+  "generatedAt": "2026-10-18T18:46:31Z",
   "creditsRemaining": 361,
   "creditsUsedToday": 21,
   "dailyBudget": 25,
@@ -16,8 +16,20 @@
   ],
   "leagues": [
     {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_efl_champ",
       "name": "Championship",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
       "events": 0,
       "status": "pas de match"
     },
@@ -34,97 +46,45 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 10.2
-    },
-    {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 10.2
-    },
-    {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 10.2
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
       "events": 2,
       "status": "cache",
-      "ageHours": 10.2
+      "ageHours": 12.2
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 2,
+      "events": 1,
       "status": "cache",
-      "ageHours": 10.2
+      "ageHours": 12.2
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 1,
       "status": "cache",
-      "ageHours": 34.2
+      "ageHours": 36.2
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 10.2
-    }
-  ],
-  "eventsScanned": 7,
-  "eventsWith1xbet": 7,
-  "valueBets": 1,
-  "top": [
+      "ageHours": 12.2
+    },
     {
-      "eventId": "471f891b1f6516a864ad94c8eb649f5e",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Lyon",
-      "away": "Nice",
-      "kickoff": "2026-10-18T18:45:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 2,
-      "pick": "2",
-      "pickName": "Victoire Nice",
-      "names": [
-        "Victoire Lyon",
-        "Match nul",
-        "Victoire Nice"
-      ],
-      "odd": 4.16,
-      "p": 0.2464,
-      "fairOdd": 4.058,
-      "ev": 0.0251,
-      "quality": 0.014,
-      "kelly": 0.0079,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        1.92,
-        3.94,
-        4.16
-      ],
-      "refOdds": [
-        1.93,
-        3.84,
-        3.88
-      ],
-      "margin1x": 0.015
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 12.2
     }
   ],
+  "eventsScanned": 2,
+  "eventsWith1xbet": 2,
+  "valueBets": 0,
+  "top": [],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -243,150 +203,6 @@
     "clvLegs": 4
   },
   "matches": [
-    {
-      "eventId": "d6b5afb499872d7aec7a6d23e8d35e81",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Sampdoria",
-      "away": "Arezzo",
-      "kickoff": "2026-10-18T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.77,
-            3.64,
-            4.37
-          ],
-          "p": [
-            0.5335,
-            0.2589,
-            0.2076
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.86
-          ],
-          "p": [
-            0.4763,
-            0.5237
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "471f891b1f6516a864ad94c8eb649f5e",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Lyon",
-      "away": "Nice",
-      "kickoff": "2026-10-18T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.92,
-            3.94,
-            4.16
-          ],
-          "p": [
-            0.5045,
-            0.2491,
-            0.2464
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "4c4026e2782f09d6f0ff2bde2a390513",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Juventus",
-      "away": "Lazio",
-      "kickoff": "2026-10-18T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.65,
-            4.17,
-            5.94
-          ],
-          "p": [
-            0.6067,
-            0.2382,
-            0.1552
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.0,
-            1.94
-          ],
-          "p": [
-            0.4907,
-            0.5093
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "eccd63bf768e2f2a358b871d3f33a63d",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Madrid",
-      "away": "Sevilla",
-      "kickoff": "2026-10-18T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.27,
-            6.76,
-            12.4
-          ],
-          "p": [
-            0.7883,
-            0.1316,
-            0.0801
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "5ab87d030eb85cdd4bb479ab94bcf89c",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Burgos CF",
-      "away": "Sabadell FC",
-      "kickoff": "2026-10-18T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.95,
-            2.94,
-            2.75
-          ],
-          "p": [
-            0.3193,
-            0.3342,
-            0.3465
-          ]
-        }
-      ]
-    },
     {
       "eventId": "ce94aca384a20f6af459366da6e1dd21",
       "sportKey": "soccer_italy_serie_a",

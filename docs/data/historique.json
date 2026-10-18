@@ -1,48 +1,10 @@
 {
   "2026-10-18": {
     "date": "2026-10-18",
-    "updatedAt": "2026-10-18T16:44:57Z",
-    "eventsScanned": 7,
-    "valueBets": 1,
-    "top": [
-      {
-        "eventId": "471f891b1f6516a864ad94c8eb649f5e",
-        "sportKey": "soccer_france_ligue_one",
-        "league": "Ligue 1",
-        "home": "Lyon",
-        "away": "Nice",
-        "kickoff": "2026-10-18T18:45:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Nice",
-        "names": [
-          "Victoire Lyon",
-          "Match nul",
-          "Victoire Nice"
-        ],
-        "odd": 4.16,
-        "p": 0.2464,
-        "fairOdd": 4.058,
-        "ev": 0.0251,
-        "quality": 0.014,
-        "kelly": 0.0079,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.92,
-          3.94,
-          4.16
-        ],
-        "refOdds": [
-          1.93,
-          3.84,
-          3.88
-        ],
-        "margin1x": 0.015
-      }
-    ],
+    "updatedAt": "2026-10-18T18:46:31Z",
+    "eventsScanned": 2,
+    "valueBets": 0,
+    "top": [],
     "combo": null
   },
   "2026-10-17": {
