@@ -1,47 +1,10 @@
 {
   "2026-10-18": {
     "date": "2026-10-18",
-    "updatedAt": "2026-10-18T12:30:03Z",
-    "eventsScanned": 24,
-    "valueBets": 4,
+    "updatedAt": "2026-10-18T14:43:04Z",
+    "eventsScanned": 16,
+    "valueBets": 2,
     "top": [
-      {
-        "eventId": "c7a60aa94470fe959fbf6b0c68060fc1",
-        "sportKey": "soccer_france_ligue_one",
-        "league": "Ligue 1",
-        "home": "Angers",
-        "away": "Marseille",
-        "kickoff": "2026-10-18T13:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Marseille",
-        "names": [
-          "Victoire Angers",
-          "Match nul",
-          "Victoire Marseille"
-        ],
-        "odd": 2.12,
-        "p": 0.485,
-        "fairOdd": 2.062,
-        "ev": 0.0283,
-        "quality": 0.0267,
-        "kelly": 0.0253,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.56,
-          3.82,
-          2.12
-        ],
-        "refOdds": [
-          3.61,
-          3.86,
-          2.01
-        ],
-        "margin1x": 0.0144
-      },
       {
         "eventId": "d637845b9760bb02b55bbbaa32b5c21e",
         "sportKey": "soccer_france_ligue_one",
