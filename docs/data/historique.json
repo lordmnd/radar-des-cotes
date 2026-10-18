@@ -1,47 +1,10 @@
 {
   "2026-10-18": {
     "date": "2026-10-18",
-    "updatedAt": "2026-10-18T14:43:04Z",
-    "eventsScanned": 16,
-    "valueBets": 2,
+    "updatedAt": "2026-10-18T16:44:57Z",
+    "eventsScanned": 7,
+    "valueBets": 1,
     "top": [
-      {
-        "eventId": "d637845b9760bb02b55bbbaa32b5c21e",
-        "sportKey": "soccer_france_ligue_one",
-        "league": "Ligue 1",
-        "home": "Le Havre",
-        "away": "Auxerre",
-        "kickoff": "2026-10-18T15:15:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Le Havre",
-        "names": [
-          "Victoire Le Havre",
-          "Match nul",
-          "Victoire Auxerre"
-        ],
-        "odd": 2.42,
-        "p": 0.4226,
-        "fairOdd": 2.366,
-        "ev": 0.0227,
-        "quality": 0.019,
-        "kelly": 0.016,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.42,
-          3.51,
-          3.14
-        ],
-        "refOdds": [
-          2.3,
-          3.45,
-          3.23
-        ],
-        "margin1x": 0.0166
-      },
       {
         "eventId": "471f891b1f6516a864ad94c8eb649f5e",
         "sportKey": "soccer_france_ligue_one",
