@@ -1,85 +1,10 @@
 {
   "2026-10-19": {
     "date": "2026-10-19",
-    "updatedAt": "2026-10-19T17:13:51Z",
-    "eventsScanned": 6,
-    "valueBets": 2,
-    "top": [
-      {
-        "eventId": "4a88bc4de574d43ef34677fd8d78722f",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Getafe",
-        "away": "Rayo Vallecano",
-        "kickoff": "2026-10-19T19:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
-        "names": [
-          "Victoire Getafe",
-          "Match nul",
-          "Victoire Rayo Vallecano"
-        ],
-        "odd": 3.17,
-        "p": 0.3285,
-        "fairOdd": 3.044,
-        "ev": 0.0413,
-        "quality": 0.0277,
-        "kelly": 0.019,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.98,
-          3.17,
-          2.74
-        ],
-        "refOdds": [
-          3.13,
-          2.95,
-          2.68
-        ],
-        "margin1x": 0.016
-      },
-      {
-        "eventId": "9baaf4e48b041cfef04e70e42532502e",
-        "sportKey": "soccer_epl",
-        "league": "Premier League",
-        "home": "Tottenham Hotspur",
-        "away": "Coventry City",
-        "kickoff": "2026-10-19T19:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Coventry City",
-        "names": [
-          "Victoire Tottenham Hotspur",
-          "Match nul",
-          "Victoire Coventry City"
-        ],
-        "odd": 6.5,
-        "p": 0.1578,
-        "fairOdd": 6.335,
-        "ev": 0.026,
-        "quality": 0.011,
-        "kelly": 0.0047,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.54,
-          4.67,
-          6.5
-        ],
-        "refOdds": [
-          1.53,
-          4.65,
-          5.93
-        ],
-        "margin1x": 0.0173
-      }
-    ],
+    "updatedAt": "2026-10-19T19:20:04Z",
+    "eventsScanned": 1,
+    "valueBets": 0,
+    "top": [],
     "combo": null
   },
   "2026-10-18": {

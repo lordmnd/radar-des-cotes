@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-19T17:13:51Z",
+  "generatedAt": "2026-10-19T19:20:04Z",
   "creditsRemaining": 343,
   "creditsUsedToday": 18,
   "dailyBudget": 26,
@@ -18,6 +18,36 @@
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_epl",
+      "name": "Premier League",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
       "events": 0,
       "status": "pas de match"
     },
@@ -40,127 +70,17 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 11.0
-    },
-    {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 11.0
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 11.0
-    },
-    {
-      "key": "soccer_epl",
-      "name": "Premier League",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 11.0
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 11.0
-    },
-    {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 1,
       "status": "cache",
-      "ageHours": 9.0
+      "ageHours": 11.1
     }
   ],
-  "eventsScanned": 6,
-  "eventsWith1xbet": 6,
-  "valueBets": 2,
-  "top": [
-    {
-      "eventId": "4a88bc4de574d43ef34677fd8d78722f",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Getafe",
-      "away": "Rayo Vallecano",
-      "kickoff": "2026-10-19T19:00:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 1,
-      "pick": "N",
-      "pickName": "Match nul",
-      "names": [
-        "Victoire Getafe",
-        "Match nul",
-        "Victoire Rayo Vallecano"
-      ],
-      "odd": 3.17,
-      "p": 0.3285,
-      "fairOdd": 3.044,
-      "ev": 0.0413,
-      "quality": 0.0277,
-      "kelly": 0.019,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        2.98,
-        3.17,
-        2.74
-      ],
-      "refOdds": [
-        3.13,
-        2.95,
-        2.68
-      ],
-      "margin1x": 0.016
-    },
-    {
-      "eventId": "9baaf4e48b041cfef04e70e42532502e",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Tottenham Hotspur",
-      "away": "Coventry City",
-      "kickoff": "2026-10-19T19:00:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 2,
-      "pick": "2",
-      "pickName": "Victoire Coventry City",
-      "names": [
-        "Victoire Tottenham Hotspur",
-        "Match nul",
-        "Victoire Coventry City"
-      ],
-      "odd": 6.5,
-      "p": 0.1578,
-      "fairOdd": 6.335,
-      "ev": 0.026,
-      "quality": 0.011,
-      "kelly": 0.0047,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        1.54,
-        4.67,
-        6.5
-      ],
-      "refOdds": [
-        1.53,
-        4.65,
-        5.93
-      ],
-      "margin1x": 0.0173
-    }
-  ],
+  "eventsScanned": 1,
+  "eventsWith1xbet": 1,
+  "valueBets": 0,
+  "top": [],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -279,126 +199,6 @@
     "clvLegs": 4
   },
   "matches": [
-    {
-      "eventId": "d851ff25af980dc2572dec1a9b95a1b2",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Celta Fortuna",
-      "away": "Tenerife",
-      "kickoff": "2026-10-19T18:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.66,
-            3.32,
-            2.74
-          ],
-          "p": [
-            0.3626,
-            0.3008,
-            0.3366
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "151637812ff4cac15fe6784f7b17e806",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Rodez AF",
-      "away": "Montpellier",
-      "kickoff": "2026-10-19T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.96,
-            3.18,
-            2.4
-          ],
-          "p": [
-            0.3258,
-            0.2811,
-            0.3931
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "07014d9adc65ca39710bd9f0c7c0d3f0",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Parma",
-      "away": "Torino",
-      "kickoff": "2026-10-19T18:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.43,
-            3.17,
-            2.45
-          ],
-          "p": [
-            0.2884,
-            0.3103,
-            0.4013
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "9baaf4e48b041cfef04e70e42532502e",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Tottenham Hotspur",
-      "away": "Coventry City",
-      "kickoff": "2026-10-19T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.54,
-            4.67,
-            6.5
-          ],
-          "p": [
-            0.6384,
-            0.2038,
-            0.1578
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "4a88bc4de574d43ef34677fd8d78722f",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Getafe",
-      "away": "Rayo Vallecano",
-      "kickoff": "2026-10-19T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.98,
-            3.17,
-            2.74
-          ],
-          "p": [
-            0.3091,
-            0.3285,
-            0.3624
-          ]
-        }
-      ]
-    },
     {
       "eventId": "3b6ffffb1208351a67941b2f25516ca4",
       "sportKey": "soccer_efl_champ",
