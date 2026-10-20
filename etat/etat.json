@@ -1,7 +1,6 @@
 {
-  "nextBet": 2,
   "rejected": [],
-  "remaining": 343,
+  "lastAnalysis": "2026-10-19T19:20:04Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -106,13 +105,20 @@
       "status": "perdu"
     }
   ],
-  "bankroll0": 80,
-  "usedToday": 0,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
+  "nextBet": 2,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
+    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
+    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
+    "soccer_efl_champ": "2026-10-19T08:14:01.8082611Z",
+    "soccer_spain_la_liga": "2026-10-19T06:15:04.1397489Z",
+    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
   },
+  "remaining": 343,
   "bets": [
     {
       "n": 1,
@@ -159,6 +165,8 @@
       "status": "perdu"
     }
   ],
+  "usedToday": 0,
+  "bankroll0": 80,
   "events": {
     "f6efe77542b7ee5bfb4ee3bc1e7368c4": {
       "eventId": "f6efe77542b7ee5bfb4ee3bc1e7368c4",
@@ -2694,17 +2702,9 @@
     }
   },
   "day": "2026-10-20",
-  "lastAnalysis": "2026-10-19T19:20:04Z",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
-    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
-    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
-    "soccer_efl_champ": "2026-10-19T08:14:01.8082611Z",
-    "soccer_spain_la_liga": "2026-10-19T06:15:04.1397489Z",
-    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
   }
 }
