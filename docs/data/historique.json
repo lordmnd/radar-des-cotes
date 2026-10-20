@@ -1,7 +1,7 @@
 {
   "2026-10-20": {
     "date": "2026-10-20",
-    "updatedAt": "2026-10-20T13:00:26Z",
+    "updatedAt": "2026-10-20T15:17:50Z",
     "eventsScanned": 2,
     "valueBets": 1,
     "top": [
@@ -24,11 +24,11 @@
           "Victoire Athletic Bilbao"
         ],
         "odd": 3.52,
-        "p": 0.3066,
-        "fairOdd": 3.261,
-        "ev": 0.0794,
-        "quality": 0.0489,
-        "kelly": 0.0315,
+        "p": 0.3057,
+        "fairOdd": 3.271,
+        "ev": 0.0761,
+        "quality": 0.047,
+        "kelly": 0.0302,
         "refSource": "Pinnacle",
         "odds1x": [
           3.52,
@@ -36,9 +36,9 @@
           2.24
         ],
         "refOdds": [
-          3.8,
-          3.15,
-          2.21
+          3.76,
+          3.16,
+          2.22
         ],
         "margin1x": 0.0146
       }

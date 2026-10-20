@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-20T13:00:26Z",
-  "creditsRemaining": 337,
-  "creditsUsedToday": 6,
+  "generatedAt": "2026-10-20T15:17:50Z",
+  "creditsRemaining": 331,
+  "creditsUsedToday": 12,
   "dailyBudget": 28,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -67,15 +67,15 @@
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 1,
-      "status": "cache",
-      "ageHours": 6.9
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
-      "status": "cache",
-      "ageHours": 6.9
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
   "eventsScanned": 2,
@@ -101,11 +101,11 @@
         "Victoire Athletic Bilbao"
       ],
       "odd": 3.52,
-      "p": 0.3066,
-      "fairOdd": 3.261,
-      "ev": 0.0794,
-      "quality": 0.0489,
-      "kelly": 0.0315,
+      "p": 0.3057,
+      "fairOdd": 3.271,
+      "ev": 0.0761,
+      "quality": 0.047,
+      "kelly": 0.0302,
       "refSource": "Pinnacle",
       "odds1x": [
         3.52,
@@ -113,9 +113,9 @@
         2.24
       ],
       "refOdds": [
-        3.8,
-        3.15,
-        2.21
+        3.76,
+        3.16,
+        2.22
       ],
       "margin1x": 0.0146
     }
@@ -250,14 +250,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.59,
+            1.55,
             4.1,
-            5.07
+            5.54
           ],
           "p": [
-            0.6077,
-            0.2221,
-            0.1702
+            0.6246,
+            0.215,
+            0.1604
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.76,
+            1.99
+          ],
+          "p": [
+            0.529,
+            0.471
           ]
         }
       ]
@@ -279,9 +291,9 @@
             2.24
           ],
           "p": [
-            0.2528,
-            0.3066,
-            0.4406
+            0.2556,
+            0.3057,
+            0.4386
           ]
         },
         {
