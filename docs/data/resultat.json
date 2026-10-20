@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-19T19:20:04Z",
-  "creditsRemaining": 343,
-  "creditsUsedToday": 18,
-  "dailyBudget": 26,
+  "generatedAt": "2026-10-20T06:05:17Z",
+  "creditsRemaining": 337,
+  "creditsUsedToday": 6,
+  "dailyBudget": 28,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -30,12 +30,6 @@
     {
       "key": "soccer_epl",
       "name": "Premier League",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
       "events": 0,
       "status": "pas de match"
     },
@@ -73,14 +67,59 @@
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 1,
-      "status": "cache",
-      "ageHours": 11.1
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 1,
-  "eventsWith1xbet": 1,
-  "valueBets": 0,
-  "top": [],
+  "eventsScanned": 2,
+  "eventsWith1xbet": 2,
+  "valueBets": 1,
+  "top": [
+    {
+      "eventId": "a362cccad837f1ffae61ff43a3536688",
+      "sportKey": "soccer_spain_la_liga",
+      "league": "La Liga",
+      "home": "Levante",
+      "away": "Athletic Bilbao",
+      "kickoff": "2026-10-21T18:00:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 1,
+      "pick": "N",
+      "pickName": "Match nul",
+      "names": [
+        "Victoire Levante",
+        "Match nul",
+        "Victoire Athletic Bilbao"
+      ],
+      "odd": 3.52,
+      "p": 0.3066,
+      "fairOdd": 3.261,
+      "ev": 0.0794,
+      "quality": 0.0489,
+      "kelly": 0.0315,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        3.52,
+        3.52,
+        2.24
+      ],
+      "refOdds": [
+        3.8,
+        3.15,
+        2.21
+      ],
+      "margin1x": 0.0146
+    }
+  ],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -216,9 +255,45 @@
             5.07
           ],
           "p": [
-            0.6022,
-            0.224,
-            0.1738
+            0.6077,
+            0.2221,
+            0.1702
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "a362cccad837f1ffae61ff43a3536688",
+      "sportKey": "soccer_spain_la_liga",
+      "league": "La Liga",
+      "home": "Levante",
+      "away": "Athletic Bilbao",
+      "kickoff": "2026-10-21T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.52,
+            3.52,
+            2.24
+          ],
+          "p": [
+            0.2528,
+            0.3066,
+            0.4406
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            2.02,
+            1.92
+          ],
+          "p": [
+            0.4907,
+            0.5093
           ]
         }
       ]

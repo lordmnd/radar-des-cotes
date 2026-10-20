@@ -1,4 +1,50 @@
 {
+  "2026-10-20": {
+    "date": "2026-10-20",
+    "updatedAt": "2026-10-20T06:05:17Z",
+    "eventsScanned": 2,
+    "valueBets": 1,
+    "top": [
+      {
+        "eventId": "a362cccad837f1ffae61ff43a3536688",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Levante",
+        "away": "Athletic Bilbao",
+        "kickoff": "2026-10-21T18:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Levante",
+          "Match nul",
+          "Victoire Athletic Bilbao"
+        ],
+        "odd": 3.52,
+        "p": 0.3066,
+        "fairOdd": 3.261,
+        "ev": 0.0794,
+        "quality": 0.0489,
+        "kelly": 0.0315,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.52,
+          3.52,
+          2.24
+        ],
+        "refOdds": [
+          3.8,
+          3.15,
+          2.21
+        ],
+        "margin1x": 0.0146
+      }
+    ],
+    "combo": null
+  },
   "2026-10-19": {
     "date": "2026-10-19",
     "updatedAt": "2026-10-19T19:20:04Z",
