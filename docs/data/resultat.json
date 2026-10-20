@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-20T08:32:14Z",
+  "generatedAt": "2026-10-20T10:47:47Z",
   "creditsRemaining": 337,
   "creditsUsedToday": 6,
   "dailyBudget": 28,
@@ -68,14 +68,14 @@
       "name": "Championship",
       "events": 1,
       "status": "cache",
-      "ageHours": 2.4
+      "ageHours": 4.7
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 2.4
+      "ageHours": 4.7
     }
   ],
   "eventsScanned": 2,
