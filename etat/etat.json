@@ -1,202 +1,7 @@
 {
-  "lastAnalysis": "2026-10-20T17:42:36Z",
-  "rejected": [],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ],
+  "nextBet": 2,
+  "usedToday": 12,
   "events": {
-    "edaa3d92448b18813c2cfaa2cdc3ee1e": {
-      "eventId": "edaa3d92448b18813c2cfaa2cdc3ee1e",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Annecy FC",
-      "away": "Nancy",
-      "kickoff": "2026-10-16T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.75,
-            3.34,
-            2.43
-          ],
-          "p": [
-            0.3211,
-            0.2827,
-            0.3962
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.97,
-            1.78
-          ],
-          "p": [
-            0.4692,
-            0.5308
-          ]
-        }
-      ]
-    },
-    "8ac83e2cc04b2ce4ed6207a2a358e28c": {
-      "eventId": "8ac83e2cc04b2ce4ed6207a2a358e28c",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Grenoble",
-      "away": "Boulogne",
-      "kickoff": "2026-10-16T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.65,
-            3.12,
-            2.66
-          ],
-          "p": [
-            0.3349,
-            0.3071,
-            0.3581
-          ]
-        }
-      ]
-    },
-    "fa3f1175dd921543e0f8683ea3464604": {
-      "eventId": "fa3f1175dd921543e0f8683ea3464604",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Stade Lavallois",
-      "away": "Clermont",
-      "kickoff": "2026-10-16T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.09,
-            3.38,
-            3.38
-          ],
-          "p": [
-            0.4408,
-            0.2945,
-            0.2647
-          ]
-        }
-      ]
-    },
-    "6fc216af56d1f8a4ef2b347a71730a4f": {
-      "eventId": "6fc216af56d1f8a4ef2b347a71730a4f",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Stade de Reims",
-      "away": "Dijon",
-      "kickoff": "2026-10-16T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.72,
-            3.94,
-            4.27
-          ],
-          "p": [
-            0.5401,
-            0.2297,
-            0.2302
-          ]
-        }
-      ]
-    },
-    "c5d5c6dd1973565af14356756cc6fd6d": {
-      "eventId": "c5d5c6dd1973565af14356756cc6fd6d",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Guingamp",
-      "away": "Pau FC",
-      "kickoff": "2026-10-16T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.15,
-            3.48,
-            3.15
-          ],
-          "p": [
-            0.4247,
-            0.2578,
-            0.3176
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.81,
-            1.93
-          ],
-          "p": [
-            0.5161,
-            0.4839
-          ]
-        }
-      ]
-    },
     "4dda6f111c072366c27f7f399442e63e": {
       "eventId": "4dda6f111c072366c27f7f399442e63e",
       "sportKey": "soccer_spain_segunda_division",
@@ -2562,20 +2367,7 @@
       ]
     }
   },
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
-    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
-    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
-    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
-    "soccer_spain_la_liga": "2026-10-20T15:17:50.0227969Z",
-    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
-  },
-  "usedToday": 12,
-  "bankroll0": 80,
+  "lastAnalysis": "2026-10-20T17:42:36Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2680,7 +2472,71 @@
       "status": "perdu"
     }
   ],
+  "bankroll0": 80,
   "remaining": 331,
-  "nextBet": 2,
-  "day": "2026-10-20"
+  "day": "2026-10-20",
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
+        {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
+          "marketKey": "h2h",
+          "market": "1N2",
+          "line": "",
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
+        },
+        {
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
+        }
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
+  "rejected": [],
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
+    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
+    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
+    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
+    "soccer_spain_la_liga": "2026-10-20T15:17:50.0227969Z",
+    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
+  },
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  }
 }
