@@ -1,9 +1,11 @@
 {
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
+  "remaining": 337,
+  "usedToday": 6,
+  "day": "2026-10-20",
+  "nextBet": 2,
+  "bankroll0": 80,
+  "rejected": [],
+  "lastAnalysis": "2026-10-20T10:47:47Z",
   "fetched": {
     "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
     "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
@@ -2586,8 +2588,11 @@
       ]
     }
   },
-  "rejected": [],
-  "usedToday": 6,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "bets": [
     {
       "n": 1,
@@ -2634,10 +2639,6 @@
       "status": "perdu"
     }
   ],
-  "bankroll0": 80,
-  "remaining": 337,
-  "day": "2026-10-20",
-  "lastAnalysis": "2026-10-20T10:47:47Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2741,6 +2742,5 @@
       "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
       "status": "perdu"
     }
-  ],
-  "nextBet": 2
+  ]
 }
