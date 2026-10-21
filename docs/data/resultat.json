@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-21T10:05:53Z",
+  "generatedAt": "2026-10-21T12:14:47Z",
   "creditsRemaining": 328,
   "creditsUsedToday": 3,
   "dailyBudget": 29,
@@ -74,7 +74,7 @@
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 4.0
+      "ageHours": 6.1
     }
   ],
   "eventsScanned": 1,
