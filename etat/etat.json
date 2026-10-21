@@ -1,7 +1,10 @@
 {
-  "rejected": [],
-  "usedToday": 6,
-  "remaining": 325,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "lastAnalysis": "2026-10-21T14:32:13Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -106,7 +109,69 @@
       "status": "perdu"
     }
   ],
-  "nextBet": 2,
+  "rejected": [],
+  "day": "2026-10-21",
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
+    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
+    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
+    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
+  },
+  "usedToday": 6,
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
+        {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
+          "marketKey": "h2h",
+          "market": "1N2",
+          "line": "",
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
+        },
+        {
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
+        }
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
+  "bankroll0": 80,
+  "remaining": 325,
   "events": {
     "8b4173a5e68ffca9cca9acd19def2e1b": {
       "eventId": "8b4173a5e68ffca9cca9acd19def2e1b",
@@ -168,30 +233,6 @@
         }
       ]
     },
-    "e0c4402171ab9df4bcb6c30ca5dbd66c": {
-      "eventId": "e0c4402171ab9df4bcb6c30ca5dbd66c",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Mantova",
-      "away": "Palermo",
-      "kickoff": "2026-10-17T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.26,
-            3.35,
-            2.15
-          ],
-          "p": [
-            0.2739,
-            0.2896,
-            0.4365
-          ]
-        }
-      ]
-    },
     "1bb3a422646da8cf885bf9e1a159e9da": {
       "eventId": "1bb3a422646da8cf885bf9e1a159e9da",
       "sportKey": "soccer_italy_serie_b",
@@ -248,54 +289,6 @@
           "p": [
             0.516,
             0.484
-          ]
-        }
-      ]
-    },
-    "f3034246520a2ee4ff0ac0d5074966f8": {
-      "eventId": "f3034246520a2ee4ff0ac0d5074966f8",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Strasbourg",
-      "away": "Paris Saint Germain",
-      "kickoff": "2026-10-17T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            6.73,
-            5.5,
-            1.46
-          ],
-          "p": [
-            0.1357,
-            0.1663,
-            0.698
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.89,
-            2.06
-          ],
-          "p": [
-            0.5066,
-            0.4934
-          ]
-        },
-        {
-          "marketKey": "spreads",
-          "line": "1.5",
-          "odds1x": [
-            1.85,
-            2.1
-          ],
-          "p": [
-            0.5276,
-            0.4724
           ]
         }
       ]
@@ -1393,70 +1386,5 @@
       ]
     }
   },
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
-    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
-    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
-    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
-  },
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "bankroll0": 80,
-  "day": "2026-10-21",
-  "lastAnalysis": "2026-10-21T14:32:13Z"
+  "nextBet": 2
 }
