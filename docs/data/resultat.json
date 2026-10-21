@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-20T19:35:31Z",
-  "creditsRemaining": 331,
-  "creditsUsedToday": 12,
-  "dailyBudget": 27,
+  "generatedAt": "2026-10-21T06:05:55Z",
+  "creditsRemaining": 328,
+  "creditsUsedToday": 3,
+  "dailyBudget": 30,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -73,13 +73,13 @@
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
-      "status": "cache",
-      "ageHours": 4.3
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
   "eventsScanned": 1,
   "eventsWith1xbet": 1,
-  "valueBets": 1,
+  "valueBets": 2,
   "top": [
     {
       "eventId": "a362cccad837f1ffae61ff43a3536688",
@@ -88,35 +88,32 @@
       "home": "Levante",
       "away": "Athletic Bilbao",
       "kickoff": "2026-10-21T18:00:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
+      "market": "Buts",
+      "marketKey": "totals",
+      "line": "2.5",
       "idx": 1,
-      "pick": "N",
-      "pickName": "Match nul",
+      "pick": "-2,5",
+      "pickName": "Moins de 2,5 buts",
       "names": [
-        "Victoire Levante",
-        "Match nul",
-        "Victoire Athletic Bilbao"
+        "Plus de 2,5 buts",
+        "Moins de 2,5 buts"
       ],
-      "odd": 3.52,
-      "p": 0.3057,
-      "fairOdd": 3.271,
-      "ev": 0.0761,
-      "quality": 0.047,
-      "kelly": 0.0302,
+      "odd": 1.92,
+      "p": 0.5328,
+      "fairOdd": 1.877,
+      "ev": 0.0231,
+      "quality": 0.0241,
+      "kelly": 0.0251,
       "refSource": "Pinnacle",
       "odds1x": [
-        3.52,
-        3.52,
-        2.24
+        2.02,
+        1.92
       ],
       "refOdds": [
-        3.76,
-        3.16,
-        2.22
+        2.08,
+        1.83
       ],
-      "margin1x": 0.0146
+      "margin1x": 0.0159
     }
   ],
   "combo": null,
@@ -254,9 +251,9 @@
             2.24
           ],
           "p": [
-            0.2556,
-            0.3057,
-            0.4386
+            0.2625,
+            0.2911,
+            0.4464
           ]
         },
         {
@@ -267,8 +264,8 @@
             1.92
           ],
           "p": [
-            0.4907,
-            0.5093
+            0.4672,
+            0.5328
           ]
         }
       ]
