@@ -1,6 +1,16 @@
 {
-  "nextBet": 2,
-  "remaining": 328,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
+    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
+    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
+    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
+    "soccer_spain_la_liga": "2026-10-21T06:05:55.6106509Z",
+    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
+  },
   "events": {
     "aece3794e426af574c642f4d21892f9a": {
       "eventId": "aece3794e426af574c642f4d21892f9a",
@@ -2247,6 +2257,15 @@
       ]
     }
   },
+  "usedToday": 3,
+  "lastAnalysis": "2026-10-21T07:56:32Z",
+  "day": "2026-10-21",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "bankroll0": 80,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2351,28 +2370,8 @@
       "status": "perdu"
     }
   ],
-  "usedToday": 3,
+  "remaining": 328,
   "rejected": [],
-  "lastAnalysis": "2026-10-21T06:05:55Z",
-  "bankroll0": 80,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
-    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
-    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
-    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
-    "soccer_spain_la_liga": "2026-10-21T06:05:55.6106509Z",
-    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
-  },
-  "day": "2026-10-21",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
   "bets": [
     {
       "n": 1,
@@ -2418,5 +2417,6 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ]
+  ],
+  "nextBet": 2
 }
