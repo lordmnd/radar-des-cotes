@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-21T16:49:50Z",
+  "generatedAt": "2026-10-21T18:57:16Z",
   "creditsRemaining": 325,
   "creditsUsedToday": 6,
   "dailyBudget": 29,
@@ -40,6 +40,12 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 0,
@@ -68,17 +74,10 @@
       "name": "2. Bundesliga",
       "events": 0,
       "status": "pas de match"
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 2.3
     }
   ],
-  "eventsScanned": 1,
-  "eventsWith1xbet": 1,
+  "eventsScanned": 0,
+  "eventsWith1xbet": 0,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -198,43 +197,6 @@
     "avgClv": 0.0273,
     "clvLegs": 4
   },
-  "matches": [
-    {
-      "eventId": "a362cccad837f1ffae61ff43a3536688",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Levante",
-      "away": "Athletic Bilbao",
-      "kickoff": "2026-10-21T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.73,
-            3.44,
-            2.19
-          ],
-          "p": [
-            0.2546,
-            0.2924,
-            0.453
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.08,
-            1.87
-          ],
-          "p": [
-            0.4649,
-            0.5351
-          ]
-        }
-      ]
-    }
-  ],
+  "matches": [],
   "botUsername": "MyownfuturBot"
 }
