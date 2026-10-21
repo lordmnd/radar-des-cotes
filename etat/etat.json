@@ -1,21 +1,5 @@
 {
-  "nextBet": 2,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
-    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
-    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
-    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
-  },
-  "bankroll0": 80,
   "day": "2026-10-22",
-  "rejected": [],
-  "remaining": 325,
   "events": {
     "30af1081a1518dbc0164323134511308": {
       "eventId": "30af1081a1518dbc0164323134511308",
@@ -990,11 +974,22 @@
       ]
     }
   },
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
+    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
+    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
+    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
   },
+  "rejected": [],
+  "nextBet": 2,
+  "usedToday": 0,
+  "lastAnalysis": "2026-10-21T20:51:23Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1099,6 +1094,7 @@
       "status": "perdu"
     }
   ],
+  "remaining": 325,
   "bets": [
     {
       "n": 1,
@@ -1145,6 +1141,10 @@
       "status": "perdu"
     }
   ],
-  "usedToday": 0,
-  "lastAnalysis": "2026-10-21T20:51:23Z"
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "bankroll0": 80
 }
