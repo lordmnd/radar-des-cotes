@@ -1,4 +1,10 @@
 {
+  "remaining": 325,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -103,15 +109,6 @@
       "status": "perdu"
     }
   ],
-  "bankroll0": 80,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "lastAnalysis": "2026-10-21T16:49:50Z",
-  "nextBet": 2,
-  "day": "2026-10-21",
   "events": {
     "8b4173a5e68ffca9cca9acd19def2e1b": {
       "eventId": "8b4173a5e68ffca9cca9acd19def2e1b",
@@ -1206,8 +1203,24 @@
       ]
     }
   },
+  "nextBet": 2,
   "usedToday": 6,
-  "remaining": 325,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
+    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
+    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
+    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
+    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
+    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
+    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
+  },
+  "rejected": [],
+  "lastAnalysis": "2026-10-21T16:49:50Z",
+  "bankroll0": 80,
+  "day": "2026-10-21",
   "bets": [
     {
       "n": 1,
@@ -1253,18 +1266,5 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ],
-  "rejected": [],
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-18T06:32:54.7885275Z",
-    "soccer_france_ligue_two": "2026-10-19T06:15:04.1397489Z",
-    "soccer_epl": "2026-10-19T06:15:04.1397489Z",
-    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_a": "2026-10-19T06:15:04.1397489Z",
-    "soccer_italy_serie_b": "2026-10-18T06:32:54.7885275Z",
-    "soccer_germany_bundesliga": "2026-10-16T06:02:52.9159837Z",
-    "soccer_germany_bundesliga2": "2026-10-18T06:32:54.7885275Z"
-  }
+  ]
 }
