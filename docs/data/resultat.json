@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-21T14:32:13Z",
+  "generatedAt": "2026-10-21T16:49:50Z",
   "creditsRemaining": 325,
   "creditsUsedToday": 6,
   "dailyBudget": 29,
@@ -73,8 +73,8 @@
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.3
     }
   ],
   "eventsScanned": 1,
