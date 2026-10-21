@@ -1,45 +1,10 @@
 {
   "2026-10-21": {
     "date": "2026-10-21",
-    "updatedAt": "2026-10-21T12:14:47Z",
+    "updatedAt": "2026-10-21T14:32:13Z",
     "eventsScanned": 1,
-    "valueBets": 2,
-    "top": [
-      {
-        "eventId": "a362cccad837f1ffae61ff43a3536688",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Levante",
-        "away": "Athletic Bilbao",
-        "kickoff": "2026-10-21T18:00:00Z",
-        "market": "Buts",
-        "marketKey": "totals",
-        "line": "2.5",
-        "idx": 1,
-        "pick": "-2,5",
-        "pickName": "Moins de 2,5 buts",
-        "names": [
-          "Plus de 2,5 buts",
-          "Moins de 2,5 buts"
-        ],
-        "odd": 1.92,
-        "p": 0.5328,
-        "fairOdd": 1.877,
-        "ev": 0.0231,
-        "quality": 0.0241,
-        "kelly": 0.0251,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.02,
-          1.92
-        ],
-        "refOdds": [
-          2.08,
-          1.83
-        ],
-        "margin1x": 0.0159
-      }
-    ],
+    "valueBets": 0,
+    "top": [],
     "combo": null
   },
   "2026-10-20": {
