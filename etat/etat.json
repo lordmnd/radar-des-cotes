@@ -1,20 +1,8 @@
 {
-  "lastAnalysis": "2026-10-22T15:34:02Z",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-22T08:54:24.2887582Z",
-    "soccer_france_ligue_two": "2026-10-22T06:15:07.2280234Z",
-    "soccer_epl": "2026-10-22T08:54:24.2887582Z",
-    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-22T08:54:24.2887582Z",
-    "soccer_italy_serie_a": "2026-10-22T08:54:24.2887582Z",
-    "soccer_italy_serie_b": "2026-10-22T08:54:24.2887582Z",
-    "soccer_germany_bundesliga": "2026-10-22T08:54:24.2887582Z",
-    "soccer_germany_bundesliga2": "2026-10-22T06:15:07.2280234Z"
-  },
+  "day": "2026-10-22",
   "usedToday": 24,
+  "bankroll0": 80,
   "rejected": [],
-  "nextBet": 2,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -119,8 +107,6 @@
       "status": "perdu"
     }
   ],
-  "day": "2026-10-22",
-  "bankroll0": 80,
   "bets": [
     {
       "n": 1,
@@ -172,79 +158,19 @@
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-22T08:54:24.2887582Z",
+    "soccer_france_ligue_two": "2026-10-22T06:15:07.2280234Z",
+    "soccer_epl": "2026-10-22T08:54:24.2887582Z",
+    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-22T08:54:24.2887582Z",
+    "soccer_italy_serie_a": "2026-10-22T08:54:24.2887582Z",
+    "soccer_italy_serie_b": "2026-10-22T08:54:24.2887582Z",
+    "soccer_germany_bundesliga": "2026-10-22T08:54:24.2887582Z",
+    "soccer_germany_bundesliga2": "2026-10-22T06:15:07.2280234Z"
+  },
   "events": {
-    "1051298b4aca6f07113309bff598a5c1": {
-      "eventId": "1051298b4aca6f07113309bff598a5c1",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Málaga",
-      "away": "Real Sociedad",
-      "kickoff": "2026-10-18T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.49,
-            3.62,
-            2.21
-          ],
-          "p": [
-            0.2821,
-            0.2675,
-            0.4504
-          ]
-        }
-      ]
-    },
-    "c3ca0a75fea2e2f768322e7be4c42977": {
-      "eventId": "c3ca0a75fea2e2f768322e7be4c42977",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Girona FC",
-      "away": "Andorra CF",
-      "kickoff": "2026-10-18T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.79,
-            3.9,
-            4.38
-          ],
-          "p": [
-            0.5417,
-            0.2526,
-            0.2056
-          ]
-        }
-      ]
-    },
-    "280311305282b3288f5d8f19a722058b": {
-      "eventId": "280311305282b3288f5d8f19a722058b",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Real Valladolid CF",
-      "away": "CD Eldense",
-      "kickoff": "2026-10-18T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.98,
-            3.46,
-            4.03
-          ],
-          "p": [
-            0.4704,
-            0.2909,
-            0.2387
-          ]
-        }
-      ]
-    },
     "4c4026e2782f09d6f0ff2bde2a390513": {
       "eventId": "4c4026e2782f09d6f0ff2bde2a390513",
       "sportKey": "soccer_italy_serie_a",
@@ -966,5 +892,7 @@
       ]
     }
   },
-  "remaining": 301
+  "nextBet": 2,
+  "remaining": 301,
+  "lastAnalysis": "2026-10-22T15:34:02Z"
 }
