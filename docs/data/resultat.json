@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-22T06:15:07Z",
-  "creditsRemaining": 319,
-  "creditsUsedToday": 6,
-  "dailyBudget": 32,
+  "generatedAt": "2026-10-22T08:54:24Z",
+  "creditsRemaining": 301,
+  "creditsUsedToday": 24,
+  "dailyBudget": 31,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -16,70 +16,78 @@
   ],
   "leagues": [
     {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_epl",
-      "name": "Premier League",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_efl_champ",
-      "name": "Championship",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_germany_bundesliga",
-      "name": "Bundesliga",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 2,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.7
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 5,
+      "status": "cache",
+      "ageHours": 2.7
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 1,
       "status": "à jour",
       "ageHours": 0.0
+    },
+    {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_germany_bundesliga",
+      "name": "Bundesliga",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_epl",
+      "name": "Premier League",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_efl_champ",
+      "name": "Championship",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 41.6
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 18.4
     }
   ],
-  "eventsScanned": 7,
-  "eventsWith1xbet": 7,
+  "eventsScanned": 13,
+  "eventsWith1xbet": 13,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -376,6 +384,186 @@
             0.5859,
             0.2308,
             0.1834
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "6de4fc21bdcbf78109439aa1d52c3982",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Granada CF",
+      "away": "Real Valladolid CF",
+      "kickoff": "2026-10-23T18:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.24,
+            3.38,
+            3.34
+          ],
+          "p": [
+            0.4189,
+            0.2906,
+            0.2906
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "53fd1bfc16dfafce5f71d4c4da8a1261",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Empoli",
+      "away": "Vicenza",
+      "kickoff": "2026-10-23T18:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.36,
+            3.38,
+            2.86
+          ],
+          "p": [
+            0.4011,
+            0.2862,
+            0.3127
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.76,
+            1.99
+          ],
+          "p": [
+            0.4919,
+            0.5081
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "d4d56a31d8ccd432e3a6183180e093f3",
+      "sportKey": "soccer_germany_bundesliga",
+      "league": "Bundesliga",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Monchengladbach",
+      "kickoff": "2026-10-23T18:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.42,
+            5.84,
+            7.06
+          ],
+          "p": [
+            0.7033,
+            0.1634,
+            0.1333
+          ]
+        },
+        {
+          "marketKey": "spreads",
+          "line": "-1.5",
+          "odds1x": [
+            2.01,
+            1.93
+          ],
+          "p": [
+            0.4935,
+            0.5065
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "8aa36b30d655d6c81ed98bf9ec1b4039",
+      "sportKey": "soccer_france_ligue_one",
+      "league": "Ligue 1",
+      "home": "Brest",
+      "away": "Nice",
+      "kickoff": "2026-10-23T18:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.31,
+            3.5,
+            3.38
+          ],
+          "p": [
+            0.4228,
+            0.2868,
+            0.2904
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "124c70f8f3248a845bdb983a54e74720",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Monza",
+      "kickoff": "2026-10-23T18:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.21,
+            3.58,
+            3.54
+          ],
+          "p": [
+            0.4447,
+            0.2793,
+            0.276
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            2.01,
+            1.93
+          ],
+          "p": [
+            0.4881,
+            0.5119
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "d0202960708a442401d7fc7bd74a0183",
+      "sportKey": "soccer_epl",
+      "league": "Premier League",
+      "home": "Ipswich Town",
+      "away": "Nottingham Forest",
+      "kickoff": "2026-10-23T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.29,
+            3.58,
+            2.32
+          ],
+          "p": [
+            0.2959,
+            0.2775,
+            0.4266
           ]
         }
       ]
