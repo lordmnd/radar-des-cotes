@@ -1,18 +1,6 @@
 {
-  "nextBet": 2,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-22T08:54:24.2887582Z",
-    "soccer_france_ligue_two": "2026-10-22T06:15:07.2280234Z",
-    "soccer_epl": "2026-10-22T08:54:24.2887582Z",
-    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-22T08:54:24.2887582Z",
-    "soccer_italy_serie_a": "2026-10-22T08:54:24.2887582Z",
-    "soccer_italy_serie_b": "2026-10-22T08:54:24.2887582Z",
-    "soccer_germany_bundesliga": "2026-10-22T08:54:24.2887582Z",
-    "soccer_germany_bundesliga2": "2026-10-22T06:15:07.2280234Z"
-  },
-  "bankroll0": 80,
+  "lastAnalysis": "2026-10-22T13:28:40Z",
+  "rejected": [],
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -117,8 +105,26 @@
       "status": "perdu"
     }
   ],
-  "rejected": [],
-  "lastAnalysis": "2026-10-22T13:28:40Z",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "nextBet": 2,
+  "usedToday": 24,
+  "bankroll0": 80,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-22T08:54:24.2887582Z",
+    "soccer_france_ligue_two": "2026-10-22T06:15:07.2280234Z",
+    "soccer_epl": "2026-10-22T08:54:24.2887582Z",
+    "soccer_efl_champ": "2026-10-20T15:17:50.0227969Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-22T08:54:24.2887582Z",
+    "soccer_italy_serie_a": "2026-10-22T08:54:24.2887582Z",
+    "soccer_italy_serie_b": "2026-10-22T08:54:24.2887582Z",
+    "soccer_germany_bundesliga": "2026-10-22T08:54:24.2887582Z",
+    "soccer_germany_bundesliga2": "2026-10-22T06:15:07.2280234Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -165,7 +171,6 @@
       "status": "perdu"
     }
   ],
-  "day": "2026-10-22",
   "events": {
     "f696a248965373d9071dc0662e5c58a8": {
       "eventId": "f696a248965373d9071dc0662e5c58a8",
@@ -203,30 +208,6 @@
         }
       ]
     },
-    "aabe899ecc4c19a1fafe5440151b62e4": {
-      "eventId": "aabe899ecc4c19a1fafe5440151b62e4",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Celta Vigo",
-      "away": "Alavés",
-      "kickoff": "2026-10-18T14:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.28,
-            3.39,
-            3.54
-          ],
-          "p": [
-            0.4249,
-            0.3008,
-            0.2744
-          ]
-        }
-      ]
-    },
     "1051298b4aca6f07113309bff598a5c1": {
       "eventId": "1051298b4aca6f07113309bff598a5c1",
       "sportKey": "soccer_spain_la_liga",
@@ -247,30 +228,6 @@
             0.2821,
             0.2675,
             0.4504
-          ]
-        }
-      ]
-    },
-    "1b7f2920569678d5d72322a9abc3edad": {
-      "eventId": "1b7f2920569678d5d72322a9abc3edad",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Granada CF",
-      "away": "Cádiz CF",
-      "kickoff": "2026-10-18T14:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.96,
-            3.48,
-            4.08
-          ],
-          "p": [
-            0.4893,
-            0.2836,
-            0.2272
           ]
         }
       ]
@@ -1201,10 +1158,5 @@
     }
   },
   "remaining": 301,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "usedToday": 24
+  "day": "2026-10-22"
 }
