@@ -1,50 +1,5 @@
 {
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ],
+  "lastAnalysis": "2026-10-22T15:34:02Z",
   "fetched": {
     "soccer_france_ligue_one": "2026-10-22T08:54:24.2887582Z",
     "soccer_france_ligue_two": "2026-10-22T06:15:07.2280234Z",
@@ -57,8 +12,9 @@
     "soccer_germany_bundesliga": "2026-10-22T08:54:24.2887582Z",
     "soccer_germany_bundesliga2": "2026-10-22T06:15:07.2280234Z"
   },
-  "rejected": [],
   "usedToday": 24,
+  "rejected": [],
+  "nextBet": 2,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -163,13 +119,59 @@
       "status": "perdu"
     }
   ],
-  "nextBet": 2,
+  "day": "2026-10-22",
+  "bankroll0": 80,
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
+        {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
+          "marketKey": "h2h",
+          "market": "1N2",
+          "line": "",
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
+        },
+        {
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
+        }
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "lastAnalysis": "2026-10-22T15:34:02Z",
   "events": {
     "1051298b4aca6f07113309bff598a5c1": {
       "eventId": "1051298b4aca6f07113309bff598a5c1",
@@ -239,30 +241,6 @@
             0.4704,
             0.2909,
             0.2387
-          ]
-        }
-      ]
-    },
-    "f9403dd597edbfaa73abdc974e55344c": {
-      "eventId": "f9403dd597edbfaa73abdc974e55344c",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "AC Milan",
-      "away": "Atalanta BC",
-      "kickoff": "2026-10-18T16:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.86,
-            4.0,
-            4.4
-          ],
-          "p": [
-            0.5335,
-            0.2526,
-            0.214
           ]
         }
       ]
@@ -988,7 +966,5 @@
       ]
     }
   },
-  "day": "2026-10-22",
-  "remaining": 301,
-  "bankroll0": 80
+  "remaining": 301
 }
