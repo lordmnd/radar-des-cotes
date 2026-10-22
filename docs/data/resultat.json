@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-21T20:51:23Z",
-  "creditsRemaining": 325,
+  "generatedAt": "2026-10-22T06:15:07Z",
+  "creditsRemaining": 319,
   "creditsUsedToday": 6,
-  "dailyBudget": 29,
+  "dailyBudget": 32,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -18,12 +18,6 @@
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
       "events": 0,
       "status": "pas de match"
     },
@@ -72,12 +66,20 @@
     {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
-      "events": 0,
-      "status": "pas de match"
+      "events": 2,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 5,
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 0,
-  "eventsWith1xbet": 0,
+  "eventsScanned": 7,
+  "eventsWith1xbet": 7,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -197,6 +199,187 @@
     "avgClv": 0.0273,
     "clvLegs": 4
   },
-  "matches": [],
+  "matches": [
+    {
+      "eventId": "ed6da0ed9e5d0c24d1c6f689d9f4b440",
+      "sportKey": "soccer_germany_bundesliga2",
+      "league": "2. Bundesliga",
+      "home": "SV Darmstadt 98",
+      "away": "FC St. Pauli",
+      "kickoff": "2026-10-23T16:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.03,
+            3.48,
+            2.21
+          ],
+          "p": [
+            0.2924,
+            0.274,
+            0.4336
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "618df9a8c3b34ce0ec2c309deccb92c8",
+      "sportKey": "soccer_germany_bundesliga2",
+      "league": "2. Bundesliga",
+      "home": "VfL Bochum",
+      "away": "VfL Wolfsburg",
+      "kickoff": "2026-10-23T16:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.08,
+            3.8,
+            2.07
+          ],
+          "p": [
+            0.2915,
+            0.239,
+            0.4695
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "e999dbef3f9ee95f3928190d9a626f8c",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Sochaux",
+      "away": "Annecy FC",
+      "kickoff": "2026-10-23T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.23,
+            3.38,
+            3.14
+          ],
+          "p": [
+            0.4264,
+            0.2886,
+            0.285
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "578db8ea1f9670476e225a41a007b0b8",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Clermont",
+      "away": "Guingamp",
+      "kickoff": "2026-10-23T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.86,
+            3.34,
+            2.37
+          ],
+          "p": [
+            0.3131,
+            0.2928,
+            0.3941
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.83,
+            1.91
+          ],
+          "p": [
+            0.4864,
+            0.5136
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "732473e3a3b9f0e3c0b41e809c03f19b",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Pau FC",
+      "away": "Grenoble",
+      "kickoff": "2026-10-23T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.81,
+            3.46,
+            4.38
+          ],
+          "p": [
+            0.5236,
+            0.2766,
+            0.1998
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "403cbd7b75159c7d75a0988bd6d602b0",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "USL Dunkerque",
+      "away": "Metz",
+      "kickoff": "2026-10-23T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.72,
+            3.54,
+            2.35
+          ],
+          "p": [
+            0.3397,
+            0.2632,
+            0.3971
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "790e760a4515927d83bc6fa36890b1ce",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Nancy",
+      "away": "Stade Lavallois",
+      "kickoff": "2026-10-23T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.63,
+            4.0,
+            4.84
+          ],
+          "p": [
+            0.5859,
+            0.2308,
+            0.1834
+          ]
+        }
+      ]
+    }
+  ],
   "botUsername": "MyownfuturBot"
 }
