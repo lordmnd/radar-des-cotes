@@ -11,63 +11,8 @@
     "soccer_germany_bundesliga": "2026-10-22T08:54:24.2887582Z",
     "soccer_germany_bundesliga2": "2026-10-22T06:15:07.2280234Z"
   },
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "day": "2026-10-22",
-  "nextBet": 2,
+  "lastAnalysis": "2026-10-22T11:05:00Z",
   "rejected": [],
-  "bankroll0": 80,
-  "usedToday": 24,
-  "remaining": 301,
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ],
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -172,79 +117,57 @@
       "status": "perdu"
     }
   ],
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
+        {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
+          "marketKey": "h2h",
+          "market": "1N2",
+          "line": "",
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
+        },
+        {
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
+        }
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
+  "bankroll0": 80,
+  "usedToday": 24,
+  "day": "2026-10-22",
+  "remaining": 301,
   "events": {
-    "30af1081a1518dbc0164323134511308": {
-      "eventId": "30af1081a1518dbc0164323134511308",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Dynamo Dresden",
-      "away": "1. FC Magdeburg",
-      "kickoff": "2026-10-18T11:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.46,
-            3.55,
-            2.58
-          ],
-          "p": [
-            0.3761,
-            0.2649,
-            0.359
-          ]
-        }
-      ]
-    },
-    "2d147c047813c3437af03b43d61a34fd": {
-      "eventId": "2d147c047813c3437af03b43d61a34fd",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Arminia Bielefeld",
-      "away": "VfL Osnabrück",
-      "kickoff": "2026-10-18T11:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.88,
-            3.64,
-            3.79
-          ],
-          "p": [
-            0.5023,
-            0.2542,
-            0.2435
-          ]
-        }
-      ]
-    },
-    "f6618747f21efb08aa88d81286dfddae": {
-      "eventId": "f6618747f21efb08aa88d81286dfddae",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Karlsruher SC",
-      "away": "SV Darmstadt 98",
-      "kickoff": "2026-10-18T11:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.21,
-            3.72,
-            2.87
-          ],
-          "p": [
-            0.4154,
-            0.2533,
-            0.3313
-          ]
-        }
-      ]
-    },
     "dfd5d6648be46426e418801584d46a68": {
       "eventId": "dfd5d6648be46426e418801584d46a68",
       "sportKey": "soccer_epl",
@@ -1482,5 +1405,10 @@
       ]
     }
   },
-  "lastAnalysis": "2026-10-22T11:05:00Z"
+  "nextBet": 2,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  }
 }
