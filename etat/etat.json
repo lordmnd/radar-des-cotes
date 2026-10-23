@@ -1,27 +1,6 @@
 {
   "nextBet": 2,
-  "usedToday": 27,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-23T06:35:35.2268050Z",
-    "soccer_france_ligue_two": "2026-10-23T06:35:35.2268050Z",
-    "soccer_epl": "2026-10-23T06:35:35.2268050Z",
-    "soccer_efl_champ": "2026-10-23T06:35:35.2268050Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-23T06:35:35.2268050Z",
-    "soccer_italy_serie_a": "2026-10-23T06:35:35.2268050Z",
-    "soccer_italy_serie_b": "2026-10-23T06:35:35.2268050Z",
-    "soccer_germany_bundesliga": "2026-10-23T06:35:35.2268050Z",
-    "soccer_germany_bundesliga2": "2026-10-23T06:35:35.2268050Z"
-  },
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "day": "2026-10-23",
-  "bankroll0": 80,
-  "lastAnalysis": "2026-10-23T15:34:45Z",
-  "remaining": 274,
+  "lastAnalysis": "2026-10-23T17:45:43Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -126,7 +105,6 @@
       "status": "perdu"
     }
   ],
-  "rejected": [],
   "events": {
     "d851ff25af980dc2572dec1a9b95a1b2": {
       "eventId": "d851ff25af980dc2572dec1a9b95a1b2",
@@ -1833,6 +1811,18 @@
       ]
     }
   },
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-23T06:35:35.2268050Z",
+    "soccer_france_ligue_two": "2026-10-23T06:35:35.2268050Z",
+    "soccer_epl": "2026-10-23T06:35:35.2268050Z",
+    "soccer_efl_champ": "2026-10-23T06:35:35.2268050Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-23T06:35:35.2268050Z",
+    "soccer_italy_serie_a": "2026-10-23T06:35:35.2268050Z",
+    "soccer_italy_serie_b": "2026-10-23T06:35:35.2268050Z",
+    "soccer_germany_bundesliga": "2026-10-23T06:35:35.2268050Z",
+    "soccer_germany_bundesliga2": "2026-10-23T06:35:35.2268050Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -1878,5 +1868,15 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ]
+  ],
+  "remaining": 274,
+  "day": "2026-10-23",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "bankroll0": 80,
+  "rejected": [],
+  "usedToday": 27
 }
