@@ -1,4 +1,50 @@
 {
+  "2026-10-23": {
+    "date": "2026-10-23",
+    "updatedAt": "2026-10-23T06:35:35Z",
+    "eventsScanned": 54,
+    "valueBets": 1,
+    "top": [
+      {
+        "eventId": "b7f0880e3da978f9481f7cb5697e2aa5",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Cagliari",
+        "away": "Bologna",
+        "kickoff": "2026-10-24T13:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Cagliari",
+          "Match nul",
+          "Victoire Bologna"
+        ],
+        "odd": 3.13,
+        "p": 0.3259,
+        "fairOdd": 3.068,
+        "ev": 0.0201,
+        "quality": 0.0137,
+        "kelly": 0.0094,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.35,
+          3.13,
+          2.52
+        ],
+        "refOdds": [
+          3.26,
+          2.97,
+          2.57
+        ],
+        "margin1x": 0.0148
+      }
+    ],
+    "combo": null
+  },
   "2026-10-22": {
     "date": "2026-10-22",
     "updatedAt": "2026-10-22T20:03:17Z",
