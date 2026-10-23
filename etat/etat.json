@@ -45,24 +45,11 @@
       "status": "perdu"
     }
   ],
-  "remaining": 274,
-  "rejected": [],
-  "lastAnalysis": "2026-10-23T08:54:47Z",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-23T06:35:35.2268050Z",
-    "soccer_france_ligue_two": "2026-10-23T06:35:35.2268050Z",
-    "soccer_epl": "2026-10-23T06:35:35.2268050Z",
-    "soccer_efl_champ": "2026-10-23T06:35:35.2268050Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-23T06:35:35.2268050Z",
-    "soccer_italy_serie_a": "2026-10-23T06:35:35.2268050Z",
-    "soccer_italy_serie_b": "2026-10-23T06:35:35.2268050Z",
-    "soccer_germany_bundesliga": "2026-10-23T06:35:35.2268050Z",
-    "soccer_germany_bundesliga2": "2026-10-23T06:35:35.2268050Z"
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
   },
-  "nextBet": 2,
-  "bankroll0": 80,
-  "usedToday": 27,
   "events": {
     "ce94aca384a20f6af459366da6e1dd21": {
       "eventId": "ce94aca384a20f6af459366da6e1dd21",
@@ -1793,7 +1780,24 @@
       ]
     }
   },
+  "lastAnalysis": "2026-10-23T08:54:47Z",
+  "usedToday": 27,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-23T06:35:35.2268050Z",
+    "soccer_france_ligue_two": "2026-10-23T06:35:35.2268050Z",
+    "soccer_epl": "2026-10-23T06:35:35.2268050Z",
+    "soccer_efl_champ": "2026-10-23T06:35:35.2268050Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-23T06:35:35.2268050Z",
+    "soccer_italy_serie_a": "2026-10-23T06:35:35.2268050Z",
+    "soccer_italy_serie_b": "2026-10-23T06:35:35.2268050Z",
+    "soccer_germany_bundesliga": "2026-10-23T06:35:35.2268050Z",
+    "soccer_germany_bundesliga2": "2026-10-23T06:35:35.2268050Z"
+  },
+  "bankroll0": 80,
   "day": "2026-10-23",
+  "rejected": [],
+  "nextBet": 2,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1898,9 +1902,5 @@
       "status": "perdu"
     }
   ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  }
+  "remaining": 274
 }
