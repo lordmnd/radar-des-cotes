@@ -1,11 +1,4 @@
 {
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "nextBet": 2,
-  "remaining": 274,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -110,21 +103,6 @@
       "status": "perdu"
     }
   ],
-  "lastAnalysis": "2026-10-23T15:34:45Z",
-  "day": "2026-10-23",
-  "usedToday": 27,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-23T06:35:35.2268050Z",
-    "soccer_france_ligue_two": "2026-10-23T06:35:35.2268050Z",
-    "soccer_epl": "2026-10-23T06:35:35.2268050Z",
-    "soccer_efl_champ": "2026-10-23T06:35:35.2268050Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-23T06:35:35.2268050Z",
-    "soccer_italy_serie_a": "2026-10-23T06:35:35.2268050Z",
-    "soccer_italy_serie_b": "2026-10-23T06:35:35.2268050Z",
-    "soccer_germany_bundesliga": "2026-10-23T06:35:35.2268050Z",
-    "soccer_germany_bundesliga2": "2026-10-23T06:35:35.2268050Z"
-  },
   "bets": [
     {
       "n": 1,
@@ -171,7 +149,11 @@
       "status": "perdu"
     }
   ],
-  "rejected": [],
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "events": {
     "ce94aca384a20f6af459366da6e1dd21": {
       "eventId": "ce94aca384a20f6af459366da6e1dd21",
@@ -1902,5 +1884,23 @@
       ]
     }
   },
-  "bankroll0": 80
+  "usedToday": 27,
+  "lastAnalysis": "2026-10-23T15:34:45Z",
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-23T06:35:35.2268050Z",
+    "soccer_france_ligue_two": "2026-10-23T06:35:35.2268050Z",
+    "soccer_epl": "2026-10-23T06:35:35.2268050Z",
+    "soccer_efl_champ": "2026-10-23T06:35:35.2268050Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-23T06:35:35.2268050Z",
+    "soccer_italy_serie_a": "2026-10-23T06:35:35.2268050Z",
+    "soccer_italy_serie_b": "2026-10-23T06:35:35.2268050Z",
+    "soccer_germany_bundesliga": "2026-10-23T06:35:35.2268050Z",
+    "soccer_germany_bundesliga2": "2026-10-23T06:35:35.2268050Z"
+  },
+  "rejected": [],
+  "remaining": 274,
+  "nextBet": 2,
+  "bankroll0": 80,
+  "day": "2026-10-23"
 }
