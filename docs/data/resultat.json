@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-24T06:30:50Z",
+  "generatedAt": "2026-10-24T08:48:36Z",
   "creditsRemaining": 245,
   "creditsUsedToday": 29,
-  "dailyBudget": 34,
+  "dailyBudget": 30,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -19,71 +19,71 @@
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 7,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 9,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 11,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
-      "events": 7,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 8,
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 9,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 8,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 9,
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 9,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 8,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.3
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 7,
       "status": "cache",
-      "ageHours": 23.9
+      "ageHours": 26.2
     }
   ],
   "eventsScanned": 70,
@@ -509,7 +509,7 @@
     "notifiedAt": "2026-10-24T06:30:50Z"
   },
   "comboNote": "",
-  "notify": true,
+  "notify": false,
   "notifications": [
     {
       "at": "2026-10-24T06:30:50Z",
@@ -536,7 +536,10 @@
           "pickName": "Victoire Atlético Madrid",
           "odd": 1.34,
           "p": 0.7686,
-          "fairOdd": 1.301
+          "fairOdd": 1.301,
+          "closeFairOdd": 1.301,
+          "closeOdd1x": 1.34,
+          "closeSeenAt": "2026-10-24T08:48:36Z"
         },
         {
           "eventId": "c9b6c7048d8dc33dae618f67f462f67a",
@@ -553,7 +556,10 @@
           "pickName": "Inter Milan -1,5",
           "odd": 2.05,
           "p": 0.5,
-          "fairOdd": 2.0
+          "fairOdd": 2.0,
+          "closeFairOdd": 2.0,
+          "closeOdd1x": 2.05,
+          "closeSeenAt": "2026-10-24T08:48:36Z"
         }
       ]
     },
@@ -668,7 +674,7 @@
     "profitUnits": -2.0,
     "roi": -1.0,
     "avgClv": 0.0273,
-    "clvLegs": 4
+    "clvLegs": 6
   },
   "matches": [
     {
