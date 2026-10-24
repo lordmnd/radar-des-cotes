@@ -1,20 +1,4 @@
 {
-  "day": "2026-10-24",
-  "nextBet": 2,
-  "usedToday": 0,
-  "rejected": [],
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-23T06:35:35.2268050Z",
-    "soccer_france_ligue_two": "2026-10-23T06:35:35.2268050Z",
-    "soccer_epl": "2026-10-23T06:35:35.2268050Z",
-    "soccer_efl_champ": "2026-10-23T06:35:35.2268050Z",
-    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
-    "soccer_spain_segunda_division": "2026-10-23T06:35:35.2268050Z",
-    "soccer_italy_serie_a": "2026-10-23T06:35:35.2268050Z",
-    "soccer_italy_serie_b": "2026-10-23T06:35:35.2268050Z",
-    "soccer_germany_bundesliga": "2026-10-23T06:35:35.2268050Z",
-    "soccer_germany_bundesliga2": "2026-10-23T06:35:35.2268050Z"
-  },
   "events": {
     "3b6ffffb1208351a67941b2f25516ca4": {
       "eventId": "3b6ffffb1208351a67941b2f25516ca4",
@@ -1601,8 +1585,7 @@
       ]
     }
   },
-  "bankroll0": 80,
-  "lastAnalysis": "2026-10-23T19:58:31Z",
+  "remaining": 274,
   "bets": [
     {
       "n": 1,
@@ -1649,7 +1632,11 @@
       "status": "perdu"
     }
   ],
-  "remaining": 274,
+  "day": "2026-10-24",
+  "lastAnalysis": "2026-10-23T19:58:31Z",
+  "usedToday": 0,
+  "rejected": [],
+  "bankroll0": 80,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1754,6 +1741,19 @@
       "status": "perdu"
     }
   ],
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-23T06:35:35.2268050Z",
+    "soccer_france_ligue_two": "2026-10-23T06:35:35.2268050Z",
+    "soccer_epl": "2026-10-23T06:35:35.2268050Z",
+    "soccer_efl_champ": "2026-10-23T06:35:35.2268050Z",
+    "soccer_spain_la_liga": "2026-10-21T14:32:13.6820408Z",
+    "soccer_spain_segunda_division": "2026-10-23T06:35:35.2268050Z",
+    "soccer_italy_serie_a": "2026-10-23T06:35:35.2268050Z",
+    "soccer_italy_serie_b": "2026-10-23T06:35:35.2268050Z",
+    "soccer_germany_bundesliga": "2026-10-23T06:35:35.2268050Z",
+    "soccer_germany_bundesliga2": "2026-10-23T06:35:35.2268050Z"
+  },
+  "nextBet": 2,
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
