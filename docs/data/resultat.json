@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-24T08:48:36Z",
+  "generatedAt": "2026-10-24T10:46:18Z",
   "creditsRemaining": 245,
   "creditsUsedToday": 29,
   "dailyBudget": 30,
@@ -16,78 +16,78 @@
   ],
   "leagues": [
     {
-      "key": "soccer_germany_bundesliga2",
-      "name": "2. Bundesliga",
-      "events": 7,
-      "status": "cache",
-      "ageHours": 2.3
-    },
-    {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 9,
       "status": "cache",
-      "ageHours": 2.3
+      "ageHours": 4.3
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 11,
       "status": "cache",
-      "ageHours": 2.3
+      "ageHours": 4.3
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 2.3
+      "ageHours": 4.3
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 8,
       "status": "cache",
-      "ageHours": 2.3
+      "ageHours": 4.3
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 9,
       "status": "cache",
-      "ageHours": 2.3
+      "ageHours": 4.3
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 9,
       "status": "cache",
-      "ageHours": 2.3
+      "ageHours": 4.3
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 9,
       "status": "cache",
-      "ageHours": 2.3
+      "ageHours": 4.3
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 8,
       "status": "cache",
-      "ageHours": 2.3
+      "ageHours": 4.3
+    },
+    {
+      "key": "soccer_germany_bundesliga2",
+      "name": "2. Bundesliga",
+      "events": 4,
+      "status": "cache",
+      "ageHours": 4.3
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 7,
       "status": "cache",
-      "ageHours": 26.2
+      "ageHours": 28.2
     }
   ],
-  "eventsScanned": 70,
-  "eventsWith1xbet": 70,
+  "eventsScanned": 67,
+  "eventsWith1xbet": 67,
   "valueBets": 10,
   "top": [
     {
@@ -539,7 +539,7 @@
           "fairOdd": 1.301,
           "closeFairOdd": 1.301,
           "closeOdd1x": 1.34,
-          "closeSeenAt": "2026-10-24T08:48:36Z"
+          "closeSeenAt": "2026-10-24T10:46:18Z"
         },
         {
           "eventId": "c9b6c7048d8dc33dae618f67f462f67a",
@@ -559,7 +559,7 @@
           "fairOdd": 2.0,
           "closeFairOdd": 2.0,
           "closeOdd1x": 2.05,
-          "closeSeenAt": "2026-10-24T08:48:36Z"
+          "closeSeenAt": "2026-10-24T10:46:18Z"
         }
       ]
     },
@@ -678,73 +678,25 @@
   },
   "matches": [
     {
-      "eventId": "d4d7c809a6a215ad60d25554203db13d",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "1. FC Heidenheim",
-      "away": "FC Energie Cottbus",
-      "kickoff": "2026-10-24T11:00:00Z",
+      "eventId": "aca5dd297dbee71f576f7641569fe578",
+      "sportKey": "soccer_epl",
+      "league": "Premier League",
+      "home": "Aston Villa",
+      "away": "Manchester City",
+      "kickoff": "2026-10-24T11:30:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.69,
-            4.5,
-            3.94
+            5.07,
+            4.51,
+            1.68
           ],
           "p": [
-            0.5425,
-            0.2057,
-            0.2518
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "e7b52f065c1e57d37e1900ea4b5b0454",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "1. FC Magdeburg",
-      "away": "Karlsruher SC",
-      "kickoff": "2026-10-24T11:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.83,
-            3.98,
-            3.67
-          ],
-          "p": [
-            0.5401,
-            0.226,
-            0.234
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "4d1ed27d1857507038301436f9f3db98",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Hertha Berlin",
-      "away": "Arminia Bielefeld",
-      "kickoff": "2026-10-24T11:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.77,
-            3.98,
-            3.94
-          ],
-          "p": [
-            0.5304,
-            0.2369,
-            0.2327
+            0.1868,
+            0.2142,
+            0.599
           ]
         }
       ]
@@ -810,30 +762,6 @@
       ]
     },
     {
-      "eventId": "aca5dd297dbee71f576f7641569fe578",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Aston Villa",
-      "away": "Manchester City",
-      "kickoff": "2026-10-24T11:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            5.07,
-            4.51,
-            1.68
-          ],
-          "p": [
-            0.1868,
-            0.2142,
-            0.599
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "6ba5c9e49aac3f34425f72bc0177dcde",
       "sportKey": "soccer_efl_champ",
       "league": "Championship",
@@ -865,6 +793,30 @@
           "p": [
             0.5027,
             0.4973
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "12c9efa353bb65bb300866cd78a9b101",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Córdoba",
+      "away": "SD Eibar",
+      "kickoff": "2026-10-24T12:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.08,
+            3.57,
+            3.57
+          ],
+          "p": [
+            0.4794,
+            0.2665,
+            0.2541
           ]
         }
       ]
@@ -930,25 +882,25 @@
       ]
     },
     {
-      "eventId": "12c9efa353bb65bb300866cd78a9b101",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Córdoba",
-      "away": "SD Eibar",
-      "kickoff": "2026-10-24T12:00:00Z",
+      "eventId": "255686b0c83c233efdd58c5f3068c185",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Südtirol",
+      "away": "Sampdoria",
+      "kickoff": "2026-10-24T13:00:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.08,
-            3.57,
-            3.57
+            2.91,
+            2.95,
+            2.55
           ],
           "p": [
-            0.4794,
-            0.2665,
-            0.2541
+            0.3217,
+            0.3307,
+            0.3477
           ]
         }
       ]
@@ -985,30 +937,6 @@
           "p": [
             0.4775,
             0.5225
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "9b380401d549d4c4504f010f5c00c9bc",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Avellino",
-      "away": "Padova",
-      "kickoff": "2026-10-24T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.15,
-            3.18,
-            3.45
-          ],
-          "p": [
-            0.4364,
-            0.3016,
-            0.2619
           ]
         }
       ]
@@ -1062,6 +990,30 @@
       ]
     },
     {
+      "eventId": "9b380401d549d4c4504f010f5c00c9bc",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Avellino",
+      "away": "Padova",
+      "kickoff": "2026-10-24T13:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.15,
+            3.18,
+            3.45
+          ],
+          "p": [
+            0.4364,
+            0.3016,
+            0.2619
+          ]
+        }
+      ]
+    },
+    {
       "eventId": "b3d144f63187d86835f92328942af7f1",
       "sportKey": "soccer_italy_serie_b",
       "league": "Serie B",
@@ -1081,30 +1033,6 @@
             0.6217,
             0.2254,
             0.1529
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "255686b0c83c233efdd58c5f3068c185",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Südtirol",
-      "away": "Sampdoria",
-      "kickoff": "2026-10-24T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.91,
-            2.95,
-            2.55
-          ],
-          "p": [
-            0.3217,
-            0.3307,
-            0.3477
           ]
         }
       ]
@@ -1134,49 +1062,25 @@
       ]
     },
     {
-      "eventId": "4e5820453145833132980b8d190998c7",
+      "eventId": "983440c6e348b558c6a3e10e2061ba55",
       "sportKey": "soccer_germany_bundesliga",
       "league": "Bundesliga",
-      "home": "FSV Mainz 05",
-      "away": "Werder Bremen",
+      "home": "1. FC Köln",
+      "away": "FC Schalke 04",
       "kickoff": "2026-10-24T13:30:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.79,
-            4.42,
-            4.36
-          ],
-          "p": [
-            0.5577,
-            0.2284,
-            0.214
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "7630f897583f3acc0f483fa2d17d1ac5",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "SC Paderborn",
-      "away": "Hamburger SV",
-      "kickoff": "2026-10-24T13:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.36,
+            2.12,
             3.92,
-            2.97
+            3.47
           ],
           "p": [
-            0.4066,
-            0.2679,
-            0.3255
+            0.4592,
+            0.2594,
+            0.2814
           ]
         }
       ]
@@ -1206,25 +1110,49 @@
       ]
     },
     {
-      "eventId": "983440c6e348b558c6a3e10e2061ba55",
+      "eventId": "7630f897583f3acc0f483fa2d17d1ac5",
       "sportKey": "soccer_germany_bundesliga",
       "league": "Bundesliga",
-      "home": "1. FC Köln",
-      "away": "FC Schalke 04",
+      "home": "SC Paderborn",
+      "away": "Hamburger SV",
       "kickoff": "2026-10-24T13:30:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.12,
+            2.36,
             3.92,
-            3.47
+            2.97
           ],
           "p": [
-            0.4592,
-            0.2594,
-            0.2814
+            0.4066,
+            0.2679,
+            0.3255
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "4e5820453145833132980b8d190998c7",
+      "sportKey": "soccer_germany_bundesliga",
+      "league": "Bundesliga",
+      "home": "FSV Mainz 05",
+      "away": "Werder Bremen",
+      "kickoff": "2026-10-24T13:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.79,
+            4.42,
+            4.36
+          ],
+          "p": [
+            0.5577,
+            0.2284,
+            0.214
           ]
         }
       ]
@@ -1254,85 +1182,25 @@
       ]
     },
     {
-      "eventId": "89b4f56843ed131dcd5a5ef7d36c6234",
+      "eventId": "d0829979a9fbcc740b6758c5d60c3ead",
       "sportKey": "soccer_efl_champ",
       "league": "Championship",
-      "home": "Blackburn Rovers",
-      "away": "Wrexham AFC",
+      "home": "West Ham United",
+      "away": "Southampton",
       "kickoff": "2026-10-24T14:00:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.7,
-            3.12,
-            2.6
+            1.63,
+            4.3,
+            4.5
           ],
           "p": [
-            0.3438,
-            0.2926,
-            0.3636
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "9b36b7eba9f444405318b6a931ebf229",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Stoke City",
-      "away": "Bristol City",
-      "kickoff": "2026-10-24T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.45,
-            3.18,
-            2.84
-          ],
-          "p": [
-            0.3778,
-            0.2952,
-            0.327
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "35338730dd2de8ae05fc62d9d314e05b",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Lincoln City",
-      "away": "Burnley",
-      "kickoff": "2026-10-24T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.77,
-            3.42,
-            2.38
-          ],
-          "p": [
-            0.3523,
-            0.2671,
-            0.3806
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.85,
-            1.89
-          ],
-          "p": [
-            0.5066,
-            0.4934
+            0.5807,
+            0.2135,
+            0.2058
           ]
         }
       ]
@@ -1374,85 +1242,37 @@
       ]
     },
     {
-      "eventId": "48ff496c5b9ad78f94388b4b86605144",
+      "eventId": "35338730dd2de8ae05fc62d9d314e05b",
       "sportKey": "soccer_efl_champ",
       "league": "Championship",
-      "home": "Queens Park Rangers",
-      "away": "Swansea City",
+      "home": "Lincoln City",
+      "away": "Burnley",
       "kickoff": "2026-10-24T14:00:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.42,
-            3.3,
-            2.79
+            2.77,
+            3.42,
+            2.38
           ],
           "p": [
-            0.3898,
-            0.279,
-            0.3312
+            0.3523,
+            0.2671,
+            0.3806
           ]
         },
         {
           "marketKey": "totals",
           "line": "2.5",
           "odds1x": [
-            1.91,
-            1.83
+            1.85,
+            1.89
           ],
           "p": [
-            0.4881,
-            0.5119
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "d0829979a9fbcc740b6758c5d60c3ead",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "West Ham United",
-      "away": "Southampton",
-      "kickoff": "2026-10-24T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.63,
-            4.3,
-            4.5
-          ],
-          "p": [
-            0.5807,
-            0.2135,
-            0.2058
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "0b4ff381f91d622a9204399080535072",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Wolverhampton Wanderers",
-      "away": "Watford",
-      "kickoff": "2026-10-24T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.34,
-            5.0,
-            8.05
-          ],
-          "p": [
-            0.7034,
-            0.1856,
-            0.1111
+            0.5066,
+            0.4934
           ]
         }
       ]
@@ -1477,6 +1297,78 @@
             0.3028,
             0.276,
             0.4212
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "9b36b7eba9f444405318b6a931ebf229",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Stoke City",
+      "away": "Bristol City",
+      "kickoff": "2026-10-24T14:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.45,
+            3.18,
+            2.84
+          ],
+          "p": [
+            0.3778,
+            0.2952,
+            0.327
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "89b4f56843ed131dcd5a5ef7d36c6234",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Blackburn Rovers",
+      "away": "Wrexham AFC",
+      "kickoff": "2026-10-24T14:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.7,
+            3.12,
+            2.6
+          ],
+          "p": [
+            0.3438,
+            0.2926,
+            0.3636
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "60d0f45831035c374992df8ca58ca380",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Cardiff City",
+      "away": "Birmingham City",
+      "kickoff": "2026-10-24T14:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.69,
+            3.64,
+            2.33
+          ],
+          "p": [
+            0.3512,
+            0.2436,
+            0.4051
           ]
         }
       ]
@@ -1518,49 +1410,61 @@
       ]
     },
     {
-      "eventId": "60d0f45831035c374992df8ca58ca380",
+      "eventId": "48ff496c5b9ad78f94388b4b86605144",
       "sportKey": "soccer_efl_champ",
       "league": "Championship",
-      "home": "Cardiff City",
-      "away": "Birmingham City",
+      "home": "Queens Park Rangers",
+      "away": "Swansea City",
       "kickoff": "2026-10-24T14:00:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.69,
-            3.64,
-            2.33
+            2.42,
+            3.3,
+            2.79
           ],
           "p": [
-            0.3512,
-            0.2436,
-            0.4051
+            0.3898,
+            0.279,
+            0.3312
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.91,
+            1.83
+          ],
+          "p": [
+            0.4881,
+            0.5119
           ]
         }
       ]
     },
     {
-      "eventId": "e25bb2f4aeeb85ef90b3c09513ba48d1",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Leganés",
-      "away": "Mallorca",
-      "kickoff": "2026-10-24T14:15:00Z",
+      "eventId": "0b4ff381f91d622a9204399080535072",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Wolverhampton Wanderers",
+      "away": "Watford",
+      "kickoff": "2026-10-24T14:00:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.26,
-            3.26,
-            2.33
+            1.34,
+            5.0,
+            8.05
           ],
           "p": [
-            0.288,
-            0.3068,
-            0.4052
+            0.7034,
+            0.1856,
+            0.1111
           ]
         }
       ]
@@ -1585,6 +1489,30 @@
             0.4191,
             0.2619,
             0.319
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "e25bb2f4aeeb85ef90b3c09513ba48d1",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Leganés",
+      "away": "Mallorca",
+      "kickoff": "2026-10-24T14:15:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.26,
+            3.26,
+            2.33
+          ],
+          "p": [
+            0.288,
+            0.3068,
+            0.4052
           ]
         }
       ]
@@ -1650,25 +1578,25 @@
       ]
     },
     {
-      "eventId": "b8aecd498293b6aefa55835b65d0bb5e",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Las Palmas",
-      "away": "Real Sociedad B",
+      "eventId": "0dae715cc56fe201f9e667917c126691",
+      "sportKey": "soccer_spain_la_liga",
+      "league": "La Liga",
+      "home": "Valencia",
+      "away": "Villarreal",
       "kickoff": "2026-10-24T16:30:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.08,
-            3.67,
-            3.44
+            3.33,
+            3.69,
+            2.25
           ],
           "p": [
-            0.4386,
-            0.2681,
-            0.2933
+            0.2716,
+            0.2602,
+            0.4682
           ]
         }
       ]
@@ -1710,6 +1638,30 @@
       ]
     },
     {
+      "eventId": "0382a9faef0bb8df1bcc436536cffb05",
+      "sportKey": "soccer_epl",
+      "league": "Premier League",
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "kickoff": "2026-10-24T16:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.91,
+            4.16,
+            3.98
+          ],
+          "p": [
+            0.5215,
+            0.2405,
+            0.238
+          ]
+        }
+      ]
+    },
+    {
       "eventId": "3ed4d1e775910625c50518a384e9c547",
       "sportKey": "soccer_germany_bundesliga",
       "league": "Bundesliga",
@@ -1746,49 +1698,25 @@
       ]
     },
     {
-      "eventId": "0dae715cc56fe201f9e667917c126691",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Valencia",
-      "away": "Villarreal",
+      "eventId": "b8aecd498293b6aefa55835b65d0bb5e",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Las Palmas",
+      "away": "Real Sociedad B",
       "kickoff": "2026-10-24T16:30:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.33,
-            3.69,
-            2.25
+            2.08,
+            3.67,
+            3.44
           ],
           "p": [
-            0.2716,
-            0.2602,
-            0.4682
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "0382a9faef0bb8df1bcc436536cffb05",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Chelsea",
-      "away": "Tottenham Hotspur",
-      "kickoff": "2026-10-24T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.91,
-            4.16,
-            3.98
-          ],
-          "p": [
-            0.5215,
-            0.2405,
-            0.238
+            0.4386,
+            0.2681,
+            0.2933
           ]
         }
       ]
@@ -2118,85 +2046,25 @@
       ]
     },
     {
-      "eventId": "ccdf2a2baac9e8f75b5ef4bb712ccfd0",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Palermo",
-      "away": "Carrarese",
+      "eventId": "33fb7467b23c91d57dc976d9ab05ea97",
+      "sportKey": "soccer_epl",
+      "league": "Premier League",
+      "home": "Manchester United",
+      "away": "Bournemouth",
       "kickoff": "2026-10-25T14:00:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.45,
-            4.75,
-            5.81
+            2.22,
+            3.75,
+            3.35
           ],
           "p": [
-            0.6611,
-            0.1907,
-            0.1482
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "95cfaecfe96bb7ced1fb6af974a4110b",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Genoa",
-      "away": "Venezia",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.2,
-            3.35,
-            3.81
-          ],
-          "p": [
-            0.4447,
-            0.2989,
-            0.2563
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.04,
-            1.9
-          ],
-          "p": [
-            0.4801,
-            0.5199
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "63aa6e3f679ee4c68de5b4bd8d3361bb",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Atalanta BC",
-      "away": "Frosinone",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.85,
-            4.17,
-            4.22
-          ],
-          "p": [
-            0.5275,
-            0.2287,
-            0.2438
+            0.4421,
+            0.2594,
+            0.2984
           ]
         }
       ]
@@ -2274,25 +2142,85 @@
       ]
     },
     {
-      "eventId": "33fb7467b23c91d57dc976d9ab05ea97",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Manchester United",
-      "away": "Bournemouth",
+      "eventId": "63aa6e3f679ee4c68de5b4bd8d3361bb",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Frosinone",
       "kickoff": "2026-10-25T14:00:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.22,
-            3.75,
-            3.35
+            1.85,
+            4.17,
+            4.22
           ],
           "p": [
-            0.4421,
-            0.2594,
-            0.2984
+            0.5275,
+            0.2287,
+            0.2438
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "95cfaecfe96bb7ced1fb6af974a4110b",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Genoa",
+      "away": "Venezia",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.2,
+            3.35,
+            3.81
+          ],
+          "p": [
+            0.4447,
+            0.2989,
+            0.2563
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            2.04,
+            1.9
+          ],
+          "p": [
+            0.4801,
+            0.5199
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "ccdf2a2baac9e8f75b5ef4bb712ccfd0",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Palermo",
+      "away": "Carrarese",
+      "kickoff": "2026-10-25T14:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.45,
+            4.75,
+            5.81
+          ],
+          "p": [
+            0.6611,
+            0.1907,
+            0.1482
           ]
         }
       ]
@@ -2358,42 +2286,6 @@
       ]
     },
     {
-      "eventId": "cc338030ec8bd12ae96cb998ace47cd4",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Albacete",
-      "away": "CD Eldense",
-      "kickoff": "2026-10-25T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.21,
-            3.65,
-            3.17
-          ],
-          "p": [
-            0.4228,
-            0.2799,
-            0.2973
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.75,
-            2.13
-          ],
-          "p": [
-            0.5215,
-            0.4785
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "db2ea589f6cf6dd11d7c9a5c56ef544a",
       "sportKey": "soccer_spain_segunda_division",
       "league": "La Liga 2",
@@ -2425,6 +2317,42 @@
           "p": [
             0.4906,
             0.5094
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "cc338030ec8bd12ae96cb998ace47cd4",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Albacete",
+      "away": "CD Eldense",
+      "kickoff": "2026-10-25T15:15:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.21,
+            3.65,
+            3.17
+          ],
+          "p": [
+            0.4228,
+            0.2799,
+            0.2973
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.75,
+            2.13
+          ],
+          "p": [
+            0.5215,
+            0.4785
           ]
         }
       ]
@@ -2550,30 +2478,6 @@
       ]
     },
     {
-      "eventId": "0911f42b66dd1f6544db407bccaeed07",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "CD Castellón",
-      "away": "Sporting Gijón",
-      "kickoff": "2026-10-25T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.51,
-            4.59,
-            6.24
-          ],
-          "p": [
-            0.6399,
-            0.2107,
-            0.1494
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "3cb8660cd2375b60e81144a7572cfb89",
       "sportKey": "soccer_spain_la_liga",
       "league": "La Liga",
@@ -2593,6 +2497,30 @@
             0.6111,
             0.2083,
             0.1806
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "0911f42b66dd1f6544db407bccaeed07",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "CD Castellón",
+      "away": "Sporting Gijón",
+      "kickoff": "2026-10-25T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.51,
+            4.59,
+            6.24
+          ],
+          "p": [
+            0.6399,
+            0.2107,
+            0.1494
           ]
         }
       ]
