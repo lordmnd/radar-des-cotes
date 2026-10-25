@@ -1,9 +1,9 @@
 {
   "2026-10-25": {
     "date": "2026-10-25",
-    "updatedAt": "2026-10-25T12:09:53Z",
-    "eventsScanned": 32,
-    "valueBets": 4,
+    "updatedAt": "2026-10-25T14:01:31Z",
+    "eventsScanned": 19,
+    "valueBets": 2,
     "top": [
       {
         "eventId": "72089d103a5fe6a922c35e17efba6ffc",
@@ -78,43 +78,6 @@
           2.15
         ],
         "margin1x": 0.0149
-      },
-      {
-        "eventId": "fe235b26408c477368c40672a4488694",
-        "sportKey": "soccer_epl",
-        "league": "Premier League",
-        "home": "Crystal Palace",
-        "away": "Newcastle United",
-        "kickoff": "2026-10-25T14:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Crystal Palace",
-        "names": [
-          "Victoire Crystal Palace",
-          "Match nul",
-          "Victoire Newcastle United"
-        ],
-        "odd": 3.04,
-        "p": 0.3363,
-        "fairOdd": 2.973,
-        "ev": 0.0225,
-        "quality": 0.0157,
-        "kelly": 0.011,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.04,
-          3.74,
-          2.38
-        ],
-        "refOdds": [
-          2.88,
-          3.63,
-          2.44
-        ],
-        "margin1x": 0.0165
       }
     ],
     "combo": null
