@@ -1,9 +1,9 @@
 {
   "2026-10-25": {
     "date": "2026-10-25",
-    "updatedAt": "2026-10-25T14:01:31Z",
-    "eventsScanned": 19,
-    "valueBets": 2,
+    "updatedAt": "2026-10-25T15:58:06Z",
+    "eventsScanned": 9,
+    "valueBets": 1,
     "top": [
       {
         "eventId": "72089d103a5fe6a922c35e17efba6ffc",
@@ -41,43 +41,6 @@
           3.77
         ],
         "margin1x": 0.014
-      },
-      {
-        "eventId": "2fd479cbb110c8f057e363bb06195f2b",
-        "sportKey": "soccer_germany_bundesliga",
-        "league": "Bundesliga",
-        "home": "TSG Hoffenheim",
-        "away": "Bayer Leverkusen",
-        "kickoff": "2026-10-25T14:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
-        "names": [
-          "Victoire TSG Hoffenheim",
-          "Match nul",
-          "Victoire Bayer Leverkusen"
-        ],
-        "odd": 4.42,
-        "p": 0.238,
-        "fairOdd": 4.202,
-        "ev": 0.052,
-        "quality": 0.0276,
-        "kelly": 0.0152,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.07,
-          4.42,
-          2.16
-        ],
-        "refOdds": [
-          3.13,
-          4.03,
-          2.15
-        ],
-        "margin1x": 0.0149
       }
     ],
     "combo": null
