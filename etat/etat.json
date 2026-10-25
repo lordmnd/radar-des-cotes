@@ -1,18 +1,4 @@
 {
-  "nextBet": 2,
-  "lastAnalysis": "2026-10-25T12:09:53Z",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-25T07:38:10.2213298Z",
-    "soccer_france_ligue_two": "2026-10-24T06:30:50.4764174Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
-    "soccer_spain_la_liga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_spain_segunda_division": "2026-10-25T07:38:10.2213298Z",
-    "soccer_italy_serie_a": "2026-10-25T07:38:10.2213298Z",
-    "soccer_italy_serie_b": "2026-10-25T07:38:10.2213298Z",
-    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
-  },
   "events": {
     "a362cccad837f1ffae61ff43a3536688": {
       "eventId": "a362cccad837f1ffae61ff43a3536688",
@@ -2655,7 +2641,8 @@
       ]
     }
   },
-  "usedToday": 26,
+  "bankroll0": 80,
+  "lastAnalysis": "2026-10-25T12:09:53Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2814,7 +2801,26 @@
       ]
     }
   ],
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "day": "2026-10-25",
+  "nextBet": 2,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-25T07:38:10.2213298Z",
+    "soccer_france_ligue_two": "2026-10-24T06:30:50.4764174Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
+    "soccer_spain_la_liga": "2026-10-25T07:38:10.2213298Z",
+    "soccer_spain_segunda_division": "2026-10-25T07:38:10.2213298Z",
+    "soccer_italy_serie_a": "2026-10-25T07:38:10.2213298Z",
+    "soccer_italy_serie_b": "2026-10-25T07:38:10.2213298Z",
+    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
+    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
+  },
+  "rejected": [],
   "bets": [
     {
       "n": 1,
@@ -2861,12 +2867,6 @@
       "status": "perdu"
     }
   ],
-  "rejected": [],
   "remaining": 218,
-  "bankroll0": 80,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  }
+  "usedToday": 26
 }
