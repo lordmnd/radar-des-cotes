@@ -1,48 +1,10 @@
 {
   "2026-10-25": {
     "date": "2026-10-25",
-    "updatedAt": "2026-10-25T18:08:10Z",
-    "eventsScanned": 4,
-    "valueBets": 1,
-    "top": [
-      {
-        "eventId": "72089d103a5fe6a922c35e17efba6ffc",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Barcelona",
-        "away": "Real Madrid",
-        "kickoff": "2026-10-25T20:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Real Madrid",
-        "names": [
-          "Victoire Barcelona",
-          "Match nul",
-          "Victoire Real Madrid"
-        ],
-        "odd": 4.21,
-        "p": 0.2529,
-        "fairOdd": 3.955,
-        "ev": 0.0646,
-        "quality": 0.0353,
-        "kelly": 0.0201,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.67,
-          5.63,
-          4.21
-        ],
-        "refOdds": [
-          1.65,
-          5.95,
-          3.77
-        ],
-        "margin1x": 0.014
-      }
-    ],
+    "updatedAt": "2026-10-25T20:22:03Z",
+    "eventsScanned": 2,
+    "valueBets": 0,
+    "top": [],
     "combo": null
   },
   "2026-10-24": {

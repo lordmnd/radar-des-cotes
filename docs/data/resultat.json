@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-25T18:08:10Z",
+  "generatedAt": "2026-10-25T20:22:03Z",
   "creditsRemaining": 216,
   "creditsUsedToday": 28,
   "dailyBudget": 30,
@@ -28,6 +28,12 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 0,
@@ -46,83 +52,38 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 10.5
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 10.5
-    },
-    {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
       "status": "cache",
-      "ageHours": 10.5
+      "ageHours": 12.7
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 1,
       "status": "cache",
-      "ageHours": 10.5
+      "ageHours": 12.7
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 35.6
-    }
-  ],
-  "eventsScanned": 4,
-  "eventsWith1xbet": 4,
-  "valueBets": 1,
-  "top": [
+      "ageHours": 37.9
+    },
     {
-      "eventId": "72089d103a5fe6a922c35e17efba6ffc",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Barcelona",
-      "away": "Real Madrid",
-      "kickoff": "2026-10-25T20:00:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 2,
-      "pick": "2",
-      "pickName": "Victoire Real Madrid",
-      "names": [
-        "Victoire Barcelona",
-        "Match nul",
-        "Victoire Real Madrid"
-      ],
-      "odd": 4.21,
-      "p": 0.2529,
-      "fairOdd": 3.955,
-      "ev": 0.0646,
-      "quality": 0.0353,
-      "kelly": 0.0201,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        1.67,
-        5.63,
-        4.21
-      ],
-      "refOdds": [
-        1.65,
-        5.95,
-        3.77
-      ],
-      "margin1x": 0.014
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 12.7
     }
   ],
+  "eventsScanned": 2,
+  "eventsWith1xbet": 2,
+  "valueBets": 0,
+  "top": [],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -297,66 +258,6 @@
     "clvLegs": 6
   },
   "matches": [
-    {
-      "eventId": "3564688383b255192409c9deb8e526ed",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Udinese",
-      "away": "AC Milan",
-      "kickoff": "2026-10-25T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.62,
-            3.79,
-            1.87
-          ],
-          "p": [
-            0.2102,
-            0.2602,
-            0.5296
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.97,
-            1.97
-          ],
-          "p": [
-            0.5,
-            0.5
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "72089d103a5fe6a922c35e17efba6ffc",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Barcelona",
-      "away": "Real Madrid",
-      "kickoff": "2026-10-25T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.67,
-            5.63,
-            4.21
-          ],
-          "p": [
-            0.5904,
-            0.1567,
-            0.2529
-          ]
-        }
-      ]
-    },
     {
       "eventId": "8664b2167f22c59026d86615421463b1",
       "sportKey": "soccer_france_ligue_one",
