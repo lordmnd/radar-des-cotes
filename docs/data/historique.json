@@ -1,4 +1,124 @@
 {
+  "2026-10-25": {
+    "date": "2026-10-25",
+    "updatedAt": "2026-10-25T07:38:10Z",
+    "eventsScanned": 33,
+    "valueBets": 4,
+    "top": [
+      {
+        "eventId": "72089d103a5fe6a922c35e17efba6ffc",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Barcelona",
+        "away": "Real Madrid",
+        "kickoff": "2026-10-25T20:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Real Madrid",
+        "names": [
+          "Victoire Barcelona",
+          "Match nul",
+          "Victoire Real Madrid"
+        ],
+        "odd": 4.21,
+        "p": 0.2529,
+        "fairOdd": 3.955,
+        "ev": 0.0646,
+        "quality": 0.0353,
+        "kelly": 0.0201,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.67,
+          5.63,
+          4.21
+        ],
+        "refOdds": [
+          1.65,
+          5.95,
+          3.77
+        ],
+        "margin1x": 0.014
+      },
+      {
+        "eventId": "2fd479cbb110c8f057e363bb06195f2b",
+        "sportKey": "soccer_germany_bundesliga",
+        "league": "Bundesliga",
+        "home": "TSG Hoffenheim",
+        "away": "Bayer Leverkusen",
+        "kickoff": "2026-10-25T14:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire TSG Hoffenheim",
+          "Match nul",
+          "Victoire Bayer Leverkusen"
+        ],
+        "odd": 4.42,
+        "p": 0.238,
+        "fairOdd": 4.202,
+        "ev": 0.052,
+        "quality": 0.0276,
+        "kelly": 0.0152,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.07,
+          4.42,
+          2.16
+        ],
+        "refOdds": [
+          3.13,
+          4.03,
+          2.15
+        ],
+        "margin1x": 0.0149
+      },
+      {
+        "eventId": "fe235b26408c477368c40672a4488694",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Crystal Palace",
+        "away": "Newcastle United",
+        "kickoff": "2026-10-25T14:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Crystal Palace",
+        "names": [
+          "Victoire Crystal Palace",
+          "Match nul",
+          "Victoire Newcastle United"
+        ],
+        "odd": 3.04,
+        "p": 0.3363,
+        "fairOdd": 2.973,
+        "ev": 0.0225,
+        "quality": 0.0157,
+        "kelly": 0.011,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.04,
+          3.74,
+          2.38
+        ],
+        "refOdds": [
+          2.88,
+          3.63,
+          2.44
+        ],
+        "margin1x": 0.0165
+      }
+    ],
+    "combo": null
+  },
   "2026-10-24": {
     "date": "2026-10-24",
     "updatedAt": "2026-10-24T19:40:42Z",
