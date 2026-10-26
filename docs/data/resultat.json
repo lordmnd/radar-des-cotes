@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-26T13:36:53Z",
-  "creditsRemaining": 198,
-  "creditsUsedToday": 18,
+  "generatedAt": "2026-10-26T16:24:51Z",
+  "creditsRemaining": 189,
+  "creditsUsedToday": 27,
   "dailyBudget": 33,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -43,43 +43,43 @@
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
-      "status": "cache",
-      "ageHours": 6.5
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 1,
-      "status": "cache",
-      "ageHours": 6.5
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
-      "status": "cache",
-      "ageHours": 6.5
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 6.5
+      "ageHours": 9.3
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 3,
       "status": "cache",
-      "ageHours": 6.5
+      "ageHours": 9.3
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 7,
       "status": "cache",
-      "ageHours": 6.5
+      "ageHours": 9.3
     }
   ],
   "eventsScanned": 13,
@@ -310,38 +310,38 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.42,
-            5.63,
-            7.41
+            1.35,
+            6.09,
+            9.0
           ],
           "p": [
-            0.7132,
-            0.1619,
-            0.1249
+            0.7367,
+            0.1607,
+            0.1026
           ]
         },
         {
           "marketKey": "totals",
           "line": "3.5",
           "odds1x": [
-            2.01,
-            1.94
+            1.97,
+            1.97
           ],
           "p": [
-            0.4907,
-            0.5093
+            0.4935,
+            0.5065
           ]
         },
         {
           "marketKey": "spreads",
           "line": "-1.5",
           "odds1x": [
-            2.04,
-            1.9
+            1.89,
+            2.06
           ],
           "p": [
-            0.4935,
-            0.5065
+            0.5221,
+            0.4779
           ]
         }
       ]
@@ -358,14 +358,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.07,
-            3.42,
-            3.73
+            1.99,
+            3.46,
+            3.98
           ],
           "p": [
-            0.4469,
-            0.2943,
-            0.2589
+            0.4825,
+            0.2876,
+            0.23
           ]
         }
       ]
@@ -382,14 +382,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.12,
-            3.16,
-            2.31
+            3.65,
+            3.3,
+            2.03
           ],
           "p": [
-            0.2845,
-            0.3053,
-            0.4102
+            0.2629,
+            0.2929,
+            0.4443
           ]
         }
       ]
@@ -406,26 +406,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.36,
-            3.42,
-            2.82
+            2.28,
+            3.46,
+            2.92
           ],
           "p": [
-            0.4066,
-            0.2734,
-            0.32
+            0.4214,
+            0.2745,
+            0.3041
           ]
         },
         {
           "marketKey": "totals",
           "line": "2.5",
           "odds1x": [
-            1.79,
-            1.95
+            1.71,
+            2.06
           ],
           "p": [
-            0.5122,
-            0.4878
+            0.5293,
+            0.4707
           ]
         }
       ]
