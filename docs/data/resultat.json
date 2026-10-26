@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-25T20:22:03Z",
-  "creditsRemaining": 216,
-  "creditsUsedToday": 28,
-  "dailyBudget": 30,
+  "generatedAt": "2026-10-26T07:07:32Z",
+  "creditsRemaining": 198,
+  "creditsUsedToday": 18,
+  "dailyBudget": 36,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -28,18 +28,6 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 0,
@@ -55,35 +43,87 @@
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
-      "status": "cache",
-      "ageHours": 12.7
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 1,
-      "status": "cache",
-      "ageHours": 12.7
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
-      "status": "cache",
-      "ageHours": 37.9
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
-      "status": "cache",
-      "ageHours": 12.7
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 1,
+      "status": "à jour",
+      "ageHours": 0.0
+    },
+    {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 7,
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 2,
-  "eventsWith1xbet": 2,
-  "valueBets": 0,
-  "top": [],
+  "eventsScanned": 13,
+  "eventsWith1xbet": 13,
+  "valueBets": 1,
+  "top": [
+    {
+      "eventId": "c7445242bf16a8f37afef7863af45a78",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "kickoff": "2026-10-27T17:30:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 2,
+      "pick": "2",
+      "pickName": "Victoire Lazio",
+      "names": [
+        "Victoire Sassuolo",
+        "Match nul",
+        "Victoire Lazio"
+      ],
+      "odd": 2.24,
+      "p": 0.4594,
+      "fairOdd": 2.177,
+      "ev": 0.029,
+      "quality": 0.026,
+      "kelly": 0.0234,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        3.44,
+        3.6,
+        2.24
+      ],
+      "refOdds": [
+        3.48,
+        3.64,
+        2.12
+      ],
+      "margin1x": 0.0149
+    }
+  ],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -270,26 +310,38 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.46,
-            5.33,
-            6.91
+            1.42,
+            5.63,
+            7.41
           ],
           "p": [
-            0.684,
-            0.1741,
-            0.1418
+            0.7132,
+            0.1619,
+            0.1249
           ]
         },
         {
           "marketKey": "totals",
           "line": "3.5",
           "odds1x": [
-            2.03,
-            1.91
+            2.01,
+            1.94
           ],
           "p": [
-            0.4881,
-            0.5119
+            0.4907,
+            0.5093
+          ]
+        },
+        {
+          "marketKey": "spreads",
+          "line": "-1.5",
+          "odds1x": [
+            2.04,
+            1.9
+          ],
+          "p": [
+            0.4935,
+            0.5065
           ]
         }
       ]
@@ -311,9 +363,321 @@
             3.73
           ],
           "p": [
-            0.4489,
-            0.2931,
+            0.4469,
+            0.2943,
+            0.2589
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "0c3b63e47c44d0a7e5573743413fc2d9",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Boulogne",
+      "away": "Stade de Reims",
+      "kickoff": "2026-10-26T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.12,
+            3.16,
+            2.31
+          ],
+          "p": [
+            0.2845,
+            0.3053,
+            0.4102
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "60623206ddc61d2881beb6e38169fcac",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Montpellier",
+      "away": "Red Star",
+      "kickoff": "2026-10-26T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.36,
+            3.42,
+            2.82
+          ],
+          "p": [
+            0.4066,
+            0.2734,
+            0.32
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.79,
+            1.95
+          ],
+          "p": [
+            0.5122,
+            0.4878
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "85e464708d03287f24590e1478aeca31",
+      "sportKey": "soccer_spain_la_liga",
+      "league": "La Liga",
+      "home": "Sevilla",
+      "away": "CA Osasuna",
+      "kickoff": "2026-10-26T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.97,
+            3.56,
+            4.4
+          ],
+          "p": [
+            0.5132,
+            0.2771,
+            0.2098
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "c7445242bf16a8f37afef7863af45a78",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "kickoff": "2026-10-27T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.44,
+            3.6,
+            2.24
+          ],
+          "p": [
+            0.2766,
+            0.264,
+            0.4594
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "acd3b7f1342fe5a9ad4c4b57a3d2552f",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Benevento",
+      "away": "US Catanzaro 1929",
+      "kickoff": "2026-10-27T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.69,
+            4.15,
+            4.21
+          ],
+          "p": [
+            0.573,
+            0.218,
+            0.2091
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "a918dbf6796ed39741a16898bb6034f9",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Ascoli",
+      "away": "Sampdoria",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.13,
+            3.24,
+            3.42
+          ],
+          "p": [
+            0.4494,
+            0.2908,
+            0.2599
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.81,
+            1.93
+          ],
+          "p": [
+            0.5013,
+            0.4987
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "3c9d9d114c15a70a6ee35a10ea10c849",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Virtus Entella",
+      "away": "Avellino",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.06,
+            3.22,
+            3.65
+          ],
+          "p": [
+            0.4534,
+            0.2991,
+            0.2475
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "b15805cc9f7a025c3c57f53301a15891",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Cesena FC",
+      "away": "Empoli",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.01,
+            3.5,
+            3.48
+          ],
+          "p": [
+            0.474,
+            0.268,
             0.258
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.8,
+            1.94
+          ],
+          "p": [
+            0.5094,
+            0.4906
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "639ca161f069bda369606ad54feff122",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Mantova",
+      "away": "Cremonese",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.28,
+            3.3,
+            3.05
+          ],
+          "p": [
+            0.4305,
+            0.2807,
+            0.2887
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.87,
+            1.87
+          ],
+          "p": [
+            0.4824,
+            0.5176
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "5156d59d526199a8a61ee8565af8a91e",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Vicenza",
+      "away": "Modena",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.44,
+            3.54,
+            2.01
+          ],
+          "p": [
+            0.2663,
+            0.2624,
+            0.4714
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "e45ebdb0e878a9d573236baf277abca5",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Padova",
+      "away": "Südtirol",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.35,
+            3.24,
+            2.98
+          ],
+          "p": [
+            0.4007,
+            0.2952,
+            0.3041
           ]
         }
       ]

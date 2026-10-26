@@ -1,11 +1,173 @@
 {
+  "remaining": 198,
+  "nextBet": 2,
+  "lastAnalysis": "2026-10-26T07:07:32Z",
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "day": "2026-10-26",
-  "remaining": 216,
+  "usedToday": 18,
+  "log": [
+    {
+      "at": "2026-10-10T07:55:51Z",
+      "totalOdds": 4.574,
+      "prob": 0.2303,
+      "ev": 0.0535,
+      "target": 3.5,
+      "legs": [
+        {
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "pick": "1",
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "kickoff": "2026-10-10T13:30:00Z",
+          "sportKey": "soccer_germany_bundesliga",
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "marketKey": "h2h",
+          "line": "",
+          "market": "1N2",
+          "idx": 0,
+          "closeFairOdd": 1.445,
+          "closeOdd1x": 1.49,
+          "closeSeenAt": "2026-10-10T11:20:05Z",
+          "score": "2-3",
+          "result": "perdu"
+        },
+        {
+          "league": "Ligue 1",
+          "home": "Nice",
+          "away": "Strasbourg",
+          "pick": "2",
+          "pickName": "Victoire Strasbourg",
+          "odd": 3.07,
+          "kickoff": "2026-10-11T13:00:00Z",
+          "sportKey": "soccer_france_ligue_one",
+          "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
+          "marketKey": "h2h",
+          "line": "",
+          "market": "1N2",
+          "idx": 2,
+          "closeFairOdd": 3.005,
+          "closeOdd1x": 3.07,
+          "closeSeenAt": "2026-10-11T12:21:23Z",
+          "score": "2-1",
+          "result": "perdu"
+        }
+      ],
+      "signature": "5d3606630a2d3a218a6340d082c1bdc6|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
+      "status": "perdu"
+    },
+    {
+      "at": "2026-10-10T08:15:55Z",
+      "totalOdds": 3.278,
+      "prob": 0.3224,
+      "ev": 0.0568,
+      "target": 2.5,
+      "legs": [
+        {
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "pick": "1",
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "kickoff": "2026-10-10T13:30:00Z",
+          "sportKey": "soccer_germany_bundesliga",
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "marketKey": "h2h",
+          "line": "",
+          "market": "1N2",
+          "idx": 0,
+          "closeFairOdd": 1.445,
+          "closeOdd1x": 1.49,
+          "closeSeenAt": "2026-10-10T11:20:05Z",
+          "score": "2-3",
+          "result": "perdu"
+        },
+        {
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "pick": "2",
+          "pickName": "Victoire Paris FC",
+          "odd": 2.2,
+          "kickoff": "2026-10-10T18:45:00Z",
+          "sportKey": "soccer_france_ligue_one",
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "marketKey": "h2h",
+          "line": "",
+          "market": "1N2",
+          "idx": 2,
+          "closeFairOdd": 2.146,
+          "closeOdd1x": 2.2,
+          "closeSeenAt": "2026-10-10T17:15:02Z",
+          "score": "1-0",
+          "result": "perdu"
+        }
+      ],
+      "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
+      "status": "perdu"
+    },
+    {
+      "at": "2026-10-24T06:30:50Z",
+      "signature": "70df1835c3b5ddff1c99e0189532136b|h2h||0~c9b6c7048d8dc33dae618f67f462f67a|spreads|-1.5|0",
+      "totalOdds": 2.747,
+      "prob": 0.3843,
+      "ev": 0.0557,
+      "stakePct": 0.008,
+      "target": 2.5,
+      "status": "perdu",
+      "legs": [
+        {
+          "eventId": "70df1835c3b5ddff1c99e0189532136b",
+          "sportKey": "soccer_spain_la_liga",
+          "league": "La Liga",
+          "home": "Atlético Madrid",
+          "away": "Deportivo La Coruña",
+          "kickoff": "2026-10-24T19:00:00Z",
+          "market": "1N2",
+          "marketKey": "h2h",
+          "line": "",
+          "idx": 0,
+          "pick": "1",
+          "pickName": "Victoire Atlético Madrid",
+          "odd": 1.34,
+          "p": 0.7686,
+          "fairOdd": 1.301,
+          "closeFairOdd": 1.301,
+          "closeOdd1x": 1.34,
+          "closeSeenAt": "2026-10-24T17:23:31Z",
+          "score": "1-0",
+          "result": "gagné"
+        },
+        {
+          "eventId": "c9b6c7048d8dc33dae618f67f462f67a",
+          "sportKey": "soccer_italy_serie_a",
+          "league": "Serie A",
+          "home": "Inter Milan",
+          "away": "Fiorentina",
+          "kickoff": "2026-10-25T11:30:00Z",
+          "market": "Handicap asiatique",
+          "marketKey": "spreads",
+          "line": "-1.5",
+          "idx": 0,
+          "pick": "H1 -1,5",
+          "pickName": "Inter Milan -1,5",
+          "odd": 2.05,
+          "p": 0.5,
+          "fairOdd": 2.0,
+          "closeFairOdd": 2.048,
+          "closeOdd1x": 1.98,
+          "closeSeenAt": "2026-10-25T09:59:29Z",
+          "score": "2-1",
+          "result": "perdu"
+        }
+      ]
+    }
+  ],
   "events": {
     "ed6da0ed9e5d0c24d1c6f689d9f4b440": {
       "eventId": "ed6da0ed9e5d0c24d1c6f689d9f4b440",
@@ -2412,9 +2574,9 @@
             3.73
           ],
           "p": [
-            0.4489,
-            0.2931,
-            0.258
+            0.4469,
+            0.2943,
+            0.2589
           ]
         }
       ]
@@ -2587,32 +2749,355 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.46,
-            5.33,
-            6.91
+            1.42,
+            5.63,
+            7.41
           ],
           "p": [
-            0.684,
-            0.1741,
-            0.1418
+            0.7132,
+            0.1619,
+            0.1249
           ]
         },
         {
           "marketKey": "totals",
           "line": "3.5",
           "odds1x": [
-            2.03,
-            1.91
+            2.01,
+            1.94
           ],
           "p": [
-            0.4881,
-            0.5119
+            0.4907,
+            0.5093
+          ]
+        },
+        {
+          "marketKey": "spreads",
+          "line": "-1.5",
+          "odds1x": [
+            2.04,
+            1.9
+          ],
+          "p": [
+            0.4935,
+            0.5065
+          ]
+        }
+      ]
+    },
+    "0c3b63e47c44d0a7e5573743413fc2d9": {
+      "eventId": "0c3b63e47c44d0a7e5573743413fc2d9",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Boulogne",
+      "away": "Stade de Reims",
+      "kickoff": "2026-10-26T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.12,
+            3.16,
+            2.31
+          ],
+          "p": [
+            0.2845,
+            0.3053,
+            0.4102
+          ]
+        }
+      ]
+    },
+    "60623206ddc61d2881beb6e38169fcac": {
+      "eventId": "60623206ddc61d2881beb6e38169fcac",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Montpellier",
+      "away": "Red Star",
+      "kickoff": "2026-10-26T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.36,
+            3.42,
+            2.82
+          ],
+          "p": [
+            0.4066,
+            0.2734,
+            0.32
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.79,
+            1.95
+          ],
+          "p": [
+            0.5122,
+            0.4878
+          ]
+        }
+      ]
+    },
+    "85e464708d03287f24590e1478aeca31": {
+      "eventId": "85e464708d03287f24590e1478aeca31",
+      "sportKey": "soccer_spain_la_liga",
+      "league": "La Liga",
+      "home": "Sevilla",
+      "away": "CA Osasuna",
+      "kickoff": "2026-10-26T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.97,
+            3.56,
+            4.4
+          ],
+          "p": [
+            0.5132,
+            0.2771,
+            0.2098
+          ]
+        }
+      ]
+    },
+    "c7445242bf16a8f37afef7863af45a78": {
+      "eventId": "c7445242bf16a8f37afef7863af45a78",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "kickoff": "2026-10-27T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.44,
+            3.6,
+            2.24
+          ],
+          "p": [
+            0.2766,
+            0.264,
+            0.4594
+          ]
+        }
+      ]
+    },
+    "acd3b7f1342fe5a9ad4c4b57a3d2552f": {
+      "eventId": "acd3b7f1342fe5a9ad4c4b57a3d2552f",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Benevento",
+      "away": "US Catanzaro 1929",
+      "kickoff": "2026-10-27T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.69,
+            4.15,
+            4.21
+          ],
+          "p": [
+            0.573,
+            0.218,
+            0.2091
+          ]
+        }
+      ]
+    },
+    "a918dbf6796ed39741a16898bb6034f9": {
+      "eventId": "a918dbf6796ed39741a16898bb6034f9",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Ascoli",
+      "away": "Sampdoria",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.13,
+            3.24,
+            3.42
+          ],
+          "p": [
+            0.4494,
+            0.2908,
+            0.2599
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.81,
+            1.93
+          ],
+          "p": [
+            0.5013,
+            0.4987
+          ]
+        }
+      ]
+    },
+    "3c9d9d114c15a70a6ee35a10ea10c849": {
+      "eventId": "3c9d9d114c15a70a6ee35a10ea10c849",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Virtus Entella",
+      "away": "Avellino",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.06,
+            3.22,
+            3.65
+          ],
+          "p": [
+            0.4534,
+            0.2991,
+            0.2475
+          ]
+        }
+      ]
+    },
+    "b15805cc9f7a025c3c57f53301a15891": {
+      "eventId": "b15805cc9f7a025c3c57f53301a15891",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Cesena FC",
+      "away": "Empoli",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.01,
+            3.5,
+            3.48
+          ],
+          "p": [
+            0.474,
+            0.268,
+            0.258
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.8,
+            1.94
+          ],
+          "p": [
+            0.5094,
+            0.4906
+          ]
+        }
+      ]
+    },
+    "639ca161f069bda369606ad54feff122": {
+      "eventId": "639ca161f069bda369606ad54feff122",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Mantova",
+      "away": "Cremonese",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.28,
+            3.3,
+            3.05
+          ],
+          "p": [
+            0.4305,
+            0.2807,
+            0.2887
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.87,
+            1.87
+          ],
+          "p": [
+            0.4824,
+            0.5176
+          ]
+        }
+      ]
+    },
+    "5156d59d526199a8a61ee8565af8a91e": {
+      "eventId": "5156d59d526199a8a61ee8565af8a91e",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Vicenza",
+      "away": "Modena",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.44,
+            3.54,
+            2.01
+          ],
+          "p": [
+            0.2663,
+            0.2624,
+            0.4714
+          ]
+        }
+      ]
+    },
+    "e45ebdb0e878a9d573236baf277abca5": {
+      "eventId": "e45ebdb0e878a9d573236baf277abca5",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Padova",
+      "away": "Südtirol",
+      "kickoff": "2026-10-27T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.35,
+            3.24,
+            2.98
+          ],
+          "p": [
+            0.4007,
+            0.2952,
+            0.3041
           ]
         }
       ]
     }
   },
-  "lastAnalysis": "2026-10-25T20:22:03Z",
   "bets": [
     {
       "n": 1,
@@ -2659,180 +3144,19 @@
       "status": "perdu"
     }
   ],
-  "usedToday": 0,
+  "day": "2026-10-26",
   "rejected": [],
-  "nextBet": 2,
+  "bankroll0": 80,
   "fetched": {
-    "soccer_france_ligue_one": "2026-10-25T07:38:10.2213298Z",
-    "soccer_france_ligue_two": "2026-10-24T06:30:50.4764174Z",
+    "soccer_france_ligue_one": "2026-10-26T07:07:32.0413670Z",
+    "soccer_france_ligue_two": "2026-10-26T07:07:32.0413670Z",
     "soccer_epl": "2026-10-25T07:38:10.2213298Z",
     "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
-    "soccer_spain_la_liga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_spain_segunda_division": "2026-10-25T07:38:10.2213298Z",
-    "soccer_italy_serie_a": "2026-10-25T07:38:10.2213298Z",
-    "soccer_italy_serie_b": "2026-10-25T07:38:10.2213298Z",
+    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
+    "soccer_spain_segunda_division": "2026-10-26T07:07:32.0413670Z",
+    "soccer_italy_serie_a": "2026-10-26T07:07:32.0413670Z",
+    "soccer_italy_serie_b": "2026-10-26T07:07:32.0413670Z",
     "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
     "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
-  },
-  "bankroll0": 80,
-  "log": [
-    {
-      "at": "2026-10-10T07:55:51Z",
-      "totalOdds": 4.574,
-      "prob": 0.2303,
-      "ev": 0.0535,
-      "target": 3.5,
-      "legs": [
-        {
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "pick": "1",
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "kickoff": "2026-10-10T13:30:00Z",
-          "sportKey": "soccer_germany_bundesliga",
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 0,
-          "closeFairOdd": 1.445,
-          "closeOdd1x": 1.49,
-          "closeSeenAt": "2026-10-10T11:20:05Z",
-          "score": "2-3",
-          "result": "perdu"
-        },
-        {
-          "league": "Ligue 1",
-          "home": "Nice",
-          "away": "Strasbourg",
-          "pick": "2",
-          "pickName": "Victoire Strasbourg",
-          "odd": 3.07,
-          "kickoff": "2026-10-11T13:00:00Z",
-          "sportKey": "soccer_france_ligue_one",
-          "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 2,
-          "closeFairOdd": 3.005,
-          "closeOdd1x": 3.07,
-          "closeSeenAt": "2026-10-11T12:21:23Z",
-          "score": "2-1",
-          "result": "perdu"
-        }
-      ],
-      "signature": "5d3606630a2d3a218a6340d082c1bdc6|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
-      "status": "perdu"
-    },
-    {
-      "at": "2026-10-10T08:15:55Z",
-      "totalOdds": 3.278,
-      "prob": 0.3224,
-      "ev": 0.0568,
-      "target": 2.5,
-      "legs": [
-        {
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "pick": "1",
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "kickoff": "2026-10-10T13:30:00Z",
-          "sportKey": "soccer_germany_bundesliga",
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 0,
-          "closeFairOdd": 1.445,
-          "closeOdd1x": 1.49,
-          "closeSeenAt": "2026-10-10T11:20:05Z",
-          "score": "2-3",
-          "result": "perdu"
-        },
-        {
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "pick": "2",
-          "pickName": "Victoire Paris FC",
-          "odd": 2.2,
-          "kickoff": "2026-10-10T18:45:00Z",
-          "sportKey": "soccer_france_ligue_one",
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 2,
-          "closeFairOdd": 2.146,
-          "closeOdd1x": 2.2,
-          "closeSeenAt": "2026-10-10T17:15:02Z",
-          "score": "1-0",
-          "result": "perdu"
-        }
-      ],
-      "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
-      "status": "perdu"
-    },
-    {
-      "at": "2026-10-24T06:30:50Z",
-      "signature": "70df1835c3b5ddff1c99e0189532136b|h2h||0~c9b6c7048d8dc33dae618f67f462f67a|spreads|-1.5|0",
-      "totalOdds": 2.747,
-      "prob": 0.3843,
-      "ev": 0.0557,
-      "stakePct": 0.008,
-      "target": 2.5,
-      "status": "perdu",
-      "legs": [
-        {
-          "eventId": "70df1835c3b5ddff1c99e0189532136b",
-          "sportKey": "soccer_spain_la_liga",
-          "league": "La Liga",
-          "home": "Atlético Madrid",
-          "away": "Deportivo La Coruña",
-          "kickoff": "2026-10-24T19:00:00Z",
-          "market": "1N2",
-          "marketKey": "h2h",
-          "line": "",
-          "idx": 0,
-          "pick": "1",
-          "pickName": "Victoire Atlético Madrid",
-          "odd": 1.34,
-          "p": 0.7686,
-          "fairOdd": 1.301,
-          "closeFairOdd": 1.301,
-          "closeOdd1x": 1.34,
-          "closeSeenAt": "2026-10-24T17:23:31Z",
-          "score": "1-0",
-          "result": "gagné"
-        },
-        {
-          "eventId": "c9b6c7048d8dc33dae618f67f462f67a",
-          "sportKey": "soccer_italy_serie_a",
-          "league": "Serie A",
-          "home": "Inter Milan",
-          "away": "Fiorentina",
-          "kickoff": "2026-10-25T11:30:00Z",
-          "market": "Handicap asiatique",
-          "marketKey": "spreads",
-          "line": "-1.5",
-          "idx": 0,
-          "pick": "H1 -1,5",
-          "pickName": "Inter Milan -1,5",
-          "odd": 2.05,
-          "p": 0.5,
-          "fairOdd": 2.0,
-          "closeFairOdd": 2.048,
-          "closeOdd1x": 1.98,
-          "closeSeenAt": "2026-10-25T09:59:29Z",
-          "score": "2-1",
-          "result": "perdu"
-        }
-      ]
-    }
-  ]
+  }
 }

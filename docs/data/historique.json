@@ -1,4 +1,50 @@
 {
+  "2026-10-26": {
+    "date": "2026-10-26",
+    "updatedAt": "2026-10-26T07:07:32Z",
+    "eventsScanned": 13,
+    "valueBets": 1,
+    "top": [
+      {
+        "eventId": "c7445242bf16a8f37afef7863af45a78",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Sassuolo",
+        "away": "Lazio",
+        "kickoff": "2026-10-27T17:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Lazio",
+        "names": [
+          "Victoire Sassuolo",
+          "Match nul",
+          "Victoire Lazio"
+        ],
+        "odd": 2.24,
+        "p": 0.4594,
+        "fairOdd": 2.177,
+        "ev": 0.029,
+        "quality": 0.026,
+        "kelly": 0.0234,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.44,
+          3.6,
+          2.24
+        ],
+        "refOdds": [
+          3.48,
+          3.64,
+          2.12
+        ],
+        "margin1x": 0.0149
+      }
+    ],
+    "combo": null
+  },
   "2026-10-25": {
     "date": "2026-10-25",
     "updatedAt": "2026-10-25T20:22:03Z",
