@@ -1,13 +1,23 @@
 {
-  "remaining": 198,
-  "nextBet": 2,
-  "lastAnalysis": "2026-10-26T07:07:32Z",
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
+  "lastAnalysis": "2026-10-26T07:07:32Z",
   "usedToday": 18,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-26T07:07:32.0413670Z",
+    "soccer_france_ligue_two": "2026-10-26T07:07:32.0413670Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
+    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
+    "soccer_spain_segunda_division": "2026-10-26T07:07:32.0413670Z",
+    "soccer_italy_serie_a": "2026-10-26T07:07:32.0413670Z",
+    "soccer_italy_serie_b": "2026-10-26T07:07:32.0413670Z",
+    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
+    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
+  },
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -168,6 +178,10 @@
       ]
     }
   ],
+  "day": "2026-10-26",
+  "bankroll0": 80,
+  "rejected": [],
+  "remaining": 198,
   "events": {
     "ed6da0ed9e5d0c24d1c6f689d9f4b440": {
       "eventId": "ed6da0ed9e5d0c24d1c6f689d9f4b440",
@@ -3098,6 +3112,7 @@
       ]
     }
   },
+  "nextBet": 2,
   "bets": [
     {
       "n": 1,
@@ -3143,20 +3158,5 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ],
-  "day": "2026-10-26",
-  "rejected": [],
-  "bankroll0": 80,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-26T07:07:32.0413670Z",
-    "soccer_france_ligue_two": "2026-10-26T07:07:32.0413670Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
-    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
-    "soccer_spain_segunda_division": "2026-10-26T07:07:32.0413670Z",
-    "soccer_italy_serie_a": "2026-10-26T07:07:32.0413670Z",
-    "soccer_italy_serie_b": "2026-10-26T07:07:32.0413670Z",
-    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
-  }
+  ]
 }
