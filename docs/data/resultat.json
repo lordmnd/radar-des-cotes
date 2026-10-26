@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-26T19:03:26Z",
+  "generatedAt": "2026-10-26T21:15:20Z",
   "creditsRemaining": 189,
   "creditsUsedToday": 27,
   "dailyBudget": 31,
@@ -16,6 +16,18 @@
   ],
   "leagues": [
     {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 0,
@@ -24,6 +36,18 @@
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
       "events": 0,
       "status": "pas de match"
     },
@@ -40,50 +64,22 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 2.6
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 2.6
-    },
-    {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 2.6
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 11.9
-    },
-    {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 3,
       "status": "cache",
-      "ageHours": 11.9
+      "ageHours": 14.1
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 7,
       "status": "cache",
-      "ageHours": 11.9
+      "ageHours": 14.1
     }
   ],
-  "eventsScanned": 13,
-  "eventsWith1xbet": 13,
+  "eventsScanned": 8,
+  "eventsWith1xbet": 8,
   "valueBets": 1,
   "top": [
     {
@@ -298,162 +294,6 @@
     "clvLegs": 6
   },
   "matches": [
-    {
-      "eventId": "8664b2167f22c59026d86615421463b1",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Paris Saint Germain",
-      "away": "Lyon",
-      "kickoff": "2026-10-26T19:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.35,
-            6.09,
-            9.0
-          ],
-          "p": [
-            0.7367,
-            0.1607,
-            0.1026
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.97,
-            1.97
-          ],
-          "p": [
-            0.4935,
-            0.5065
-          ]
-        },
-        {
-          "marketKey": "spreads",
-          "line": "-1.5",
-          "odds1x": [
-            1.89,
-            2.06
-          ],
-          "p": [
-            0.5221,
-            0.4779
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "c11380ae8c4a17f15b0b2946719b79e0",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Andorra CF",
-      "away": "Burgos CF",
-      "kickoff": "2026-10-26T19:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.99,
-            3.46,
-            3.98
-          ],
-          "p": [
-            0.4825,
-            0.2876,
-            0.23
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "0c3b63e47c44d0a7e5573743413fc2d9",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Boulogne",
-      "away": "Stade de Reims",
-      "kickoff": "2026-10-26T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.65,
-            3.3,
-            2.03
-          ],
-          "p": [
-            0.2629,
-            0.2929,
-            0.4443
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "60623206ddc61d2881beb6e38169fcac",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Montpellier",
-      "away": "Red Star",
-      "kickoff": "2026-10-26T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.28,
-            3.46,
-            2.92
-          ],
-          "p": [
-            0.4214,
-            0.2745,
-            0.3041
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.71,
-            2.06
-          ],
-          "p": [
-            0.5293,
-            0.4707
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "85e464708d03287f24590e1478aeca31",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Sevilla",
-      "away": "CA Osasuna",
-      "kickoff": "2026-10-26T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.97,
-            3.56,
-            4.4
-          ],
-          "p": [
-            0.5132,
-            0.2771,
-            0.2098
-          ]
-        }
-      ]
-    },
     {
       "eventId": "c7445242bf16a8f37afef7863af45a78",
       "sportKey": "soccer_italy_serie_a",
