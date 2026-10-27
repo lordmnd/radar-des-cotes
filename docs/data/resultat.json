@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-27T15:58:49Z",
+  "generatedAt": "2026-10-27T18:23:29Z",
   "creditsRemaining": 175,
   "creditsUsedToday": 14,
-  "dailyBudget": 36,
+  "dailyBudget": 35,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -64,22 +64,22 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 8,
-      "status": "à jour",
-      "ageHours": 0.0
-    },
-    {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
-      "events": 10,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 9,
+      "status": "cache",
+      "ageHours": 2.4
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 7,
+      "status": "cache",
+      "ageHours": 2.4
     }
   ],
-  "eventsScanned": 18,
-  "eventsWith1xbet": 18,
+  "eventsScanned": 16,
+  "eventsWith1xbet": 16,
   "valueBets": 2,
   "top": [
     {
@@ -149,7 +149,7 @@
           "fairOdd": 2.0,
           "closeFairOdd": 1.92,
           "closeOdd1x": 1.95,
-          "closeSeenAt": "2026-10-27T15:58:49Z"
+          "closeSeenAt": "2026-10-27T18:23:29Z"
         },
         {
           "eventId": "33320ad169692216a91dec030e7ef6a6",
@@ -169,7 +169,7 @@
           "fairOdd": 1.979,
           "closeFairOdd": 1.979,
           "closeOdd1x": 2.02,
-          "closeSeenAt": "2026-10-27T15:58:49Z"
+          "closeSeenAt": "2026-10-27T18:23:29Z"
         }
       ]
     },
@@ -343,54 +343,6 @@
     "clvLegs": 8
   },
   "matches": [
-    {
-      "eventId": "c7445242bf16a8f37afef7863af45a78",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Sassuolo",
-      "away": "Lazio",
-      "kickoff": "2026-10-27T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.58,
-            3.65,
-            2.16
-          ],
-          "p": [
-            0.2597,
-            0.2701,
-            0.4701
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "acd3b7f1342fe5a9ad4c4b57a3d2552f",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Benevento",
-      "away": "US Catanzaro 1929",
-      "kickoff": "2026-10-27T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.57,
-            4.33,
-            4.97
-          ],
-          "p": [
-            0.6292,
-            0.2028,
-            0.1681
-          ]
-        }
-      ]
-    },
     {
       "eventId": "a918dbf6796ed39741a16898bb6034f9",
       "sportKey": "soccer_italy_serie_b",
@@ -584,30 +536,6 @@
       ]
     },
     {
-      "eventId": "7d989a0a7bae47eb957731e97c5bd9c1",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Torino",
-      "away": "Como",
-      "kickoff": "2026-10-27T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.78,
-            3.88,
-            1.82
-          ],
-          "p": [
-            0.2057,
-            0.2457,
-            0.5486
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "7eecf109ae6a5f87441a79b0e4111982",
       "sportKey": "soccer_italy_serie_a",
       "league": "Serie A",
@@ -639,6 +567,30 @@
           "p": [
             0.5209,
             0.4791
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "7d989a0a7bae47eb957731e97c5bd9c1",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Como",
+      "kickoff": "2026-10-27T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            4.78,
+            3.88,
+            1.82
+          ],
+          "p": [
+            0.2057,
+            0.2457,
+            0.5486
           ]
         }
       ]

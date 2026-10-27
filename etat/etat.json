@@ -1,5 +1,10 @@
 {
-  "lastAnalysis": "2026-10-27T15:58:49Z",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "nextBet": 2,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -187,7 +192,7 @@
           "fairOdd": 2.0,
           "closeFairOdd": 1.92,
           "closeOdd1x": 1.95,
-          "closeSeenAt": "2026-10-27T15:58:49Z"
+          "closeSeenAt": "2026-10-27T18:23:29Z"
         },
         {
           "eventId": "33320ad169692216a91dec030e7ef6a6",
@@ -207,149 +212,12 @@
           "fairOdd": 1.979,
           "closeFairOdd": 1.979,
           "closeOdd1x": 2.02,
-          "closeSeenAt": "2026-10-27T15:58:49Z"
+          "closeSeenAt": "2026-10-27T18:23:29Z"
         }
       ]
     }
   ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
   "events": {
-    "e999dbef3f9ee95f3928190d9a626f8c": {
-      "eventId": "e999dbef3f9ee95f3928190d9a626f8c",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Sochaux",
-      "away": "Annecy FC",
-      "kickoff": "2026-10-23T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.36,
-            3.22,
-            2.98
-          ],
-          "p": [
-            0.3912,
-            0.2959,
-            0.3129
-          ]
-        }
-      ]
-    },
-    "578db8ea1f9670476e225a41a007b0b8": {
-      "eventId": "578db8ea1f9670476e225a41a007b0b8",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Clermont",
-      "away": "Guingamp",
-      "kickoff": "2026-10-23T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.86,
-            3.34,
-            2.37
-          ],
-          "p": [
-            0.3119,
-            0.2951,
-            0.393
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.83,
-            1.91
-          ],
-          "p": [
-            0.4853,
-            0.5147
-          ]
-        }
-      ]
-    },
-    "732473e3a3b9f0e3c0b41e809c03f19b": {
-      "eventId": "732473e3a3b9f0e3c0b41e809c03f19b",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Pau FC",
-      "away": "Grenoble",
-      "kickoff": "2026-10-23T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.81,
-            3.46,
-            4.38
-          ],
-          "p": [
-            0.5153,
-            0.2809,
-            0.2037
-          ]
-        }
-      ]
-    },
-    "403cbd7b75159c7d75a0988bd6d602b0": {
-      "eventId": "403cbd7b75159c7d75a0988bd6d602b0",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "USL Dunkerque",
-      "away": "Metz",
-      "kickoff": "2026-10-23T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.72,
-            3.54,
-            2.35
-          ],
-          "p": [
-            0.3404,
-            0.2633,
-            0.3963
-          ]
-        }
-      ]
-    },
-    "790e760a4515927d83bc6fa36890b1ce": {
-      "eventId": "790e760a4515927d83bc6fa36890b1ce",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Nancy",
-      "away": "Stade Lavallois",
-      "kickoff": "2026-10-23T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.55,
-            4.2,
-            5.35
-          ],
-          "p": [
-            0.6236,
-            0.2188,
-            0.1576
-          ]
-        }
-      ]
-    },
     "6de4fc21bdcbf78109439aa1d52c3982": {
       "eventId": "6de4fc21bdcbf78109439aa1d52c3982",
       "sportKey": "soccer_spain_segunda_division",
@@ -3423,6 +3291,20 @@
       ]
     }
   },
+  "usedToday": 14,
+  "day": "2026-10-27",
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
+    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
+    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-27T15:58:49.1289865Z",
+    "soccer_italy_serie_b": "2026-10-27T15:58:49.1289865Z",
+    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
+    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -3469,22 +3351,8 @@
       "status": "perdu"
     }
   ],
-  "day": "2026-10-27",
-  "usedToday": 14,
-  "nextBet": 2,
   "remaining": 175,
-  "bankroll0": 80,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
-    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
-    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-27T15:58:49.1289865Z",
-    "soccer_italy_serie_b": "2026-10-27T15:58:49.1289865Z",
-    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
-  },
-  "rejected": []
+  "rejected": [],
+  "lastAnalysis": "2026-10-27T18:23:29Z",
+  "bankroll0": 80
 }
