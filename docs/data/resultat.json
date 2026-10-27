@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-27T18:23:29Z",
+  "generatedAt": "2026-10-27T20:50:39Z",
   "creditsRemaining": 175,
   "creditsUsedToday": 14,
   "dailyBudget": 35,
@@ -64,22 +64,22 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 9,
-      "status": "cache",
-      "ageHours": 2.4
-    },
-    {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 7,
+      "events": 5,
       "status": "cache",
-      "ageHours": 2.4
+      "ageHours": 4.9
+    },
+    {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 3,
+      "status": "cache",
+      "ageHours": 4.9
     }
   ],
-  "eventsScanned": 16,
-  "eventsWith1xbet": 16,
+  "eventsScanned": 8,
+  "eventsWith1xbet": 8,
   "valueBets": 2,
   "top": [
     {
@@ -169,7 +169,7 @@
           "fairOdd": 1.979,
           "closeFairOdd": 1.979,
           "closeOdd1x": 2.02,
-          "closeSeenAt": "2026-10-27T18:23:29Z"
+          "closeSeenAt": "2026-10-27T20:50:39Z"
         }
       ]
     },
@@ -343,258 +343,6 @@
     "clvLegs": 8
   },
   "matches": [
-    {
-      "eventId": "a918dbf6796ed39741a16898bb6034f9",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Ascoli",
-      "away": "Sampdoria",
-      "kickoff": "2026-10-27T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.13,
-            3.24,
-            3.42
-          ],
-          "p": [
-            0.4422,
-            0.2947,
-            0.2631
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.81,
-            1.93
-          ],
-          "p": [
-            0.5,
-            0.5
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "3c9d9d114c15a70a6ee35a10ea10c849",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Virtus Entella",
-      "away": "Avellino",
-      "kickoff": "2026-10-27T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.06,
-            3.22,
-            3.65
-          ],
-          "p": [
-            0.4662,
-            0.2978,
-            0.236
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "b15805cc9f7a025c3c57f53301a15891",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Cesena FC",
-      "away": "Empoli",
-      "kickoff": "2026-10-27T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.05,
-            3.28,
-            3.6
-          ],
-          "p": [
-            0.4749,
-            0.289,
-            0.2361
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.91,
-            1.83
-          ],
-          "p": [
-            0.4775,
-            0.5225
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "639ca161f069bda369606ad54feff122",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Mantova",
-      "away": "Cremonese",
-      "kickoff": "2026-10-27T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.26,
-            3.22,
-            3.16
-          ],
-          "p": [
-            0.4051,
-            0.297,
-            0.2979
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.89,
-            1.85
-          ],
-          "p": [
-            0.471,
-            0.529
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "5156d59d526199a8a61ee8565af8a91e",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Vicenza",
-      "away": "Modena",
-      "kickoff": "2026-10-27T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.48,
-            3.48,
-            2.02
-          ],
-          "p": [
-            0.2536,
-            0.2762,
-            0.4702
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.7,
-            2.08
-          ],
-          "p": [
-            0.5237,
-            0.4763
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "e45ebdb0e878a9d573236baf277abca5",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Padova",
-      "away": "Südtirol",
-      "kickoff": "2026-10-27T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.17,
-            3.1,
-            3.49
-          ],
-          "p": [
-            0.434,
-            0.3143,
-            0.2516
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "7eecf109ae6a5f87441a79b0e4111982",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "AS Roma",
-      "away": "Cagliari",
-      "kickoff": "2026-10-27T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.33,
-            5.48,
-            12.1
-          ],
-          "p": [
-            0.7596,
-            0.1675,
-            0.0729
-          ]
-        },
-        {
-          "marketKey": "spreads",
-          "line": "-1.5",
-          "odds1x": [
-            1.95,
-            1.99
-          ],
-          "p": [
-            0.5209,
-            0.4791
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "7d989a0a7bae47eb957731e97c5bd9c1",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Torino",
-      "away": "Como",
-      "kickoff": "2026-10-27T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.78,
-            3.88,
-            1.82
-          ],
-          "p": [
-            0.2057,
-            0.2457,
-            0.5486
-          ]
-        }
-      ]
-    },
     {
       "eventId": "3d0b0fbec194258530882514714c74be",
       "sportKey": "soccer_italy_serie_a",
