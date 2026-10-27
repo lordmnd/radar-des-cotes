@@ -1,6 +1,12 @@
 {
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "day": "2026-10-27",
-  "remaining": 181,
+  "nextBet": 2,
+  "rejected": [],
   "bets": [
     {
       "n": 1,
@@ -47,6 +53,20 @@
       "status": "perdu"
     }
   ],
+  "lastAnalysis": "2026-10-27T09:59:57Z",
+  "bankroll0": 80,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
+    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
+    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-27T07:32:06.7243249Z",
+    "soccer_italy_serie_b": "2026-10-27T07:32:06.7243249Z",
+    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
+    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
+  },
   "events": {
     "ed6da0ed9e5d0c24d1c6f689d9f4b440": {
       "eventId": "ed6da0ed9e5d0c24d1c6f689d9f4b440",
@@ -3241,14 +3261,6 @@
       ]
     }
   },
-  "lastAnalysis": "2026-10-27T07:32:06Z",
-  "usedToday": 8,
-  "rejected": [],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -3433,7 +3445,10 @@
           "pickName": "AS Roma -1,5",
           "odd": 2.04,
           "p": 0.5,
-          "fairOdd": 2.0
+          "fairOdd": 2.0,
+          "closeFairOdd": 2.0,
+          "closeOdd1x": 2.04,
+          "closeSeenAt": "2026-10-27T09:59:57Z"
         },
         {
           "eventId": "33320ad169692216a91dec030e7ef6a6",
@@ -3450,23 +3465,14 @@
           "pickName": "Venezia +1,5",
           "odd": 2.02,
           "p": 0.5053,
-          "fairOdd": 1.979
+          "fairOdd": 1.979,
+          "closeFairOdd": 1.979,
+          "closeOdd1x": 2.02,
+          "closeSeenAt": "2026-10-27T09:59:57Z"
         }
       ]
     }
   ],
-  "bankroll0": 80,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
-    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
-    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-27T07:32:06.7243249Z",
-    "soccer_italy_serie_b": "2026-10-27T07:32:06.7243249Z",
-    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
-  },
-  "nextBet": 2
+  "usedToday": 8,
+  "remaining": 181
 }

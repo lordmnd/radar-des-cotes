@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-27T07:32:06Z",
+  "generatedAt": "2026-10-27T09:59:57Z",
   "creditsRemaining": 181,
   "creditsUsedToday": 8,
-  "dailyBudget": 37,
+  "dailyBudget": 36,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -66,16 +66,16 @@
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 6,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 8,
+      "status": "cache",
+      "ageHours": 2.5
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 10,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.5
     }
   ],
   "eventsScanned": 16,
@@ -307,7 +307,7 @@
     "notifiedAt": "2026-10-27T07:32:06Z"
   },
   "comboNote": "",
-  "notify": true,
+  "notify": false,
   "notifications": [
     {
       "at": "2026-10-27T07:32:06Z",
@@ -334,7 +334,10 @@
           "pickName": "AS Roma -1,5",
           "odd": 2.04,
           "p": 0.5,
-          "fairOdd": 2.0
+          "fairOdd": 2.0,
+          "closeFairOdd": 2.0,
+          "closeOdd1x": 2.04,
+          "closeSeenAt": "2026-10-27T09:59:57Z"
         },
         {
           "eventId": "33320ad169692216a91dec030e7ef6a6",
@@ -351,7 +354,10 @@
           "pickName": "Venezia +1,5",
           "odd": 2.02,
           "p": 0.5053,
-          "fairOdd": 1.979
+          "fairOdd": 1.979,
+          "closeFairOdd": 1.979,
+          "closeOdd1x": 2.02,
+          "closeSeenAt": "2026-10-27T09:59:57Z"
         }
       ]
     },
@@ -521,8 +527,8 @@
     "lost": 3,
     "profitUnits": -3.0,
     "roi": -1.0,
-    "avgClv": 0.0233,
-    "clvLegs": 6
+    "avgClv": 0.0226,
+    "clvLegs": 8
   },
   "matches": [
     {
