@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-26T21:15:20Z",
-  "creditsRemaining": 189,
-  "creditsUsedToday": 27,
-  "dailyBudget": 31,
+  "generatedAt": "2026-10-27T07:32:06Z",
+  "creditsRemaining": 181,
+  "creditsUsedToday": 8,
+  "dailyBudget": 37,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -66,21 +66,21 @@
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 14.1
+      "events": 6,
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
-      "events": 7,
-      "status": "cache",
-      "ageHours": 14.1
+      "events": 10,
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 8,
-  "eventsWith1xbet": 8,
-  "valueBets": 1,
+  "eventsScanned": 16,
+  "eventsWith1xbet": 16,
+  "valueBets": 5,
   "top": [
     {
       "eventId": "c7445242bf16a8f37afef7863af45a78",
@@ -100,30 +100,261 @@
         "Match nul",
         "Victoire Lazio"
       ],
-      "odd": 2.24,
-      "p": 0.4594,
-      "fairOdd": 2.177,
-      "ev": 0.029,
-      "quality": 0.026,
-      "kelly": 0.0234,
+      "odd": 2.23,
+      "p": 0.4619,
+      "fairOdd": 2.165,
+      "ev": 0.03,
+      "quality": 0.027,
+      "kelly": 0.0244,
       "refSource": "Pinnacle",
       "odds1x": [
-        3.44,
-        3.6,
-        2.24
+        3.42,
+        3.65,
+        2.23
       ],
       "refOdds": [
-        3.48,
-        3.64,
-        2.12
+        3.49,
+        3.67,
+        2.11
       ],
-      "margin1x": 0.0149
+      "margin1x": 0.0148
+    },
+    {
+      "eventId": "33320ad169692216a91dec030e7ef6a6",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Venezia",
+      "away": "Inter Milan",
+      "kickoff": "2026-10-28T17:30:00Z",
+      "market": "Handicap asiatique",
+      "marketKey": "spreads",
+      "line": "1.5",
+      "idx": 0,
+      "pick": "H1 +1,5",
+      "pickName": "Venezia +1,5",
+      "names": [
+        "Venezia +1,5",
+        "Inter Milan -1,5"
+      ],
+      "odd": 2.02,
+      "p": 0.5053,
+      "fairOdd": 1.979,
+      "ev": 0.0206,
+      "quality": 0.0204,
+      "kelly": 0.0202,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        2.02,
+        1.92
+      ],
+      "refOdds": [
+        1.93,
+        1.97
+      ],
+      "margin1x": 0.0159
+    },
+    {
+      "eventId": "7eecf109ae6a5f87441a79b0e4111982",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "AS Roma",
+      "away": "Cagliari",
+      "kickoff": "2026-10-27T19:45:00Z",
+      "market": "Handicap asiatique",
+      "marketKey": "spreads",
+      "line": "-1.5",
+      "idx": 0,
+      "pick": "H1 -1,5",
+      "pickName": "AS Roma -1,5",
+      "names": [
+        "AS Roma -1,5",
+        "Cagliari +1,5"
+      ],
+      "odd": 2.04,
+      "p": 0.5,
+      "fairOdd": 2.0,
+      "ev": 0.02,
+      "quality": 0.0196,
+      "kelly": 0.0192,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        2.04,
+        1.9
+      ],
+      "refOdds": [
+        1.95,
+        1.95
+      ],
+      "margin1x": 0.0165
+    },
+    {
+      "eventId": "482c18a8081afdfa310324fa8f37e95a",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Parma",
+      "away": "Udinese",
+      "kickoff": "2026-10-28T17:30:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 0,
+      "pick": "1",
+      "pickName": "Victoire Parma",
+      "names": [
+        "Victoire Parma",
+        "Match nul",
+        "Victoire Udinese"
+      ],
+      "odd": 3.17,
+      "p": 0.3225,
+      "fairOdd": 3.101,
+      "ev": 0.0222,
+      "quality": 0.015,
+      "kelly": 0.0102,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        3.17,
+        3.27,
+        2.53
+      ],
+      "refOdds": [
+        3.0,
+        3.19,
+        2.59
+      ],
+      "margin1x": 0.0165
     }
   ],
-  "combo": null,
+  "combo": {
+    "legs": [
+      {
+        "eventId": "7eecf109ae6a5f87441a79b0e4111982",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "AS Roma",
+        "away": "Cagliari",
+        "kickoff": "2026-10-27T19:45:00Z",
+        "market": "Handicap asiatique",
+        "marketKey": "spreads",
+        "line": "-1.5",
+        "idx": 0,
+        "pick": "H1 -1,5",
+        "pickName": "AS Roma -1,5",
+        "names": [
+          "AS Roma -1,5",
+          "Cagliari +1,5"
+        ],
+        "odd": 2.04,
+        "p": 0.5,
+        "fairOdd": 2.0,
+        "ev": 0.02,
+        "quality": 0.0196,
+        "kelly": 0.0192,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.04,
+          1.9
+        ],
+        "refOdds": [
+          1.95,
+          1.95
+        ],
+        "margin1x": 0.0165
+      },
+      {
+        "eventId": "33320ad169692216a91dec030e7ef6a6",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Venezia",
+        "away": "Inter Milan",
+        "kickoff": "2026-10-28T17:30:00Z",
+        "market": "Handicap asiatique",
+        "marketKey": "spreads",
+        "line": "1.5",
+        "idx": 0,
+        "pick": "H1 +1,5",
+        "pickName": "Venezia +1,5",
+        "names": [
+          "Venezia +1,5",
+          "Inter Milan -1,5"
+        ],
+        "odd": 2.02,
+        "p": 0.5053,
+        "fairOdd": 1.979,
+        "ev": 0.0206,
+        "quality": 0.0204,
+        "kelly": 0.0202,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.02,
+          1.92
+        ],
+        "refOdds": [
+          1.93,
+          1.97
+        ],
+        "margin1x": 0.0159
+      }
+    ],
+    "totalOdds": 4.121,
+    "prob": 0.2526,
+    "ev": 0.0411,
+    "stakePct": 0.0033,
+    "signature": "33320ad169692216a91dec030e7ef6a6|spreads|1.5|0~7eecf109ae6a5f87441a79b0e4111982|spreads|-1.5|0",
+    "firstKickoff": "2026-10-27T19:45:00Z",
+    "verified": true,
+    "verifiedAt": "2026-10-27T07:32:06Z",
+    "notifiedAt": "2026-10-27T07:32:06Z"
+  },
   "comboNote": "",
-  "notify": false,
+  "notify": true,
   "notifications": [
+    {
+      "at": "2026-10-27T07:32:06Z",
+      "signature": "33320ad169692216a91dec030e7ef6a6|spreads|1.5|0~7eecf109ae6a5f87441a79b0e4111982|spreads|-1.5|0",
+      "totalOdds": 4.121,
+      "prob": 0.2526,
+      "ev": 0.0411,
+      "stakePct": 0.0033,
+      "target": 2.5,
+      "status": "en attente",
+      "legs": [
+        {
+          "eventId": "7eecf109ae6a5f87441a79b0e4111982",
+          "sportKey": "soccer_italy_serie_a",
+          "league": "Serie A",
+          "home": "AS Roma",
+          "away": "Cagliari",
+          "kickoff": "2026-10-27T19:45:00Z",
+          "market": "Handicap asiatique",
+          "marketKey": "spreads",
+          "line": "-1.5",
+          "idx": 0,
+          "pick": "H1 -1,5",
+          "pickName": "AS Roma -1,5",
+          "odd": 2.04,
+          "p": 0.5,
+          "fairOdd": 2.0
+        },
+        {
+          "eventId": "33320ad169692216a91dec030e7ef6a6",
+          "sportKey": "soccer_italy_serie_a",
+          "league": "Serie A",
+          "home": "Venezia",
+          "away": "Inter Milan",
+          "kickoff": "2026-10-28T17:30:00Z",
+          "market": "Handicap asiatique",
+          "marketKey": "spreads",
+          "line": "1.5",
+          "idx": 0,
+          "pick": "H1 +1,5",
+          "pickName": "Venezia +1,5",
+          "odd": 2.02,
+          "p": 0.5053,
+          "fairOdd": 1.979
+        }
+      ]
+    },
     {
       "at": "2026-10-24T06:30:50Z",
       "signature": "70df1835c3b5ddff1c99e0189532136b|h2h||0~c9b6c7048d8dc33dae618f67f462f67a|spreads|-1.5|0",
@@ -284,7 +515,7 @@
     }
   ],
   "stats": {
-    "notified": 3,
+    "notified": 4,
     "settled": 3,
     "won": 0,
     "lost": 3,
@@ -306,14 +537,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.44,
-            3.6,
-            2.24
+            3.42,
+            3.65,
+            2.23
           ],
           "p": [
-            0.2766,
-            0.264,
-            0.4594
+            0.276,
+            0.2621,
+            0.4619
           ]
         }
       ]
@@ -330,14 +561,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.69,
-            4.15,
-            4.21
+            1.74,
+            4.05,
+            4.03
           ],
           "p": [
-            0.573,
-            0.218,
-            0.2091
+            0.5637,
+            0.2285,
+            0.2077
           ]
         }
       ]
@@ -359,9 +590,9 @@
             3.42
           ],
           "p": [
-            0.4494,
-            0.2908,
-            0.2599
+            0.4426,
+            0.2923,
+            0.265
           ]
         },
         {
@@ -372,8 +603,8 @@
             1.93
           ],
           "p": [
-            0.5013,
-            0.4987
+            0.5027,
+            0.4973
           ]
         }
       ]
@@ -395,9 +626,9 @@
             3.65
           ],
           "p": [
-            0.4534,
-            0.2991,
-            0.2475
+            0.4485,
+            0.2976,
+            0.2539
           ]
         }
       ]
@@ -414,26 +645,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.01,
-            3.5,
-            3.48
+            2.05,
+            3.28,
+            3.6
           ],
           "p": [
-            0.474,
-            0.268,
-            0.258
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.8,
-            1.94
-          ],
-          "p": [
-            0.5094,
-            0.4906
+            0.4686,
+            0.2878,
+            0.2435
           ]
         }
       ]
@@ -450,14 +669,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.28,
-            3.3,
-            3.05
+            2.14,
+            3.34,
+            3.31
           ],
           "p": [
-            0.4305,
-            0.2807,
-            0.2887
+            0.4321,
+            0.2883,
+            0.2796
           ]
         },
         {
@@ -468,8 +687,8 @@
             1.87
           ],
           "p": [
-            0.4824,
-            0.5176
+            0.4736,
+            0.5264
           ]
         }
       ]
@@ -486,14 +705,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.44,
-            3.54,
-            2.01
+            3.48,
+            3.48,
+            2.02
           ],
           "p": [
-            0.2663,
-            0.2624,
-            0.4714
+            0.2622,
+            0.2722,
+            0.4657
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.7,
+            2.08
+          ],
+          "p": [
+            0.5252,
+            0.4748
           ]
         }
       ]
@@ -515,9 +746,273 @@
             2.98
           ],
           "p": [
-            0.4007,
-            0.2952,
-            0.3041
+            0.3917,
+            0.3076,
+            0.3007
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "7eecf109ae6a5f87441a79b0e4111982",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "AS Roma",
+      "away": "Cagliari",
+      "kickoff": "2026-10-27T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.38,
+            5.28,
+            9.75
+          ],
+          "p": [
+            0.7351,
+            0.1737,
+            0.0912
+          ]
+        },
+        {
+          "marketKey": "spreads",
+          "line": "-1.5",
+          "odds1x": [
+            2.04,
+            1.9
+          ],
+          "p": [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "7d989a0a7bae47eb957731e97c5bd9c1",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Como",
+      "kickoff": "2026-10-27T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            5.25,
+            4.0,
+            1.74
+          ],
+          "p": [
+            0.1762,
+            0.2393,
+            0.5844
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "3d0b0fbec194258530882514714c74be",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "AC Milan",
+      "away": "Bologna",
+      "kickoff": "2026-10-28T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.69,
+            4.12,
+            5.55
+          ],
+          "p": [
+            0.5983,
+            0.2333,
+            0.1684
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.93,
+            2.01
+          ],
+          "p": [
+            0.5172,
+            0.4828
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "33320ad169692216a91dec030e7ef6a6",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Venezia",
+      "away": "Inter Milan",
+      "kickoff": "2026-10-28T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            8.45,
+            6.11,
+            1.36
+          ],
+          "p": [
+            0.121,
+            0.1615,
+            0.7175
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "3.5",
+          "odds1x": [
+            1.94,
+            2.0
+          ],
+          "p": [
+            0.496,
+            0.504
+          ]
+        },
+        {
+          "marketKey": "spreads",
+          "line": "1.5",
+          "odds1x": [
+            2.02,
+            1.92
+          ],
+          "p": [
+            0.5053,
+            0.4947
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "482c18a8081afdfa310324fa8f37e95a",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Parma",
+      "away": "Udinese",
+      "kickoff": "2026-10-28T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.17,
+            3.27,
+            2.53
+          ],
+          "p": [
+            0.3225,
+            0.3028,
+            0.3748
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "cc41a68f2e42d32c3713cb93a9e0b9c2",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Pisa",
+      "away": "Palermo",
+      "kickoff": "2026-10-28T18:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.52,
+            3.22,
+            2.72
+          ],
+          "p": [
+            0.3737,
+            0.3024,
+            0.3238
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "7bf155b51e05cdb8fc5dced606b970b8",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Carrarese",
+      "away": "Arezzo",
+      "kickoff": "2026-10-28T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.21,
+            3.32,
+            3.16
+          ],
+          "p": [
+            0.4228,
+            0.2982,
+            0.279
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.91,
+            1.83
+          ],
+          "p": [
+            0.4665,
+            0.5335
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "bb23dba9a8704fdb8928f885625de952",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Juve Stabia",
+      "away": "Hellas Verona",
+      "kickoff": "2026-10-28T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.93,
+            3.4,
+            2.3
+          ],
+          "p": [
+            0.3168,
+            0.2772,
+            0.406
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.78,
+            1.97
+          ],
+          "p": [
+            0.5094,
+            0.4906
           ]
         }
       ]

@@ -1,4 +1,198 @@
 {
+  "2026-10-27": {
+    "date": "2026-10-27",
+    "updatedAt": "2026-10-27T07:32:06Z",
+    "eventsScanned": 16,
+    "valueBets": 5,
+    "top": [
+      {
+        "eventId": "c7445242bf16a8f37afef7863af45a78",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Sassuolo",
+        "away": "Lazio",
+        "kickoff": "2026-10-27T17:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Lazio",
+        "names": [
+          "Victoire Sassuolo",
+          "Match nul",
+          "Victoire Lazio"
+        ],
+        "odd": 2.23,
+        "p": 0.4619,
+        "fairOdd": 2.165,
+        "ev": 0.03,
+        "quality": 0.027,
+        "kelly": 0.0244,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.42,
+          3.65,
+          2.23
+        ],
+        "refOdds": [
+          3.49,
+          3.67,
+          2.11
+        ],
+        "margin1x": 0.0148
+      },
+      {
+        "eventId": "33320ad169692216a91dec030e7ef6a6",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Venezia",
+        "away": "Inter Milan",
+        "kickoff": "2026-10-28T17:30:00Z",
+        "market": "Handicap asiatique",
+        "marketKey": "spreads",
+        "line": "1.5",
+        "idx": 0,
+        "pick": "H1 +1,5",
+        "pickName": "Venezia +1,5",
+        "names": [
+          "Venezia +1,5",
+          "Inter Milan -1,5"
+        ],
+        "odd": 2.02,
+        "p": 0.5053,
+        "fairOdd": 1.979,
+        "ev": 0.0206,
+        "quality": 0.0204,
+        "kelly": 0.0202,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.02,
+          1.92
+        ],
+        "refOdds": [
+          1.93,
+          1.97
+        ],
+        "margin1x": 0.0159
+      },
+      {
+        "eventId": "7eecf109ae6a5f87441a79b0e4111982",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "AS Roma",
+        "away": "Cagliari",
+        "kickoff": "2026-10-27T19:45:00Z",
+        "market": "Handicap asiatique",
+        "marketKey": "spreads",
+        "line": "-1.5",
+        "idx": 0,
+        "pick": "H1 -1,5",
+        "pickName": "AS Roma -1,5",
+        "names": [
+          "AS Roma -1,5",
+          "Cagliari +1,5"
+        ],
+        "odd": 2.04,
+        "p": 0.5,
+        "fairOdd": 2.0,
+        "ev": 0.02,
+        "quality": 0.0196,
+        "kelly": 0.0192,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.04,
+          1.9
+        ],
+        "refOdds": [
+          1.95,
+          1.95
+        ],
+        "margin1x": 0.0165
+      }
+    ],
+    "combo": {
+      "legs": [
+        {
+          "eventId": "7eecf109ae6a5f87441a79b0e4111982",
+          "sportKey": "soccer_italy_serie_a",
+          "league": "Serie A",
+          "home": "AS Roma",
+          "away": "Cagliari",
+          "kickoff": "2026-10-27T19:45:00Z",
+          "market": "Handicap asiatique",
+          "marketKey": "spreads",
+          "line": "-1.5",
+          "idx": 0,
+          "pick": "H1 -1,5",
+          "pickName": "AS Roma -1,5",
+          "names": [
+            "AS Roma -1,5",
+            "Cagliari +1,5"
+          ],
+          "odd": 2.04,
+          "p": 0.5,
+          "fairOdd": 2.0,
+          "ev": 0.02,
+          "quality": 0.0196,
+          "kelly": 0.0192,
+          "refSource": "Pinnacle",
+          "odds1x": [
+            2.04,
+            1.9
+          ],
+          "refOdds": [
+            1.95,
+            1.95
+          ],
+          "margin1x": 0.0165
+        },
+        {
+          "eventId": "33320ad169692216a91dec030e7ef6a6",
+          "sportKey": "soccer_italy_serie_a",
+          "league": "Serie A",
+          "home": "Venezia",
+          "away": "Inter Milan",
+          "kickoff": "2026-10-28T17:30:00Z",
+          "market": "Handicap asiatique",
+          "marketKey": "spreads",
+          "line": "1.5",
+          "idx": 0,
+          "pick": "H1 +1,5",
+          "pickName": "Venezia +1,5",
+          "names": [
+            "Venezia +1,5",
+            "Inter Milan -1,5"
+          ],
+          "odd": 2.02,
+          "p": 0.5053,
+          "fairOdd": 1.979,
+          "ev": 0.0206,
+          "quality": 0.0204,
+          "kelly": 0.0202,
+          "refSource": "Pinnacle",
+          "odds1x": [
+            2.02,
+            1.92
+          ],
+          "refOdds": [
+            1.93,
+            1.97
+          ],
+          "margin1x": 0.0159
+        }
+      ],
+      "totalOdds": 4.121,
+      "prob": 0.2526,
+      "ev": 0.0411,
+      "stakePct": 0.0033,
+      "signature": "33320ad169692216a91dec030e7ef6a6|spreads|1.5|0~7eecf109ae6a5f87441a79b0e4111982|spreads|-1.5|0",
+      "firstKickoff": "2026-10-27T19:45:00Z",
+      "verified": true,
+      "verifiedAt": "2026-10-27T07:32:06Z",
+      "notifiedAt": "2026-10-27T07:32:06Z"
+    }
+  },
   "2026-10-26": {
     "date": "2026-10-26",
     "updatedAt": "2026-10-26T21:15:20Z",
