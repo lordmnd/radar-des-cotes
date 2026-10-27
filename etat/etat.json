@@ -1,4 +1,5 @@
 {
+  "nextBet": 2,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -211,26 +212,8 @@
       ]
     }
   ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "usedToday": 14,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
-    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
-    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-27T15:58:49.1289865Z",
-    "soccer_italy_serie_b": "2026-10-27T15:58:49.1289865Z",
-    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
-  },
   "day": "2026-10-27",
-  "remaining": 175,
+  "rejected": [],
   "bets": [
     {
       "n": 1,
@@ -277,58 +260,27 @@
       "status": "perdu"
     }
   ],
+  "usedToday": 14,
   "lastAnalysis": "2026-10-27T15:58:49Z",
-  "rejected": [],
   "bankroll0": 80,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
+    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
+    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-27T15:58:49.1289865Z",
+    "soccer_italy_serie_b": "2026-10-27T15:58:49.1289865Z",
+    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
+    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
+  },
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "events": {
-    "ed6da0ed9e5d0c24d1c6f689d9f4b440": {
-      "eventId": "ed6da0ed9e5d0c24d1c6f689d9f4b440",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "SV Darmstadt 98",
-      "away": "FC St. Pauli",
-      "kickoff": "2026-10-23T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.21,
-            3.44,
-            2.14
-          ],
-          "p": [
-            0.2762,
-            0.2683,
-            0.4555
-          ]
-        }
-      ]
-    },
-    "618df9a8c3b34ce0ec2c309deccb92c8": {
-      "eventId": "618df9a8c3b34ce0ec2c309deccb92c8",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "VfL Bochum",
-      "away": "VfL Wolfsburg",
-      "kickoff": "2026-10-23T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.24,
-            3.82,
-            2.0
-          ],
-          "p": [
-            0.2721,
-            0.2229,
-            0.505
-          ]
-        }
-      ]
-    },
     "e999dbef3f9ee95f3928190d9a626f8c": {
       "eventId": "e999dbef3f9ee95f3928190d9a626f8c",
       "sportKey": "soccer_france_ligue_two",
@@ -3534,5 +3486,5 @@
       ]
     }
   },
-  "nextBet": 2
+  "remaining": 175
 }
