@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-28T19:25:17Z",
-  "creditsRemaining": 161,
-  "creditsUsedToday": 14,
+  "generatedAt": "2026-10-28T21:53:49Z",
+  "creditsRemaining": 159,
+  "creditsUsedToday": 16,
   "dailyBudget": 40,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -74,7 +74,7 @@
       "name": "Serie A",
       "events": 2,
       "status": "cache",
-      "ageHours": 3.9
+      "ageHours": 6.3
     }
   ],
   "eventsScanned": 2,
@@ -93,7 +93,7 @@
       "ev": 0.0411,
       "stakePct": 0.0033,
       "target": 2.5,
-      "status": "en attente",
+      "status": "perdu",
       "legs": [
         {
           "eventId": "7eecf109ae6a5f87441a79b0e4111982",
@@ -135,7 +135,9 @@
           "fairOdd": 1.979,
           "closeFairOdd": 1.861,
           "closeOdd1x": 1.92,
-          "closeSeenAt": "2026-10-28T15:33:57Z"
+          "closeSeenAt": "2026-10-28T15:33:57Z",
+          "score": "0-2",
+          "result": "perdu"
         }
       ]
     },
@@ -300,10 +302,10 @@
   ],
   "stats": {
     "notified": 4,
-    "settled": 3,
+    "settled": 4,
     "won": 0,
-    "lost": 3,
-    "profitUnits": -3.0,
+    "lost": 4,
+    "profitUnits": -4.0,
     "roi": -1.0,
     "avgClv": 0.036,
     "clvLegs": 8
