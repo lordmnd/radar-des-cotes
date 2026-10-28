@@ -1,4 +1,72 @@
 {
+  "usedToday": 14,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
+    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
+    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-28T15:33:57.7044479Z",
+    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
+    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
+    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
+  },
+  "lastAnalysis": "2026-10-28T15:33:57Z",
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
+        {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
+          "marketKey": "h2h",
+          "market": "1N2",
+          "line": "",
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
+        },
+        {
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
+        }
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
+  "nextBet": 2,
+  "day": "2026-10-28",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "remaining": 161,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -206,80 +274,15 @@
           "odd": 2.02,
           "p": 0.5053,
           "fairOdd": 1.979,
-          "closeFairOdd": 1.979,
-          "closeOdd1x": 1.98,
-          "closeSeenAt": "2026-10-28T13:32:41Z"
+          "closeFairOdd": 1.861,
+          "closeOdd1x": 1.92,
+          "closeSeenAt": "2026-10-28T15:33:57Z"
         }
       ]
     }
   ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "lastAnalysis": "2026-10-28T13:32:41Z",
-  "remaining": 167,
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ],
-  "nextBet": 2,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
-    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
-    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-28T07:14:18.3397930Z",
-    "soccer_italy_serie_b": "2026-10-28T07:14:18.3397930Z",
-    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
-  },
   "rejected": [],
+  "bankroll0": 80,
   "events": {
     "717fb513af59181c0579820a3bc6b58a": {
       "eventId": "717fb513af59181c0579820a3bc6b58a",
@@ -361,30 +364,6 @@
             0.4386,
             0.2681,
             0.2933
-          ]
-        }
-      ]
-    },
-    "974e5129b9b81586ec6097f045c1ab0c": {
-      "eventId": "974e5129b9b81586ec6097f045c1ab0c",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "US Catanzaro 1929",
-      "away": "Ascoli",
-      "kickoff": "2026-10-24T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.56,
-            3.18,
-            2.7
-          ],
-          "p": [
-            0.3513,
-            0.2907,
-            0.358
           ]
         }
       ]
@@ -1997,26 +1976,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.74,
-            4.04,
-            5.18
+            1.77,
+            3.81,
+            5.33
           ],
           "p": [
-            0.5664,
-            0.2413,
-            0.1923
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.87,
-            2.08
-          ],
-          "p": [
-            0.5172,
-            0.4828
+            0.562,
+            0.2593,
+            0.1787
           ]
         }
       ]
@@ -2033,38 +2000,38 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            8.1,
-            5.88,
-            1.39
+            8.05,
+            5.7,
+            1.4
           ],
           "p": [
-            0.1237,
-            0.1619,
-            0.7144
+            0.1263,
+            0.1746,
+            0.6991
           ]
         },
         {
           "marketKey": "totals",
           "line": "3.5",
           "odds1x": [
-            2.02,
-            1.92
+            2.13,
+            1.83
           ],
           "p": [
-            0.4881,
-            0.5119
+            0.4532,
+            0.5468
           ]
         },
         {
           "marketKey": "spreads",
           "line": "1.5",
           "odds1x": [
-            1.98,
-            1.97
+            1.92,
+            2.02
           ],
           "p": [
-            0.5053,
-            0.4947
+            0.5374,
+            0.4626
           ]
         }
       ]
@@ -2086,9 +2053,9 @@
             2.77
           ],
           "p": [
-            0.3414,
-            0.307,
-            0.3515
+            0.3493,
+            0.3027,
+            0.348
           ]
         }
       ]
@@ -2105,14 +2072,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.44,
-            3.2,
-            2.88
+            2.34,
+            3.3,
+            2.94
           ],
           "p": [
-            0.3869,
-            0.2951,
-            0.318
+            0.4049,
+            0.2783,
+            0.3168
           ]
         }
       ]
@@ -2129,14 +2096,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.22,
-            3.15,
-            3.31
+            2.1,
+            3.2,
+            3.54
           ],
           "p": [
-            0.4362,
-            0.3064,
-            0.2574
+            0.4487,
+            0.2987,
+            0.2526
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.88,
+            1.86
+          ],
+          "p": [
+            0.4854,
+            0.5146
           ]
         }
       ]
@@ -2153,14 +2132,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.86,
-            3.28,
-            2.41
+            2.92,
+            3.16,
+            2.43
           ],
           "p": [
-            0.3132,
-            0.283,
-            0.4038
+            0.3193,
+            0.3029,
+            0.3779
           ]
         },
         {
@@ -2171,8 +2150,8 @@
             1.92
           ],
           "p": [
-            0.4973,
-            0.5027
+            0.496,
+            0.504
           ]
         }
       ]
@@ -2189,14 +2168,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            5.38,
-            3.69,
-            1.79
+            5.33,
+            3.56,
+            1.83
           ],
           "p": [
-            0.1802,
-            0.2746,
-            0.5452
+            0.1823,
+            0.2773,
+            0.5404
           ]
         }
       ]
@@ -2213,14 +2192,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            4.58,
+            4.53,
             4.12,
-            1.8
+            1.81
           ],
           "p": [
-            0.2113,
-            0.2352,
-            0.5535
+            0.2041,
+            0.2401,
+            0.5558
           ]
         }
       ]
@@ -2237,20 +2216,41 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.78,
-            4.17,
-            4.68
+            1.74,
+            4.27,
+            4.84
           ],
           "p": [
-            0.5766,
-            0.2274,
-            0.196
+            0.5776,
+            0.2277,
+            0.1947
+          ]
+        }
+      ]
+    },
+    "da159a6b84dbb548b4d7b94c722caac5": {
+      "eventId": "da159a6b84dbb548b4d7b94c722caac5",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Fiorentina",
+      "away": "Atalanta BC",
+      "kickoff": "2026-10-29T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.3,
+            3.77,
+            3.17
+          ],
+          "p": [
+            0.4192,
+            0.2672,
+            0.3137
           ]
         }
       ]
     }
-  },
-  "bankroll0": 80,
-  "usedToday": 8,
-  "day": "2026-10-28"
+  }
 }

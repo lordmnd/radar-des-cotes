@@ -1,46 +1,43 @@
 {
   "2026-10-28": {
     "date": "2026-10-28",
-    "updatedAt": "2026-10-28T13:32:41Z",
-    "eventsScanned": 9,
+    "updatedAt": "2026-10-28T15:33:57Z",
+    "eventsScanned": 10,
     "valueBets": 1,
     "top": [
       {
-        "eventId": "667cf69986b200753742c90cb9c5126c",
+        "eventId": "33320ad169692216a91dec030e7ef6a6",
         "sportKey": "soccer_italy_serie_a",
         "league": "Serie A",
-        "home": "Frosinone",
-        "away": "Lecce",
-        "kickoff": "2026-10-29T17:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
+        "home": "Venezia",
+        "away": "Inter Milan",
+        "kickoff": "2026-10-28T17:30:00Z",
+        "market": "Handicap asiatique",
+        "marketKey": "spreads",
+        "line": "1.5",
         "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Frosinone",
+        "pick": "H1 +1,5",
+        "pickName": "Venezia +1,5",
         "names": [
-          "Victoire Frosinone",
-          "Match nul",
-          "Victoire Lecce"
+          "Venezia +1,5",
+          "Inter Milan -1,5"
         ],
-        "odd": 1.78,
-        "p": 0.5766,
-        "fairOdd": 1.734,
-        "ev": 0.0263,
-        "quality": 0.0299,
-        "kelly": 0.0338,
+        "odd": 1.92,
+        "p": 0.5374,
+        "fairOdd": 1.861,
+        "ev": 0.0318,
+        "quality": 0.0332,
+        "kelly": 0.0345,
         "refSource": "Pinnacle",
         "odds1x": [
-          1.78,
-          4.17,
-          4.68
+          1.92,
+          2.02
         ],
         "refOdds": [
-          1.69,
-          4.18,
-          4.82
+          1.83,
+          2.12
         ],
-        "margin1x": 0.0153
+        "margin1x": 0.0159
       }
     ],
     "combo": null

@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-28T13:32:41Z",
-  "creditsRemaining": 167,
-  "creditsUsedToday": 8,
+  "generatedAt": "2026-10-28T15:33:57Z",
+  "creditsRemaining": 161,
+  "creditsUsedToday": 14,
   "dailyBudget": 40,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -67,57 +67,54 @@
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 7,
-      "status": "cache",
-      "ageHours": 6.3
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 3,
-      "status": "cache",
-      "ageHours": 6.3
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 9,
-  "eventsWith1xbet": 9,
+  "eventsScanned": 10,
+  "eventsWith1xbet": 10,
   "valueBets": 1,
   "top": [
     {
-      "eventId": "667cf69986b200753742c90cb9c5126c",
+      "eventId": "33320ad169692216a91dec030e7ef6a6",
       "sportKey": "soccer_italy_serie_a",
       "league": "Serie A",
-      "home": "Frosinone",
-      "away": "Lecce",
-      "kickoff": "2026-10-29T17:30:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
+      "home": "Venezia",
+      "away": "Inter Milan",
+      "kickoff": "2026-10-28T17:30:00Z",
+      "market": "Handicap asiatique",
+      "marketKey": "spreads",
+      "line": "1.5",
       "idx": 0,
-      "pick": "1",
-      "pickName": "Victoire Frosinone",
+      "pick": "H1 +1,5",
+      "pickName": "Venezia +1,5",
       "names": [
-        "Victoire Frosinone",
-        "Match nul",
-        "Victoire Lecce"
+        "Venezia +1,5",
+        "Inter Milan -1,5"
       ],
-      "odd": 1.78,
-      "p": 0.5766,
-      "fairOdd": 1.734,
-      "ev": 0.0263,
-      "quality": 0.0299,
-      "kelly": 0.0338,
+      "odd": 1.92,
+      "p": 0.5374,
+      "fairOdd": 1.861,
+      "ev": 0.0318,
+      "quality": 0.0332,
+      "kelly": 0.0345,
       "refSource": "Pinnacle",
       "odds1x": [
-        1.78,
-        4.17,
-        4.68
+        1.92,
+        2.02
       ],
       "refOdds": [
-        1.69,
-        4.18,
-        4.82
+        1.83,
+        2.12
       ],
-      "margin1x": 0.0153
+      "margin1x": 0.0159
     }
   ],
   "combo": null,
@@ -172,9 +169,9 @@
           "odd": 2.02,
           "p": 0.5053,
           "fairOdd": 1.979,
-          "closeFairOdd": 1.979,
-          "closeOdd1x": 1.98,
-          "closeSeenAt": "2026-10-28T13:32:41Z"
+          "closeFairOdd": 1.861,
+          "closeOdd1x": 1.92,
+          "closeSeenAt": "2026-10-28T15:33:57Z"
         }
       ]
     },
@@ -344,7 +341,7 @@
     "lost": 3,
     "profitUnits": -3.0,
     "roi": -1.0,
-    "avgClv": 0.0279,
+    "avgClv": 0.036,
     "clvLegs": 8
   },
   "matches": [
@@ -360,26 +357,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.74,
-            4.04,
-            5.18
+            1.77,
+            3.81,
+            5.33
           ],
           "p": [
-            0.5664,
-            0.2413,
-            0.1923
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.87,
-            2.08
-          ],
-          "p": [
-            0.5172,
-            0.4828
+            0.562,
+            0.2593,
+            0.1787
           ]
         }
       ]
@@ -396,38 +381,38 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            8.1,
-            5.88,
-            1.39
+            8.05,
+            5.7,
+            1.4
           ],
           "p": [
-            0.1237,
-            0.1619,
-            0.7144
+            0.1263,
+            0.1746,
+            0.6991
           ]
         },
         {
           "marketKey": "totals",
           "line": "3.5",
           "odds1x": [
-            2.02,
-            1.92
+            2.13,
+            1.83
           ],
           "p": [
-            0.4881,
-            0.5119
+            0.4532,
+            0.5468
           ]
         },
         {
           "marketKey": "spreads",
           "line": "1.5",
           "odds1x": [
-            1.98,
-            1.97
+            1.92,
+            2.02
           ],
           "p": [
-            0.5053,
-            0.4947
+            0.5374,
+            0.4626
           ]
         }
       ]
@@ -449,9 +434,9 @@
             2.77
           ],
           "p": [
-            0.3414,
-            0.307,
-            0.3515
+            0.3493,
+            0.3027,
+            0.348
           ]
         }
       ]
@@ -468,14 +453,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.44,
-            3.2,
-            2.88
+            2.34,
+            3.3,
+            2.94
           ],
           "p": [
-            0.3869,
-            0.2951,
-            0.318
+            0.4049,
+            0.2783,
+            0.3168
           ]
         }
       ]
@@ -492,14 +477,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.22,
-            3.15,
-            3.31
+            2.1,
+            3.2,
+            3.54
           ],
           "p": [
-            0.4362,
-            0.3064,
-            0.2574
+            0.4487,
+            0.2987,
+            0.2526
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.88,
+            1.86
+          ],
+          "p": [
+            0.4854,
+            0.5146
           ]
         }
       ]
@@ -516,14 +513,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.86,
-            3.28,
-            2.41
+            2.92,
+            3.16,
+            2.43
           ],
           "p": [
-            0.3132,
-            0.283,
-            0.4038
+            0.3193,
+            0.3029,
+            0.3779
           ]
         },
         {
@@ -534,8 +531,8 @@
             1.92
           ],
           "p": [
-            0.4973,
-            0.5027
+            0.496,
+            0.504
           ]
         }
       ]
@@ -552,14 +549,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            5.38,
-            3.69,
-            1.79
+            5.33,
+            3.56,
+            1.83
           ],
           "p": [
-            0.1802,
-            0.2746,
-            0.5452
+            0.1823,
+            0.2773,
+            0.5404
           ]
         }
       ]
@@ -576,14 +573,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            4.58,
+            4.53,
             4.12,
-            1.8
+            1.81
           ],
           "p": [
-            0.2113,
-            0.2352,
-            0.5535
+            0.2041,
+            0.2401,
+            0.5558
           ]
         }
       ]
@@ -600,14 +597,38 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.78,
-            4.17,
-            4.68
+            1.74,
+            4.27,
+            4.84
           ],
           "p": [
-            0.5766,
-            0.2274,
-            0.196
+            0.5776,
+            0.2277,
+            0.1947
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "da159a6b84dbb548b4d7b94c722caac5",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Fiorentina",
+      "away": "Atalanta BC",
+      "kickoff": "2026-10-29T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.3,
+            3.77,
+            3.17
+          ],
+          "p": [
+            0.4192,
+            0.2672,
+            0.3137
           ]
         }
       ]
