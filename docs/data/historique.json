@@ -1,4 +1,50 @@
 {
+  "2026-10-28": {
+    "date": "2026-10-28",
+    "updatedAt": "2026-10-28T07:14:18Z",
+    "eventsScanned": 9,
+    "valueBets": 1,
+    "top": [
+      {
+        "eventId": "667cf69986b200753742c90cb9c5126c",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Frosinone",
+        "away": "Lecce",
+        "kickoff": "2026-10-29T17:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Frosinone",
+        "names": [
+          "Victoire Frosinone",
+          "Match nul",
+          "Victoire Lecce"
+        ],
+        "odd": 1.78,
+        "p": 0.5766,
+        "fairOdd": 1.734,
+        "ev": 0.0263,
+        "quality": 0.0299,
+        "kelly": 0.0338,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.78,
+          4.17,
+          4.68
+        ],
+        "refOdds": [
+          1.69,
+          4.18,
+          4.82
+        ],
+        "margin1x": 0.0153
+      }
+    ],
+    "combo": null
+  },
   "2026-10-27": {
     "date": "2026-10-27",
     "updatedAt": "2026-10-27T20:50:39Z",
