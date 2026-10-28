@@ -1,10 +1,19 @@
 {
-  "day": "2026-10-28",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
+  "remaining": 167,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
+    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
+    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-28T07:14:18.3397930Z",
+    "soccer_italy_serie_b": "2026-10-28T07:14:18.3397930Z",
+    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
+    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
   },
+  "rejected": [],
+  "nextBet": 2,
   "bets": [
     {
       "n": 1,
@@ -51,7 +60,14 @@
       "status": "perdu"
     }
   ],
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "usedToday": 8,
+  "lastAnalysis": "2026-10-28T11:42:14Z",
+  "day": "2026-10-28",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -266,7 +282,6 @@
       ]
     }
   ],
-  "nextBet": 2,
   "events": {
     "717fb513af59181c0579820a3bc6b58a": {
       "eventId": "717fb513af59181c0579820a3bc6b58a",
@@ -288,54 +303,6 @@
             0.4711,
             0.243,
             0.2859
-          ]
-        }
-      ]
-    },
-    "81581d2638f0779b59b801f45974e23a": {
-      "eventId": "81581d2638f0779b59b801f45974e23a",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Dijon",
-      "away": "Rodez AF",
-      "kickoff": "2026-10-24T12:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.94,
-            3.9,
-            3.35
-          ],
-          "p": [
-            0.4902,
-            0.2383,
-            0.2714
-          ]
-        }
-      ]
-    },
-    "12c9efa353bb65bb300866cd78a9b101": {
-      "eventId": "12c9efa353bb65bb300866cd78a9b101",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Córdoba",
-      "away": "SD Eibar",
-      "kickoff": "2026-10-24T12:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.08,
-            3.57,
-            3.57
-          ],
-          "p": [
-            0.4794,
-            0.2665,
-            0.2541
           ]
         }
       ]
@@ -1368,42 +1335,6 @@
             0.5525,
             0.2493,
             0.1982
-          ]
-        }
-      ]
-    },
-    "734ad601156f5f4e6bc42317e5141516": {
-      "eventId": "734ad601156f5f4e6bc42317e5141516",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Rayo Vallecano",
-      "away": "Elche CF",
-      "kickoff": "2026-10-24T12:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.81,
-            3.94,
-            4.78
-          ],
-          "p": [
-            0.5486,
-            0.2457,
-            0.2057
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            2.07
-          ],
-          "p": [
-            0.5252,
-            0.4748
           ]
         }
       ]
@@ -2957,20 +2888,5 @@
       ]
     }
   },
-  "bankroll0": 80,
-  "lastAnalysis": "2026-10-28T11:42:14Z",
-  "rejected": [],
-  "remaining": 167,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-26T16:24:51.7113719Z",
-    "soccer_france_ligue_two": "2026-10-26T16:24:51.7113719Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-24T06:30:50.4764174Z",
-    "soccer_spain_la_liga": "2026-10-26T07:07:32.0413670Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-28T07:14:18.3397930Z",
-    "soccer_italy_serie_b": "2026-10-28T07:14:18.3397930Z",
-    "soccer_germany_bundesliga": "2026-10-25T07:38:10.2213298Z",
-    "soccer_germany_bundesliga2": "2026-10-25T07:38:10.2213298Z"
-  }
+  "bankroll0": 80
 }
