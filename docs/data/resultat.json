@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-28T17:30:20Z",
+  "generatedAt": "2026-10-28T19:25:17Z",
   "creditsRemaining": 161,
   "creditsUsedToday": 14,
   "dailyBudget": 40,
@@ -52,6 +52,12 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 0,
@@ -64,22 +70,15 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 1.9
-    },
-    {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 4,
+      "events": 2,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     }
   ],
-  "eventsScanned": 7,
-  "eventsWith1xbet": 7,
+  "eventsScanned": 2,
+  "eventsWith1xbet": 2,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -310,150 +309,6 @@
     "clvLegs": 8
   },
   "matches": [
-    {
-      "eventId": "cc41a68f2e42d32c3713cb93a9e0b9c2",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Pisa",
-      "away": "Palermo",
-      "kickoff": "2026-10-28T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.34,
-            3.3,
-            2.94
-          ],
-          "p": [
-            0.4049,
-            0.2783,
-            0.3168
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "7bf155b51e05cdb8fc5dced606b970b8",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Carrarese",
-      "away": "Arezzo",
-      "kickoff": "2026-10-28T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.1,
-            3.2,
-            3.54
-          ],
-          "p": [
-            0.4487,
-            0.2987,
-            0.2526
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.86
-          ],
-          "p": [
-            0.4854,
-            0.5146
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "bb23dba9a8704fdb8928f885625de952",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Juve Stabia",
-      "away": "Hellas Verona",
-      "kickoff": "2026-10-28T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.92,
-            3.16,
-            2.43
-          ],
-          "p": [
-            0.3193,
-            0.3029,
-            0.3779
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.82,
-            1.92
-          ],
-          "p": [
-            0.496,
-            0.504
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "34848497b90b1392f6a767fc183d3ac1",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Genoa",
-      "away": "Juventus",
-      "kickoff": "2026-10-28T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            5.33,
-            3.56,
-            1.83
-          ],
-          "p": [
-            0.1823,
-            0.2773,
-            0.5404
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "abec89862e33762414fcb8b2232aba08",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Monza",
-      "away": "Napoli",
-      "kickoff": "2026-10-28T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.53,
-            4.12,
-            1.81
-          ],
-          "p": [
-            0.2041,
-            0.2401,
-            0.5558
-          ]
-        }
-      ]
-    },
     {
       "eventId": "667cf69986b200753742c90cb9c5126c",
       "sportKey": "soccer_italy_serie_a",
