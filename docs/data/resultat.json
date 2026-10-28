@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-28T07:14:18Z",
+  "generatedAt": "2026-10-28T09:09:05Z",
   "creditsRemaining": 167,
   "creditsUsedToday": 8,
   "dailyBudget": 40,
@@ -66,16 +66,16 @@
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 6,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 7,
+      "status": "cache",
+      "ageHours": 1.9
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 3,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 1.9
     }
   ],
   "eventsScanned": 9,
@@ -174,7 +174,7 @@
           "fairOdd": 1.979,
           "closeFairOdd": 1.979,
           "closeOdd1x": 1.98,
-          "closeSeenAt": "2026-10-28T07:14:18Z"
+          "closeSeenAt": "2026-10-28T09:09:05Z"
         }
       ]
     },
