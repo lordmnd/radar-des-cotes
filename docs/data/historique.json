@@ -1,10 +1,48 @@
 {
   "2026-10-29": {
     "date": "2026-10-29",
-    "updatedAt": "2026-10-29T07:36:43Z",
-    "eventsScanned": 12,
-    "valueBets": 0,
-    "top": [],
+    "updatedAt": "2026-10-29T09:32:28Z",
+    "eventsScanned": 14,
+    "valueBets": 1,
+    "top": [
+      {
+        "eventId": "00b03cb40c27ed23e2ecb18f062a5122",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Villarreal",
+        "away": "Espanyol",
+        "kickoff": "2026-10-30T20:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Villarreal",
+        "names": [
+          "Victoire Villarreal",
+          "Match nul",
+          "Victoire Espanyol"
+        ],
+        "odd": 1.49,
+        "p": 0.6878,
+        "fairOdd": 1.454,
+        "ev": 0.0249,
+        "quality": 0.0361,
+        "kelly": 0.0508,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.49,
+          5.08,
+          6.7
+        ],
+        "refOdds": [
+          1.42,
+          5.17,
+          7.08
+        ],
+        "margin1x": 0.0172
+      }
+    ],
     "combo": null
   },
   "2026-10-28": {
