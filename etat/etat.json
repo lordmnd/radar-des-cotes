@@ -1,18 +1,5 @@
 {
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-29T07:36:43.7826131Z",
-    "soccer_france_ligue_two": "2026-10-29T07:36:43.7826131Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-29T09:32:28.9427776Z",
-    "soccer_spain_la_liga": "2026-10-29T09:32:28.9427776Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-29T07:36:43.7826131Z",
-    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
-    "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
-    "soccer_germany_bundesliga2": "2026-10-29T07:36:43.7826131Z"
-  },
-  "rejected": [],
-  "remaining": 138,
+  "nextBet": 2,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -229,158 +216,7 @@
       ]
     }
   ],
-  "day": "2026-10-29",
-  "usedToday": 21,
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "lastAnalysis": "2026-10-29T12:13:16Z",
-  "nextBet": 2,
   "events": {
-    "33fb7467b23c91d57dc976d9ab05ea97": {
-      "eventId": "33fb7467b23c91d57dc976d9ab05ea97",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Manchester United",
-      "away": "Bournemouth",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.3,
-            3.74,
-            3.2
-          ],
-          "p": [
-            0.4154,
-            0.2678,
-            0.3167
-          ]
-        }
-      ]
-    },
-    "69493b5ebb84f24ab1d6023a30ee89f0": {
-      "eventId": "69493b5ebb84f24ab1d6023a30ee89f0",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Hull City",
-      "away": "Brentford",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            5.03,
-            4.21,
-            1.73
-          ],
-          "p": [
-            0.1895,
-            0.2332,
-            0.5773
-          ]
-        }
-      ]
-    },
-    "290ba8cd3f3a2e9252effca673bf5549": {
-      "eventId": "290ba8cd3f3a2e9252effca673bf5549",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Liverpool",
-      "away": "Brighton and Hove Albion",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.15,
-            4.04,
-            3.29
-          ],
-          "p": [
-            0.4467,
-            0.2535,
-            0.2998
-          ]
-        }
-      ]
-    },
-    "fe235b26408c477368c40672a4488694": {
-      "eventId": "fe235b26408c477368c40672a4488694",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Crystal Palace",
-      "away": "Newcastle United",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.04,
-            3.74,
-            2.38
-          ],
-          "p": [
-            0.3363,
-            0.2652,
-            0.3985
-          ]
-        }
-      ]
-    },
     "e82f6b60fa41b82c8510f5b67ce61849": {
       "eventId": "e82f6b60fa41b82c8510f5b67ce61849",
       "sportKey": "soccer_epl",
@@ -549,78 +385,6 @@
         }
       ]
     },
-    "63aa6e3f679ee4c68de5b4bd8d3361bb": {
-      "eventId": "63aa6e3f679ee4c68de5b4bd8d3361bb",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Atalanta BC",
-      "away": "Frosinone",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.89,
-            4.26,
-            3.99
-          ],
-          "p": [
-            0.5153,
-            0.2315,
-            0.2531
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.97,
-            1.97
-          ],
-          "p": [
-            0.5172,
-            0.4828
-          ]
-        }
-      ]
-    },
-    "95cfaecfe96bb7ced1fb6af974a4110b": {
-      "eventId": "95cfaecfe96bb7ced1fb6af974a4110b",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Genoa",
-      "away": "Venezia",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.2,
-            3.35,
-            3.81
-          ],
-          "p": [
-            0.4408,
-            0.2925,
-            0.2667
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.04,
-            1.9
-          ],
-          "p": [
-            0.4736,
-            0.5264
-          ]
-        }
-      ]
-    },
     "63af660d4d0d52f8ac7685172ef939c4": {
       "eventId": "63af660d4d0d52f8ac7685172ef939c4",
       "sportKey": "soccer_italy_serie_a",
@@ -653,30 +417,6 @@
           "p": [
             0.5119,
             0.4881
-          ]
-        }
-      ]
-    },
-    "ccdf2a2baac9e8f75b5ef4bb712ccfd0": {
-      "eventId": "ccdf2a2baac9e8f75b5ef4bb712ccfd0",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Palermo",
-      "away": "Carrarese",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.43,
-            4.8,
-            6.16
-          ],
-          "p": [
-            0.66,
-            0.1936,
-            0.1464
           ]
         }
       ]
@@ -869,42 +609,6 @@
             0.4825,
             0.2876,
             0.23
-          ]
-        }
-      ]
-    },
-    "c177a3c900d7febf9870ca8de90a9e35": {
-      "eventId": "c177a3c900d7febf9870ca8de90a9e35",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "AS Monaco",
-      "away": "Lille",
-      "kickoff": "2026-10-25T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.06,
-            3.49,
-            4.08
-          ],
-          "p": [
-            0.4894,
-            0.2753,
-            0.2354
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.87,
-            2.08
-          ],
-          "p": [
-            0.5225,
-            0.4775
           ]
         }
       ]
@@ -2098,5 +1802,73 @@
       ]
     }
   },
-  "bankroll0": 80
+  "lastAnalysis": "2026-10-29T14:25:10Z",
+  "bankroll0": 80,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-29T07:36:43.7826131Z",
+    "soccer_france_ligue_two": "2026-10-29T07:36:43.7826131Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-29T09:32:28.9427776Z",
+    "soccer_spain_la_liga": "2026-10-29T09:32:28.9427776Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-29T07:36:43.7826131Z",
+    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
+    "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
+    "soccer_germany_bundesliga2": "2026-10-29T07:36:43.7826131Z"
+  },
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "usedToday": 21,
+  "day": "2026-10-29",
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
+        {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
+          "marketKey": "h2h",
+          "market": "1N2",
+          "line": "",
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
+        },
+        {
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
+        }
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
+  "rejected": [],
+  "remaining": 138
 }
