@@ -1,4 +1,24 @@
 {
+  "usedToday": 33,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "nextBet": 2,
+  "remaining": 126,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-29T16:24:09.1766041Z",
+    "soccer_france_ligue_two": "2026-10-29T16:24:09.1766041Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-29T09:32:28.9427776Z",
+    "soccer_spain_la_liga": "2026-10-29T09:32:28.9427776Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-29T16:24:09.1766041Z",
+    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
+    "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
+    "soccer_germany_bundesliga2": "2026-10-29T16:24:09.1766041Z"
+  },
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -215,55 +235,8 @@
       ]
     }
   ],
+  "day": "2026-10-29",
   "events": {
-    "3cb8660cd2375b60e81144a7572cfb89": {
-      "eventId": "3cb8660cd2375b60e81144a7572cfb89",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Sociedad",
-      "away": "Levante",
-      "kickoff": "2026-10-25T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.62,
-            4.62,
-            5.44
-          ],
-          "p": [
-            0.6173,
-            0.2029,
-            0.1798
-          ]
-        }
-      ]
-    },
-    "0911f42b66dd1f6544db407bccaeed07": {
-      "eventId": "0911f42b66dd1f6544db407bccaeed07",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "CD Castellón",
-      "away": "Sporting Gijón",
-      "kickoff": "2026-10-25T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.51,
-            4.59,
-            6.24
-          ],
-          "p": [
-            0.6385,
-            0.212,
-            0.1494
-          ]
-        }
-      ]
-    },
     "3564688383b255192409c9deb8e526ed": {
       "eventId": "3564688383b255192409c9deb8e526ed",
       "sportKey": "soccer_italy_serie_a",
@@ -1453,24 +1426,9 @@
       ]
     }
   },
-  "remaining": 126,
   "rejected": [],
-  "lastAnalysis": "2026-10-29T16:24:09Z",
+  "lastAnalysis": "2026-10-29T18:15:11Z",
   "bankroll0": 80,
-  "usedToday": 33,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-29T16:24:09.1766041Z",
-    "soccer_france_ligue_two": "2026-10-29T16:24:09.1766041Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-29T09:32:28.9427776Z",
-    "soccer_spain_la_liga": "2026-10-29T09:32:28.9427776Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-29T16:24:09.1766041Z",
-    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
-    "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
-    "soccer_germany_bundesliga2": "2026-10-29T16:24:09.1766041Z"
-  },
-  "nextBet": 2,
   "bets": [
     {
       "n": 1,
@@ -1516,11 +1474,5 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ],
-  "day": "2026-10-29",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  }
+  ]
 }
