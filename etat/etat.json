@@ -1,9 +1,18 @@
 {
-  "day": "2026-10-29",
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-29T07:36:43.7826131Z",
+    "soccer_france_ligue_two": "2026-10-29T07:36:43.7826131Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-29T09:32:28.9427776Z",
+    "soccer_spain_la_liga": "2026-10-29T09:32:28.9427776Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-29T07:36:43.7826131Z",
+    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
+    "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
+    "soccer_germany_bundesliga2": "2026-10-29T07:36:43.7826131Z"
+  },
   "rejected": [],
-  "bankroll0": 80,
-  "nextBet": 2,
-  "lastAnalysis": "2026-10-29T12:13:16Z",
+  "remaining": 138,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -220,13 +229,8 @@
       ]
     }
   ],
+  "day": "2026-10-29",
   "usedToday": 21,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "remaining": 138,
   "bets": [
     {
       "n": 1,
@@ -273,79 +277,14 @@
       "status": "perdu"
     }
   ],
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "lastAnalysis": "2026-10-29T12:13:16Z",
+  "nextBet": 2,
   "events": {
-    "14b43b5876894fa2800e9b8864950164": {
-      "eventId": "14b43b5876894fa2800e9b8864950164",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Holstein Kiel",
-      "away": "Dynamo Dresden",
-      "kickoff": "2026-10-25T12:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.25,
-            3.7,
-            2.82
-          ],
-          "p": [
-            0.4046,
-            0.2524,
-            0.343
-          ]
-        }
-      ]
-    },
-    "b4595027453fc80a92c26ec524965f2c": {
-      "eventId": "b4595027453fc80a92c26ec524965f2c",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Eintracht Braunschweig",
-      "away": "Hannover 96",
-      "kickoff": "2026-10-25T12:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.86,
-            3.68,
-            2.23
-          ],
-          "p": [
-            0.3181,
-            0.255,
-            0.4269
-          ]
-        }
-      ]
-    },
-    "0ffd859fd9710a95340c10d2b584ea6a": {
-      "eventId": "0ffd859fd9710a95340c10d2b584ea6a",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "VfL Osnabrück",
-      "away": "Greuther Fürth",
-      "kickoff": "2026-10-25T12:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.09,
-            3.6,
-            3.19
-          ],
-          "p": [
-            0.4576,
-            0.2579,
-            0.2845
-          ]
-        }
-      ]
-    },
     "33fb7467b23c91d57dc976d9ab05ea97": {
       "eventId": "33fb7467b23c91d57dc976d9ab05ea97",
       "sportKey": "soccer_epl",
@@ -466,30 +405,6 @@
         }
       ]
     },
-    "9c4254cba9944a839b421db27260504d": {
-      "eventId": "9c4254cba9944a839b421db27260504d",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Athletic Bilbao",
-      "away": "Getafe",
-      "kickoff": "2026-10-25T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.59,
-            4.16,
-            6.78
-          ],
-          "p": [
-            0.6266,
-            0.2359,
-            0.1374
-          ]
-        }
-      ]
-    },
     "2013e3955186ebe5258e85eb741a7553": {
       "eventId": "2013e3955186ebe5258e85eb741a7553",
       "sportKey": "soccer_spain_la_liga",
@@ -534,30 +449,6 @@
             0.6173,
             0.2029,
             0.1798
-          ]
-        }
-      ]
-    },
-    "182737e0e8c54b73e4fb84734ab162c3": {
-      "eventId": "182737e0e8c54b73e4fb84734ab162c3",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Sabadell FC",
-      "away": "Tenerife",
-      "kickoff": "2026-10-25T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.92,
-            3.33,
-            4.54
-          ],
-          "p": [
-            0.4994,
-            0.3008,
-            0.1998
           ]
         }
       ]
@@ -2207,16 +2098,5 @@
       ]
     }
   },
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-29T07:36:43.7826131Z",
-    "soccer_france_ligue_two": "2026-10-29T07:36:43.7826131Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-29T09:32:28.9427776Z",
-    "soccer_spain_la_liga": "2026-10-29T09:32:28.9427776Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-29T07:36:43.7826131Z",
-    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
-    "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
-    "soccer_germany_bundesliga2": "2026-10-29T07:36:43.7826131Z"
-  }
+  "bankroll0": 80
 }
