@@ -1,4 +1,15 @@
 {
+  "bankroll0": 80,
+  "rejected": [],
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "lastAnalysis": "2026-10-29T09:32:28Z",
+  "day": "2026-10-29",
+  "remaining": 138,
+  "nextBet": 2,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -215,6 +226,19 @@
       ]
     }
   ],
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-29T07:36:43.7826131Z",
+    "soccer_france_ligue_two": "2026-10-29T07:36:43.7826131Z",
+    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
+    "soccer_efl_champ": "2026-10-29T09:32:28.9427776Z",
+    "soccer_spain_la_liga": "2026-10-29T09:32:28.9427776Z",
+    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
+    "soccer_italy_serie_a": "2026-10-29T07:36:43.7826131Z",
+    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
+    "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
+    "soccer_germany_bundesliga2": "2026-10-29T07:36:43.7826131Z"
+  },
+  "usedToday": 21,
   "events": {
     "14b43b5876894fa2800e9b8864950164": {
       "eventId": "14b43b5876894fa2800e9b8864950164",
@@ -2185,8 +2209,6 @@
       ]
     }
   },
-  "bankroll0": 80,
-  "usedToday": 21,
   "bets": [
     {
       "n": 1,
@@ -2232,27 +2254,5 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ],
-  "day": "2026-10-29",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-29T07:36:43.7826131Z",
-    "soccer_france_ligue_two": "2026-10-29T07:36:43.7826131Z",
-    "soccer_epl": "2026-10-25T07:38:10.2213298Z",
-    "soccer_efl_champ": "2026-10-29T09:32:28.9427776Z",
-    "soccer_spain_la_liga": "2026-10-29T09:32:28.9427776Z",
-    "soccer_spain_segunda_division": "2026-10-26T16:24:51.7113719Z",
-    "soccer_italy_serie_a": "2026-10-29T07:36:43.7826131Z",
-    "soccer_italy_serie_b": "2026-10-28T15:33:57.7044479Z",
-    "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
-    "soccer_germany_bundesliga2": "2026-10-29T07:36:43.7826131Z"
-  },
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "lastAnalysis": "2026-10-29T09:32:28Z",
-  "nextBet": 2,
-  "rejected": [],
-  "remaining": 138
+  ]
 }
