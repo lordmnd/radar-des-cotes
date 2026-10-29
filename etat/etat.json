@@ -1,74 +1,5 @@
 {
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "nextBet": 2,
-  "bankroll0": 80,
-  "rejected": [],
-  "day": "2026-10-29",
   "events": {
-    "3564688383b255192409c9deb8e526ed": {
-      "eventId": "3564688383b255192409c9deb8e526ed",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Udinese",
-      "away": "AC Milan",
-      "kickoff": "2026-10-25T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.62,
-            3.79,
-            1.87
-          ],
-          "p": [
-            0.2102,
-            0.2602,
-            0.5296
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.97,
-            1.97
-          ],
-          "p": [
-            0.5,
-            0.5
-          ]
-        }
-      ]
-    },
-    "72089d103a5fe6a922c35e17efba6ffc": {
-      "eventId": "72089d103a5fe6a922c35e17efba6ffc",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Barcelona",
-      "away": "Real Madrid",
-      "kickoff": "2026-10-25T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.67,
-            5.63,
-            4.21
-          ],
-          "p": [
-            0.5904,
-            0.1567,
-            0.2529
-          ]
-        }
-      ]
-    },
     "c11380ae8c4a17f15b0b2946719b79e0": {
       "eventId": "c11380ae8c4a17f15b0b2946719b79e0",
       "sportKey": "soccer_spain_segunda_division",
@@ -1198,7 +1129,6 @@
       ]
     }
   },
-  "remaining": 126,
   "fetched": {
     "soccer_france_ligue_one": "2026-10-29T16:24:09.1766041Z",
     "soccer_france_ligue_two": "2026-10-29T16:24:09.1766041Z",
@@ -1211,7 +1141,6 @@
     "soccer_germany_bundesliga": "2026-10-29T07:36:43.7826131Z",
     "soccer_germany_bundesliga2": "2026-10-29T16:24:09.1766041Z"
   },
-  "lastAnalysis": "2026-10-29T18:15:11Z",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1428,7 +1357,6 @@
       ]
     }
   ],
-  "usedToday": 33,
   "bets": [
     {
       "n": 1,
@@ -1474,5 +1402,17 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ]
+  ],
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "remaining": 126,
+  "nextBet": 2,
+  "day": "2026-10-29",
+  "bankroll0": 80,
+  "usedToday": 33,
+  "rejected": [],
+  "lastAnalysis": "2026-10-29T20:15:56Z"
 }
