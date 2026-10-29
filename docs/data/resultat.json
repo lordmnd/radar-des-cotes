@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-10-29T14:25:10Z",
-  "creditsRemaining": 138,
-  "creditsUsedToday": 21,
+  "generatedAt": "2026-10-29T16:24:09Z",
+  "creditsRemaining": 126,
+  "creditsUsedToday": 33,
   "dailyBudget": 40,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -37,55 +37,55 @@
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 2,
-      "status": "cache",
-      "ageHours": 6.8
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 2,
-      "status": "cache",
-      "ageHours": 6.8
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 3,
-      "status": "cache",
-      "ageHours": 6.8
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 5,
-      "status": "cache",
-      "ageHours": 6.8
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 1,
       "status": "cache",
-      "ageHours": 6.8
+      "ageHours": 8.8
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 1,
       "status": "cache",
-      "ageHours": 4.9
+      "ageHours": 6.9
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 4.9
+      "ageHours": 6.9
     }
   ],
-  "eventsScanned": 14,
-  "eventsWith1xbet": 14,
-  "valueBets": 1,
+  "eventsScanned": 15,
+  "eventsWith1xbet": 15,
+  "valueBets": 2,
   "top": [
     {
       "eventId": "00b03cb40c27ed23e2ecb18f062a5122",
@@ -123,6 +123,43 @@
         7.08
       ],
       "margin1x": 0.0172
+    },
+    {
+      "eventId": "a547720e6b4661d6319c4f11dbdf8e1f",
+      "sportKey": "soccer_france_ligue_one",
+      "league": "Ligue 1",
+      "home": "Nice",
+      "away": "Rennes",
+      "kickoff": "2026-10-30T18:00:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 2,
+      "pick": "2",
+      "pickName": "Victoire Rennes",
+      "names": [
+        "Victoire Nice",
+        "Match nul",
+        "Victoire Rennes"
+      ],
+      "odd": 2.53,
+      "p": 0.4067,
+      "fairOdd": 2.459,
+      "ev": 0.0288,
+      "quality": 0.0232,
+      "kelly": 0.0188,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        2.78,
+        3.84,
+        2.53
+      ],
+      "refOdds": [
+        2.82,
+        3.84,
+        2.39
+      ],
+      "margin1x": 0.0154
     }
   ],
   "combo": null,
@@ -367,14 +404,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.78,
-            4.27,
-            4.58
+            1.73,
+            4.42,
+            4.74
           ],
           "p": [
-            0.5544,
-            0.2239,
-            0.2217
+            0.5826,
+            0.2196,
+            0.1979
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "3.5",
+          "odds1x": [
+            1.96,
+            1.99
+          ],
+          "p": [
+            0.5,
+            0.5
           ]
         }
       ]
@@ -391,14 +440,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.33,
-            3.78,
-            3.11
+            2.38,
+            3.82,
+            3.0
           ],
           "p": [
-            0.4191,
-            0.2597,
-            0.3211
+            0.4149,
+            0.2588,
+            0.3262
           ]
         }
       ]
@@ -420,9 +469,9 @@
             3.92
           ],
           "p": [
-            0.5279,
-            0.2432,
-            0.2289
+            0.5299,
+            0.2425,
+            0.2276
           ]
         }
       ]
@@ -463,14 +512,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            11.5,
-            7.26,
-            1.26
+            11.1,
+            7.21,
+            1.27
           ],
           "p": [
-            0.0825,
-            0.1254,
-            0.7921
+            0.0821,
+            0.1248,
+            0.7932
           ]
         },
         {
@@ -481,8 +530,8 @@
             2.05
           ],
           "p": [
-            0.5094,
-            0.4906
+            0.5107,
+            0.4893
           ]
         }
       ]
@@ -504,9 +553,9 @@
             2.53
           ],
           "p": [
-            0.3485,
+            0.3434,
             0.25,
-            0.4015
+            0.4067
           ]
         }
       ]
@@ -559,26 +608,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.46,
-            4.3,
-            6.57
+            1.5,
+            4.15,
+            6.17
           ],
           "p": [
-            0.6551,
-            0.2108,
-            0.1341
+            0.6411,
+            0.2167,
+            0.1422
           ]
         },
         {
           "marketKey": "totals",
           "line": "2.5",
           "odds1x": [
-            1.8,
-            1.94
+            1.82,
+            1.92
           ],
           "p": [
-            0.519,
-            0.481
+            0.5109,
+            0.4891
           ]
         }
       ]
@@ -600,9 +649,9 @@
             2.24
           ],
           "p": [
-            0.3027,
-            0.2855,
-            0.4118
+            0.2995,
+            0.2853,
+            0.4152
           ]
         },
         {
@@ -655,14 +704,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.05,
-            3.8,
-            3.13
+            1.97,
+            3.82,
+            3.32
           ],
           "p": [
-            0.4673,
-            0.2458,
-            0.2869
+            0.4883,
+            0.2422,
+            0.2695
           ]
         }
       ]
@@ -747,6 +796,30 @@
             0.6878,
             0.1819,
             0.1303
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "7932d9a82dcdb164a3e4ef5e03694ee3",
+      "sportKey": "soccer_france_ligue_one",
+      "league": "Ligue 1",
+      "home": "Lille",
+      "away": "RC Lens",
+      "kickoff": "2026-10-30T20:05:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.54,
+            3.65,
+            2.87
+          ],
+          "p": [
+            0.3749,
+            0.2698,
+            0.3553
           ]
         }
       ]

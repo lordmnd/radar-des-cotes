@@ -1,9 +1,9 @@
 {
   "2026-10-29": {
     "date": "2026-10-29",
-    "updatedAt": "2026-10-29T14:25:10Z",
-    "eventsScanned": 14,
-    "valueBets": 1,
+    "updatedAt": "2026-10-29T16:24:09Z",
+    "eventsScanned": 15,
+    "valueBets": 2,
     "top": [
       {
         "eventId": "00b03cb40c27ed23e2ecb18f062a5122",
@@ -41,6 +41,43 @@
           7.08
         ],
         "margin1x": 0.0172
+      },
+      {
+        "eventId": "a547720e6b4661d6319c4f11dbdf8e1f",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Nice",
+        "away": "Rennes",
+        "kickoff": "2026-10-30T18:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Rennes",
+        "names": [
+          "Victoire Nice",
+          "Match nul",
+          "Victoire Rennes"
+        ],
+        "odd": 2.53,
+        "p": 0.4067,
+        "fairOdd": 2.459,
+        "ev": 0.0288,
+        "quality": 0.0232,
+        "kelly": 0.0188,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.78,
+          3.84,
+          2.53
+        ],
+        "refOdds": [
+          2.82,
+          3.84,
+          2.39
+        ],
+        "margin1x": 0.0154
       }
     ],
     "combo": null
