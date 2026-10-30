@@ -1,4 +1,121 @@
 {
+  "2026-10-30": {
+    "date": "2026-10-30",
+    "updatedAt": "2026-10-30T07:23:56Z",
+    "eventsScanned": 55,
+    "valueBets": 6,
+    "top": [
+      {
+        "eventId": "3966f2fe1c2f73bfa12e61db83bd0bf9",
+        "sportKey": "soccer_germany_bundesliga",
+        "league": "Bundesliga",
+        "home": "FC Schalke 04",
+        "away": "RB Leipzig",
+        "kickoff": "2026-10-31T14:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire FC Schalke 04",
+          "Match nul",
+          "Victoire RB Leipzig"
+        ],
+        "odd": 4.36,
+        "p": 0.2448,
+        "fairOdd": 4.085,
+        "ev": 0.0674,
+        "quality": 0.036,
+        "kelly": 0.0201,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.94,
+          4.36,
+          1.88
+        ],
+        "refOdds": [
+          4.35,
+          3.91,
+          1.82
+        ],
+        "margin1x": 0.0151
+      },
+      {
+        "eventId": "d20fbb0cd5ad9369b8ed6f2c4a198619",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Coventry City",
+        "away": "Sunderland",
+        "kickoff": "2026-10-31T15:00:00Z",
+        "market": "Buts",
+        "marketKey": "totals",
+        "line": "2.5",
+        "idx": 1,
+        "pick": "-2,5",
+        "pickName": "Moins de 2,5 buts",
+        "names": [
+          "Plus de 2,5 buts",
+          "Moins de 2,5 buts"
+        ],
+        "odd": 1.96,
+        "p": 0.5225,
+        "fairOdd": 1.914,
+        "ev": 0.0241,
+        "quality": 0.0246,
+        "kelly": 0.0251,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.98,
+          1.96
+        ],
+        "refOdds": [
+          2.03,
+          1.86
+        ],
+        "margin1x": 0.0153
+      },
+      {
+        "eventId": "01b17432a283eb27af86ae45602eb6dd",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Tottenham Hotspur",
+        "away": "Crystal Palace",
+        "kickoff": "2026-10-31T17:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Crystal Palace",
+        "names": [
+          "Victoire Tottenham Hotspur",
+          "Match nul",
+          "Victoire Crystal Palace"
+        ],
+        "odd": 6.0,
+        "p": 0.1729,
+        "fairOdd": 5.784,
+        "ev": 0.0373,
+        "quality": 0.0164,
+        "kelly": 0.0075,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.58,
+          4.62,
+          6.0
+        ],
+        "refOdds": [
+          1.58,
+          4.55,
+          5.45
+        ],
+        "margin1x": 0.016
+      }
+    ],
+    "combo": null
+  },
   "2026-10-29": {
     "date": "2026-10-29",
     "updatedAt": "2026-10-29T20:15:56Z",
