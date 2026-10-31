@@ -1,9 +1,9 @@
 {
   "2026-10-31": {
     "date": "2026-10-31",
-    "updatedAt": "2026-10-31T14:09:49Z",
-    "eventsScanned": 60,
-    "valueBets": 9,
+    "updatedAt": "2026-10-31T16:16:34Z",
+    "eventsScanned": 39,
+    "valueBets": 6,
     "top": [
       {
         "eventId": "75cf0c0e471877a0bfa95d689d0f0325",
@@ -77,41 +77,41 @@
         "margin1x": 0.0147
       },
       {
-        "eventId": "3966f2fe1c2f73bfa12e61db83bd0bf9",
-        "sportKey": "soccer_germany_bundesliga",
-        "league": "Bundesliga",
-        "home": "FC Schalke 04",
-        "away": "RB Leipzig",
-        "kickoff": "2026-10-31T14:30:00Z",
+        "eventId": "cf3a2e2b4a4e9815d1d0be8dcef916da",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Paris FC",
+        "away": "AS Monaco",
+        "kickoff": "2026-11-01T16:15:00Z",
         "market": "1N2",
         "marketKey": "h2h",
         "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire AS Monaco",
         "names": [
-          "Victoire FC Schalke 04",
+          "Victoire Paris FC",
           "Match nul",
-          "Victoire RB Leipzig"
+          "Victoire AS Monaco"
         ],
-        "odd": 4.36,
-        "p": 0.2393,
-        "fairOdd": 4.178,
-        "ev": 0.0434,
-        "quality": 0.0234,
-        "kelly": 0.0129,
+        "odd": 3.06,
+        "p": 0.3336,
+        "fairOdd": 2.998,
+        "ev": 0.0207,
+        "quality": 0.0143,
+        "kelly": 0.01,
         "refSource": "Pinnacle",
         "odds1x": [
-          3.94,
-          4.36,
-          1.88
+          2.39,
+          3.69,
+          3.06
         ],
         "refOdds": [
-          4.15,
-          4.0,
-          1.84
+          2.46,
+          3.54,
+          2.9
         ],
-        "margin1x": 0.0151
+        "margin1x": 0.0162
       }
     ],
     "combo": null
