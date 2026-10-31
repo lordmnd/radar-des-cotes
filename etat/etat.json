@@ -1,11 +1,4 @@
 {
-  "nextBet": 2,
-  "usedToday": 32,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -268,19 +261,13 @@
       ]
     }
   ],
+  "usedToday": 32,
+  "remaining": 61,
   "day": "2026-10-31",
-  "bankroll0": 80,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-31T07:48:43.8581644Z",
-    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
-    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
-    "soccer_efl_champ": "2026-10-31T07:48:43.8581644Z",
-    "soccer_spain_la_liga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_spain_segunda_division": "2026-10-31T07:48:43.8581644Z",
-    "soccer_italy_serie_a": "2026-10-31T07:48:43.8581644Z",
-    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-10-31T07:48:43.8581644Z"
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
   },
   "bets": [
     {
@@ -328,8 +315,21 @@
       "status": "perdu"
     }
   ],
-  "remaining": 61,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-31T07:48:43.8581644Z",
+    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
+    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
+    "soccer_efl_champ": "2026-10-31T07:48:43.8581644Z",
+    "soccer_spain_la_liga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_spain_segunda_division": "2026-10-31T07:48:43.8581644Z",
+    "soccer_italy_serie_a": "2026-10-31T07:48:43.8581644Z",
+    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-10-31T07:48:43.8581644Z"
+  },
   "rejected": [],
+  "nextBet": 2,
+  "bankroll0": 80,
   "events": {
     "c7445242bf16a8f37afef7863af45a78": {
       "eventId": "c7445242bf16a8f37afef7863af45a78",
