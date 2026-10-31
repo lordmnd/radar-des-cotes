@@ -1,44 +1,10 @@
 {
   "2026-10-31": {
     "date": "2026-10-31",
-    "updatedAt": "2026-10-31T18:37:42Z",
-    "eventsScanned": 33,
-    "valueBets": 6,
+    "updatedAt": "2026-10-31T20:49:21Z",
+    "eventsScanned": 26,
+    "valueBets": 5,
     "top": [
-      {
-        "eventId": "75cf0c0e471877a0bfa95d689d0f0325",
-        "sportKey": "soccer_france_ligue_one",
-        "league": "Ligue 1",
-        "home": "Troyes",
-        "away": "Le Mans FC",
-        "kickoff": "2026-10-31T19:45:00Z",
-        "market": "Buts",
-        "marketKey": "totals",
-        "line": "2.5",
-        "idx": 1,
-        "pick": "-2,5",
-        "pickName": "Moins de 2,5 buts",
-        "names": [
-          "Plus de 2,5 buts",
-          "Moins de 2,5 buts"
-        ],
-        "odd": 1.97,
-        "p": 0.5225,
-        "fairOdd": 1.914,
-        "ev": 0.0293,
-        "quality": 0.0298,
-        "kelly": 0.0303,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.97,
-          1.97
-        ],
-        "refOdds": [
-          2.03,
-          1.86
-        ],
-        "margin1x": 0.0152
-      },
       {
         "eventId": "5262991e389930615bec34b642428c93",
         "sportKey": "soccer_spain_la_liga",
@@ -112,6 +78,43 @@
           2.9
         ],
         "margin1x": 0.0162
+      },
+      {
+        "eventId": "6a3819cdbe2ba2fe5a3d8f9b4b459965",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Liverpool",
+        "away": "Arsenal",
+        "kickoff": "2026-11-01T16:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Liverpool",
+        "names": [
+          "Victoire Liverpool",
+          "Match nul",
+          "Victoire Arsenal"
+        ],
+        "odd": 3.1,
+        "p": 0.3291,
+        "fairOdd": 3.039,
+        "ev": 0.0202,
+        "quality": 0.0139,
+        "kelly": 0.0096,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.1,
+          3.53,
+          2.44
+        ],
+        "refOdds": [
+          2.94,
+          3.45,
+          2.48
+        ],
+        "margin1x": 0.0157
       }
     ],
     "combo": null
