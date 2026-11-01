@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-01T16:17:30Z",
+  "generatedAt": "2026-11-01T18:37:22Z",
   "creditsRemaining": 489,
   "creditsUsedToday": 11,
   "dailyBudget": 16,
@@ -22,6 +22,12 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 0,
@@ -34,58 +40,51 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 4,
-      "status": "cache",
-      "ageHours": 8.7
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 8.7
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 5,
-      "status": "cache",
-      "ageHours": 32.5
-    },
-    {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 32.5
-    },
-    {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 2,
       "status": "cache",
-      "ageHours": 32.5
+      "ageHours": 34.8
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 3,
+      "status": "cache",
+      "ageHours": 11.1
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 2,
+      "status": "cache",
+      "ageHours": 11.1
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 4,
+      "status": "cache",
+      "ageHours": 34.8
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 32.5
+      "ageHours": 34.8
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 32.5
+      "ageHours": 34.8
     }
   ],
-  "eventsScanned": 8,
-  "eventsWith1xbet": 8,
-  "valueBets": 3,
+  "eventsScanned": 4,
+  "eventsWith1xbet": 4,
+  "valueBets": 2,
   "top": [
     {
       "eventId": "aeadf1388a1075328536501576b3d550",
@@ -123,43 +122,6 @@
         3.5
       ],
       "margin1x": 0.0146
-    },
-    {
-      "eventId": "940b9e69539033539039f9af694e2925",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Lecce",
-      "away": "Genoa",
-      "kickoff": "2026-11-01T17:00:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 0,
-      "pick": "1",
-      "pickName": "Victoire Lecce",
-      "names": [
-        "Victoire Lecce",
-        "Match nul",
-        "Victoire Genoa"
-      ],
-      "odd": 3.25,
-      "p": 0.3167,
-      "fairOdd": 3.157,
-      "ev": 0.0293,
-      "quality": 0.0194,
-      "kelly": 0.013,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        3.25,
-        3.13,
-        2.58
-      ],
-      "refOdds": [
-        3.06,
-        3.05,
-        2.66
-      ],
-      "margin1x": 0.0148
     },
     {
       "eventId": "df1e1589c51bbcac432125567d1f7c58",
@@ -486,121 +448,25 @@
   },
   "matches": [
     {
-      "eventId": "940b9e69539033539039f9af694e2925",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Lecce",
-      "away": "Genoa",
-      "kickoff": "2026-11-01T17:00:00Z",
+      "eventId": "df1e1589c51bbcac432125567d1f7c58",
+      "sportKey": "soccer_france_ligue_one",
+      "league": "Ligue 1",
+      "home": "Marseille",
+      "away": "Toulouse",
+      "kickoff": "2026-11-01T19:45:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.25,
-            3.13,
-            2.58
+            1.95,
+            4.16,
+            3.81
           ],
           "p": [
-            0.3167,
-            0.3178,
-            0.3655
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "5262991e389930615bec34b642428c93",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Elche CF",
-      "away": "Valencia",
-      "kickoff": "2026-11-01T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.48,
-            3.5,
-            3.07
-          ],
-          "p": [
-            0.4088,
-            0.2882,
-            0.303
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.0,
-            1.94
-          ],
-          "p": [
-            0.4881,
-            0.5119
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "d57787a1694c40c4fd54a519d9347180",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Burgos CF",
-      "away": "CD Castellón",
-      "kickoff": "2026-11-01T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.57,
-            3.48,
-            2.1
-          ],
-          "p": [
-            0.2479,
-            0.2891,
-            0.4629
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.81,
-            2.04
-          ],
-          "p": [
-            0.5122,
-            0.4878
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "ce4d5460d752cd4a1353a4bc870f3ed5",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Palermo",
-      "away": "Vicenza",
-      "kickoff": "2026-11-01T18:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.5,
-            4.25,
-            5.97
-          ],
-          "p": [
-            0.637,
-            0.2246,
-            0.1384
+            0.4966,
+            0.2357,
+            0.2678
           ]
         }
       ]
@@ -637,30 +503,6 @@
           "p": [
             0.4881,
             0.5119
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "df1e1589c51bbcac432125567d1f7c58",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Marseille",
-      "away": "Toulouse",
-      "kickoff": "2026-11-01T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.95,
-            4.16,
-            3.81
-          ],
-          "p": [
-            0.4966,
-            0.2357,
-            0.2678
           ]
         }
       ]

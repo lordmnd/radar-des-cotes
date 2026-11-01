@@ -1,9 +1,9 @@
 {
   "2026-11-01": {
     "date": "2026-11-01",
-    "updatedAt": "2026-11-01T16:17:30Z",
-    "eventsScanned": 8,
-    "valueBets": 3,
+    "updatedAt": "2026-11-01T18:37:22Z",
+    "eventsScanned": 4,
+    "valueBets": 2,
     "top": [
       {
         "eventId": "aeadf1388a1075328536501576b3d550",
@@ -41,43 +41,6 @@
           3.5
         ],
         "margin1x": 0.0146
-      },
-      {
-        "eventId": "940b9e69539033539039f9af694e2925",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Lecce",
-        "away": "Genoa",
-        "kickoff": "2026-11-01T17:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Lecce",
-        "names": [
-          "Victoire Lecce",
-          "Match nul",
-          "Victoire Genoa"
-        ],
-        "odd": 3.25,
-        "p": 0.3167,
-        "fairOdd": 3.157,
-        "ev": 0.0293,
-        "quality": 0.0194,
-        "kelly": 0.013,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.25,
-          3.13,
-          2.58
-        ],
-        "refOdds": [
-          3.06,
-          3.05,
-          2.66
-        ],
-        "margin1x": 0.0148
       },
       {
         "eventId": "df1e1589c51bbcac432125567d1f7c58",
