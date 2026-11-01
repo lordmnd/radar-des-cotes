@@ -1,85 +1,10 @@
 {
   "2026-11-01": {
     "date": "2026-11-01",
-    "updatedAt": "2026-11-01T18:37:22Z",
-    "eventsScanned": 4,
-    "valueBets": 2,
-    "top": [
-      {
-        "eventId": "aeadf1388a1075328536501576b3d550",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Juventus",
-        "away": "Napoli",
-        "kickoff": "2026-11-01T19:45:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Juventus",
-        "names": [
-          "Victoire Juventus",
-          "Match nul",
-          "Victoire Napoli"
-        ],
-        "odd": 2.35,
-        "p": 0.4354,
-        "fairOdd": 2.297,
-        "ev": 0.0233,
-        "quality": 0.02,
-        "kelly": 0.0172,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.35,
-          3.39,
-          3.4
-        ],
-        "refOdds": [
-          2.24,
-          3.35,
-          3.5
-        ],
-        "margin1x": 0.0146
-      },
-      {
-        "eventId": "df1e1589c51bbcac432125567d1f7c58",
-        "sportKey": "soccer_france_ligue_one",
-        "league": "Ligue 1",
-        "home": "Marseille",
-        "away": "Toulouse",
-        "kickoff": "2026-11-01T19:45:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Toulouse",
-        "names": [
-          "Victoire Marseille",
-          "Match nul",
-          "Victoire Toulouse"
-        ],
-        "odd": 3.81,
-        "p": 0.2678,
-        "fairOdd": 3.735,
-        "ev": 0.0202,
-        "quality": 0.012,
-        "kelly": 0.0072,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.95,
-          4.16,
-          3.81
-        ],
-        "refOdds": [
-          1.96,
-          4.05,
-          3.58
-        ],
-        "margin1x": 0.0157
-      }
-    ],
+    "updatedAt": "2026-11-01T20:50:41Z",
+    "eventsScanned": 1,
+    "valueBets": 0,
+    "top": [],
     "combo": null
   },
   "2026-10-31": {

@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-01T18:37:22Z",
+  "generatedAt": "2026-11-01T20:50:41Z",
   "creditsRemaining": 489,
   "creditsUsedToday": 11,
   "dailyBudget": 16,
@@ -40,127 +40,52 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 34.8
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 11.1
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 11.1
-    },
-    {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 4,
       "status": "cache",
-      "ageHours": 34.8
+      "ageHours": 37.0
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 2,
+      "status": "cache",
+      "ageHours": 13.3
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 37.0
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 34.8
+      "ageHours": 37.0
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 34.8
-    }
-  ],
-  "eventsScanned": 4,
-  "eventsWith1xbet": 4,
-  "valueBets": 2,
-  "top": [
-    {
-      "eventId": "aeadf1388a1075328536501576b3d550",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Juventus",
-      "away": "Napoli",
-      "kickoff": "2026-11-01T19:45:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 0,
-      "pick": "1",
-      "pickName": "Victoire Juventus",
-      "names": [
-        "Victoire Juventus",
-        "Match nul",
-        "Victoire Napoli"
-      ],
-      "odd": 2.35,
-      "p": 0.4354,
-      "fairOdd": 2.297,
-      "ev": 0.0233,
-      "quality": 0.02,
-      "kelly": 0.0172,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        2.35,
-        3.39,
-        3.4
-      ],
-      "refOdds": [
-        2.24,
-        3.35,
-        3.5
-      ],
-      "margin1x": 0.0146
+      "ageHours": 37.0
     },
     {
-      "eventId": "df1e1589c51bbcac432125567d1f7c58",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Marseille",
-      "away": "Toulouse",
-      "kickoff": "2026-11-01T19:45:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 2,
-      "pick": "2",
-      "pickName": "Victoire Toulouse",
-      "names": [
-        "Victoire Marseille",
-        "Match nul",
-        "Victoire Toulouse"
-      ],
-      "odd": 3.81,
-      "p": 0.2678,
-      "fairOdd": 3.735,
-      "ev": 0.0202,
-      "quality": 0.012,
-      "kelly": 0.0072,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        1.95,
-        4.16,
-        3.81
-      ],
-      "refOdds": [
-        1.96,
-        4.05,
-        3.58
-      ],
-      "margin1x": 0.0157
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 13.3
     }
   ],
+  "eventsScanned": 1,
+  "eventsWith1xbet": 1,
+  "valueBets": 0,
+  "top": [],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -447,90 +372,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "df1e1589c51bbcac432125567d1f7c58",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Marseille",
-      "away": "Toulouse",
-      "kickoff": "2026-11-01T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.95,
-            4.16,
-            3.81
-          ],
-          "p": [
-            0.4966,
-            0.2357,
-            0.2678
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "aeadf1388a1075328536501576b3d550",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Juventus",
-      "away": "Napoli",
-      "kickoff": "2026-11-01T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.35,
-            3.39,
-            3.4
-          ],
-          "p": [
-            0.4354,
-            0.2886,
-            0.2759
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.02,
-            1.92
-          ],
-          "p": [
-            0.4881,
-            0.5119
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "3757bcd765c7da1538cdf2785e784038",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Athletic Bilbao",
-      "away": "Real Sociedad",
-      "kickoff": "2026-11-01T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.15,
-            3.77,
-            3.49
-          ],
-          "p": [
-            0.4709,
-            0.2657,
-            0.2634
-          ]
-        }
-      ]
-    },
     {
       "eventId": "66608b64d462d1d3deabe573c8456d86",
       "sportKey": "soccer_italy_serie_a",
