@@ -1,17 +1,12 @@
 {
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-31T07:48:43.8581644Z",
-    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
-    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
-    "soccer_efl_champ": "2026-10-31T07:48:43.8581644Z",
-    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
-    "soccer_spain_segunda_division": "2026-10-31T07:48:43.8581644Z",
-    "soccer_italy_serie_a": "2026-11-01T07:33:59.7014952Z",
-    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
+  "day": "2026-11-01",
+  "lastAnalysis": "2026-11-01T18:37:22Z",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
   },
-  "bankroll0": 80,
+  "nextBet": 2,
   "bets": [
     {
       "n": 1,
@@ -58,8 +53,8 @@
       "status": "perdu"
     }
   ],
+  "usedToday": 11,
   "rejected": [],
-  "nextBet": 2,
   "remaining": 489,
   "log": [
     {
@@ -333,87 +328,7 @@
       ]
     }
   ],
-  "usedToday": 11,
-  "lastAnalysis": "2026-11-01T18:37:22Z",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "day": "2026-11-01",
   "events": {
-    "7bf155b51e05cdb8fc5dced606b970b8": {
-      "eventId": "7bf155b51e05cdb8fc5dced606b970b8",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Carrarese",
-      "away": "Arezzo",
-      "kickoff": "2026-10-28T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.1,
-            3.2,
-            3.54
-          ],
-          "p": [
-            0.4487,
-            0.2987,
-            0.2526
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.86
-          ],
-          "p": [
-            0.4854,
-            0.5146
-          ]
-        }
-      ]
-    },
-    "bb23dba9a8704fdb8928f885625de952": {
-      "eventId": "bb23dba9a8704fdb8928f885625de952",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Juve Stabia",
-      "away": "Hellas Verona",
-      "kickoff": "2026-10-28T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.92,
-            3.16,
-            2.43
-          ],
-          "p": [
-            0.3193,
-            0.3029,
-            0.3779
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.82,
-            1.92
-          ],
-          "p": [
-            0.496,
-            0.504
-          ]
-        }
-      ]
-    },
     "34848497b90b1392f6a767fc183d3ac1": {
       "eventId": "34848497b90b1392f6a767fc183d3ac1",
       "sportKey": "soccer_italy_serie_a",
@@ -3102,5 +3017,18 @@
         }
       ]
     }
+  },
+  "bankroll0": 80,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-10-31T07:48:43.8581644Z",
+    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
+    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
+    "soccer_efl_champ": "2026-10-31T07:48:43.8581644Z",
+    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
+    "soccer_spain_segunda_division": "2026-10-31T07:48:43.8581644Z",
+    "soccer_italy_serie_a": "2026-11-01T07:33:59.7014952Z",
+    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
   }
 }
