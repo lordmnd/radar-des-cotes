@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-01T07:33:59Z",
+  "generatedAt": "2026-11-01T10:13:58Z",
   "creditsRemaining": 489,
   "creditsUsedToday": 11,
   "dailyBudget": 16,
@@ -16,12 +16,6 @@
   ],
   "leagues": [
     {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
-      "events": 0,
-      "status": "pas de match"
-    },
-    {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 0,
@@ -30,58 +24,65 @@
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 6,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 7,
+      "status": "cache",
+      "ageHours": 2.7
     },
     {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 3,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 2.7
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
-      "events": 4,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 5,
+      "status": "cache",
+      "ageHours": 2.7
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 6,
+      "events": 7,
       "status": "cache",
-      "ageHours": 23.8
+      "ageHours": 26.4
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
-      "events": 4,
+      "events": 5,
       "status": "cache",
-      "ageHours": 23.8
+      "ageHours": 26.4
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 5,
       "status": "cache",
-      "ageHours": 23.8
+      "ageHours": 26.4
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 2,
       "status": "cache",
-      "ageHours": 23.8
+      "ageHours": 26.4
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
-      "events": 1,
+      "events": 2,
       "status": "cache",
-      "ageHours": 23.8
+      "ageHours": 26.4
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 2,
+      "status": "cache",
+      "ageHours": 26.4
     }
   ],
   "eventsScanned": 28,
