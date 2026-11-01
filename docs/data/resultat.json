@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-01T12:18:39Z",
+  "generatedAt": "2026-11-01T14:12:24Z",
   "creditsRemaining": 489,
   "creditsUsedToday": 11,
   "dailyBudget": 16,
@@ -30,63 +30,63 @@
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
-      "events": 5,
+      "events": 4,
       "status": "cache",
-      "ageHours": 4.7
+      "ageHours": 6.6
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 7,
+      "events": 6,
       "status": "cache",
-      "ageHours": 28.5
+      "ageHours": 30.4
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
-      "events": 5,
+      "events": 4,
       "status": "cache",
-      "ageHours": 28.5
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 6,
-      "status": "cache",
-      "ageHours": 4.7
+      "ageHours": 30.4
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
-      "events": 5,
-      "status": "cache",
-      "ageHours": 28.5
-    },
-    {
-      "key": "soccer_germany_bundesliga",
-      "name": "Bundesliga",
       "events": 2,
       "status": "cache",
-      "ageHours": 28.5
+      "ageHours": 30.4
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 2,
       "status": "cache",
-      "ageHours": 28.5
+      "ageHours": 30.4
+    },
+    {
+      "key": "soccer_germany_bundesliga",
+      "name": "Bundesliga",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 30.4
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 4,
+      "status": "cache",
+      "ageHours": 6.6
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 28.5
+      "ageHours": 30.4
     }
   ],
-  "eventsScanned": 24,
-  "eventsWith1xbet": 24,
-  "valueBets": 6,
+  "eventsScanned": 15,
+  "eventsWith1xbet": 15,
+  "valueBets": 5,
   "top": [
     {
       "eventId": "aeadf1388a1075328536501576b3d550",
@@ -235,43 +235,6 @@
         2.48
       ],
       "margin1x": 0.0157
-    },
-    {
-      "eventId": "60eaeb599578cd5c951f917c4fef06ff",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Union Berlin",
-      "away": "1. FC Köln",
-      "kickoff": "2026-11-01T14:30:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 1,
-      "pick": "N",
-      "pickName": "Match nul",
-      "names": [
-        "Victoire Union Berlin",
-        "Match nul",
-        "Victoire 1. FC Köln"
-      ],
-      "odd": 3.85,
-      "p": 0.265,
-      "fairOdd": 3.773,
-      "ev": 0.0204,
-      "quality": 0.012,
-      "kelly": 0.0071,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        2.67,
-        3.85,
-        2.62
-      ],
-      "refOdds": [
-        2.76,
-        3.63,
-        2.53
-      ],
-      "margin1x": 0.016
     },
     {
       "eventId": "df1e1589c51bbcac432125567d1f7c58",
@@ -598,265 +561,25 @@
   },
   "matches": [
     {
-      "eventId": "ddcc9a51a2d7368e055d1abefacdb74e",
+      "eventId": "6c520ed959578ca3aebe351ee3765d53",
       "sportKey": "soccer_spain_la_liga",
       "league": "La Liga",
-      "home": "Getafe",
-      "away": "Sevilla",
-      "kickoff": "2026-11-01T13:00:00Z",
+      "home": "Real Racing Club de Santander",
+      "away": "Real Madrid",
+      "kickoff": "2026-11-01T15:15:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.42,
-            3.13,
-            2.47
+            11.1,
+            7.5,
+            1.26
           ],
           "p": [
-            0.2795,
-            0.3204,
-            0.4001
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "8f1202ebe58ad62dec6d65c4eee9418f",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "CD Eldense",
-      "away": "Granada CF",
-      "kickoff": "2026-11-01T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.27,
-            3.51,
-            3.15
-          ],
-          "p": [
-            0.4053,
-            0.2833,
-            0.3113
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.85,
-            2.0
-          ],
-          "p": [
-            0.496,
-            0.504
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "507887087d7030ad6e0bd98b54a10b6c",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Empoli",
-      "away": "Juve Stabia",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.86,
-            3.1,
-            2.48
-          ],
-          "p": [
-            0.3138,
-            0.3159,
-            0.3703
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.85,
-            1.89
-          ],
-          "p": [
-            0.4878,
-            0.5122
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "c876c7bc6c966a9a5be59d95b5e58adb",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Avellino",
-      "away": "Pisa",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.98,
-            3.28,
-            2.33
-          ],
-          "p": [
-            0.3041,
-            0.3041,
-            0.3918
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "f3b1a2f0e351295cf1c58e3fa4def23e",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Arezzo",
-      "away": "Ascoli",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.35,
-            3.32,
-            2.13
-          ],
-          "p": [
-            0.266,
-            0.2816,
-            0.4524
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.86
-          ],
-          "p": [
-            0.4851,
-            0.5149
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "b7b781db85506536dce5e7ce59a59863",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Frosinone",
-      "away": "Torino",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.13,
-            3.96,
-            3.4
-          ],
-          "p": [
-            0.4714,
-            0.2472,
-            0.2814
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            2.05,
-            1.9
-          ],
-          "p": [
-            0.4828,
-            0.5172
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "448a1083448ea9dff55bfebf15ff20b4",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Strasbourg",
-      "away": "Auxerre",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.87,
-            4.16,
-            4.16
-          ],
-          "p": [
-            0.5269,
-            0.2341,
-            0.239
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "3f9f4bc9a19bf36dcb74be2f29610d55",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Lazio",
-      "away": "Cagliari",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.49,
-            4.68,
-            7.7
-          ],
-          "p": [
-            0.6652,
-            0.2117,
-            0.123
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "60eaeb599578cd5c951f917c4fef06ff",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Union Berlin",
-      "away": "1. FC Köln",
-      "kickoff": "2026-11-01T14:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.67,
-            3.85,
-            2.62
-          ],
-          "p": [
-            0.3512,
-            0.265,
-            0.3838
+            0.084,
+            0.1152,
+            0.8008
           ]
         }
       ]
@@ -893,30 +616,6 @@
           "p": [
             0.5176,
             0.4824
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "6c520ed959578ca3aebe351ee3765d53",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Racing Club de Santander",
-      "away": "Real Madrid",
-      "kickoff": "2026-11-01T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            11.1,
-            7.5,
-            1.26
-          ],
-          "p": [
-            0.084,
-            0.1152,
-            0.8008
           ]
         }
       ]
@@ -1006,30 +705,6 @@
       ]
     },
     {
-      "eventId": "1eb5e1a69ae9dd9edd92fde344308a4e",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Eintracht Frankfurt",
-      "away": "Hamburger SV",
-      "kickoff": "2026-11-01T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.64,
-            4.83,
-            5.08
-          ],
-          "p": [
-            0.6179,
-            0.2034,
-            0.1788
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "6a3819cdbe2ba2fe5a3d8f9b4b459965",
       "sportKey": "soccer_epl",
       "league": "Premier League",
@@ -1061,6 +736,30 @@
           "p": [
             0.5172,
             0.4828
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "1eb5e1a69ae9dd9edd92fde344308a4e",
+      "sportKey": "soccer_germany_bundesliga",
+      "league": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "Hamburger SV",
+      "kickoff": "2026-11-01T16:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.64,
+            4.83,
+            5.08
+          ],
+          "p": [
+            0.6179,
+            0.2034,
+            0.1788
           ]
         }
       ]
