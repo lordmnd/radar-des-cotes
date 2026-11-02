@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-02T15:57:23Z",
+  "generatedAt": "2026-11-02T17:57:11Z",
   "creditsRemaining": 480,
   "creditsUsedToday": 9,
   "dailyBudget": 16,
@@ -34,57 +34,57 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 8.6
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 8.6
-    },
-    {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
       "status": "cache",
-      "ageHours": 8.6
+      "ageHours": 10.6
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 56.1
+      "ageHours": 58.1
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 10.6
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 56.1
+      "ageHours": 58.1
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 32.4
+      "ageHours": 34.4
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 10.6
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 9,
       "status": "cache",
-      "ageHours": 56.1
+      "ageHours": 58.1
     }
   ],
-  "eventsScanned": 5,
-  "eventsWith1xbet": 5,
+  "eventsScanned": 3,
+  "eventsWith1xbet": 3,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -374,49 +374,25 @@
   },
   "matches": [
     {
-      "eventId": "7ec0555b03e5f46aa4e4c7e315ba6880",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Real Valladolid CF",
-      "away": "Leganés",
-      "kickoff": "2026-11-02T17:30:00Z",
+      "eventId": "5118966f484adf525196d196a61bc5d6",
+      "sportKey": "soccer_france_ligue_one",
+      "league": "Ligue 1",
+      "home": "Lorient",
+      "away": "Brest",
+      "kickoff": "2026-11-02T19:45:00Z",
       "markets": [
         {
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.0,
-            3.69,
-            3.67
+            2.56,
+            3.39,
+            3.03
           ],
           "p": [
-            0.4763,
-            0.271,
-            0.2527
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "66608b64d462d1d3deabe573c8456d86",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Sassuolo",
-      "away": "Fiorentina",
-      "kickoff": "2026-11-02T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.94,
-            3.79,
-            2.43
-          ],
-          "p": [
-            0.331,
-            0.2562,
-            0.4128
+            0.3911,
+            0.2951,
+            0.3137
           ]
         }
       ]
@@ -441,30 +417,6 @@
             0.6386,
             0.204,
             0.1574
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "5118966f484adf525196d196a61bc5d6",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Lorient",
-      "away": "Brest",
-      "kickoff": "2026-11-02T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.56,
-            3.39,
-            3.03
-          ],
-          "p": [
-            0.3911,
-            0.2951,
-            0.3137
           ]
         }
       ]
