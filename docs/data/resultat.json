@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-02T11:36:58Z",
+  "generatedAt": "2026-11-02T13:53:31Z",
   "creditsRemaining": 480,
   "creditsUsedToday": 9,
   "dailyBudget": 16,
@@ -36,55 +36,55 @@
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 4,
+      "events": 3,
       "status": "cache",
-      "ageHours": 4.3
+      "ageHours": 6.6
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 2,
       "status": "cache",
-      "ageHours": 4.3
+      "ageHours": 6.6
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
       "status": "cache",
-      "ageHours": 4.3
+      "ageHours": 6.6
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 51.8
+      "ageHours": 54.1
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 51.8
+      "ageHours": 54.1
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 28.0
+      "ageHours": 30.3
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 9,
       "status": "cache",
-      "ageHours": 51.8
+      "ageHours": 54.1
     }
   ],
-  "eventsScanned": 7,
-  "eventsWith1xbet": 7,
+  "eventsScanned": 6,
+  "eventsWith1xbet": 6,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -373,30 +373,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "f89b9247af7cc118faae54ec9f0934ee",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Tenerife",
-      "away": "Andorra CF",
-      "kickoff": "2026-11-02T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.32,
-            3.27,
-            3.27
-          ],
-          "p": [
-            0.4241,
-            0.2989,
-            0.277
-          ]
-        }
-      ]
-    },
     {
       "eventId": "6891a7ee06d4118eba6fb1ea59026099",
       "sportKey": "soccer_spain_segunda_division",
