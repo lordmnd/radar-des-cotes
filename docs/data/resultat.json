@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-02T17:57:11Z",
+  "generatedAt": "2026-11-02T19:49:37Z",
   "creditsRemaining": 480,
   "creditsUsedToday": 9,
   "dailyBudget": 16,
@@ -15,6 +15,42 @@
     "Handicap asiatique"
   ],
   "leagues": [
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_epl",
+      "name": "Premier League",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 0,
+      "status": "pas de match"
+    },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
@@ -34,57 +70,15 @@
       "status": "pas de match"
     },
     {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 10.6
-    },
-    {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 58.1
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 10.6
-    },
-    {
-      "key": "soccer_epl",
-      "name": "Premier League",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 58.1
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 34.4
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 10.6
-    },
-    {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 9,
       "status": "cache",
-      "ageHours": 58.1
+      "ageHours": 60.0
     }
   ],
-  "eventsScanned": 3,
-  "eventsWith1xbet": 3,
+  "eventsScanned": 0,
+  "eventsWith1xbet": 0,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -372,91 +366,6 @@
     "avgClv": 0.0346,
     "clvLegs": 10
   },
-  "matches": [
-    {
-      "eventId": "5118966f484adf525196d196a61bc5d6",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Lorient",
-      "away": "Brest",
-      "kickoff": "2026-11-02T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.56,
-            3.39,
-            3.03
-          ],
-          "p": [
-            0.3911,
-            0.2951,
-            0.3137
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "2e488800d615a94e5377c195810303c0",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Atalanta BC",
-      "away": "Parma",
-      "kickoff": "2026-11-02T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.56,
-            4.67,
-            6.3
-          ],
-          "p": [
-            0.6386,
-            0.204,
-            0.1574
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "af11a8a3ec5dd89c925e4786cc061904",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Mallorca",
-      "away": "Cádiz CF",
-      "kickoff": "2026-11-02T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.51,
-            4.28,
-            6.91
-          ],
-          "p": [
-            0.6464,
-            0.2223,
-            0.1313
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.87,
-            1.97
-          ],
-          "p": [
-            0.496,
-            0.504
-          ]
-        }
-      ]
-    }
-  ],
+  "matches": [],
   "botUsername": "MyownfuturBot"
 }

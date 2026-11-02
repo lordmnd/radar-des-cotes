@@ -1,30 +1,5 @@
 {
-  "nextBet": 2,
   "events": {
-    "da159a6b84dbb548b4d7b94c722caac5": {
-      "eventId": "da159a6b84dbb548b4d7b94c722caac5",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Fiorentina",
-      "away": "Atalanta BC",
-      "kickoff": "2026-10-29T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.38,
-            3.82,
-            3.0
-          ],
-          "p": [
-            0.4149,
-            0.2588,
-            0.3262
-          ]
-        }
-      ]
-    },
     "317d363207bc2f45566787c1009fe41d": {
       "eventId": "317d363207bc2f45566787c1009fe41d",
       "sportKey": "soccer_germany_bundesliga2",
@@ -2780,23 +2755,11 @@
     "botUsername": "MyownfuturBot"
   },
   "usedToday": 9,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
-    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
-    "soccer_efl_champ": "2026-10-31T07:48:43.8581644Z",
-    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
-    "soccer_spain_segunda_division": "2026-11-02T07:20:18.9739125Z",
-    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
-    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
-  },
-  "rejected": [],
-  "bankroll0": 80,
-  "day": "2026-11-02",
   "remaining": 480,
-  "lastAnalysis": "2026-11-02T17:57:11Z",
+  "day": "2026-11-02",
+  "bankroll0": 80,
+  "nextBet": 2,
+  "rejected": [],
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -3069,6 +3032,18 @@
       ]
     }
   ],
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
+    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
+    "soccer_efl_champ": "2026-10-31T07:48:43.8581644Z",
+    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
+    "soccer_spain_segunda_division": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -3114,5 +3089,6 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ]
+  ],
+  "lastAnalysis": "2026-11-02T19:49:37Z"
 }
