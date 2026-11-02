@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-01T20:50:41Z",
-  "creditsRemaining": 489,
-  "creditsUsedToday": 11,
+  "generatedAt": "2026-11-02T07:20:18Z",
+  "creditsRemaining": 480,
+  "creditsUsedToday": 9,
   "dailyBudget": 16,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -43,47 +43,47 @@
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 4,
-      "status": "cache",
-      "ageHours": 37.0
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 2,
-      "status": "cache",
-      "ageHours": 13.3
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
-      "status": "cache",
-      "ageHours": 37.0
+      "status": "à jour",
+      "ageHours": 0.0
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 37.0
+      "ageHours": 47.5
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 37.0
+      "ageHours": 47.5
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 13.3
+      "ageHours": 23.8
     }
   ],
-  "eventsScanned": 1,
-  "eventsWith1xbet": 1,
+  "eventsScanned": 7,
+  "eventsWith1xbet": 7,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -373,6 +373,90 @@
   },
   "matches": [
     {
+      "eventId": "f89b9247af7cc118faae54ec9f0934ee",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Tenerife",
+      "away": "Andorra CF",
+      "kickoff": "2026-11-02T13:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.32,
+            3.27,
+            3.27
+          ],
+          "p": [
+            0.4241,
+            0.2989,
+            0.277
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "6891a7ee06d4118eba6fb1ea59026099",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Oviedo",
+      "away": "Las Palmas",
+      "kickoff": "2026-11-02T15:15:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.71,
+            3.94,
+            4.9
+          ],
+          "p": [
+            0.5676,
+            0.2429,
+            0.1895
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.88,
+            1.96
+          ],
+          "p": [
+            0.4934,
+            0.5066
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "7ec0555b03e5f46aa4e4c7e315ba6880",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Real Valladolid CF",
+      "away": "Leganés",
+      "kickoff": "2026-11-02T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.0,
+            3.69,
+            3.67
+          ],
+          "p": [
+            0.4763,
+            0.271,
+            0.2527
+          ]
+        }
+      ]
+    },
+    {
       "eventId": "66608b64d462d1d3deabe573c8456d86",
       "sportKey": "soccer_italy_serie_a",
       "league": "Serie A",
@@ -389,9 +473,93 @@
             2.43
           ],
           "p": [
-            0.3347,
-            0.2523,
-            0.413
+            0.331,
+            0.2562,
+            0.4128
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "2e488800d615a94e5377c195810303c0",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Parma",
+      "kickoff": "2026-11-02T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.56,
+            4.67,
+            6.3
+          ],
+          "p": [
+            0.6386,
+            0.204,
+            0.1574
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "5118966f484adf525196d196a61bc5d6",
+      "sportKey": "soccer_france_ligue_one",
+      "league": "Ligue 1",
+      "home": "Lorient",
+      "away": "Brest",
+      "kickoff": "2026-11-02T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.56,
+            3.39,
+            3.03
+          ],
+          "p": [
+            0.3911,
+            0.2951,
+            0.3137
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "af11a8a3ec5dd89c925e4786cc061904",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Mallorca",
+      "away": "Cádiz CF",
+      "kickoff": "2026-11-02T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.51,
+            4.28,
+            6.91
+          ],
+          "p": [
+            0.6464,
+            0.2223,
+            0.1313
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.87,
+            1.97
+          ],
+          "p": [
+            0.496,
+            0.504
           ]
         }
       ]

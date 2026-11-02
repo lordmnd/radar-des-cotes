@@ -1,8 +1,4 @@
 {
-  "usedToday": 0,
-  "nextBet": 2,
-  "bankroll0": 80,
-  "lastAnalysis": "2026-11-01T20:50:41Z",
   "events": {
     "667cf69986b200753742c90cb9c5126c": {
       "eventId": "667cf69986b200753742c90cb9c5126c",
@@ -2613,9 +2609,9 @@
             2.43
           ],
           "p": [
-            0.3347,
-            0.2523,
-            0.413
+            0.331,
+            0.2562,
+            0.4128
           ]
         }
       ]
@@ -2643,9 +2639,188 @@
           ]
         }
       ]
+    },
+    "f89b9247af7cc118faae54ec9f0934ee": {
+      "eventId": "f89b9247af7cc118faae54ec9f0934ee",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Tenerife",
+      "away": "Andorra CF",
+      "kickoff": "2026-11-02T13:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.32,
+            3.27,
+            3.27
+          ],
+          "p": [
+            0.4241,
+            0.2989,
+            0.277
+          ]
+        }
+      ]
+    },
+    "6891a7ee06d4118eba6fb1ea59026099": {
+      "eventId": "6891a7ee06d4118eba6fb1ea59026099",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Oviedo",
+      "away": "Las Palmas",
+      "kickoff": "2026-11-02T15:15:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.71,
+            3.94,
+            4.9
+          ],
+          "p": [
+            0.5676,
+            0.2429,
+            0.1895
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.88,
+            1.96
+          ],
+          "p": [
+            0.4934,
+            0.5066
+          ]
+        }
+      ]
+    },
+    "7ec0555b03e5f46aa4e4c7e315ba6880": {
+      "eventId": "7ec0555b03e5f46aa4e4c7e315ba6880",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Real Valladolid CF",
+      "away": "Leganés",
+      "kickoff": "2026-11-02T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.0,
+            3.69,
+            3.67
+          ],
+          "p": [
+            0.4763,
+            0.271,
+            0.2527
+          ]
+        }
+      ]
+    },
+    "af11a8a3ec5dd89c925e4786cc061904": {
+      "eventId": "af11a8a3ec5dd89c925e4786cc061904",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Mallorca",
+      "away": "Cádiz CF",
+      "kickoff": "2026-11-02T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.51,
+            4.28,
+            6.91
+          ],
+          "p": [
+            0.6464,
+            0.2223,
+            0.1313
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.87,
+            1.97
+          ],
+          "p": [
+            0.496,
+            0.504
+          ]
+        }
+      ]
+    },
+    "2e488800d615a94e5377c195810303c0": {
+      "eventId": "2e488800d615a94e5377c195810303c0",
+      "sportKey": "soccer_italy_serie_a",
+      "league": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Parma",
+      "kickoff": "2026-11-02T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.56,
+            4.67,
+            6.3
+          ],
+          "p": [
+            0.6386,
+            0.204,
+            0.1574
+          ]
+        }
+      ]
+    },
+    "5118966f484adf525196d196a61bc5d6": {
+      "eventId": "5118966f484adf525196d196a61bc5d6",
+      "sportKey": "soccer_france_ligue_one",
+      "league": "Ligue 1",
+      "home": "Lorient",
+      "away": "Brest",
+      "kickoff": "2026-11-02T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.56,
+            3.39,
+            3.03
+          ],
+          "p": [
+            0.3911,
+            0.2951,
+            0.3137
+          ]
+        }
+      ]
     }
   },
-  "remaining": 489,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
+    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
+    "soccer_efl_champ": "2026-10-31T07:48:43.8581644Z",
+    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
+    "soccer_spain_segunda_division": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -2692,25 +2867,13 @@
       "status": "perdu"
     }
   ],
-  "day": "2026-11-02",
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "rejected": [],
-  "fetched": {
-    "soccer_france_ligue_one": "2026-10-31T07:48:43.8581644Z",
-    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
-    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
-    "soccer_efl_champ": "2026-10-31T07:48:43.8581644Z",
-    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
-    "soccer_spain_segunda_division": "2026-10-31T07:48:43.8581644Z",
-    "soccer_italy_serie_a": "2026-11-01T07:33:59.7014952Z",
-    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
-  },
+  "lastAnalysis": "2026-11-02T07:20:18Z",
+  "day": "2026-11-02",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2982,5 +3145,10 @@
         }
       ]
     }
-  ]
+  ],
+  "usedToday": 9,
+  "rejected": [],
+  "remaining": 480,
+  "bankroll0": 80,
+  "nextBet": 2
 }
