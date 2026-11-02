@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-02T13:53:31Z",
+  "generatedAt": "2026-11-02T15:57:23Z",
   "creditsRemaining": 480,
   "creditsUsedToday": 9,
   "dailyBudget": 16,
@@ -36,55 +36,55 @@
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 3,
+      "events": 2,
       "status": "cache",
-      "ageHours": 6.6
+      "ageHours": 8.6
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 2,
       "status": "cache",
-      "ageHours": 6.6
+      "ageHours": 8.6
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
       "status": "cache",
-      "ageHours": 6.6
+      "ageHours": 8.6
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 54.1
+      "ageHours": 56.1
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 54.1
+      "ageHours": 56.1
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 1,
       "status": "cache",
-      "ageHours": 30.3
+      "ageHours": 32.4
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 9,
       "status": "cache",
-      "ageHours": 54.1
+      "ageHours": 56.1
     }
   ],
-  "eventsScanned": 6,
-  "eventsWith1xbet": 6,
+  "eventsScanned": 5,
+  "eventsWith1xbet": 5,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -373,42 +373,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "6891a7ee06d4118eba6fb1ea59026099",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Oviedo",
-      "away": "Las Palmas",
-      "kickoff": "2026-11-02T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.71,
-            3.94,
-            4.9
-          ],
-          "p": [
-            0.5676,
-            0.2429,
-            0.1895
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.96
-          ],
-          "p": [
-            0.4934,
-            0.5066
-          ]
-        }
-      ]
-    },
     {
       "eventId": "7ec0555b03e5f46aa4e4c7e315ba6880",
       "sportKey": "soccer_spain_segunda_division",
