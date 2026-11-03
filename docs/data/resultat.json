@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-03T18:18:20Z",
+  "generatedAt": "2026-11-03T20:23:23Z",
   "creditsRemaining": 474,
   "creditsUsedToday": 6,
   "dailyBudget": 16,
@@ -72,13 +72,13 @@
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
-      "events": 12,
+      "events": 3,
       "status": "cache",
-      "ageHours": 1.9
+      "ageHours": 3.9
     }
   ],
-  "eventsScanned": 12,
-  "eventsWith1xbet": 12,
+  "eventsScanned": 3,
+  "eventsWith1xbet": 3,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -367,258 +367,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "9469c1977185a1acd0154cc0a3b93331",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Blackburn Rovers",
-      "away": "Stoke City",
-      "kickoff": "2026-11-03T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.64,
-            3.24,
-            2.58
-          ],
-          "p": [
-            0.3382,
-            0.295,
-            0.3669
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "ce065628a1f15d5ea4b46f1fae837753",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Charlton Athletic",
-      "away": "Bolton Wanderers",
-      "kickoff": "2026-11-03T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.21,
-            3.45,
-            3.05
-          ],
-          "p": [
-            0.4373,
-            0.2679,
-            0.2948
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "cafeccd566e371032c526c1daf6bca7b",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Queens Park Rangers",
-      "away": "Burnley",
-      "kickoff": "2026-11-03T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.92,
-            3.65,
-            3.63
-          ],
-          "p": [
-            0.4933,
-            0.2568,
-            0.2499
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "fe148f358c99e254a103516534eda646",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Derby County",
-      "away": "Norwich City",
-      "kickoff": "2026-11-03T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.31,
-            3.52,
-            2.07
-          ],
-          "p": [
-            0.2801,
-            0.2636,
-            0.4562
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "633a2f32a433aba58b6f088d00fe8b08",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Watford",
-      "away": "Lincoln City",
-      "kickoff": "2026-11-03T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.6,
-            3.28,
-            2.6
-          ],
-          "p": [
-            0.3507,
-            0.2852,
-            0.3641
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.93,
-            1.81
-          ],
-          "p": [
-            0.471,
-            0.529
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "d0e7ac86c5d75d3a84f482364f366813",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Portsmouth",
-      "away": "Swansea City",
-      "kickoff": "2026-11-03T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.78,
-            3.15,
-            2.51
-          ],
-          "p": [
-            0.3246,
-            0.298,
-            0.3774
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "35c9b97dba1a8b5d9d03ad42c54c3839",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Preston North End",
-      "away": "Sheffield United",
-      "kickoff": "2026-11-03T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.67,
-            3.6,
-            1.92
-          ],
-          "p": [
-            0.2501,
-            0.2621,
-            0.4878
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.78,
-            1.97
-          ],
-          "p": [
-            0.5199,
-            0.4801
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "adc18acd573bba376b5a42dc2fb78e4d",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Birmingham City",
-      "away": "Millwall",
-      "kickoff": "2026-11-03T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.93,
-            3.6,
-            3.65
-          ],
-          "p": [
-            0.4835,
-            0.259,
-            0.2576
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "e01ab9f5552d493ee5a76483ad15afe9",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "West Bromwich Albion",
-      "away": "Southampton",
-      "kickoff": "2026-11-03T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.36,
-            3.3,
-            2.91
-          ],
-          "p": [
-            0.4011,
-            0.2829,
-            0.316
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.86,
-            1.88
-          ],
-          "p": [
-            0.4973,
-            0.5027
-          ]
-        }
-      ]
-    },
     {
       "eventId": "47523374e8d8cdd5b43677e358317587",
       "sportKey": "soccer_efl_champ",

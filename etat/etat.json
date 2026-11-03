@@ -1,6 +1,5 @@
 {
   "remaining": 474,
-  "usedToday": 6,
   "fetched": {
     "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
     "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
@@ -13,6 +12,10 @@
     "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
     "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
   },
+  "day": "2026-11-03",
+  "lastAnalysis": "2026-11-03T20:23:23Z",
+  "rejected": [],
+  "bankroll0": 80,
   "bets": [
     {
       "n": 1,
@@ -59,15 +62,6 @@
       "status": "perdu"
     }
   ],
-  "nextBet": 2,
-  "bankroll0": 80,
-  "lastAnalysis": "2026-11-03T18:18:20Z",
-  "day": "2026-11-03",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -341,126 +335,6 @@
     }
   ],
   "events": {
-    "b275fe870ec88a9f0054c9220beb2673": {
-      "eventId": "b275fe870ec88a9f0054c9220beb2673",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Elversberg",
-      "away": "FSV Mainz 05",
-      "kickoff": "2026-10-30T19:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.19,
-            4.16,
-            2.16
-          ],
-          "p": [
-            0.2907,
-            0.2415,
-            0.4678
-          ]
-        }
-      ]
-    },
-    "db9a80e16dd6db2b7b21b1a082f2095f": {
-      "eventId": "db9a80e16dd6db2b7b21b1a082f2095f",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Sheffield United",
-      "away": "Wrexham AFC",
-      "kickoff": "2026-10-30T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.4,
-            3.38,
-            2.8
-          ],
-          "p": [
-            0.3954,
-            0.2833,
-            0.3213
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.89,
-            1.85
-          ],
-          "p": [
-            0.4906,
-            0.5094
-          ]
-        }
-      ]
-    },
-    "00b03cb40c27ed23e2ecb18f062a5122": {
-      "eventId": "00b03cb40c27ed23e2ecb18f062a5122",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Villarreal",
-      "away": "Espanyol",
-      "kickoff": "2026-10-30T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.46,
-            5.23,
-            7.06
-          ],
-          "p": [
-            0.6919,
-            0.1773,
-            0.1309
-          ]
-        }
-      ]
-    },
-    "7932d9a82dcdb164a3e4ef5e03694ee3": {
-      "eventId": "7932d9a82dcdb164a3e4ef5e03694ee3",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Lille",
-      "away": "RC Lens",
-      "kickoff": "2026-10-30T20:05:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.84,
-            3.5,
-            2.65
-          ],
-          "p": [
-            0.3389,
-            0.289,
-            0.3721
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.94,
-            2.0
-          ],
-          "p": [
-            0.4907,
-            0.5093
-          ]
-        }
-      ]
-    },
     "4b9f1f092566a24bda67fb53a4a9abdc": {
       "eventId": "4b9f1f092566a24bda67fb53a4a9abdc",
       "sportKey": "soccer_germany_bundesliga2",
@@ -3174,5 +3048,11 @@
       ]
     }
   },
-  "rejected": []
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "usedToday": 6,
+  "nextBet": 2
 }
