@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-03T16:27:12Z",
+  "generatedAt": "2026-11-03T18:18:20Z",
   "creditsRemaining": 474,
   "creditsUsedToday": 6,
-  "dailyBudget": 17,
+  "dailyBudget": 16,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -73,8 +73,8 @@
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 12,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 1.9
     }
   ],
   "eventsScanned": 12,
