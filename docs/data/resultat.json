@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-02T19:49:37Z",
-  "creditsRemaining": 480,
-  "creditsUsedToday": 9,
-  "dailyBudget": 16,
+  "generatedAt": "2026-11-03T08:17:08Z",
+  "creditsRemaining": 477,
+  "creditsUsedToday": 3,
+  "dailyBudget": 17,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -72,13 +72,13 @@
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
-      "events": 9,
-      "status": "cache",
-      "ageHours": 60.0
+      "events": 12,
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 0,
-  "eventsWith1xbet": 0,
+  "eventsScanned": 12,
+  "eventsWith1xbet": 12,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -366,6 +366,367 @@
     "avgClv": 0.0346,
     "clvLegs": 10
   },
-  "matches": [],
+  "matches": [
+    {
+      "eventId": "9469c1977185a1acd0154cc0a3b93331",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Blackburn Rovers",
+      "away": "Stoke City",
+      "kickoff": "2026-11-03T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.64,
+            3.24,
+            2.58
+          ],
+          "p": [
+            0.3508,
+            0.2932,
+            0.356
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            2.03,
+            1.73
+          ],
+          "p": [
+            0.4748,
+            0.5252
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "ce065628a1f15d5ea4b46f1fae837753",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Charlton Athletic",
+      "away": "Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.2,
+            3.48,
+            3.05
+          ],
+          "p": [
+            0.4222,
+            0.2682,
+            0.3096
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "cafeccd566e371032c526c1daf6bca7b",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Queens Park Rangers",
+      "away": "Burnley",
+      "kickoff": "2026-11-03T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.99,
+            3.64,
+            3.42
+          ],
+          "p": [
+            0.4831,
+            0.2531,
+            0.2638
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "fe148f358c99e254a103516534eda646",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Derby County",
+      "away": "Norwich City",
+      "kickoff": "2026-11-03T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.25,
+            3.58,
+            2.07
+          ],
+          "p": [
+            0.2684,
+            0.2602,
+            0.4714
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "633a2f32a433aba58b6f088d00fe8b08",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Watford",
+      "away": "Lincoln City",
+      "kickoff": "2026-11-03T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.5,
+            3.32,
+            2.68
+          ],
+          "p": [
+            0.373,
+            0.2747,
+            0.3523
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.87,
+            1.87
+          ],
+          "p": [
+            0.5146,
+            0.4854
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "d0e7ac86c5d75d3a84f482364f366813",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Portsmouth",
+      "away": "Swansea City",
+      "kickoff": "2026-11-03T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.67,
+            3.14,
+            2.62
+          ],
+          "p": [
+            0.3469,
+            0.2997,
+            0.3534
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "35c9b97dba1a8b5d9d03ad42c54c3839",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Preston North End",
+      "away": "Sheffield United",
+      "kickoff": "2026-11-03T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.52,
+            3.58,
+            1.97
+          ],
+          "p": [
+            0.2524,
+            0.2595,
+            0.4881
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.78,
+            1.97
+          ],
+          "p": [
+            0.5264,
+            0.4736
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "adc18acd573bba376b5a42dc2fb78e4d",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Birmingham City",
+      "away": "Millwall",
+      "kickoff": "2026-11-03T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.93,
+            3.6,
+            3.65
+          ],
+          "p": [
+            0.4978,
+            0.2548,
+            0.2474
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.77,
+            1.98
+          ],
+          "p": [
+            0.5305,
+            0.4695
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "e01ab9f5552d493ee5a76483ad15afe9",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "West Bromwich Albion",
+      "away": "Southampton",
+      "kickoff": "2026-11-03T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.44,
+            3.52,
+            2.62
+          ],
+          "p": [
+            0.3787,
+            0.2666,
+            0.3547
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "47523374e8d8cdd5b43677e358317587",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Cardiff City",
+      "away": "West Ham United",
+      "kickoff": "2026-11-04T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.25,
+            4.05,
+            1.94
+          ],
+          "p": [
+            0.2961,
+            0.2264,
+            0.4775
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "3.5",
+          "odds1x": [
+            1.95,
+            1.79
+          ],
+          "p": [
+            0.4851,
+            0.5149
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "e35b42924a5fe785a52709c4d17c14c2",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Wrexham AFC",
+      "away": "Middlesbrough",
+      "kickoff": "2026-11-04T19:45:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            4.12,
+            3.9,
+            1.75
+          ],
+          "p": [
+            0.2223,
+            0.2263,
+            0.5514
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "7d58b1a0732fa9d2c2fa42d44e636eed",
+      "sportKey": "soccer_efl_champ",
+      "league": "Championship",
+      "home": "Bristol City",
+      "away": "Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.42,
+            3.44,
+            2.05
+          ],
+          "p": [
+            0.261,
+            0.2641,
+            0.4749
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.86,
+            1.88
+          ],
+          "p": [
+            0.5122,
+            0.4878
+          ]
+        }
+      ]
+    }
+  ],
   "botUsername": "MyownfuturBot"
 }
