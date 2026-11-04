@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-03T20:23:23Z",
-  "creditsRemaining": 474,
-  "creditsUsedToday": 6,
-  "dailyBudget": 16,
+  "generatedAt": "2026-11-04T07:59:16Z",
+  "creditsRemaining": 471,
+  "creditsUsedToday": 3,
+  "dailyBudget": 17,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -73,8 +73,8 @@
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 3,
-      "status": "cache",
-      "ageHours": 3.9
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
   "eventsScanned": 3,
@@ -379,26 +379,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            3.25,
+            3.29,
             4.05,
-            1.94
+            1.93
           ],
           "p": [
-            0.3012,
-            0.2306,
-            0.4682
+            0.2895,
+            0.2243,
+            0.4862
           ]
         },
         {
           "marketKey": "totals",
           "line": "3.5",
           "odds1x": [
-            1.95,
-            1.79
+            1.92,
+            1.82
           ],
           "p": [
-            0.4731,
-            0.5269
+            0.4907,
+            0.5093
           ]
         }
       ]
@@ -415,14 +415,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            4.32,
-            4.0,
-            1.7
+            4.08,
+            3.92,
+            1.76
           ],
           "p": [
-            0.2175,
-            0.2218,
-            0.5607
+            0.2153,
+            0.2168,
+            0.5679
           ]
         }
       ]
@@ -444,9 +444,9 @@
             2.05
           ],
           "p": [
-            0.2766,
-            0.2709,
-            0.4525
+            0.2756,
+            0.2748,
+            0.4496
           ]
         },
         {
@@ -457,8 +457,8 @@
             1.88
           ],
           "p": [
-            0.5067,
-            0.4933
+            0.496,
+            0.504
           ]
         }
       ]
