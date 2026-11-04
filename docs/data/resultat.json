@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-04T18:36:01Z",
+  "generatedAt": "2026-11-04T20:35:39Z",
   "creditsRemaining": 468,
   "creditsUsedToday": 6,
   "dailyBudget": 17,
@@ -30,6 +30,12 @@
     {
       "key": "soccer_epl",
       "name": "Premier League",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_efl_champ",
+      "name": "Championship",
       "events": 0,
       "status": "pas de match"
     },
@@ -68,17 +74,10 @@
       "name": "2. Bundesliga",
       "events": 0,
       "status": "pas de match"
-    },
-    {
-      "key": "soccer_efl_champ",
-      "name": "Championship",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 2.0
     }
   ],
-  "eventsScanned": 3,
-  "eventsWith1xbet": 3,
+  "eventsScanned": 0,
+  "eventsWith1xbet": 0,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -366,103 +365,6 @@
     "avgClv": 0.0346,
     "clvLegs": 10
   },
-  "matches": [
-    {
-      "eventId": "47523374e8d8cdd5b43677e358317587",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Cardiff City",
-      "away": "West Ham United",
-      "kickoff": "2026-11-04T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.47,
-            4.1,
-            1.86
-          ],
-          "p": [
-            0.2667,
-            0.2221,
-            0.5113
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.89,
-            1.85
-          ],
-          "p": [
-            0.4947,
-            0.5053
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "e35b42924a5fe785a52709c4d17c14c2",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Wrexham AFC",
-      "away": "Middlesbrough",
-      "kickoff": "2026-11-04T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.21,
-            4.05,
-            1.71
-          ],
-          "p": [
-            0.1991,
-            0.2229,
-            0.5779
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "7d58b1a0732fa9d2c2fa42d44e636eed",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Bristol City",
-      "away": "Wolverhampton Wanderers",
-      "kickoff": "2026-11-04T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.26,
-            3.35,
-            2.15
-          ],
-          "p": [
-            0.2753,
-            0.2769,
-            0.4478
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.89,
-            1.85
-          ],
-          "p": [
-            0.4934,
-            0.5066
-          ]
-        }
-      ]
-    }
-  ],
+  "matches": [],
   "botUsername": "MyownfuturBot"
 }
