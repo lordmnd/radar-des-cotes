@@ -1,6 +1,4 @@
 {
-  "nextBet": 2,
-  "usedToday": 3,
   "events": {
     "d0a2d8c2bd1ed36bc7fd3ea7403a4c52": {
       "eventId": "d0a2d8c2bd1ed36bc7fd3ea7403a4c52",
@@ -34,126 +32,6 @@
           "p": [
             0.524,
             0.476
-          ]
-        }
-      ]
-    },
-    "24400b6372faf9f4996cd5704d707374": {
-      "eventId": "24400b6372faf9f4996cd5704d707374",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Augsburg",
-      "away": "SC Freiburg",
-      "kickoff": "2026-10-31T14:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.07,
-            4.07,
-            2.25
-          ],
-          "p": [
-            0.323,
-            0.2489,
-            0.4281
-          ]
-        }
-      ]
-    },
-    "a7ba9b844f121a4a8777d87b1f863137": {
-      "eventId": "a7ba9b844f121a4a8777d87b1f863137",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Bayer Leverkusen",
-      "away": "VfB Stuttgart",
-      "kickoff": "2026-10-31T14:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.75,
-            4.72,
-            4.32
-          ],
-          "p": [
-            0.5772,
-            0.2058,
-            0.2171
-          ]
-        }
-      ]
-    },
-    "aecb9d8c01176616c87d893bee4bc0de": {
-      "eventId": "aecb9d8c01176616c87d893bee4bc0de",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Borussia Monchengladbach",
-      "away": "SC Paderborn",
-      "kickoff": "2026-10-31T14:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.2,
-            4.05,
-            3.19
-          ],
-          "p": [
-            0.4386,
-            0.2528,
-            0.3087
-          ]
-        }
-      ]
-    },
-    "3966f2fe1c2f73bfa12e61db83bd0bf9": {
-      "eventId": "3966f2fe1c2f73bfa12e61db83bd0bf9",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "FC Schalke 04",
-      "away": "RB Leipzig",
-      "kickoff": "2026-10-31T14:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.94,
-            4.36,
-            1.88
-          ],
-          "p": [
-            0.2304,
-            0.2393,
-            0.5303
-          ]
-        }
-      ]
-    },
-    "2fad25b09c01b71e47a5b0fd1d0b4e61": {
-      "eventId": "2fad25b09c01b71e47a5b0fd1d0b4e61",
-      "sportKey": "soccer_germany_bundesliga",
-      "league": "Bundesliga",
-      "home": "Werder Bremen",
-      "away": "TSG Hoffenheim",
-      "kickoff": "2026-10-31T14:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.69,
-            4.21,
-            2.46
-          ],
-          "p": [
-            0.3703,
-            0.246,
-            0.3837
           ]
         }
       ]
@@ -734,42 +612,6 @@
         }
       ]
     },
-    "04aa939b89001eedf55668e66c74836e": {
-      "eventId": "04aa939b89001eedf55668e66c74836e",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Bologna",
-      "away": "Monza",
-      "kickoff": "2026-10-31T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.74,
-            4.01,
-            5.2
-          ],
-          "p": [
-            0.5851,
-            0.2436,
-            0.1713
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.9,
-            2.04
-          ],
-          "p": [
-            0.5119,
-            0.4881
-          ]
-        }
-      ]
-    },
     "34cd26b96f78bd7aa3dbff3d1daca7a7": {
       "eventId": "34cd26b96f78bd7aa3dbff3d1daca7a7",
       "sportKey": "soccer_italy_serie_a",
@@ -790,90 +632,6 @@
             0.1621,
             0.2116,
             0.6262
-          ]
-        }
-      ]
-    },
-    "7b1319485e1de1a814d72557a83db411": {
-      "eventId": "7b1319485e1de1a814d72557a83db411",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Cremonese",
-      "away": "Benevento",
-      "kickoff": "2026-10-31T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.69,
-            3.08,
-            2.64
-          ],
-          "p": [
-            0.3407,
-            0.3046,
-            0.3547
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.92,
-            1.82
-          ],
-          "p": [
-            0.4672,
-            0.5328
-          ]
-        }
-      ]
-    },
-    "56ac7f88e2e30e21b5939d71dd735160": {
-      "eventId": "56ac7f88e2e30e21b5939d71dd735160",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Südtirol",
-      "away": "Cesena FC",
-      "kickoff": "2026-10-31T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.31,
-            3.05,
-            3.23
-          ],
-          "p": [
-            0.4025,
-            0.3167,
-            0.2809
-          ]
-        }
-      ]
-    },
-    "c7150f8cbc9402f48e438ba5ce5f3877": {
-      "eventId": "c7150f8cbc9402f48e438ba5ce5f3877",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Modena",
-      "away": "Mantova",
-      "kickoff": "2026-10-31T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.79,
-            3.62,
-            4.28
-          ],
-          "p": [
-            0.5309,
-            0.2666,
-            0.2025
           ]
         }
       ]
@@ -2427,74 +2185,12 @@
       ]
     }
   },
-  "bets": [
-    {
-      "n": 1,
-      "createdAt": "2026-10-10T08:50:00Z",
-      "stake": 20,
-      "totalOdds": 1.97,
-      "legs": [
-        {
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "sportKey": "soccer_germany_bundesliga",
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "kickoff": "2026-10-10T13:30:00Z",
-          "marketKey": "h2h",
-          "market": "1N2",
-          "line": "",
-          "idx": 0,
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "p": 0.692,
-          "result": "perdu",
-          "score": "2-3"
-        },
-        {
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "sportKey": "soccer_france_ligue_one",
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "kickoff": "2026-10-10T18:45:00Z",
-          "marketKey": "dc",
-          "market": "Double chance",
-          "line": "",
-          "idx": 2,
-          "pickName": "X2 : nul ou Paris FC",
-          "odd": 1.322,
-          "p": 0.7482,
-          "result": "perdu",
-          "score": "1-0"
-        }
-      ],
-      "manualStatus": null,
-      "status": "perdu"
-    }
-  ],
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "rejected": [],
-  "day": "2026-11-04",
   "bankroll0": 80,
-  "lastAnalysis": "2026-11-04T12:07:16Z",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
-    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
-    "soccer_efl_champ": "2026-11-04T07:59:16.0301856Z",
-    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
-    "soccer_spain_segunda_division": "2026-11-02T07:20:18.9739125Z",
-    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
-    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
-  },
-  "remaining": 471,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -2766,5 +2462,69 @@
         }
       ]
     }
-  ]
+  ],
+  "lastAnalysis": "2026-11-04T14:33:52Z",
+  "remaining": 471,
+  "rejected": [],
+  "day": "2026-11-04",
+  "bets": [
+    {
+      "n": 1,
+      "createdAt": "2026-10-10T08:50:00Z",
+      "stake": 20,
+      "totalOdds": 1.97,
+      "legs": [
+        {
+          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "TSG Hoffenheim",
+          "away": "Hamburger SV",
+          "kickoff": "2026-10-10T13:30:00Z",
+          "marketKey": "h2h",
+          "market": "1N2",
+          "line": "",
+          "idx": 0,
+          "pickName": "Victoire TSG Hoffenheim",
+          "odd": 1.49,
+          "p": 0.692,
+          "result": "perdu",
+          "score": "2-3"
+        },
+        {
+          "eventId": "3aa72885e0aa107c62843749f7930a9a",
+          "sportKey": "soccer_france_ligue_one",
+          "league": "Ligue 1",
+          "home": "Lorient",
+          "away": "Paris FC",
+          "kickoff": "2026-10-10T18:45:00Z",
+          "marketKey": "dc",
+          "market": "Double chance",
+          "line": "",
+          "idx": 2,
+          "pickName": "X2 : nul ou Paris FC",
+          "odd": 1.322,
+          "p": 0.7482,
+          "result": "perdu",
+          "score": "1-0"
+        }
+      ],
+      "manualStatus": null,
+      "status": "perdu"
+    }
+  ],
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-10-31T07:48:43.8581644Z",
+    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
+    "soccer_efl_champ": "2026-11-04T07:59:16.0301856Z",
+    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
+    "soccer_spain_segunda_division": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_b": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-01T07:33:59.7014952Z"
+  },
+  "usedToday": 3,
+  "nextBet": 2
 }
