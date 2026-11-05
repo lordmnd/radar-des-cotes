@@ -1,4 +1,19 @@
 {
+  "rejected": [],
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-11-05T08:19:32.4795294Z",
+    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
+    "soccer_efl_champ": "2026-11-04T16:37:19.0356486Z",
+    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
+    "soccer_spain_segunda_division": "2026-11-05T08:19:32.4795294Z",
+    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_b": "2026-11-05T08:19:32.4795294Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-05T08:19:32.4795294Z"
+  },
+  "usedToday": 12,
+  "lastAnalysis": "2026-11-05T12:42:09Z",
   "events": {
     "6a3819cdbe2ba2fe5a3d8f9b4b459965": {
       "eventId": "6a3819cdbe2ba2fe5a3d8f9b4b459965",
@@ -32,30 +47,6 @@
           "p": [
             0.5172,
             0.4828
-          ]
-        }
-      ]
-    },
-    "ddcc9a51a2d7368e055d1abefacdb74e": {
-      "eventId": "ddcc9a51a2d7368e055d1abefacdb74e",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Getafe",
-      "away": "Sevilla",
-      "kickoff": "2026-11-01T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.42,
-            3.13,
-            2.47
-          ],
-          "p": [
-            0.2795,
-            0.3204,
-            0.4001
           ]
         }
       ]
@@ -116,42 +107,6 @@
           "p": [
             0.4881,
             0.5119
-          ]
-        }
-      ]
-    },
-    "8f1202ebe58ad62dec6d65c4eee9418f": {
-      "eventId": "8f1202ebe58ad62dec6d65c4eee9418f",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "CD Eldense",
-      "away": "Granada CF",
-      "kickoff": "2026-11-01T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.27,
-            3.51,
-            3.15
-          ],
-          "p": [
-            0.4053,
-            0.2833,
-            0.3113
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.85,
-            2.0
-          ],
-          "p": [
-            0.496,
-            0.504
           ]
         }
       ]
@@ -228,66 +183,6 @@
         }
       ]
     },
-    "3f9f4bc9a19bf36dcb74be2f29610d55": {
-      "eventId": "3f9f4bc9a19bf36dcb74be2f29610d55",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Lazio",
-      "away": "Cagliari",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.49,
-            4.68,
-            7.7
-          ],
-          "p": [
-            0.6652,
-            0.2117,
-            0.123
-          ]
-        }
-      ]
-    },
-    "b7b781db85506536dce5e7ce59a59863": {
-      "eventId": "b7b781db85506536dce5e7ce59a59863",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Frosinone",
-      "away": "Torino",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.13,
-            3.96,
-            3.4
-          ],
-          "p": [
-            0.4714,
-            0.2472,
-            0.2814
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            2.05,
-            1.9
-          ],
-          "p": [
-            0.4828,
-            0.5172
-          ]
-        }
-      ]
-    },
     "940b9e69539033539039f9af694e2925": {
       "eventId": "940b9e69539033539039f9af694e2925",
       "sportKey": "soccer_italy_serie_a",
@@ -344,102 +239,6 @@
           "p": [
             0.4881,
             0.5119
-          ]
-        }
-      ]
-    },
-    "f3b1a2f0e351295cf1c58e3fa4def23e": {
-      "eventId": "f3b1a2f0e351295cf1c58e3fa4def23e",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Arezzo",
-      "away": "Ascoli",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.35,
-            3.32,
-            2.13
-          ],
-          "p": [
-            0.266,
-            0.2816,
-            0.4524
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.86
-          ],
-          "p": [
-            0.4851,
-            0.5149
-          ]
-        }
-      ]
-    },
-    "c876c7bc6c966a9a5be59d95b5e58adb": {
-      "eventId": "c876c7bc6c966a9a5be59d95b5e58adb",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Avellino",
-      "away": "Pisa",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.98,
-            3.28,
-            2.33
-          ],
-          "p": [
-            0.3041,
-            0.3041,
-            0.3918
-          ]
-        }
-      ]
-    },
-    "507887087d7030ad6e0bd98b54a10b6c": {
-      "eventId": "507887087d7030ad6e0bd98b54a10b6c",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Empoli",
-      "away": "Juve Stabia",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.86,
-            3.1,
-            2.48
-          ],
-          "p": [
-            0.3138,
-            0.3159,
-            0.3703
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.85,
-            1.89
-          ],
-          "p": [
-            0.4878,
-            0.5122
           ]
         }
       ]
@@ -536,30 +335,6 @@
             0.6179,
             0.2034,
             0.1788
-          ]
-        }
-      ]
-    },
-    "448a1083448ea9dff55bfebf15ff20b4": {
-      "eventId": "448a1083448ea9dff55bfebf15ff20b4",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Strasbourg",
-      "away": "Auxerre",
-      "kickoff": "2026-11-01T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.87,
-            4.16,
-            4.16
-          ],
-          "p": [
-            0.5269,
-            0.2341,
-            0.239
           ]
         }
       ]
@@ -1477,20 +1252,8 @@
       ]
     }
   },
-  "nextBet": 2,
-  "lastAnalysis": "2026-11-05T12:42:09Z",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-11-05T08:19:32.4795294Z",
-    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
-    "soccer_efl_champ": "2026-11-04T16:37:19.0356486Z",
-    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
-    "soccer_spain_segunda_division": "2026-11-05T08:19:32.4795294Z",
-    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
-    "soccer_italy_serie_b": "2026-11-05T08:19:32.4795294Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-05T08:19:32.4795294Z"
-  },
+  "remaining": 456,
+  "day": "2026-11-05",
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1763,11 +1526,13 @@
       ]
     }
   ],
-  "day": "2026-11-05",
-  "remaining": 456,
+  "nextBet": 2,
   "bankroll0": 80,
-  "rejected": [],
-  "usedToday": 12,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "bets": [
     {
       "n": 1,
@@ -1813,10 +1578,5 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  }
+  ]
 }
