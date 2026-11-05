@@ -1,66 +1,14 @@
 {
   "bankroll0": 80,
+  "day": "2026-11-05",
+  "remaining": 456,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "lastAnalysis": "2026-11-05T19:29:17Z",
   "events": {
-    "aeadf1388a1075328536501576b3d550": {
-      "eventId": "aeadf1388a1075328536501576b3d550",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Juventus",
-      "away": "Napoli",
-      "kickoff": "2026-11-01T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.35,
-            3.39,
-            3.4
-          ],
-          "p": [
-            0.4354,
-            0.2886,
-            0.2759
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.02,
-            1.92
-          ],
-          "p": [
-            0.4881,
-            0.5119
-          ]
-        }
-      ]
-    },
-    "df1e1589c51bbcac432125567d1f7c58": {
-      "eventId": "df1e1589c51bbcac432125567d1f7c58",
-      "sportKey": "soccer_france_ligue_one",
-      "league": "Ligue 1",
-      "home": "Marseille",
-      "away": "Toulouse",
-      "kickoff": "2026-11-01T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.95,
-            4.16,
-            3.81
-          ],
-          "p": [
-            0.4966,
-            0.2357,
-            0.2678
-          ]
-        }
-      ]
-    },
     "66608b64d462d1d3deabe573c8456d86": {
       "eventId": "66608b64d462d1d3deabe573c8456d86",
       "sportKey": "soccer_italy_serie_a",
@@ -81,30 +29,6 @@
             0.331,
             0.2562,
             0.4128
-          ]
-        }
-      ]
-    },
-    "3757bcd765c7da1538cdf2785e784038": {
-      "eventId": "3757bcd765c7da1538cdf2785e784038",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Athletic Bilbao",
-      "away": "Real Sociedad",
-      "kickoff": "2026-11-01T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.15,
-            3.77,
-            3.49
-          ],
-          "p": [
-            0.4709,
-            0.2657,
-            0.2634
           ]
         }
       ]
@@ -890,6 +814,20 @@
       ]
     }
   },
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-11-05T08:19:32.4795294Z",
+    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
+    "soccer_efl_champ": "2026-11-04T16:37:19.0356486Z",
+    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
+    "soccer_spain_segunda_division": "2026-11-05T08:19:32.4795294Z",
+    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_b": "2026-11-05T08:19:32.4795294Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-05T08:19:32.4795294Z"
+  },
+  "nextBet": 2,
+  "rejected": [],
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -1162,22 +1100,6 @@
       ]
     }
   ],
-  "rejected": [],
-  "remaining": 456,
-  "day": "2026-11-05",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-11-05T08:19:32.4795294Z",
-    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
-    "soccer_efl_champ": "2026-11-04T16:37:19.0356486Z",
-    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
-    "soccer_spain_segunda_division": "2026-11-05T08:19:32.4795294Z",
-    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
-    "soccer_italy_serie_b": "2026-11-05T08:19:32.4795294Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-05T08:19:32.4795294Z"
-  },
-  "usedToday": 12,
   "bets": [
     {
       "n": 1,
@@ -1224,11 +1146,5 @@
       "status": "perdu"
     }
   ],
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "nextBet": 2,
-  "lastAnalysis": "2026-11-05T19:29:17Z"
+  "usedToday": 12
 }
