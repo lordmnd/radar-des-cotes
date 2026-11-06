@@ -1,25 +1,11 @@
 {
-  "usedToday": 12,
+  "remaining": 444,
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-11-06T08:15:05.8257870Z",
-    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
-    "soccer_efl_champ": "2026-11-04T16:37:19.0356486Z",
-    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
-    "soccer_spain_segunda_division": "2026-11-06T08:15:05.8257870Z",
-    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
-    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-06T08:15:05.8257870Z"
-  },
-  "bankroll0": 80,
-  "day": "2026-11-06",
-  "rejected": [],
+  "usedToday": 12,
   "log": [
     {
       "at": "2026-10-10T07:55:51Z",
@@ -292,8 +278,19 @@
       ]
     }
   ],
-  "lastAnalysis": "2026-11-06T20:43:19Z",
-  "remaining": 444,
+  "nextBet": 2,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-11-06T08:15:05.8257870Z",
+    "soccer_epl": "2026-10-31T07:48:43.8581644Z",
+    "soccer_efl_champ": "2026-11-04T16:37:19.0356486Z",
+    "soccer_spain_la_liga": "2026-11-01T07:33:59.7014952Z",
+    "soccer_spain_segunda_division": "2026-11-06T08:15:05.8257870Z",
+    "soccer_italy_serie_a": "2026-11-02T07:20:18.9739125Z",
+    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-06T08:15:05.8257870Z"
+  },
   "bets": [
     {
       "n": 1,
@@ -340,6 +337,7 @@
       "status": "perdu"
     }
   ],
+  "bankroll0": 80,
   "events": {
     "9469c1977185a1acd0154cc0a3b93331": {
       "eventId": "9469c1977185a1acd0154cc0a3b93331",
@@ -1500,5 +1498,7 @@
       ]
     }
   },
-  "nextBet": 2
+  "rejected": [],
+  "day": "2026-11-06",
+  "lastAnalysis": "2026-11-06T20:43:19Z"
 }
