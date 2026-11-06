@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-06T16:47:53Z",
+  "generatedAt": "2026-11-06T18:47:36Z",
   "creditsRemaining": 444,
   "creditsUsedToday": 12,
   "dailyBudget": 17,
@@ -16,78 +16,78 @@
   ],
   "leagues": [
     {
-      "key": "soccer_germany_bundesliga2",
-      "name": "2. Bundesliga",
-      "events": 6,
-      "status": "cache",
-      "ageHours": 8.5
-    },
-    {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
-      "events": 9,
-      "status": "cache",
-      "ageHours": 8.5
-    },
-    {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 6,
       "status": "cache",
-      "ageHours": 8.5
+      "ageHours": 10.5
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 7,
       "status": "cache",
-      "ageHours": 8.5
+      "ageHours": 10.5
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 6,
       "status": "cache",
-      "ageHours": 153.0
+      "ageHours": 155.0
     },
     {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 3,
       "status": "cache",
-      "ageHours": 105.5
+      "ageHours": 107.5
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 5,
       "status": "cache",
-      "ageHours": 105.5
+      "ageHours": 107.5
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 5,
       "status": "cache",
-      "ageHours": 153.0
+      "ageHours": 155.0
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 12,
       "status": "cache",
-      "ageHours": 48.2
+      "ageHours": 50.2
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 5,
       "status": "cache",
-      "ageHours": 129.2
+      "ageHours": 131.2
+    },
+    {
+      "key": "soccer_germany_bundesliga2",
+      "name": "2. Bundesliga",
+      "events": 4,
+      "status": "cache",
+      "ageHours": 10.5
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 3,
+      "status": "cache",
+      "ageHours": 10.5
     }
   ],
-  "eventsScanned": 28,
-  "eventsWith1xbet": 26,
+  "eventsScanned": 20,
+  "eventsWith1xbet": 18,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -377,220 +377,13 @@
   },
   "matches": [
     {
-      "eventId": "e30a7a5944c3567964399dbc0f8ba642",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Dynamo Dresden",
-      "away": "Greuther Fürth",
-      "kickoff": "2026-11-06T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.92,
-            3.68,
-            3.6
-          ],
-          "p": [
-            0.4816,
-            0.2538,
-            0.2646
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "2dadc88ea39453a5f2b10fc9a3a30f4b",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Eintracht Braunschweig",
-      "away": "FC Energie Cottbus",
-      "kickoff": "2026-11-06T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.92,
-            3.92,
-            3.4
-          ],
-          "p": [
-            0.4791,
-            0.2382,
-            0.2827
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "1358657f64b8fdae74ac7263bf7b8725",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Montpellier",
-      "away": "Metz",
-      "kickoff": "2026-11-06T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.95,
-            3.35,
-            3.86
-          ],
-          "p": [
-            0.5009,
-            0.2701,
-            0.229
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "12e661a2aa5dc95aa7530fa0d9b1bf5c",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "USL Dunkerque",
-      "away": "Guingamp",
-      "kickoff": "2026-11-06T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.72,
-            3.52,
-            2.36
-          ],
-          "p": [
-            0.3285,
-            0.2706,
-            0.4009
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "d5a74e1730cf9bd8bfe0488e3d064e35",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Grenoble",
-      "away": "Stade de Reims",
-      "kickoff": "2026-11-06T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.71,
-            3.6,
-            1.91
-          ],
-          "p": [
-            0.2408,
-            0.2614,
-            0.4979
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.82,
-            1.92
-          ],
-          "p": [
-            0.4906,
-            0.5094
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "47b7fc7d25003a9083df3789f996281e",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Dijon",
-      "away": "Red Star",
-      "kickoff": "2026-11-06T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.67,
-            3.44,
-            2.44
-          ],
-          "p": [
-            0.3464,
-            0.2752,
-            0.3784
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "658bb2b77031ef93a7ae893145b663b3",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Nancy",
-      "away": "Sochaux",
-      "kickoff": "2026-11-06T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.63,
-            3.78,
-            5.23
-          ],
-          "p": [
-            0.5938,
-            0.2433,
-            0.1629
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.82,
-            1.92
-          ],
-          "p": [
-            0.4987,
-            0.5013
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "57fc8cfc03a9f7081a2d90bbaf77e899",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Boulogne",
-      "away": "Annecy FC",
-      "kickoff": "2026-11-06T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.46,
-            2.98,
-            3.06
-          ],
-          "p": [
-            0.367,
-            0.3393,
-            0.2937
-          ]
-        }
-      ]
+      "eventId": "b8fa8002fb548ec7d8cbe11b7d4b0ba6",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "CD Castellón",
+      "away": "SD Eibar",
+      "kickoff": "2026-11-06T19:30:00Z",
+      "markets": []
     },
     {
       "eventId": "fd02f34a219698f956b133ddb2fc7bdf",
@@ -615,15 +408,6 @@
           ]
         }
       ]
-    },
-    {
-      "eventId": "b8fa8002fb548ec7d8cbe11b7d4b0ba6",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "CD Castellón",
-      "away": "SD Eibar",
-      "kickoff": "2026-11-06T19:30:00Z",
-      "markets": []
     },
     {
       "eventId": "1a2b66dec637d06c15d3902ac9068c1f",
@@ -710,42 +494,6 @@
       ]
     },
     {
-      "eventId": "cdeb381ea8fb554a959115fcd69bd19c",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Clermont",
-      "away": "Rodez AF",
-      "kickoff": "2026-11-07T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.03,
-            3.45,
-            2.22
-          ],
-          "p": [
-            0.2956,
-            0.2766,
-            0.4278
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.73,
-            2.03
-          ],
-          "p": [
-            0.5095,
-            0.4905
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "b68207565e75753877ade56fe96f5cb8",
       "sportKey": "soccer_spain_segunda_division",
       "league": "La Liga 2",
@@ -777,6 +525,42 @@
           "p": [
             0.5215,
             0.4785
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "cdeb381ea8fb554a959115fcd69bd19c",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Clermont",
+      "away": "Rodez AF",
+      "kickoff": "2026-11-07T13:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.03,
+            3.45,
+            2.22
+          ],
+          "p": [
+            0.2956,
+            0.2766,
+            0.4278
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.73,
+            2.03
+          ],
+          "p": [
+            0.5095,
+            0.4905
           ]
         }
       ]
@@ -854,30 +638,6 @@
       ]
     },
     {
-      "eventId": "e13541774f88508392470d829be69587",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Cesena FC",
-      "away": "US Catanzaro 1929",
-      "kickoff": "2026-11-07T14:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.06,
-            3.52,
-            3.33
-          ],
-          "p": [
-            0.4542,
-            0.2729,
-            0.2729
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "fda8738874fa4ae1ba6f50f77386e4d2",
       "sportKey": "soccer_italy_serie_b",
       "league": "Serie B",
@@ -909,6 +669,30 @@
           "p": [
             0.4785,
             0.5215
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "e13541774f88508392470d829be69587",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Cesena FC",
+      "away": "US Catanzaro 1929",
+      "kickoff": "2026-11-07T14:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.06,
+            3.52,
+            3.33
+          ],
+          "p": [
+            0.4542,
+            0.2729,
+            0.2729
           ]
         }
       ]
@@ -974,30 +758,6 @@
       ]
     },
     {
-      "eventId": "b9e2011f8642a0d0dfea4854957e199f",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Córdoba",
-      "away": "AD Ceuta FC",
-      "kickoff": "2026-11-07T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.54,
-            4.69,
-            5.62
-          ],
-          "p": [
-            0.6321,
-            0.1965,
-            0.1714
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "74b73ae67252501f068cac62f02f25bb",
       "sportKey": "soccer_spain_segunda_division",
       "league": "La Liga 2",
@@ -1029,6 +789,30 @@
           "p": [
             0.496,
             0.504
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "b9e2011f8642a0d0dfea4854957e199f",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Córdoba",
+      "away": "AD Ceuta FC",
+      "kickoff": "2026-11-07T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.54,
+            4.69,
+            5.62
+          ],
+          "p": [
+            0.6321,
+            0.1965,
+            0.1714
           ]
         }
       ]
@@ -1070,42 +854,6 @@
       ]
     },
     {
-      "eventId": "cb1988f7950962d316571dd0ed98b540",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Saint Etienne",
-      "away": "Stade Lavallois",
-      "kickoff": "2026-11-07T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.32,
-            5.25,
-            8.15
-          ],
-          "p": [
-            0.7262,
-            0.1713,
-            0.1025
-          ]
-        },
-        {
-          "marketKey": "spreads",
-          "line": "-1.5",
-          "odds1x": [
-            1.9,
-            1.83
-          ],
-          "p": [
-            0.4797,
-            0.5203
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "b34ca990cb7daf96d0a96dc33f609250",
       "sportKey": "soccer_france_ligue_two",
       "league": "Ligue 2",
@@ -1137,6 +885,42 @@
           "p": [
             0.4689,
             0.5311
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "cb1988f7950962d316571dd0ed98b540",
+      "sportKey": "soccer_france_ligue_two",
+      "league": "Ligue 2",
+      "home": "Saint Etienne",
+      "away": "Stade Lavallois",
+      "kickoff": "2026-11-07T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.32,
+            5.25,
+            8.15
+          ],
+          "p": [
+            0.7262,
+            0.1713,
+            0.1025
+          ]
+        },
+        {
+          "marketKey": "spreads",
+          "line": "-1.5",
+          "odds1x": [
+            1.9,
+            1.83
+          ],
+          "p": [
+            0.4797,
+            0.5203
           ]
         }
       ]
