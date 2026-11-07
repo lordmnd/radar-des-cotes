@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-07T18:16:55Z",
+  "generatedAt": "2026-11-07T20:07:08Z",
   "creditsRemaining": 432,
   "creditsUsedToday": 12,
   "dailyBudget": 18,
@@ -16,77 +16,76 @@
   ],
   "leagues": [
     {
+      "key": "soccer_france_ligue_two",
+      "name": "Ligue 2",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 0,
       "status": "hors saison"
     },
     {
-      "key": "soccer_france_ligue_two",
-      "name": "Ligue 2",
-      "events": 2,
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 5,
       "status": "cache",
-      "ageHours": 10.7
+      "ageHours": 132.8
     },
     {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
-      "events": 4,
+      "events": 3,
       "status": "cache",
-      "ageHours": 10.7
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 6,
-      "status": "cache",
-      "ageHours": 130.9
+      "ageHours": 12.5
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
-      "events": 6,
+      "events": 5,
       "status": "cache",
-      "ageHours": 154.7
-    },
-    {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 7,
-      "status": "cache",
-      "ageHours": 130.9
+      "ageHours": 156.6
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 4,
       "status": "cache",
-      "ageHours": 34.0
+      "ageHours": 35.9
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 6,
+      "status": "cache",
+      "ageHours": 132.8
     },
     {
       "key": "soccer_epl",
       "name": "Premier League",
       "events": 5,
       "status": "cache",
-      "ageHours": 10.7
+      "ageHours": 12.5
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 3,
       "status": "cache",
-      "ageHours": 34.0
+      "ageHours": 35.9
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 3,
       "status": "cache",
-      "ageHours": 178.5
+      "ageHours": 180.3
     }
   ],
-  "eventsScanned": 12,
-  "eventsWith1xbet": 11,
+  "eventsScanned": 8,
+  "eventsWith1xbet": 8,
   "valueBets": 1,
   "top": [
     {
@@ -413,99 +412,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "b34ca990cb7daf96d0a96dc33f609250",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Pau FC",
-      "away": "Nantes",
-      "kickoff": "2026-11-07T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.96,
-            3.2,
-            2.38
-          ],
-          "p": [
-            0.316,
-            0.295,
-            0.389
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "cb1988f7950962d316571dd0ed98b540",
-      "sportKey": "soccer_france_ligue_two",
-      "league": "Ligue 2",
-      "home": "Saint Etienne",
-      "away": "Stade Lavallois",
-      "kickoff": "2026-11-07T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.33,
-            5.1,
-            8.15
-          ],
-          "p": [
-            0.7022,
-            0.1847,
-            0.1131
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "e02e046c5d6a79723c46af703304de02",
-      "sportKey": "soccer_germany_bundesliga2",
-      "league": "2. Bundesliga",
-      "home": "Hertha Berlin",
-      "away": "VfL Wolfsburg",
-      "kickoff": "2026-11-07T19:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.13,
-            3.84,
-            2.95
-          ],
-          "p": [
-            0.4417,
-            0.2421,
-            0.3162
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.89,
-            1.85
-          ],
-          "p": [
-            0.4799,
-            0.5201
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "ec36d0af95915a31fefdf2f72bb8adeb",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Granada CF",
-      "away": "Tenerife",
-      "kickoff": "2026-11-07T20:00:00Z",
-      "markets": []
-    },
     {
       "eventId": "7e748a8bdb13a55389b8e51876b9a504",
       "sportKey": "soccer_germany_bundesliga2",
