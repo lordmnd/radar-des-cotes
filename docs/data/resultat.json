@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-07T16:10:18Z",
+  "generatedAt": "2026-11-07T18:16:55Z",
   "creditsRemaining": 432,
   "creditsUsedToday": 12,
   "dailyBudget": 18,
@@ -19,113 +19,76 @@
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 0,
-      "status": "pas de match"
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 7,
-      "status": "cache",
-      "ageHours": 128.8
-    },
-    {
-      "key": "soccer_epl",
-      "name": "Premier League",
-      "events": 6,
-      "status": "cache",
-      "ageHours": 8.6
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 7,
-      "status": "cache",
-      "ageHours": 152.6
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 7,
-      "status": "cache",
-      "ageHours": 31.9
-    },
-    {
-      "key": "soccer_germany_bundesliga",
-      "name": "Bundesliga",
-      "events": 4,
-      "status": "cache",
-      "ageHours": 176.4
-    },
-    {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 8,
-      "status": "cache",
-      "ageHours": 128.8
-    },
-    {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 4,
-      "status": "cache",
-      "ageHours": 31.9
+      "status": "hors saison"
     },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 2,
       "status": "cache",
-      "ageHours": 8.6
+      "ageHours": 10.7
     },
     {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 4,
       "status": "cache",
-      "ageHours": 8.6
+      "ageHours": 10.7
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 6,
+      "status": "cache",
+      "ageHours": 130.9
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 6,
+      "status": "cache",
+      "ageHours": 154.7
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 7,
+      "status": "cache",
+      "ageHours": 130.9
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 4,
+      "status": "cache",
+      "ageHours": 34.0
+    },
+    {
+      "key": "soccer_epl",
+      "name": "Premier League",
+      "events": 5,
+      "status": "cache",
+      "ageHours": 10.7
+    },
+    {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 3,
+      "status": "cache",
+      "ageHours": 34.0
+    },
+    {
+      "key": "soccer_germany_bundesliga",
+      "name": "Bundesliga",
+      "events": 3,
+      "status": "cache",
+      "ageHours": 178.5
     }
   ],
-  "eventsScanned": 16,
-  "eventsWith1xbet": 15,
-  "valueBets": 2,
+  "eventsScanned": 12,
+  "eventsWith1xbet": 11,
+  "valueBets": 1,
   "top": [
-    {
-      "eventId": "59c5f635cfe11613c07e9a5520ced5c1",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Nottingham Forest",
-      "away": "Manchester City",
-      "kickoff": "2026-11-07T17:30:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 1,
-      "pick": "N",
-      "pickName": "Match nul",
-      "names": [
-        "Victoire Nottingham Forest",
-        "Match nul",
-        "Victoire Manchester City"
-      ],
-      "odd": 4.26,
-      "p": 0.2425,
-      "fairOdd": 4.124,
-      "ev": 0.033,
-      "quality": 0.0181,
-      "kelly": 0.0101,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        4.57,
-        4.26,
-        1.78
-      ],
-      "refOdds": [
-        4.8,
-        3.96,
-        1.75
-      ],
-      "margin1x": 0.0154
-    },
     {
       "eventId": "79ed3df594d7b352ef027128b1ba5d0a",
       "sportKey": "soccer_epl",
@@ -450,126 +413,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "59c5f635cfe11613c07e9a5520ced5c1",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Nottingham Forest",
-      "away": "Manchester City",
-      "kickoff": "2026-11-07T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.57,
-            4.26,
-            1.78
-          ],
-          "p": [
-            0.1987,
-            0.2425,
-            0.5589
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "b9e2011f8642a0d0dfea4854957e199f",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Córdoba",
-      "away": "AD Ceuta FC",
-      "kickoff": "2026-11-07T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.54,
-            4.69,
-            5.62
-          ],
-          "p": [
-            0.6321,
-            0.1965,
-            0.1714
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "74b73ae67252501f068cac62f02f25bb",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Leganés",
-      "away": "Albacete",
-      "kickoff": "2026-11-07T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.01,
-            3.67,
-            3.67
-          ],
-          "p": [
-            0.4702,
-            0.2657,
-            0.2641
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.96
-          ],
-          "p": [
-            0.496,
-            0.504
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "ebe8c1e4f71ba1f130a9fafb953425f1",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Benevento",
-      "away": "Avellino",
-      "kickoff": "2026-11-07T18:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.85,
-            3.55,
-            4.04
-          ],
-          "p": [
-            0.5081,
-            0.268,
-            0.2239
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.83,
-            1.91
-          ],
-          "p": [
-            0.4906,
-            0.5094
-          ]
-        }
-      ]
-    },
     {
       "eventId": "b34ca990cb7daf96d0a96dc33f609250",
       "sportKey": "soccer_france_ligue_two",
