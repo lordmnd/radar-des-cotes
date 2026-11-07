@@ -1,4 +1,124 @@
 {
+  "2026-11-07": {
+    "date": "2026-11-07",
+    "updatedAt": "2026-11-07T07:35:18Z",
+    "eventsScanned": 41,
+    "valueBets": 4,
+    "top": [
+      {
+        "eventId": "59c5f635cfe11613c07e9a5520ced5c1",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Nottingham Forest",
+        "away": "Manchester City",
+        "kickoff": "2026-11-07T17:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Nottingham Forest",
+          "Match nul",
+          "Victoire Manchester City"
+        ],
+        "odd": 4.26,
+        "p": 0.2425,
+        "fairOdd": 4.124,
+        "ev": 0.033,
+        "quality": 0.0181,
+        "kelly": 0.0101,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          4.57,
+          4.26,
+          1.78
+        ],
+        "refOdds": [
+          4.8,
+          3.96,
+          1.75
+        ],
+        "margin1x": 0.0154
+      },
+      {
+        "eventId": "5c87852253fd11eea5d34ad723356607",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Leeds United",
+        "away": "Tottenham Hotspur",
+        "kickoff": "2026-11-07T12:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Leeds United",
+          "Match nul",
+          "Victoire Tottenham Hotspur"
+        ],
+        "odd": 3.63,
+        "p": 0.2837,
+        "fairOdd": 3.525,
+        "ev": 0.0297,
+        "quality": 0.0181,
+        "kelly": 0.0113,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.74,
+          3.63,
+          2.66
+        ],
+        "refOdds": [
+          2.72,
+          3.41,
+          2.71
+        ],
+        "margin1x": 0.0164
+      },
+      {
+        "eventId": "3903e98a54db0f2cc23095407fe9dad8",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Fulham",
+        "away": "Newcastle United",
+        "kickoff": "2026-11-07T15:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Fulham",
+          "Match nul",
+          "Victoire Newcastle United"
+        ],
+        "odd": 3.9,
+        "p": 0.2641,
+        "fairOdd": 3.786,
+        "ev": 0.0301,
+        "quality": 0.0175,
+        "kelly": 0.0104,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.09,
+          3.9,
+          3.58
+        ],
+        "refOdds": [
+          2.06,
+          3.65,
+          3.68
+        ],
+        "margin1x": 0.0142
+      }
+    ],
+    "combo": null
+  },
   "2026-11-06": {
     "date": "2026-11-06",
     "updatedAt": "2026-11-06T20:43:19Z",
