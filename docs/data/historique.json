@@ -1,9 +1,9 @@
 {
   "2026-11-07": {
     "date": "2026-11-07",
-    "updatedAt": "2026-11-07T13:47:24Z",
-    "eventsScanned": 28,
-    "valueBets": 3,
+    "updatedAt": "2026-11-07T16:10:18Z",
+    "eventsScanned": 16,
+    "valueBets": 2,
     "top": [
       {
         "eventId": "59c5f635cfe11613c07e9a5520ced5c1",
@@ -41,43 +41,6 @@
           1.75
         ],
         "margin1x": 0.0154
-      },
-      {
-        "eventId": "3903e98a54db0f2cc23095407fe9dad8",
-        "sportKey": "soccer_epl",
-        "league": "Premier League",
-        "home": "Fulham",
-        "away": "Newcastle United",
-        "kickoff": "2026-11-07T15:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
-        "names": [
-          "Victoire Fulham",
-          "Match nul",
-          "Victoire Newcastle United"
-        ],
-        "odd": 3.9,
-        "p": 0.2641,
-        "fairOdd": 3.786,
-        "ev": 0.0301,
-        "quality": 0.0175,
-        "kelly": 0.0104,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.09,
-          3.9,
-          3.58
-        ],
-        "refOdds": [
-          2.06,
-          3.65,
-          3.68
-        ],
-        "margin1x": 0.0142
       },
       {
         "eventId": "79ed3df594d7b352ef027128b1ba5d0a",
