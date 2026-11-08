@@ -1,48 +1,10 @@
 {
   "2026-11-08": {
     "date": "2026-11-08",
-    "updatedAt": "2026-11-08T19:18:04Z",
-    "eventsScanned": 3,
-    "valueBets": 1,
-    "top": [
-      {
-        "eventId": "dd247b356d8fc53e4b4f9bfcfe09c924",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Atlético Madrid",
-        "away": "Barcelona",
-        "kickoff": "2026-11-08T20:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Atlético Madrid",
-        "names": [
-          "Victoire Atlético Madrid",
-          "Match nul",
-          "Victoire Barcelona"
-        ],
-        "odd": 3.38,
-        "p": 0.3064,
-        "fairOdd": 3.264,
-        "ev": 0.0355,
-        "quality": 0.0228,
-        "kelly": 0.0149,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.38,
-          4.31,
-          2.05
-        ],
-        "refOdds": [
-          3.16,
-          4.28,
-          2.08
-        ],
-        "margin1x": 0.0157
-      }
-    ],
+    "updatedAt": "2026-11-08T21:33:03Z",
+    "eventsScanned": 1,
+    "valueBets": 0,
+    "top": [],
     "combo": null
   },
   "2026-11-07": {

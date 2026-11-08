@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-08T19:18:04Z",
+  "generatedAt": "2026-11-08T21:33:03Z",
   "creditsRemaining": 420,
   "creditsUsedToday": 12,
   "dailyBudget": 18,
@@ -15,6 +15,12 @@
     "Handicap asiatique"
   ],
   "leagues": [
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 0,
+      "status": "pas de match"
+    },
     {
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
@@ -34,10 +40,22 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "name": "Serie A",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 0,
-      "status": "pas de match"
+      "status": "hors saison"
     },
     {
       "key": "soccer_germany_bundesliga",
@@ -52,76 +70,17 @@
       "status": "hors saison"
     },
     {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 156.0
-    },
-    {
-      "key": "soccer_italy_serie_a",
-      "name": "Serie A",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 11.4
-    },
-    {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 11.4
-    },
-    {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 1,
       "status": "cache",
-      "ageHours": 11.4
+      "ageHours": 13.6
     }
   ],
-  "eventsScanned": 3,
-  "eventsWith1xbet": 3,
-  "valueBets": 1,
-  "top": [
-    {
-      "eventId": "dd247b356d8fc53e4b4f9bfcfe09c924",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Atlético Madrid",
-      "away": "Barcelona",
-      "kickoff": "2026-11-08T20:00:00Z",
-      "market": "1N2",
-      "marketKey": "h2h",
-      "line": "",
-      "idx": 0,
-      "pick": "1",
-      "pickName": "Victoire Atlético Madrid",
-      "names": [
-        "Victoire Atlético Madrid",
-        "Match nul",
-        "Victoire Barcelona"
-      ],
-      "odd": 3.38,
-      "p": 0.3064,
-      "fairOdd": 3.264,
-      "ev": 0.0355,
-      "quality": 0.0228,
-      "kelly": 0.0149,
-      "refSource": "Pinnacle",
-      "odds1x": [
-        3.38,
-        4.31,
-        2.05
-      ],
-      "refOdds": [
-        3.16,
-        4.28,
-        2.08
-      ],
-      "margin1x": 0.0157
-    }
-  ],
+  "eventsScanned": 1,
+  "eventsWith1xbet": 1,
+  "valueBets": 0,
+  "top": [],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -408,78 +367,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "7f50eb7deaebfbcd45c3f4e7cd3724e4",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Fiorentina",
-      "away": "Juventus",
-      "kickoff": "2026-11-08T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.6,
-            3.65,
-            2.15
-          ],
-          "p": [
-            0.2783,
-            0.2783,
-            0.4434
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.86,
-            2.1
-          ],
-          "p": [
-            0.516,
-            0.484
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "dd247b356d8fc53e4b4f9bfcfe09c924",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Atlético Madrid",
-      "away": "Barcelona",
-      "kickoff": "2026-11-08T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.38,
-            4.31,
-            2.05
-          ],
-          "p": [
-            0.3064,
-            0.2242,
-            0.4694
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "3.5",
-          "odds1x": [
-            1.89,
-            2.06
-          ],
-          "p": [
-            0.5199,
-            0.4801
-          ]
-        }
-      ]
-    },
     {
       "eventId": "f52b83a74c511828f6155889d751d191",
       "sportKey": "soccer_spain_segunda_division",
