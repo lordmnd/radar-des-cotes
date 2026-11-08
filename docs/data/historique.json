@@ -1,4 +1,124 @@
 {
+  "2026-11-08": {
+    "date": "2026-11-08",
+    "updatedAt": "2026-11-08T07:56:49Z",
+    "eventsScanned": 23,
+    "valueBets": 3,
+    "top": [
+      {
+        "eventId": "c35673eb1e889309d6985c091a43a3f5",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Elche CF",
+        "away": "Real Betis",
+        "kickoff": "2026-11-08T13:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Real Betis",
+        "names": [
+          "Victoire Elche CF",
+          "Match nul",
+          "Victoire Real Betis"
+        ],
+        "odd": 2.12,
+        "p": 0.4983,
+        "fairOdd": 2.007,
+        "ev": 0.0565,
+        "quality": 0.0533,
+        "kelly": 0.0504,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.56,
+          3.82,
+          2.12
+        ],
+        "refOdds": [
+          3.82,
+          3.85,
+          1.96
+        ],
+        "margin1x": 0.0144
+      },
+      {
+        "eventId": "dd247b356d8fc53e4b4f9bfcfe09c924",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Atlético Madrid",
+        "away": "Barcelona",
+        "kickoff": "2026-11-08T20:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Atlético Madrid",
+        "names": [
+          "Victoire Atlético Madrid",
+          "Match nul",
+          "Victoire Barcelona"
+        ],
+        "odd": 3.38,
+        "p": 0.3064,
+        "fairOdd": 3.264,
+        "ev": 0.0355,
+        "quality": 0.0228,
+        "kelly": 0.0149,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.38,
+          4.31,
+          2.05
+        ],
+        "refOdds": [
+          3.16,
+          4.28,
+          2.08
+        ],
+        "margin1x": 0.0157
+      },
+      {
+        "eventId": "79ed3df594d7b352ef027128b1ba5d0a",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Ipswich Town",
+        "away": "Bournemouth",
+        "kickoff": "2026-11-08T14:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Ipswich Town",
+          "Match nul",
+          "Victoire Bournemouth"
+        ],
+        "odd": 3.96,
+        "p": 0.2579,
+        "fairOdd": 3.877,
+        "ev": 0.0214,
+        "quality": 0.0124,
+        "kelly": 0.0072,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.9,
+          3.96,
+          1.97
+        ],
+        "refOdds": [
+          4.09,
+          3.74,
+          1.93
+        ],
+        "margin1x": 0.0165
+      }
+    ],
+    "combo": null
+  },
   "2026-11-07": {
     "date": "2026-11-07",
     "updatedAt": "2026-11-07T20:07:08Z",
