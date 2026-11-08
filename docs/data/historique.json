@@ -1,9 +1,9 @@
 {
   "2026-11-08": {
     "date": "2026-11-08",
-    "updatedAt": "2026-11-08T12:46:04Z",
-    "eventsScanned": 17,
-    "valueBets": 2,
+    "updatedAt": "2026-11-08T14:36:42Z",
+    "eventsScanned": 11,
+    "valueBets": 1,
     "top": [
       {
         "eventId": "dd247b356d8fc53e4b4f9bfcfe09c924",
@@ -41,43 +41,6 @@
           2.08
         ],
         "margin1x": 0.0157
-      },
-      {
-        "eventId": "79ed3df594d7b352ef027128b1ba5d0a",
-        "sportKey": "soccer_epl",
-        "league": "Premier League",
-        "home": "Ipswich Town",
-        "away": "Bournemouth",
-        "kickoff": "2026-11-08T14:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
-        "names": [
-          "Victoire Ipswich Town",
-          "Match nul",
-          "Victoire Bournemouth"
-        ],
-        "odd": 3.96,
-        "p": 0.2579,
-        "fairOdd": 3.877,
-        "ev": 0.0214,
-        "quality": 0.0124,
-        "kelly": 0.0072,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.9,
-          3.96,
-          1.97
-        ],
-        "refOdds": [
-          4.09,
-          3.74,
-          1.93
-        ],
-        "margin1x": 0.0165
       }
     ],
     "combo": null
