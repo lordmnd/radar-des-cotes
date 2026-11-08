@@ -1,47 +1,10 @@
 {
   "2026-11-08": {
     "date": "2026-11-08",
-    "updatedAt": "2026-11-08T10:25:35Z",
-    "eventsScanned": 23,
-    "valueBets": 3,
+    "updatedAt": "2026-11-08T12:46:04Z",
+    "eventsScanned": 17,
+    "valueBets": 2,
     "top": [
-      {
-        "eventId": "c35673eb1e889309d6985c091a43a3f5",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Elche CF",
-        "away": "Real Betis",
-        "kickoff": "2026-11-08T13:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Real Betis",
-        "names": [
-          "Victoire Elche CF",
-          "Match nul",
-          "Victoire Real Betis"
-        ],
-        "odd": 2.12,
-        "p": 0.4983,
-        "fairOdd": 2.007,
-        "ev": 0.0565,
-        "quality": 0.0533,
-        "kelly": 0.0504,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.56,
-          3.82,
-          2.12
-        ],
-        "refOdds": [
-          3.82,
-          3.85,
-          1.96
-        ],
-        "margin1x": 0.0144
-      },
       {
         "eventId": "dd247b356d8fc53e4b4f9bfcfe09c924",
         "sportKey": "soccer_spain_la_liga",
