@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-08T16:52:42Z",
+  "generatedAt": "2026-11-08T19:18:04Z",
   "creditsRemaining": 420,
   "creditsUsedToday": 12,
   "dailyBudget": 18,
@@ -34,56 +34,54 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
+      "key": "soccer_germany_bundesliga",
+      "name": "Bundesliga",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 0,
       "status": "hors saison"
     },
     {
-      "key": "soccer_spain_la_liga",
-      "name": "La Liga",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 8.9
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 3,
-      "status": "cache",
-      "ageHours": 8.9
-    },
-    {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 56.6
-    },
-    {
-      "key": "soccer_germany_bundesliga",
-      "name": "Bundesliga",
-      "events": 1,
-      "status": "cache",
-      "ageHours": 201.1
-    },
-    {
       "key": "soccer_france_ligue_one",
       "name": "Ligue 1",
       "events": 1,
       "status": "cache",
-      "ageHours": 153.5
+      "ageHours": 156.0
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 1,
       "status": "cache",
-      "ageHours": 8.9
+      "ageHours": 11.4
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "name": "La Liga",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 11.4
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 11.4
     }
   ],
-  "eventsScanned": 7,
-  "eventsWith1xbet": 7,
+  "eventsScanned": 3,
+  "eventsWith1xbet": 3,
   "valueBets": 1,
   "top": [
     {
@@ -410,126 +408,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "0d2e199bfba0db42871696c10037bad3",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Celta Vigo",
-      "away": "Levante",
-      "kickoff": "2026-11-08T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.9,
-            3.71,
-            4.57
-          ],
-          "p": [
-            0.5368,
-            0.2635,
-            0.1997
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.99,
-            1.95
-          ],
-          "p": [
-            0.4801,
-            0.5199
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "81ad04996f63fb60b494d243b13ac586",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Villarreal",
-      "away": "Getafe",
-      "kickoff": "2026-11-08T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.53,
-            4.57,
-            6.98
-          ],
-          "p": [
-            0.6487,
-            0.2157,
-            0.1356
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            2.07
-          ],
-          "p": [
-            0.5225,
-            0.4775
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "0377ed072a93f8b77593c0f001fda9ec",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Las Palmas",
-      "away": "CD Eldense",
-      "kickoff": "2026-11-08T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.09,
-            3.55,
-            3.56
-          ],
-          "p": [
-            0.4649,
-            0.2775,
-            0.2577
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "76611e81a480e9f83b04f21c1cad402d",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Sporting Gijón",
-      "away": "Real Valladolid CF",
-      "kickoff": "2026-11-08T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.53,
-            3.17,
-            3.01
-          ],
-          "p": [
-            0.3804,
-            0.3078,
-            0.3118
-          ]
-        }
-      ]
-    },
     {
       "eventId": "7f50eb7deaebfbcd45c3f4e7cd3724e4",
       "sportKey": "soccer_italy_serie_a",
