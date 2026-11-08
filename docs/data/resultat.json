@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-08T14:36:42Z",
+  "generatedAt": "2026-11-08T16:52:42Z",
   "creditsRemaining": 420,
   "creditsUsedToday": 12,
   "dailyBudget": 18,
@@ -22,6 +22,12 @@
       "status": "hors saison"
     },
     {
+      "key": "soccer_epl",
+      "name": "Premier League",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_efl_champ",
       "name": "Championship",
       "events": 0,
@@ -31,60 +37,53 @@
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 0,
-      "status": "pas de match"
+      "status": "hors saison"
     },
     {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
-      "events": 4,
+      "events": 3,
       "status": "cache",
-      "ageHours": 6.7
+      "ageHours": 8.9
     },
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 4,
+      "events": 3,
       "status": "cache",
-      "ageHours": 6.7
-    },
-    {
-      "key": "soccer_france_ligue_one",
-      "name": "Ligue 1",
-      "events": 5,
-      "status": "cache",
-      "ageHours": 151.3
+      "ageHours": 8.9
     },
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
-      "events": 2,
-      "status": "cache",
-      "ageHours": 54.4
-    },
-    {
-      "key": "soccer_epl",
-      "name": "Premier League",
       "events": 1,
       "status": "cache",
-      "ageHours": 31.0
+      "ageHours": 56.6
     },
     {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
-      "events": 2,
+      "events": 1,
       "status": "cache",
-      "ageHours": 198.8
+      "ageHours": 201.1
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "name": "Ligue 1",
+      "events": 1,
+      "status": "cache",
+      "ageHours": 153.5
     },
     {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
-      "events": 2,
+      "events": 1,
       "status": "cache",
-      "ageHours": 6.7
+      "ageHours": 8.9
     }
   ],
-  "eventsScanned": 11,
-  "eventsWith1xbet": 11,
+  "eventsScanned": 7,
+  "eventsWith1xbet": 7,
   "valueBets": 1,
   "top": [
     {
@@ -411,102 +410,6 @@
     "clvLegs": 10
   },
   "matches": [
-    {
-      "eventId": "339a6465fa5153fd8f31e487cf557cf0",
-      "sportKey": "soccer_spain_la_liga",
-      "league": "La Liga",
-      "home": "Real Sociedad",
-      "away": "Rayo Vallecano",
-      "kickoff": "2026-11-08T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.8,
-            4.21,
-            4.51
-          ],
-          "p": [
-            0.5454,
-            0.2351,
-            0.2194
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "d30d1bf02fe13e8aade539b76289bdc3",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Girona FC",
-      "away": "Almería",
-      "kickoff": "2026-11-08T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.04,
-            3.71,
-            3.53
-          ],
-          "p": [
-            0.4783,
-            0.2579,
-            0.2638
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "b0a4b5448a7e02d9ad1eaa817599fff0",
-      "sportKey": "soccer_epl",
-      "league": "Premier League",
-      "home": "Manchester United",
-      "away": "Aston Villa",
-      "kickoff": "2026-11-08T16:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.23,
-            3.94,
-            3.19
-          ],
-          "p": [
-            0.4541,
-            0.2489,
-            0.2969
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "657fd1ac35832f65fcc6feba93970e10",
-      "sportKey": "soccer_italy_serie_a",
-      "league": "Serie A",
-      "home": "Inter Milan",
-      "away": "Como",
-      "kickoff": "2026-11-08T17:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.06,
-            4.0,
-            3.56
-          ],
-          "p": [
-            0.4761,
-            0.2433,
-            0.2806
-          ]
-        }
-      ]
-    },
     {
       "eventId": "0d2e199bfba0db42871696c10037bad3",
       "sportKey": "soccer_spain_la_liga",
