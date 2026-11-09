@@ -1,4 +1,12 @@
 {
+  "2026-11-09": {
+    "date": "2026-11-09",
+    "updatedAt": "2026-11-09T08:04:21Z",
+    "eventsScanned": 1,
+    "valueBets": 0,
+    "top": [],
+    "combo": null
+  },
   "2026-11-08": {
     "date": "2026-11-08",
     "updatedAt": "2026-11-08T21:33:03Z",
@@ -1009,52 +1017,6 @@
     "eventsScanned": 4,
     "valueBets": 0,
     "top": [],
-    "combo": null
-  },
-  "2026-10-10": {
-    "date": "2026-10-10",
-    "updatedAt": "2026-10-10T19:15:35Z",
-    "eventsScanned": 14,
-    "valueBets": 1,
-    "top": [
-      {
-        "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
-        "sportKey": "soccer_france_ligue_one",
-        "league": "Ligue 1",
-        "home": "Nice",
-        "away": "Strasbourg",
-        "kickoff": "2026-10-11T13:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Strasbourg",
-        "names": [
-          "Victoire Nice",
-          "Match nul",
-          "Victoire Strasbourg"
-        ],
-        "odd": 3.07,
-        "p": 0.3328,
-        "fairOdd": 3.005,
-        "ev": 0.0216,
-        "quality": 0.0149,
-        "kelly": 0.0104,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.36,
-          3.75,
-          3.07
-        ],
-        "refOdds": [
-          2.38,
-          3.72,
-          2.91
-        ],
-        "margin1x": 0.0161
-      }
-    ],
     "combo": null
   }
 }

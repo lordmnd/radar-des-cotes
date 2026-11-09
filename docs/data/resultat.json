@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-08T21:33:03Z",
-  "creditsRemaining": 420,
-  "creditsUsedToday": 12,
-  "dailyBudget": 18,
+  "generatedAt": "2026-11-09T08:04:21Z",
+  "creditsRemaining": 417,
+  "creditsUsedToday": 3,
+  "dailyBudget": 19,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -73,8 +73,8 @@
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 1,
-      "status": "cache",
-      "ageHours": 13.6
+      "status": "à jour",
+      "ageHours": 0.0
     }
   ],
   "eventsScanned": 1,
@@ -303,68 +303,17 @@
       ],
       "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
       "status": "perdu"
-    },
-    {
-      "at": "2026-10-10T07:55:51Z",
-      "totalOdds": 4.574,
-      "prob": 0.2303,
-      "ev": 0.0535,
-      "target": 3.5,
-      "legs": [
-        {
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "pick": "1",
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "kickoff": "2026-10-10T13:30:00Z",
-          "sportKey": "soccer_germany_bundesliga",
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 0,
-          "closeFairOdd": 1.445,
-          "closeOdd1x": 1.49,
-          "closeSeenAt": "2026-10-10T11:20:05Z",
-          "score": "2-3",
-          "result": "perdu"
-        },
-        {
-          "league": "Ligue 1",
-          "home": "Nice",
-          "away": "Strasbourg",
-          "pick": "2",
-          "pickName": "Victoire Strasbourg",
-          "odd": 3.07,
-          "kickoff": "2026-10-11T13:00:00Z",
-          "sportKey": "soccer_france_ligue_one",
-          "eventId": "5d3606630a2d3a218a6340d082c1bdc6",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 2,
-          "closeFairOdd": 3.005,
-          "closeOdd1x": 3.07,
-          "closeSeenAt": "2026-10-11T12:21:23Z",
-          "score": "2-1",
-          "result": "perdu"
-        }
-      ],
-      "signature": "5d3606630a2d3a218a6340d082c1bdc6|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
-      "status": "perdu"
     }
   ],
   "stats": {
-    "notified": 5,
-    "settled": 5,
+    "notified": 4,
+    "settled": 4,
     "won": 1,
-    "lost": 4,
-    "profitUnits": -1.848,
-    "roi": -0.3696,
-    "avgClv": 0.0346,
-    "clvLegs": 10
+    "lost": 3,
+    "profitUnits": -0.848,
+    "roi": -0.212,
+    "avgClv": 0.0367,
+    "clvLegs": 8
   },
   "matches": [
     {
@@ -379,14 +328,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.71,
-            3.84,
-            5.05
+            1.76,
+            3.69,
+            4.9
           ],
           "p": [
-            0.5682,
-            0.252,
-            0.1798
+            0.5491,
+            0.2599,
+            0.191
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            2.01,
+            1.84
+          ],
+          "p": [
+            0.471,
+            0.529
           ]
         }
       ]
