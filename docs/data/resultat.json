@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-09T08:04:21Z",
+  "generatedAt": "2026-11-09T19:58:57Z",
   "creditsRemaining": 417,
   "creditsUsedToday": 3,
-  "dailyBudget": 19,
+  "dailyBudget": 18,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -25,7 +25,7 @@
       "key": "soccer_france_ligue_two",
       "name": "Ligue 2",
       "events": 0,
-      "status": "hors saison"
+      "status": "pas de match"
     },
     {
       "key": "soccer_epl",
@@ -46,6 +46,12 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_spain_segunda_division",
+      "name": "La Liga 2",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_italy_serie_a",
       "name": "Serie A",
       "events": 0,
@@ -55,7 +61,7 @@
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
       "events": 0,
-      "status": "hors saison"
+      "status": "pas de match"
     },
     {
       "key": "soccer_germany_bundesliga",
@@ -67,18 +73,11 @@
       "key": "soccer_germany_bundesliga2",
       "name": "2. Bundesliga",
       "events": 0,
-      "status": "hors saison"
-    },
-    {
-      "key": "soccer_spain_segunda_division",
-      "name": "La Liga 2",
-      "events": 1,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "pas de match"
     }
   ],
-  "eventsScanned": 1,
-  "eventsWith1xbet": 1,
+  "eventsScanned": 0,
+  "eventsWith1xbet": 0,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -252,106 +251,18 @@
           "result": "perdu"
         }
       ]
-    },
-    {
-      "at": "2026-10-10T08:15:55Z",
-      "totalOdds": 3.278,
-      "prob": 0.3224,
-      "ev": 0.0568,
-      "target": 2.5,
-      "legs": [
-        {
-          "league": "Bundesliga",
-          "home": "TSG Hoffenheim",
-          "away": "Hamburger SV",
-          "pick": "1",
-          "pickName": "Victoire TSG Hoffenheim",
-          "odd": 1.49,
-          "kickoff": "2026-10-10T13:30:00Z",
-          "sportKey": "soccer_germany_bundesliga",
-          "eventId": "f03c08c0ae5fd66c2d2df2053115bb94",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 0,
-          "closeFairOdd": 1.445,
-          "closeOdd1x": 1.49,
-          "closeSeenAt": "2026-10-10T11:20:05Z",
-          "score": "2-3",
-          "result": "perdu"
-        },
-        {
-          "league": "Ligue 1",
-          "home": "Lorient",
-          "away": "Paris FC",
-          "pick": "2",
-          "pickName": "Victoire Paris FC",
-          "odd": 2.2,
-          "kickoff": "2026-10-10T18:45:00Z",
-          "sportKey": "soccer_france_ligue_one",
-          "eventId": "3aa72885e0aa107c62843749f7930a9a",
-          "marketKey": "h2h",
-          "line": "",
-          "market": "1N2",
-          "idx": 2,
-          "closeFairOdd": 2.146,
-          "closeOdd1x": 2.2,
-          "closeSeenAt": "2026-10-10T17:15:02Z",
-          "score": "1-0",
-          "result": "perdu"
-        }
-      ],
-      "signature": "3aa72885e0aa107c62843749f7930a9a|h2h||2~f03c08c0ae5fd66c2d2df2053115bb94|h2h||0",
-      "status": "perdu"
     }
   ],
   "stats": {
-    "notified": 4,
-    "settled": 4,
+    "notified": 3,
+    "settled": 3,
     "won": 1,
-    "lost": 3,
-    "profitUnits": -0.848,
-    "roi": -0.212,
-    "avgClv": 0.0367,
-    "clvLegs": 8
+    "lost": 2,
+    "profitUnits": 0.152,
+    "roi": 0.0507,
+    "avgClv": 0.0395,
+    "clvLegs": 6
   },
-  "matches": [
-    {
-      "eventId": "f52b83a74c511828f6155889d751d191",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Sabadell FC",
-      "away": "Real Sociedad B",
-      "kickoff": "2026-11-09T19:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.76,
-            3.69,
-            4.9
-          ],
-          "p": [
-            0.5491,
-            0.2599,
-            0.191
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            2.01,
-            1.84
-          ],
-          "p": [
-            0.471,
-            0.529
-          ]
-        }
-      ]
-    }
-  ],
+  "matches": [],
   "botUsername": "MyownfuturBot"
 }
