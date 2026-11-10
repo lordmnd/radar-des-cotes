@@ -1,10 +1,18 @@
 {
-  "day": "2026-11-10",
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
+  "rejected": [],
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
+    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
+    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
+    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
+    "soccer_spain_segunda_division": "2026-11-09T08:04:21.7240641Z",
+    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
+    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
   },
+  "usedToday": 0,
   "events": {
     "e30a7a5944c3567964399dbc0f8ba642": {
       "eventId": "e30a7a5944c3567964399dbc0f8ba642",
@@ -1834,8 +1842,12 @@
       ]
     }
   },
-  "bankroll0": 80,
-  "lastAnalysis": "2026-11-09T19:58:57Z",
+  "nextBet": 2,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "log": [
     {
       "at": "2026-10-24T06:30:50Z",
@@ -2006,18 +2018,6 @@
       ]
     }
   ],
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
-    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
-    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
-    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
-    "soccer_spain_segunda_division": "2026-11-09T08:04:21.7240641Z",
-    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
-    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
-  },
   "bets": [
     {
       "n": 1,
@@ -2064,8 +2064,8 @@
       "status": "perdu"
     }
   ],
-  "usedToday": 0,
-  "rejected": [],
+  "day": "2026-11-10",
+  "lastAnalysis": "2026-11-10T10:28:27Z",
   "remaining": 417,
-  "nextBet": 2
+  "bankroll0": 80
 }
