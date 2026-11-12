@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-12T08:08:58Z",
-  "creditsRemaining": 414,
-  "creditsUsedToday": 3,
+  "generatedAt": "2026-11-12T16:50:55Z",
+  "creditsRemaining": 411,
+  "creditsUsedToday": 6,
   "dailyBudget": 21,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -282,9 +282,9 @@
             3.32
           ],
           "p": [
-            0.4126,
+            0.4108,
             0.3012,
-            0.2861
+            0.2879
           ]
         }
       ]
