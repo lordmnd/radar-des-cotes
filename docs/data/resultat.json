@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-13T10:49:05Z",
+  "generatedAt": "2026-11-13T18:27:57Z",
   "creditsRemaining": 408,
   "creditsUsedToday": 3,
   "dailyBudget": 22,
@@ -73,8 +73,8 @@
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
       "events": 6,
-      "status": "à jour",
-      "ageHours": 0.0
+      "status": "cache",
+      "ageHours": 7.6
     }
   ],
   "eventsScanned": 6,
