@@ -1,12 +1,13 @@
 {
-  "nextBet": 2,
-  "rejected": [],
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "lastAnalysis": "2026-11-12T16:50:55Z",
+  "bankroll0": 80,
+  "day": "2026-11-13",
+  "rejected": [],
+  "nextBet": 2,
   "log": [
     {
       "at": "2026-10-24T06:30:50Z",
@@ -177,20 +178,6 @@
       ]
     }
   ],
-  "usedToday": 6,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
-    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
-    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
-    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
-    "soccer_spain_segunda_division": "2026-11-12T16:50:55.6304024Z",
-    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
-    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
-  },
-  "remaining": 411,
   "bets": [
     {
       "n": 1,
@@ -237,6 +224,9 @@
       "status": "perdu"
     }
   ],
+  "remaining": 411,
+  "usedToday": 0,
+  "lastAnalysis": "2026-11-12T16:50:55Z",
   "events": {
     "f52b83a74c511828f6155889d751d191": {
       "eventId": "f52b83a74c511828f6155889d751d191",
@@ -299,6 +289,16 @@
       ]
     }
   },
-  "bankroll0": 80,
-  "day": "2026-11-12"
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
+    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
+    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
+    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
+    "soccer_spain_segunda_division": "2026-11-12T16:50:55.6304024Z",
+    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
+    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
+  }
 }
