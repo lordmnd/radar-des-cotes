@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-12T16:50:55Z",
-  "creditsRemaining": 411,
-  "creditsUsedToday": 6,
-  "dailyBudget": 21,
+  "generatedAt": "2026-11-13T10:49:05Z",
+  "creditsRemaining": 408,
+  "creditsUsedToday": 3,
+  "dailyBudget": 22,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -72,15 +72,53 @@
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 1,
+      "events": 6,
       "status": "à jour",
       "ageHours": 0.0
     }
   ],
-  "eventsScanned": 1,
-  "eventsWith1xbet": 1,
-  "valueBets": 0,
-  "top": [],
+  "eventsScanned": 6,
+  "eventsWith1xbet": 6,
+  "valueBets": 1,
+  "top": [
+    {
+      "eventId": "d5b0e0c0934f6a58410410bd573a5065",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Real Sociedad B",
+      "away": "Sporting Gijón",
+      "kickoff": "2026-11-14T15:15:00Z",
+      "market": "1N2",
+      "marketKey": "h2h",
+      "line": "",
+      "idx": 1,
+      "pick": "N",
+      "pickName": "Match nul",
+      "names": [
+        "Victoire Real Sociedad B",
+        "Match nul",
+        "Victoire Sporting Gijón"
+      ],
+      "odd": 3.34,
+      "p": 0.3107,
+      "fairOdd": 3.219,
+      "ev": 0.0376,
+      "quality": 0.0244,
+      "kelly": 0.0161,
+      "refSource": "Pinnacle",
+      "odds1x": [
+        2.5,
+        3.34,
+        2.93
+      ],
+      "refOdds": [
+        2.57,
+        3.07,
+        3.02
+      ],
+      "margin1x": 0.0407
+    }
+  ],
   "combo": null,
   "comboNote": "",
   "notify": false,
@@ -277,14 +315,158 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.3,
-            3.26,
-            3.32
+            2.4,
+            3.23,
+            3.18
           ],
           "p": [
-            0.4108,
-            0.3012,
-            0.2879
+            0.3924,
+            0.3033,
+            0.3043
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "908247d5d5cd714de37956edf865668b",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Real Valladolid CF",
+      "away": "CD Castellón",
+      "kickoff": "2026-11-14T13:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            3.0,
+            3.73,
+            2.27
+          ],
+          "p": [
+            0.3292,
+            0.2527,
+            0.4181
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "d5b0e0c0934f6a58410410bd573a5065",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Real Sociedad B",
+      "away": "Sporting Gijón",
+      "kickoff": "2026-11-14T15:15:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.5,
+            3.34,
+            2.93
+          ],
+          "p": [
+            0.3733,
+            0.3107,
+            0.316
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.92,
+            1.92
+          ],
+          "p": [
+            0.4785,
+            0.5215
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "570ec7734e1f7d9e813ab0013291f5f5",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Almería",
+      "away": "Andorra CF",
+      "kickoff": "2026-11-14T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.62,
+            4.44,
+            5.0
+          ],
+          "p": [
+            0.5926,
+            0.2165,
+            0.1909
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "6bc4aff371a2a5eaf38c73700a5c14d4",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Mallorca",
+      "away": "Córdoba",
+      "kickoff": "2026-11-14T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.91,
+            4.04,
+            3.69
+          ],
+          "p": [
+            0.505,
+            0.241,
+            0.254
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "beaf0bb6252d3b1d42a720aa385e9414",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Oviedo",
+      "away": "Girona FC",
+      "kickoff": "2026-11-14T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.36,
+            3.4,
+            3.08
+          ],
+          "p": [
+            0.3916,
+            0.2886,
+            0.3198
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.93,
+            1.91
+          ],
+          "p": [
+            0.4758,
+            0.5242
           ]
         }
       ]

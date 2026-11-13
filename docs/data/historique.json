@@ -1,4 +1,50 @@
 {
+  "2026-11-13": {
+    "date": "2026-11-13",
+    "updatedAt": "2026-11-13T10:49:05Z",
+    "eventsScanned": 6,
+    "valueBets": 1,
+    "top": [
+      {
+        "eventId": "d5b0e0c0934f6a58410410bd573a5065",
+        "sportKey": "soccer_spain_segunda_division",
+        "league": "La Liga 2",
+        "home": "Real Sociedad B",
+        "away": "Sporting Gijón",
+        "kickoff": "2026-11-14T15:15:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Real Sociedad B",
+          "Match nul",
+          "Victoire Sporting Gijón"
+        ],
+        "odd": 3.34,
+        "p": 0.3107,
+        "fairOdd": 3.219,
+        "ev": 0.0376,
+        "quality": 0.0244,
+        "kelly": 0.0161,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.5,
+          3.34,
+          2.93
+        ],
+        "refOdds": [
+          2.57,
+          3.07,
+          3.02
+        ],
+        "margin1x": 0.0407
+      }
+    ],
+    "combo": null
+  },
   "2026-11-12": {
     "date": "2026-11-12",
     "updatedAt": "2026-11-12T16:50:55Z",
@@ -1009,14 +1055,6 @@
         "margin1x": 0.016
       }
     ],
-    "combo": null
-  },
-  "2026-10-14": {
-    "date": "2026-10-14",
-    "updatedAt": "2026-10-14T19:18:25Z",
-    "eventsScanned": 0,
-    "valueBets": 0,
-    "top": [],
     "combo": null
   }
 }
