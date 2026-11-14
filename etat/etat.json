@@ -1,4 +1,25 @@
 {
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
+    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
+    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
+    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
+    "soccer_spain_segunda_division": "2026-11-13T10:49:05.6965095Z",
+    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
+    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
+  },
+  "bankroll0": 80,
+  "day": "2026-11-14",
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "remaining": 408,
+  "lastAnalysis": "2026-11-13T18:27:57Z",
   "events": {
     "fed29050dc7e99c7dd6b3b4580f142b7": {
       "eventId": "fed29050dc7e99c7dd6b3b4580f142b7",
@@ -215,29 +236,7 @@
       "status": "perdu"
     }
   ],
-  "nextBet": 2,
-  "rejected": [],
-  "day": "2026-11-14",
-  "lastAnalysis": "2026-11-13T18:27:57Z",
   "usedToday": 0,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
-    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
-    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
-    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
-    "soccer_spain_segunda_division": "2026-11-13T10:49:05.6965095Z",
-    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
-    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
-  },
-  "remaining": 408,
   "log": [
     {
       "at": "2026-10-24T06:30:50Z",
@@ -408,5 +407,6 @@
       ]
     }
   ],
-  "bankroll0": 80
+  "nextBet": 2,
+  "rejected": []
 }
