@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-15T09:56:59Z",
+  "generatedAt": "2026-11-15T16:57:31Z",
   "creditsRemaining": 402,
   "creditsUsedToday": 3,
   "dailyBudget": 25,
@@ -72,13 +72,13 @@
     {
       "key": "soccer_spain_segunda_division",
       "name": "La Liga 2",
-      "events": 5,
-      "status": "à jour",
-      "ageHours": 0.0
+      "events": 3,
+      "status": "cache",
+      "ageHours": 7.0
     }
   ],
-  "eventsScanned": 5,
-  "eventsWith1xbet": 5,
+  "eventsScanned": 3,
+  "eventsWith1xbet": 3,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -265,78 +265,6 @@
     "clvLegs": 6
   },
   "matches": [
-    {
-      "eventId": "f241b0cec31506c2eb749ff9be97667c",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Tenerife",
-      "away": "AD Ceuta FC",
-      "kickoff": "2026-11-15T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.74,
-            3.9,
-            4.74
-          ],
-          "p": [
-            0.5551,
-            0.2479,
-            0.197
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.89,
-            1.95
-          ],
-          "p": [
-            0.4907,
-            0.5093
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "b8308c8150f5ad55e242d7671adaffbd",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Granada CF",
-      "away": "Las Palmas",
-      "kickoff": "2026-11-15T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.96,
-            3.46,
-            4.11
-          ],
-          "p": [
-            0.5065,
-            0.2726,
-            0.2209
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.96
-          ],
-          "p": [
-            0.4907,
-            0.5093
-          ]
-        }
-      ]
-    },
     {
       "eventId": "976d20d0bdfd5ebae5800d5ec4f8dedf",
       "sportKey": "soccer_spain_segunda_division",
