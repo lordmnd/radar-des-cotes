@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-16T08:31:19Z",
-  "creditsRemaining": 396,
-  "creditsUsedToday": 3,
+  "generatedAt": "2026-11-16T18:56:49Z",
+  "creditsRemaining": 393,
+  "creditsUsedToday": 6,
   "dailyBudget": 26,
   "minEv": 0.02,
   "comboTarget": 2.5,
@@ -277,14 +277,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.64,
-            4.23,
-            5.1
+            1.55,
+            4.46,
+            5.82
           ],
           "p": [
-            0.6146,
-            0.2114,
-            0.174
+            0.6234,
+            0.2116,
+            0.1651
           ]
         }
       ]
