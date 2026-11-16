@@ -1,4 +1,12 @@
 {
+  "2026-11-16": {
+    "date": "2026-11-16",
+    "updatedAt": "2026-11-16T08:31:19Z",
+    "eventsScanned": 1,
+    "valueBets": 0,
+    "top": [],
+    "combo": null
+  },
   "2026-11-15": {
     "date": "2026-11-15",
     "updatedAt": "2026-11-15T21:39:48Z",
@@ -862,52 +870,6 @@
     "eventsScanned": 2,
     "valueBets": 0,
     "top": [],
-    "combo": null
-  },
-  "2026-10-17": {
-    "date": "2026-10-17",
-    "updatedAt": "2026-10-17T20:56:22Z",
-    "eventsScanned": 14,
-    "valueBets": 1,
-    "top": [
-      {
-        "eventId": "1051298b4aca6f07113309bff598a5c1",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Málaga",
-        "away": "Real Sociedad",
-        "kickoff": "2026-10-18T16:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Real Sociedad",
-        "names": [
-          "Victoire Málaga",
-          "Match nul",
-          "Victoire Real Sociedad"
-        ],
-        "odd": 2.29,
-        "p": 0.4527,
-        "fairOdd": 2.209,
-        "ev": 0.0367,
-        "quality": 0.0322,
-        "kelly": 0.0285,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.29,
-          3.63,
-          2.29
-        ],
-        "refOdds": [
-          3.48,
-          3.55,
-          2.15
-        ],
-        "margin1x": 0.0161
-      }
-    ],
     "combo": null
   }
 }
