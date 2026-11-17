@@ -1,4 +1,5 @@
 {
+  "usedToday": 0,
   "log": [
     {
       "at": "2026-10-24T06:30:50Z",
@@ -169,6 +170,7 @@
       ]
     }
   ],
+  "lastAnalysis": "2026-11-17T19:53:33Z",
   "rejected": [],
   "fetched": {
     "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
@@ -182,33 +184,12 @@
     "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
     "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
   },
-  "lastAnalysis": "2026-11-17T11:01:56Z",
-  "usedToday": 0,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
   "events": {
-    "fed29050dc7e99c7dd6b3b4580f142b7": {
-      "eventId": "fed29050dc7e99c7dd6b3b4580f142b7",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Leganés",
-      "away": "Burgos CF",
-      "kickoff": "2026-11-13T19:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.4,
-            3.23,
-            3.18
-          ],
-          "p": [
-            0.3924,
-            0.3033,
-            0.3043
-          ]
-        }
-      ]
-    },
     "908247d5d5cd714de37956edf865668b": {
       "eventId": "908247d5d5cd714de37956edf865668b",
       "sportKey": "soccer_spain_segunda_division",
@@ -486,12 +467,9 @@
       ]
     }
   },
+  "remaining": 393,
   "nextBet": 2,
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
+  "bankroll0": 80,
   "day": "2026-11-17",
   "bets": [
     {
@@ -538,7 +516,5 @@
       "manualStatus": null,
       "status": "perdu"
     }
-  ],
-  "remaining": 393,
-  "bankroll0": 80
+  ]
 }
