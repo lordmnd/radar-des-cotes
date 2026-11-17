@@ -1,4 +1,12 @@
 {
+  "2026-11-17": {
+    "date": "2026-11-17",
+    "updatedAt": "2026-11-17T11:01:56Z",
+    "eventsScanned": 0,
+    "valueBets": 0,
+    "top": [],
+    "combo": null
+  },
   "2026-11-16": {
     "date": "2026-11-16",
     "updatedAt": "2026-11-16T18:56:49Z",
@@ -860,14 +868,6 @@
     "date": "2026-10-19",
     "updatedAt": "2026-10-19T19:20:04Z",
     "eventsScanned": 1,
-    "valueBets": 0,
-    "top": [],
-    "combo": null
-  },
-  "2026-10-18": {
-    "date": "2026-10-18",
-    "updatedAt": "2026-10-18T20:55:36Z",
-    "eventsScanned": 2,
     "valueBets": 0,
     "top": [],
     "combo": null
