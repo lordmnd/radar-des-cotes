@@ -1,4 +1,6 @@
 {
+  "remaining": 393,
+  "nextBet": 2,
   "bets": [
     {
       "n": 1,
@@ -46,290 +48,26 @@
     }
   ],
   "rejected": [],
-  "events": {
-    "908247d5d5cd714de37956edf865668b": {
-      "eventId": "908247d5d5cd714de37956edf865668b",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Real Valladolid CF",
-      "away": "CD Castellón",
-      "kickoff": "2026-11-14T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.0,
-            3.73,
-            2.27
-          ],
-          "p": [
-            0.3292,
-            0.2527,
-            0.4181
-          ]
-        }
-      ]
-    },
-    "d5b0e0c0934f6a58410410bd573a5065": {
-      "eventId": "d5b0e0c0934f6a58410410bd573a5065",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Real Sociedad B",
-      "away": "Sporting Gijón",
-      "kickoff": "2026-11-14T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.15,
-            3.4,
-            3.54
-          ],
-          "p": [
-            0.4454,
-            0.2912,
-            0.2634
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.85,
-            2.0
-          ],
-          "p": [
-            0.5,
-            0.5
-          ]
-        }
-      ]
-    },
-    "570ec7734e1f7d9e813ab0013291f5f5": {
-      "eventId": "570ec7734e1f7d9e813ab0013291f5f5",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Almería",
-      "away": "Andorra CF",
-      "kickoff": "2026-11-14T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.82,
-            3.97,
-            4.17
-          ],
-          "p": [
-            0.5221,
-            0.2534,
-            0.2245
-          ]
-        }
-      ]
-    },
-    "6bc4aff371a2a5eaf38c73700a5c14d4": {
-      "eventId": "6bc4aff371a2a5eaf38c73700a5c14d4",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Mallorca",
-      "away": "Córdoba",
-      "kickoff": "2026-11-14T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.78,
-            4.17,
-            4.17
-          ],
-          "p": [
-            0.5333,
-            0.2333,
-            0.2333
-          ]
-        }
-      ]
-    },
-    "beaf0bb6252d3b1d42a720aa385e9414": {
-      "eventId": "beaf0bb6252d3b1d42a720aa385e9414",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Oviedo",
-      "away": "Girona FC",
-      "kickoff": "2026-11-14T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.51,
-            3.19,
-            3.03
-          ],
-          "p": [
-            0.377,
-            0.3125,
-            0.3105
-          ]
-        }
-      ]
-    },
-    "f241b0cec31506c2eb749ff9be97667c": {
-      "eventId": "f241b0cec31506c2eb749ff9be97667c",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Tenerife",
-      "away": "AD Ceuta FC",
-      "kickoff": "2026-11-15T13:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.74,
-            3.9,
-            4.74
-          ],
-          "p": [
-            0.5551,
-            0.2479,
-            0.197
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.89,
-            1.95
-          ],
-          "p": [
-            0.4907,
-            0.5093
-          ]
-        }
-      ]
-    },
-    "b8308c8150f5ad55e242d7671adaffbd": {
-      "eventId": "b8308c8150f5ad55e242d7671adaffbd",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Granada CF",
-      "away": "Las Palmas",
-      "kickoff": "2026-11-15T15:15:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.96,
-            3.46,
-            4.11
-          ],
-          "p": [
-            0.5065,
-            0.2726,
-            0.2209
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.88,
-            1.96
-          ],
-          "p": [
-            0.4907,
-            0.5093
-          ]
-        }
-      ]
-    },
-    "976d20d0bdfd5ebae5800d5ec4f8dedf": {
-      "eventId": "976d20d0bdfd5ebae5800d5ec4f8dedf",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "CD Eldense",
-      "away": "Sabadell FC",
-      "kickoff": "2026-11-15T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.39,
-            3.04,
-            3.38
-          ],
-          "p": [
-            0.3955,
-            0.3296,
-            0.2748
-          ]
-        }
-      ]
-    },
-    "12b34c0f22c4208647c5a5472269b735": {
-      "eventId": "12b34c0f22c4208647c5a5472269b735",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "SD Eibar",
-      "away": "Cádiz CF",
-      "kickoff": "2026-11-15T17:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.58,
-            4.33,
-            5.57
-          ],
-          "p": [
-            0.6278,
-            0.2153,
-            0.157
-          ]
-        }
-      ]
-    },
-    "c52bb6ace02b521be96df8fba8806037": {
-      "eventId": "c52bb6ace02b521be96df8fba8806037",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Albacete",
-      "away": "Celta Fortuna",
-      "kickoff": "2026-11-16T19:30:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.55,
-            4.46,
-            5.82
-          ],
-          "p": [
-            0.6234,
-            0.2116,
-            0.1651
-          ]
-        }
-      ]
-    }
+  "day": "2026-11-18",
+  "usedToday": 0,
+  "bankroll0": 80,
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
+    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
+    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
+    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
+    "soccer_spain_segunda_division": "2026-11-16T18:56:49.9326949Z",
+    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
+    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
   },
   "tg": {
     "offset": 177479724,
     "chatId": 6371892388,
     "botUsername": "MyownfuturBot"
   },
-  "usedToday": 0,
   "log": [
     {
       "at": "2026-10-24T06:30:50Z",
@@ -500,21 +238,175 @@
       ]
     }
   ],
-  "bankroll0": 80,
-  "day": "2026-11-18",
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
-    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
-    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
-    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
-    "soccer_spain_segunda_division": "2026-11-16T18:56:49.9326949Z",
-    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
-    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
-  },
-  "nextBet": 2,
-  "remaining": 393,
-  "lastAnalysis": "2026-11-18T10:36:34Z"
+  "lastAnalysis": "2026-11-18T19:07:13Z",
+  "events": {
+    "beaf0bb6252d3b1d42a720aa385e9414": {
+      "eventId": "beaf0bb6252d3b1d42a720aa385e9414",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Oviedo",
+      "away": "Girona FC",
+      "kickoff": "2026-11-14T20:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.51,
+            3.19,
+            3.03
+          ],
+          "p": [
+            0.377,
+            0.3125,
+            0.3105
+          ]
+        }
+      ]
+    },
+    "f241b0cec31506c2eb749ff9be97667c": {
+      "eventId": "f241b0cec31506c2eb749ff9be97667c",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Tenerife",
+      "away": "AD Ceuta FC",
+      "kickoff": "2026-11-15T13:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.74,
+            3.9,
+            4.74
+          ],
+          "p": [
+            0.5551,
+            0.2479,
+            0.197
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.89,
+            1.95
+          ],
+          "p": [
+            0.4907,
+            0.5093
+          ]
+        }
+      ]
+    },
+    "b8308c8150f5ad55e242d7671adaffbd": {
+      "eventId": "b8308c8150f5ad55e242d7671adaffbd",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Granada CF",
+      "away": "Las Palmas",
+      "kickoff": "2026-11-15T15:15:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.96,
+            3.46,
+            4.11
+          ],
+          "p": [
+            0.5065,
+            0.2726,
+            0.2209
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.88,
+            1.96
+          ],
+          "p": [
+            0.4907,
+            0.5093
+          ]
+        }
+      ]
+    },
+    "976d20d0bdfd5ebae5800d5ec4f8dedf": {
+      "eventId": "976d20d0bdfd5ebae5800d5ec4f8dedf",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "CD Eldense",
+      "away": "Sabadell FC",
+      "kickoff": "2026-11-15T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.39,
+            3.04,
+            3.38
+          ],
+          "p": [
+            0.3955,
+            0.3296,
+            0.2748
+          ]
+        }
+      ]
+    },
+    "12b34c0f22c4208647c5a5472269b735": {
+      "eventId": "12b34c0f22c4208647c5a5472269b735",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "SD Eibar",
+      "away": "Cádiz CF",
+      "kickoff": "2026-11-15T17:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.58,
+            4.33,
+            5.57
+          ],
+          "p": [
+            0.6278,
+            0.2153,
+            0.157
+          ]
+        }
+      ]
+    },
+    "c52bb6ace02b521be96df8fba8806037": {
+      "eventId": "c52bb6ace02b521be96df8fba8806037",
+      "sportKey": "soccer_spain_segunda_division",
+      "league": "La Liga 2",
+      "home": "Albacete",
+      "away": "Celta Fortuna",
+      "kickoff": "2026-11-16T19:30:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.55,
+            4.46,
+            5.82
+          ],
+          "p": [
+            0.6234,
+            0.2116,
+            0.1651
+          ]
+        }
+      ]
+    }
+  }
 }
