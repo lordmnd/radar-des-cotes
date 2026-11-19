@@ -1,6 +1,13 @@
 {
-  "remaining": 393,
+  "tg": {
+    "offset": 177479724,
+    "chatId": 6371892388,
+    "botUsername": "MyownfuturBot"
+  },
+  "day": "2026-11-19",
+  "lastAnalysis": "2026-11-18T19:07:13Z",
   "nextBet": 2,
+  "bankroll0": 80,
   "bets": [
     {
       "n": 1,
@@ -47,27 +54,6 @@
       "status": "perdu"
     }
   ],
-  "rejected": [],
-  "day": "2026-11-18",
-  "usedToday": 0,
-  "bankroll0": 80,
-  "fetched": {
-    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
-    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
-    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
-    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
-    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
-    "soccer_spain_segunda_division": "2026-11-16T18:56:49.9326949Z",
-    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
-    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
-    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
-    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
-  },
-  "tg": {
-    "offset": 177479724,
-    "chatId": 6371892388,
-    "botUsername": "MyownfuturBot"
-  },
   "log": [
     {
       "at": "2026-10-24T06:30:50Z",
@@ -238,32 +224,9 @@
       ]
     }
   ],
-  "lastAnalysis": "2026-11-18T19:07:13Z",
+  "usedToday": 0,
+  "remaining": 393,
   "events": {
-    "beaf0bb6252d3b1d42a720aa385e9414": {
-      "eventId": "beaf0bb6252d3b1d42a720aa385e9414",
-      "sportKey": "soccer_spain_segunda_division",
-      "league": "La Liga 2",
-      "home": "Oviedo",
-      "away": "Girona FC",
-      "kickoff": "2026-11-14T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.51,
-            3.19,
-            3.03
-          ],
-          "p": [
-            0.377,
-            0.3125,
-            0.3105
-          ]
-        }
-      ]
-    },
     "f241b0cec31506c2eb749ff9be97667c": {
       "eventId": "f241b0cec31506c2eb749ff9be97667c",
       "sportKey": "soccer_spain_segunda_division",
@@ -408,5 +371,18 @@
         }
       ]
     }
-  }
+  },
+  "fetched": {
+    "soccer_france_ligue_one": "2026-11-02T07:20:18.9739125Z",
+    "soccer_france_ligue_two": "2026-11-07T07:35:18.9002936Z",
+    "soccer_epl": "2026-11-07T07:35:18.9002936Z",
+    "soccer_efl_champ": "2026-11-07T07:35:18.9002936Z",
+    "soccer_spain_la_liga": "2026-11-08T07:56:49.5105801Z",
+    "soccer_spain_segunda_division": "2026-11-16T18:56:49.9326949Z",
+    "soccer_italy_serie_a": "2026-11-08T07:56:49.5105801Z",
+    "soccer_italy_serie_b": "2026-11-06T08:15:05.8257870Z",
+    "soccer_germany_bundesliga": "2026-10-31T07:48:43.8581644Z",
+    "soccer_germany_bundesliga2": "2026-11-08T07:56:49.5105801Z"
+  },
+  "rejected": []
 }
