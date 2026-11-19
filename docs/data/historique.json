@@ -1,4 +1,84 @@
 {
+  "2026-11-19": {
+    "date": "2026-11-19",
+    "updatedAt": "2026-11-19T09:21:59Z",
+    "eventsScanned": 12,
+    "valueBets": 2,
+    "top": [
+      {
+        "eventId": "dcee36f9b8a9989972b6d4ddde76c4c7",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Athletic Bilbao",
+        "away": "Espanyol",
+        "kickoff": "2026-11-20T20:00:00Z",
+        "market": "Buts",
+        "marketKey": "totals",
+        "line": "2.5",
+        "idx": 0,
+        "pick": "+2,5",
+        "pickName": "Plus de 2,5 buts",
+        "names": [
+          "Plus de 2,5 buts",
+          "Moins de 2,5 buts"
+        ],
+        "odd": 1.92,
+        "p": 0.5328,
+        "fairOdd": 1.877,
+        "ev": 0.0231,
+        "quality": 0.0241,
+        "kelly": 0.0251,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.92,
+          2.02
+        ],
+        "refOdds": [
+          1.83,
+          2.08
+        ],
+        "margin1x": 0.0159
+      },
+      {
+        "eventId": "5dcc9d2b0da87770a4f49e924275be39",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Troyes",
+        "away": "Le Havre",
+        "kickoff": "2026-11-20T19:45:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Troyes",
+          "Match nul",
+          "Victoire Le Havre"
+        ],
+        "odd": 3.69,
+        "p": 0.2801,
+        "fairOdd": 3.57,
+        "ev": 0.0337,
+        "quality": 0.0203,
+        "kelly": 0.0125,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.19,
+          3.69,
+          3.47
+        ],
+        "refOdds": [
+          2.24,
+          3.45,
+          3.4
+        ],
+        "margin1x": 0.0158
+      }
+    ],
+    "combo": null
+  },
   "2026-11-18": {
     "date": "2026-11-18",
     "updatedAt": "2026-11-18T19:07:13Z",
@@ -824,52 +904,6 @@
     "eventsScanned": 0,
     "valueBets": 0,
     "top": [],
-    "combo": null
-  },
-  "2026-10-20": {
-    "date": "2026-10-20",
-    "updatedAt": "2026-10-20T19:35:31Z",
-    "eventsScanned": 1,
-    "valueBets": 1,
-    "top": [
-      {
-        "eventId": "a362cccad837f1ffae61ff43a3536688",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Levante",
-        "away": "Athletic Bilbao",
-        "kickoff": "2026-10-21T18:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
-        "names": [
-          "Victoire Levante",
-          "Match nul",
-          "Victoire Athletic Bilbao"
-        ],
-        "odd": 3.52,
-        "p": 0.3057,
-        "fairOdd": 3.271,
-        "ev": 0.0761,
-        "quality": 0.047,
-        "kelly": 0.0302,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.52,
-          3.52,
-          2.24
-        ],
-        "refOdds": [
-          3.76,
-          3.16,
-          2.22
-        ],
-        "margin1x": 0.0146
-      }
-    ],
     "combo": null
   }
 }
