@@ -1,4 +1,204 @@
 {
+  "2026-11-20": {
+    "date": "2026-11-20",
+    "updatedAt": "2026-11-20T08:22:05Z",
+    "eventsScanned": 62,
+    "valueBets": 7,
+    "top": [
+      {
+        "eventId": "6ef39b0fd8839f6e93a3de32523e9807",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Manchester City",
+        "away": "Fulham",
+        "kickoff": "2026-11-21T12:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Manchester City",
+        "names": [
+          "Victoire Manchester City",
+          "Match nul",
+          "Victoire Fulham"
+        ],
+        "odd": 1.45,
+        "p": 0.705,
+        "fairOdd": 1.418,
+        "ev": 0.0222,
+        "quality": 0.0336,
+        "kelly": 0.0494,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.45,
+          5.28,
+          7.22
+        ],
+        "refOdds": [
+          1.39,
+          5.53,
+          7.48
+        ],
+        "margin1x": 0.0176
+      },
+      {
+        "eventId": "d2113ca19873218496f8b2fe6c7e7c41",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Lille",
+        "away": "Lyon",
+        "kickoff": "2026-11-21T19:45:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Lille",
+          "Match nul",
+          "Victoire Lyon"
+        ],
+        "odd": 3.57,
+        "p": 0.2916,
+        "fairOdd": 3.43,
+        "ev": 0.0409,
+        "quality": 0.0252,
+        "kelly": 0.0159,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.32,
+          3.57,
+          3.29
+        ],
+        "refOdds": [
+          2.32,
+          3.32,
+          3.36
+        ],
+        "margin1x": 0.0151
+      },
+      {
+        "eventId": "d0128b7d64e40ca3f1ae1b288b47117a",
+        "sportKey": "soccer_germany_bundesliga",
+        "league": "Bundesliga",
+        "home": "Eintracht Frankfurt",
+        "away": "TSG Hoffenheim",
+        "kickoff": "2026-11-21T14:30:00Z",
+        "market": "Buts",
+        "marketKey": "totals",
+        "line": "3.5",
+        "idx": 0,
+        "pick": "+3,5",
+        "pickName": "Plus de 3,5 buts",
+        "names": [
+          "Plus de 3,5 buts",
+          "Moins de 3,5 buts"
+        ],
+        "odd": 1.98,
+        "p": 0.5172,
+        "fairOdd": 1.933,
+        "ev": 0.0241,
+        "quality": 0.0243,
+        "kelly": 0.0245,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.98,
+          1.96
+        ],
+        "refOdds": [
+          1.88,
+          2.01
+        ],
+        "margin1x": 0.0153
+      }
+    ],
+    "combo": {
+      "legs": [
+        {
+          "eventId": "6ef39b0fd8839f6e93a3de32523e9807",
+          "sportKey": "soccer_epl",
+          "league": "Premier League",
+          "home": "Manchester City",
+          "away": "Fulham",
+          "kickoff": "2026-11-21T12:30:00Z",
+          "market": "1N2",
+          "marketKey": "h2h",
+          "line": "",
+          "idx": 0,
+          "pick": "1",
+          "pickName": "Victoire Manchester City",
+          "names": [
+            "Victoire Manchester City",
+            "Match nul",
+            "Victoire Fulham"
+          ],
+          "odd": 1.45,
+          "p": 0.705,
+          "fairOdd": 1.418,
+          "ev": 0.0222,
+          "quality": 0.0336,
+          "kelly": 0.0494,
+          "refSource": "Pinnacle",
+          "odds1x": [
+            1.45,
+            5.28,
+            7.22
+          ],
+          "refOdds": [
+            1.39,
+            5.53,
+            7.48
+          ],
+          "margin1x": 0.0176
+        },
+        {
+          "eventId": "d0128b7d64e40ca3f1ae1b288b47117a",
+          "sportKey": "soccer_germany_bundesliga",
+          "league": "Bundesliga",
+          "home": "Eintracht Frankfurt",
+          "away": "TSG Hoffenheim",
+          "kickoff": "2026-11-21T14:30:00Z",
+          "market": "Buts",
+          "marketKey": "totals",
+          "line": "3.5",
+          "idx": 0,
+          "pick": "+3,5",
+          "pickName": "Plus de 3,5 buts",
+          "names": [
+            "Plus de 3,5 buts",
+            "Moins de 3,5 buts"
+          ],
+          "odd": 1.98,
+          "p": 0.5172,
+          "fairOdd": 1.933,
+          "ev": 0.0241,
+          "quality": 0.0243,
+          "kelly": 0.0245,
+          "refSource": "Pinnacle",
+          "odds1x": [
+            1.98,
+            1.96
+          ],
+          "refOdds": [
+            1.88,
+            2.01
+          ],
+          "margin1x": 0.0153
+        }
+      ],
+      "totalOdds": 2.871,
+      "prob": 0.3646,
+      "ev": 0.0468,
+      "stakePct": 0.0063,
+      "signature": "6ef39b0fd8839f6e93a3de32523e9807|h2h||0~d0128b7d64e40ca3f1ae1b288b47117a|totals|3.5|0",
+      "firstKickoff": "2026-11-21T12:30:00Z",
+      "verified": true,
+      "verifiedAt": "2026-11-20T08:22:05Z",
+      "notifiedAt": "2026-11-20T08:22:05Z"
+    }
+  },
   "2026-11-19": {
     "date": "2026-11-19",
     "updatedAt": "2026-11-19T18:34:36Z",
@@ -894,14 +1094,6 @@
     "date": "2026-10-22",
     "updatedAt": "2026-10-22T20:03:17Z",
     "eventsScanned": 13,
-    "valueBets": 0,
-    "top": [],
-    "combo": null
-  },
-  "2026-10-21": {
-    "date": "2026-10-21",
-    "updatedAt": "2026-10-21T20:51:23Z",
-    "eventsScanned": 0,
     "valueBets": 0,
     "top": [],
     "combo": null
