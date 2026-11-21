@@ -1,47 +1,10 @@
 {
   "2026-11-21": {
     "date": "2026-11-21",
-    "updatedAt": "2026-11-21T12:31:31Z",
-    "eventsScanned": 71,
-    "valueBets": 12,
+    "updatedAt": "2026-11-21T19:49:15Z",
+    "eventsScanned": 24,
+    "valueBets": 5,
     "top": [
-      {
-        "eventId": "90af957b2f622a5cf805e60b151c54b9",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Real Madrid",
-        "away": "Celta Vigo",
-        "kickoff": "2026-11-21T20:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Real Madrid",
-        "names": [
-          "Victoire Real Madrid",
-          "Match nul",
-          "Victoire Celta Vigo"
-        ],
-        "odd": 1.21,
-        "p": 0.8468,
-        "fairOdd": 1.181,
-        "ev": 0.0246,
-        "quality": 0.0565,
-        "kelly": 0.1173,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.21,
-          7.95,
-          16.5
-        ],
-        "refOdds": [
-          1.16,
-          8.75,
-          17.61
-        ],
-        "margin1x": 0.0128
-      },
       {
         "eventId": "7a62fe738bd20cfff6027c52fec05d51",
         "sportKey": "soccer_spain_la_liga",
@@ -80,41 +43,78 @@
         "margin1x": 0.014
       },
       {
-        "eventId": "9f38413bdad666e2d2dfcc574dd12e66",
-        "sportKey": "soccer_epl",
-        "league": "Premier League",
-        "home": "Coventry City",
-        "away": "Crystal Palace",
-        "kickoff": "2026-11-21T15:00:00Z",
+        "eventId": "e22f82b10fe71d230248b88fef87e58f",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Atalanta BC",
+        "away": "Inter Milan",
+        "kickoff": "2026-11-22T19:45:00Z",
         "market": "1N2",
         "marketKey": "h2h",
         "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Inter Milan",
         "names": [
-          "Victoire Coventry City",
+          "Victoire Atalanta BC",
           "Match nul",
-          "Victoire Crystal Palace"
+          "Victoire Inter Milan"
         ],
-        "odd": 3.72,
-        "p": 0.2862,
-        "fairOdd": 3.494,
-        "ev": 0.0648,
-        "quality": 0.0385,
-        "kelly": 0.0238,
+        "odd": 1.64,
+        "p": 0.6227,
+        "fairOdd": 1.606,
+        "ev": 0.0213,
+        "quality": 0.0268,
+        "kelly": 0.0332,
         "refSource": "Pinnacle",
         "odds1x": [
-          2.54,
-          3.72,
-          2.84
+          5.03,
+          4.83,
+          1.64
         ],
         "refOdds": [
-          2.67,
-          3.4,
-          2.81
+          5.28,
+          4.79,
+          1.57
         ],
-        "margin1x": 0.0146
+        "margin1x": 0.0156
+      },
+      {
+        "eventId": "4c2262eccc903b9b1792325d09451c0a",
+        "sportKey": "soccer_germany_bundesliga",
+        "league": "Bundesliga",
+        "home": "Augsburg",
+        "away": "FSV Mainz 05",
+        "kickoff": "2026-11-22T14:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Augsburg",
+        "names": [
+          "Victoire Augsburg",
+          "Match nul",
+          "Victoire FSV Mainz 05"
+        ],
+        "odd": 2.77,
+        "p": 0.3711,
+        "fairOdd": 2.695,
+        "ev": 0.028,
+        "quality": 0.0209,
+        "kelly": 0.0158,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.77,
+          4.16,
+          2.41
+        ],
+        "refOdds": [
+          2.62,
+          4.04,
+          2.49
+        ],
+        "margin1x": 0.0163
       }
     ],
     "combo": {
