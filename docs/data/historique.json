@@ -1,84 +1,10 @@
 {
   "2026-11-22": {
     "date": "2026-11-22",
-    "updatedAt": "2026-11-22T07:05:10Z",
-    "eventsScanned": 27,
-    "valueBets": 8,
+    "updatedAt": "2026-11-22T15:23:27Z",
+    "eventsScanned": 12,
+    "valueBets": 4,
     "top": [
-      {
-        "eventId": "214a79b6e08dbe3f508844936158c038",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Barcelona",
-        "away": "Villarreal",
-        "kickoff": "2026-11-22T13:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Barcelona",
-        "names": [
-          "Victoire Barcelona",
-          "Match nul",
-          "Victoire Villarreal"
-        ],
-        "odd": 1.23,
-        "p": 0.8355,
-        "fairOdd": 1.197,
-        "ev": 0.0276,
-        "quality": 0.0606,
-        "kelly": 0.1201,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.23,
-          8.1,
-          12.7
-        ],
-        "refOdds": [
-          1.17,
-          8.6,
-          14.07
-        ],
-        "margin1x": 0.0152
-      },
-      {
-        "eventId": "76d4698a8417f32cb059f14a469939f3",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Sassuolo",
-        "away": "Genoa",
-        "kickoff": "2026-11-22T14:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
-        "names": [
-          "Victoire Sassuolo",
-          "Match nul",
-          "Victoire Genoa"
-        ],
-        "odd": 3.58,
-        "p": 0.2979,
-        "fairOdd": 3.356,
-        "ev": 0.0666,
-        "quality": 0.0407,
-        "kelly": 0.0258,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.76,
-          3.58,
-          2.68
-        ],
-        "refOdds": [
-          2.83,
-          3.25,
-          2.71
-        ],
-        "margin1x": 0.0148
-      },
       {
         "eventId": "9a214142c9b31ad8233dccad53f75d6d",
         "sportKey": "soccer_germany_bundesliga",
@@ -115,6 +41,80 @@
           5.46
         ],
         "margin1x": 0.0143
+      },
+      {
+        "eventId": "8e6ee05b6ac28dc2357f72b9f5a0643e",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Lorient",
+        "away": "Rennes",
+        "kickoff": "2026-11-22T16:15:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Lorient",
+          "Match nul",
+          "Victoire Rennes"
+        ],
+        "odd": 3.53,
+        "p": 0.295,
+        "fairOdd": 3.39,
+        "ev": 0.0412,
+        "quality": 0.0256,
+        "kelly": 0.0163,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.03,
+          3.53,
+          2.49
+        ],
+        "refOdds": [
+          3.07,
+          3.28,
+          2.5
+        ],
+        "margin1x": 0.0149
+      },
+      {
+        "eventId": "893268e5503c4e58fbf137e4b5db7e93",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "CA Osasuna",
+        "away": "Málaga",
+        "kickoff": "2026-11-22T17:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 2,
+        "pick": "2",
+        "pickName": "Victoire Málaga",
+        "names": [
+          "Victoire CA Osasuna",
+          "Match nul",
+          "Victoire Málaga"
+        ],
+        "odd": 4.88,
+        "p": 0.2111,
+        "fairOdd": 4.738,
+        "ev": 0.03,
+        "quality": 0.0151,
+        "kelly": 0.0077,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.85,
+          3.71,
+          4.88
+        ],
+        "refOdds": [
+          1.88,
+          3.58,
+          4.53
+        ],
+        "margin1x": 0.015
       }
     ],
     "combo": null
