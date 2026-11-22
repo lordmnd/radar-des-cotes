@@ -1,4 +1,124 @@
 {
+  "2026-11-22": {
+    "date": "2026-11-22",
+    "updatedAt": "2026-11-22T07:05:10Z",
+    "eventsScanned": 27,
+    "valueBets": 8,
+    "top": [
+      {
+        "eventId": "214a79b6e08dbe3f508844936158c038",
+        "sportKey": "soccer_spain_la_liga",
+        "league": "La Liga",
+        "home": "Barcelona",
+        "away": "Villarreal",
+        "kickoff": "2026-11-22T13:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Barcelona",
+        "names": [
+          "Victoire Barcelona",
+          "Match nul",
+          "Victoire Villarreal"
+        ],
+        "odd": 1.23,
+        "p": 0.8355,
+        "fairOdd": 1.197,
+        "ev": 0.0276,
+        "quality": 0.0606,
+        "kelly": 0.1201,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.23,
+          8.1,
+          12.7
+        ],
+        "refOdds": [
+          1.17,
+          8.6,
+          14.07
+        ],
+        "margin1x": 0.0152
+      },
+      {
+        "eventId": "76d4698a8417f32cb059f14a469939f3",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Sassuolo",
+        "away": "Genoa",
+        "kickoff": "2026-11-22T14:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Sassuolo",
+          "Match nul",
+          "Victoire Genoa"
+        ],
+        "odd": 3.58,
+        "p": 0.2979,
+        "fairOdd": 3.356,
+        "ev": 0.0666,
+        "quality": 0.0407,
+        "kelly": 0.0258,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.76,
+          3.58,
+          2.68
+        ],
+        "refOdds": [
+          2.83,
+          3.25,
+          2.71
+        ],
+        "margin1x": 0.0148
+      },
+      {
+        "eventId": "9a214142c9b31ad8233dccad53f75d6d",
+        "sportKey": "soccer_germany_bundesliga",
+        "league": "Bundesliga",
+        "home": "Werder Bremen",
+        "away": "Hamburger SV",
+        "kickoff": "2026-11-22T16:30:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Werder Bremen",
+        "names": [
+          "Victoire Werder Bremen",
+          "Match nul",
+          "Victoire Hamburger SV"
+        ],
+        "odd": 1.66,
+        "p": 0.6149,
+        "fairOdd": 1.626,
+        "ev": 0.0207,
+        "quality": 0.0257,
+        "kelly": 0.0314,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.66,
+          4.57,
+          5.18
+        ],
+        "refOdds": [
+          1.59,
+          4.49,
+          5.46
+        ],
+        "margin1x": 0.0143
+      }
+    ],
+    "combo": null
+  },
   "2026-11-21": {
     "date": "2026-11-21",
     "updatedAt": "2026-11-21T19:49:15Z",
@@ -1246,52 +1366,6 @@
           3.93
         ],
         "margin1x": 0.0173
-      }
-    ],
-    "combo": null
-  },
-  "2026-10-23": {
-    "date": "2026-10-23",
-    "updatedAt": "2026-10-23T19:58:31Z",
-    "eventsScanned": 40,
-    "valueBets": 1,
-    "top": [
-      {
-        "eventId": "b7f0880e3da978f9481f7cb5697e2aa5",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Cagliari",
-        "away": "Bologna",
-        "kickoff": "2026-10-24T13:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 1,
-        "pick": "N",
-        "pickName": "Match nul",
-        "names": [
-          "Victoire Cagliari",
-          "Match nul",
-          "Victoire Bologna"
-        ],
-        "odd": 3.13,
-        "p": 0.3259,
-        "fairOdd": 3.068,
-        "ev": 0.0201,
-        "quality": 0.0137,
-        "kelly": 0.0094,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          3.35,
-          3.13,
-          2.52
-        ],
-        "refOdds": [
-          3.26,
-          2.97,
-          2.57
-        ],
-        "margin1x": 0.0148
       }
     ],
     "combo": null
