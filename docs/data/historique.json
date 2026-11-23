@@ -1,4 +1,12 @@
 {
+  "2026-11-23": {
+    "date": "2026-11-23",
+    "updatedAt": "2026-11-23T10:35:21Z",
+    "eventsScanned": 20,
+    "valueBets": 0,
+    "top": [],
+    "combo": null
+  },
   "2026-11-22": {
     "date": "2026-11-22",
     "updatedAt": "2026-11-22T21:10:55Z",
@@ -1136,126 +1144,6 @@
     "eventsScanned": 2,
     "valueBets": 0,
     "top": [],
-    "combo": null
-  },
-  "2026-10-24": {
-    "date": "2026-10-24",
-    "updatedAt": "2026-10-24T19:40:42Z",
-    "eventsScanned": 23,
-    "valueBets": 5,
-    "top": [
-      {
-        "eventId": "c9b6c7048d8dc33dae618f67f462f67a",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Inter Milan",
-        "away": "Fiorentina",
-        "kickoff": "2026-10-25T11:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Inter Milan",
-        "names": [
-          "Victoire Inter Milan",
-          "Match nul",
-          "Victoire Fiorentina"
-        ],
-        "odd": 1.41,
-        "p": 0.7248,
-        "fairOdd": 1.38,
-        "ev": 0.022,
-        "quality": 0.0349,
-        "kelly": 0.0536,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.41,
-          5.56,
-          7.9
-        ],
-        "refOdds": [
-          1.35,
-          5.79,
-          8.09
-        ],
-        "margin1x": 0.0157
-      },
-      {
-        "eventId": "3cb8660cd2375b60e81144a7572cfb89",
-        "sportKey": "soccer_spain_la_liga",
-        "league": "La Liga",
-        "home": "Real Sociedad",
-        "away": "Levante",
-        "kickoff": "2026-10-25T17:30:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 0,
-        "pick": "1",
-        "pickName": "Victoire Real Sociedad",
-        "names": [
-          "Victoire Real Sociedad",
-          "Match nul",
-          "Victoire Levante"
-        ],
-        "odd": 1.67,
-        "p": 0.6111,
-        "fairOdd": 1.636,
-        "ev": 0.0205,
-        "quality": 0.0251,
-        "kelly": 0.0306,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.67,
-          4.41,
-          5.23
-        ],
-        "refOdds": [
-          1.6,
-          4.57,
-          5.24
-        ],
-        "margin1x": 0.0168
-      },
-      {
-        "eventId": "63aa6e3f679ee4c68de5b4bd8d3361bb",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Atalanta BC",
-        "away": "Frosinone",
-        "kickoff": "2026-10-25T14:00:00Z",
-        "market": "1N2",
-        "marketKey": "h2h",
-        "line": "",
-        "idx": 2,
-        "pick": "2",
-        "pickName": "Victoire Frosinone",
-        "names": [
-          "Victoire Atalanta BC",
-          "Match nul",
-          "Victoire Frosinone"
-        ],
-        "odd": 4.22,
-        "p": 0.2438,
-        "fairOdd": 4.102,
-        "ev": 0.0288,
-        "quality": 0.0159,
-        "kelly": 0.009,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          1.85,
-          4.17,
-          4.22
-        ],
-        "refOdds": [
-          1.85,
-          4.18,
-          3.93
-        ],
-        "margin1x": 0.0173
-      }
-    ],
     "combo": null
   }
 }
