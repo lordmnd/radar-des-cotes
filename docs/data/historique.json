@@ -1,4 +1,12 @@
 {
+  "2026-11-24": {
+    "date": "2026-11-24",
+    "updatedAt": "2026-11-24T18:10:03Z",
+    "eventsScanned": 21,
+    "valueBets": 0,
+    "top": [],
+    "combo": null
+  },
   "2026-11-23": {
     "date": "2026-11-23",
     "updatedAt": "2026-11-23T10:35:21Z",
@@ -1136,14 +1144,6 @@
         "margin1x": 0.0149
       }
     ],
-    "combo": null
-  },
-  "2026-10-25": {
-    "date": "2026-10-25",
-    "updatedAt": "2026-10-25T20:22:03Z",
-    "eventsScanned": 2,
-    "valueBets": 0,
-    "top": [],
     "combo": null
   }
 }
