@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-25T11:46:48Z",
+  "generatedAt": "2026-11-25T21:31:25Z",
   "creditsRemaining": 243,
   "creditsUsedToday": 6,
   "dailyBudget": 40,
@@ -34,6 +34,12 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_efl_champ",
+      "name": "Championship",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_spain_la_liga",
       "name": "La Liga",
       "events": 0,
@@ -52,6 +58,12 @@
       "status": "pas de match"
     },
     {
+      "key": "soccer_italy_serie_b",
+      "name": "Serie B",
+      "events": 0,
+      "status": "pas de match"
+    },
+    {
       "key": "soccer_germany_bundesliga",
       "name": "Bundesliga",
       "events": 0,
@@ -62,24 +74,10 @@
       "name": "2. Bundesliga",
       "events": 0,
       "status": "pas de match"
-    },
-    {
-      "key": "soccer_italy_serie_b",
-      "name": "Serie B",
-      "events": 4,
-      "status": "à jour",
-      "ageHours": 0.0
-    },
-    {
-      "key": "soccer_efl_champ",
-      "name": "Championship",
-      "events": 4,
-      "status": "à jour",
-      "ageHours": 0.0
     }
   ],
-  "eventsScanned": 8,
-  "eventsWith1xbet": 8,
+  "eventsScanned": 0,
+  "eventsWith1xbet": 0,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -321,223 +319,6 @@
     "avgClv": 0.05,
     "clvLegs": 8
   },
-  "matches": [
-    {
-      "eventId": "e9dde1a356f9972fdba7493f024c1416",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Cremonese",
-      "away": "Avellino",
-      "kickoff": "2026-11-25T18:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.02,
-            3.16,
-            3.87
-          ],
-          "p": [
-            0.4675,
-            0.2989,
-            0.2335
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "9c57ff58a8b71d7648b7914d3fe2c839",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Mantova",
-      "away": "Arezzo",
-      "kickoff": "2026-11-25T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.62,
-            3.94,
-            5.03
-          ],
-          "p": [
-            0.5965,
-            0.2307,
-            0.1728
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "8cf80807dee1ee73aefb295b560dc78e",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Pisa",
-      "away": "Modena",
-      "kickoff": "2026-11-25T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.25,
-            3.2,
-            3.21
-          ],
-          "p": [
-            0.4147,
-            0.294,
-            0.2913
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.73,
-            2.04
-          ],
-          "p": [
-            0.5264,
-            0.4736
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "30fb25fc45cd386b33e223302ff98f4d",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Padova",
-      "away": "Sampdoria",
-      "kickoff": "2026-11-25T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.12,
-            3.06,
-            2.37
-          ],
-          "p": [
-            0.2921,
-            0.3187,
-            0.3892
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "61d1126751ba67227ac2819624e98342",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Burnley",
-      "away": "Birmingham City",
-      "kickoff": "2026-11-25T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.76,
-            3.5,
-            2.37
-          ],
-          "p": [
-            0.3267,
-            0.269,
-            0.4043
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "0eb7f35d744c1cebeb53be32f50e1e2d",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Watford",
-      "away": "Blackburn Rovers",
-      "kickoff": "2026-11-25T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.47,
-            3.35,
-            2.69
-          ],
-          "p": [
-            0.3744,
-            0.2846,
-            0.3409
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.93,
-            1.81
-          ],
-          "p": [
-            0.4828,
-            0.5172
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "9dfe9df3ad88c453e3572872bf500488",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Bolton Wanderers",
-      "away": "West Bromwich Albion",
-      "kickoff": "2026-11-25T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.44,
-            3.62,
-            1.99
-          ],
-          "p": [
-            0.2542,
-            0.2598,
-            0.486
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "77dfddf6dea97d5ecb5e2463b29fe67e",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Stoke City",
-      "away": "Millwall",
-      "kickoff": "2026-11-25T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.13,
-            3.35,
-            3.31
-          ],
-          "p": [
-            0.4493,
-            0.2839,
-            0.2669
-          ]
-        }
-      ]
-    }
-  ],
+  "matches": [],
   "botUsername": "MyownfuturBot"
 }
