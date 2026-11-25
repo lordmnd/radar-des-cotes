@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "message": "",
-  "generatedAt": "2026-11-24T18:10:03Z",
-  "creditsRemaining": 249,
+  "generatedAt": "2026-11-25T11:46:48Z",
+  "creditsRemaining": 243,
   "creditsUsedToday": 6,
-  "dailyBudget": 36,
+  "dailyBudget": 40,
   "minEv": 0.02,
   "comboTarget": 2.5,
   "legMinProb": 0.5,
@@ -66,20 +66,20 @@
     {
       "key": "soccer_italy_serie_b",
       "name": "Serie B",
-      "events": 9,
+      "events": 4,
       "status": "à jour",
       "ageHours": 0.0
     },
     {
       "key": "soccer_efl_champ",
       "name": "Championship",
-      "events": 12,
+      "events": 4,
       "status": "à jour",
       "ageHours": 0.0
     }
   ],
-  "eventsScanned": 21,
-  "eventsWith1xbet": 21,
+  "eventsScanned": 8,
+  "eventsWith1xbet": 8,
   "valueBets": 0,
   "top": [],
   "combo": null,
@@ -323,354 +323,6 @@
   },
   "matches": [
     {
-      "eventId": "1266361213aa65b3a2f950e194f93351",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Cesena FC",
-      "away": "Ascoli",
-      "kickoff": "2026-11-24T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.62,
-            3.22,
-            2.61
-          ],
-          "p": [
-            0.3434,
-            0.3119,
-            0.3447
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.83,
-            1.91
-          ],
-          "p": [
-            0.4775,
-            0.5225
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "8a83b64c5a2da01e0be02f81c52c24c1",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Benevento",
-      "away": "Empoli",
-      "kickoff": "2026-11-24T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.4,
-            4.75,
-            6.9
-          ],
-          "p": [
-            0.6888,
-            0.1931,
-            0.1181
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "155d48f7d5af716b832e611847eecfe8",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Vicenza",
-      "away": "Carrarese",
-      "kickoff": "2026-11-24T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.88,
-            3.02,
-            2.53
-          ],
-          "p": [
-            0.3315,
-            0.3214,
-            0.3472
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "1126881ccd5628bc2a3e896fd7e05fed",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Virtus Entella",
-      "away": "Hellas Verona",
-      "kickoff": "2026-11-24T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            3.42,
-            3.18,
-            2.16
-          ],
-          "p": [
-            0.2474,
-            0.3093,
-            0.4433
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "83a913029df6521a5822f1a77e619b78",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Palermo",
-      "away": "Südtirol",
-      "kickoff": "2026-11-24T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.42,
-            4.65,
-            6.61
-          ],
-          "p": [
-            0.6851,
-            0.194,
-            0.1209
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "031162fd89aa3c1fd39e523b3c82d35a",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Sheffield United",
-      "away": "Southampton",
-      "kickoff": "2026-11-24T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.49,
-            3.58,
-            2.54
-          ],
-          "p": [
-            0.3633,
-            0.2678,
-            0.3689
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "c2ca2ce56eb3bccf1a5de2d0ccc2207f",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Portsmouth",
-      "away": "West Ham United",
-      "kickoff": "2026-11-24T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            4.03,
-            3.72,
-            1.81
-          ],
-          "p": [
-            0.2359,
-            0.2553,
-            0.5089
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.8,
-            1.94
-          ],
-          "p": [
-            0.5146,
-            0.4854
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "cbb9284b5d072d869a395ba3ffb8bbff",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Norwich City",
-      "away": "Queens Park Rangers",
-      "kickoff": "2026-11-24T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.97,
-            3.72,
-            3.4
-          ],
-          "p": [
-            0.4628,
-            0.2628,
-            0.2744
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "e239a6d57b2cf15091f673c2448fbf4f",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Middlesbrough",
-      "away": "Swansea City",
-      "kickoff": "2026-11-24T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.41,
-            4.85,
-            6.46
-          ],
-          "p": [
-            0.69,
-            0.1797,
-            0.1303
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "6d21b6408d1f1c42def270b7f1ae5b21",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Charlton Athletic",
-      "away": "Lincoln City",
-      "kickoff": "2026-11-24T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.82,
-            3.24,
-            2.43
-          ],
-          "p": [
-            0.3231,
-            0.3015,
-            0.3755
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "ae887a08eef3ff58053488dbddde28a3",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Cardiff City",
-      "away": "Preston North End",
-      "kickoff": "2026-11-24T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.45,
-            4.75,
-            5.81
-          ],
-          "p": [
-            0.6488,
-            0.1895,
-            0.1617
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "92c74d2f4a4275568feff8072ed15e73",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Bristol City",
-      "away": "Wrexham AFC",
-      "kickoff": "2026-11-24T19:45:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.4,
-            3.16,
-            2.97
-          ],
-          "p": [
-            0.3885,
-            0.2984,
-            0.3132
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "018856cb75135463eb1972d978339023",
-      "sportKey": "soccer_efl_champ",
-      "league": "Championship",
-      "home": "Wolverhampton Wanderers",
-      "away": "Derby County",
-      "kickoff": "2026-11-24T20:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.26,
-            5.55,
-            10.5
-          ],
-          "p": [
-            0.7598,
-            0.1559,
-            0.0843
-          ]
-        },
-        {
-          "marketKey": "spreads",
-          "line": "-1.5",
-          "odds1x": [
-            1.81,
-            1.92
-          ],
-          "p": [
-            0.5314,
-            0.4686
-          ]
-        }
-      ]
-    },
-    {
       "eventId": "e9dde1a356f9972fdba7493f024c1416",
       "sportKey": "soccer_italy_serie_b",
       "league": "Serie B",
@@ -682,14 +334,74 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            1.93,
-            3.3,
-            4.04
+            2.02,
+            3.16,
+            3.87
           ],
           "p": [
-            0.4699,
-            0.3047,
-            0.2254
+            0.4675,
+            0.2989,
+            0.2335
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "9c57ff58a8b71d7648b7914d3fe2c839",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Mantova",
+      "away": "Arezzo",
+      "kickoff": "2026-11-25T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            1.62,
+            3.94,
+            5.03
+          ],
+          "p": [
+            0.5965,
+            0.2307,
+            0.1728
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "8cf80807dee1ee73aefb295b560dc78e",
+      "sportKey": "soccer_italy_serie_b",
+      "league": "Serie B",
+      "home": "Pisa",
+      "away": "Modena",
+      "kickoff": "2026-11-25T19:00:00Z",
+      "markets": [
+        {
+          "marketKey": "h2h",
+          "line": "",
+          "odds1x": [
+            2.25,
+            3.2,
+            3.21
+          ],
+          "p": [
+            0.4147,
+            0.294,
+            0.2913
+          ]
+        },
+        {
+          "marketKey": "totals",
+          "line": "2.5",
+          "odds1x": [
+            1.73,
+            2.04
+          ],
+          "p": [
+            0.5264,
+            0.4736
           ]
         }
       ]
@@ -711,69 +423,9 @@
             2.37
           ],
           "p": [
-            0.2878,
-            0.3155,
-            0.3967
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "8cf80807dee1ee73aefb295b560dc78e",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Pisa",
-      "away": "Modena",
-      "kickoff": "2026-11-25T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            2.35,
-            3.15,
-            3.06
-          ],
-          "p": [
-            0.3903,
-            0.3084,
-            0.3013
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.72,
-            2.05
-          ],
-          "p": [
-            0.5161,
-            0.4839
-          ]
-        }
-      ]
-    },
-    {
-      "eventId": "9c57ff58a8b71d7648b7914d3fe2c839",
-      "sportKey": "soccer_italy_serie_b",
-      "league": "Serie B",
-      "home": "Mantova",
-      "away": "Arezzo",
-      "kickoff": "2026-11-25T19:00:00Z",
-      "markets": [
-        {
-          "marketKey": "h2h",
-          "line": "",
-          "odds1x": [
-            1.65,
-            3.9,
-            4.84
-          ],
-          "p": [
-            0.5752,
-            0.2342,
-            0.1906
+            0.2921,
+            0.3187,
+            0.3892
           ]
         }
       ]
@@ -790,14 +442,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.62,
-            3.48,
-            2.46
+            2.76,
+            3.5,
+            2.37
           ],
           "p": [
-            0.3546,
-            0.2646,
-            0.3808
+            0.3267,
+            0.269,
+            0.4043
           ]
         }
       ]
@@ -814,26 +466,26 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.5,
-            3.4,
-            2.62
+            2.47,
+            3.35,
+            2.69
           ],
           "p": [
-            0.3759,
-            0.2683,
-            0.3557
+            0.3744,
+            0.2846,
+            0.3409
           ]
         },
         {
           "marketKey": "totals",
           "line": "2.5",
           "odds1x": [
-            1.86,
-            1.88
+            1.93,
+            1.81
           ],
           "p": [
-            0.496,
-            0.504
+            0.4828,
+            0.5172
           ]
         }
       ]
@@ -855,9 +507,9 @@
             1.99
           ],
           "p": [
-            0.2707,
-            0.2613,
-            0.4681
+            0.2542,
+            0.2598,
+            0.486
           ]
         }
       ]
@@ -874,26 +526,14 @@
           "marketKey": "h2h",
           "line": "",
           "odds1x": [
-            2.2,
-            3.38,
-            3.13
+            2.13,
+            3.35,
+            3.31
           ],
           "p": [
-            0.4127,
-            0.2899,
-            0.2974
-          ]
-        },
-        {
-          "marketKey": "totals",
-          "line": "2.5",
-          "odds1x": [
-            1.93,
-            1.81
-          ],
-          "p": [
-            0.4665,
-            0.5335
+            0.4493,
+            0.2839,
+            0.2669
           ]
         }
       ]
