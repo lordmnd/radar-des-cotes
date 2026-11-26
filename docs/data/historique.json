@@ -1,4 +1,124 @@
 {
+  "2026-11-26": {
+    "date": "2026-11-26",
+    "updatedAt": "2026-11-26T13:43:14Z",
+    "eventsScanned": 9,
+    "valueBets": 3,
+    "top": [
+      {
+        "eventId": "40d95e660c301c2d8a5a7a6317017b65",
+        "sportKey": "soccer_epl",
+        "league": "Premier League",
+        "home": "Nottingham Forest",
+        "away": "Chelsea",
+        "kickoff": "2026-11-27T20:00:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Nottingham Forest",
+          "Match nul",
+          "Victoire Chelsea"
+        ],
+        "odd": 3.69,
+        "p": 0.2858,
+        "fairOdd": 3.499,
+        "ev": 0.0546,
+        "quality": 0.0328,
+        "kelly": 0.0203,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          2.52,
+          3.69,
+          2.88
+        ],
+        "refOdds": [
+          2.53,
+          3.38,
+          2.94
+        ],
+        "margin1x": 0.0151
+      },
+      {
+        "eventId": "e9a663f13e7503c0ac20a54804338b60",
+        "sportKey": "soccer_italy_serie_a",
+        "league": "Serie A",
+        "home": "Venezia",
+        "away": "Bologna",
+        "kickoff": "2026-11-27T19:45:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Venezia",
+          "Match nul",
+          "Victoire Bologna"
+        ],
+        "odd": 3.52,
+        "p": 0.2967,
+        "fairOdd": 3.37,
+        "ev": 0.0445,
+        "quality": 0.0277,
+        "kelly": 0.0176,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.4,
+          3.52,
+          2.29
+        ],
+        "refOdds": [
+          3.39,
+          3.26,
+          2.33
+        ],
+        "margin1x": 0.0149
+      },
+      {
+        "eventId": "02ff879cf54f6d1fec2664efee0431db",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Brest",
+        "away": "Paris FC",
+        "kickoff": "2026-11-27T19:45:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Brest",
+          "Match nul",
+          "Victoire Paris FC"
+        ],
+        "odd": 3.68,
+        "p": 0.2835,
+        "fairOdd": 3.527,
+        "ev": 0.0434,
+        "quality": 0.0262,
+        "kelly": 0.0162,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.4,
+          3.68,
+          2.23
+        ],
+        "refOdds": [
+          3.54,
+          3.41,
+          2.2
+        ],
+        "margin1x": 0.0143
+      }
+    ],
+    "combo": null
+  },
   "2026-11-25": {
     "date": "2026-11-25",
     "updatedAt": "2026-11-25T21:31:25Z",
@@ -1063,49 +1183,6 @@
     "eventsScanned": 2,
     "valueBets": 0,
     "top": [],
-    "combo": null
-  },
-  "2026-10-27": {
-    "date": "2026-10-27",
-    "updatedAt": "2026-10-27T20:50:39Z",
-    "eventsScanned": 8,
-    "valueBets": 2,
-    "top": [
-      {
-        "eventId": "33320ad169692216a91dec030e7ef6a6",
-        "sportKey": "soccer_italy_serie_a",
-        "league": "Serie A",
-        "home": "Venezia",
-        "away": "Inter Milan",
-        "kickoff": "2026-10-28T17:30:00Z",
-        "market": "Handicap asiatique",
-        "marketKey": "spreads",
-        "line": "1.5",
-        "idx": 0,
-        "pick": "H1 +1,5",
-        "pickName": "Venezia +1,5",
-        "names": [
-          "Venezia +1,5",
-          "Inter Milan -1,5"
-        ],
-        "odd": 2.02,
-        "p": 0.5053,
-        "fairOdd": 1.979,
-        "ev": 0.0206,
-        "quality": 0.0204,
-        "kelly": 0.0202,
-        "refSource": "Pinnacle",
-        "odds1x": [
-          2.02,
-          1.92
-        ],
-        "refOdds": [
-          1.93,
-          1.97
-        ],
-        "margin1x": 0.0159
-      }
-    ],
     "combo": null
   }
 }
