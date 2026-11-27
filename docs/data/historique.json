@@ -1,4 +1,124 @@
 {
+  "2026-11-27": {
+    "date": "2026-11-27",
+    "updatedAt": "2026-11-27T14:25:13Z",
+    "eventsScanned": 53,
+    "valueBets": 11,
+    "top": [
+      {
+        "eventId": "12002f6f804a122db48271ff05be03c0",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Paris Saint Germain",
+        "away": "Lorient",
+        "kickoff": "2026-11-28T19:45:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 0,
+        "pick": "1",
+        "pickName": "Victoire Paris Saint Germain",
+        "names": [
+          "Victoire Paris Saint Germain",
+          "Match nul",
+          "Victoire Lorient"
+        ],
+        "odd": 1.26,
+        "p": 0.8153,
+        "fairOdd": 1.227,
+        "ev": 0.0273,
+        "quality": 0.0558,
+        "kelly": 0.1049,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          1.26,
+          6.91,
+          12.9
+        ],
+        "refOdds": [
+          1.2,
+          7.91,
+          12.48
+        ],
+        "margin1x": 0.0159
+      },
+      {
+        "eventId": "aaa86a483888836242da663a46957894",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Le Mans FC",
+        "away": "Lille",
+        "kickoff": "2026-11-28T19:45:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Le Mans FC",
+          "Match nul",
+          "Victoire Lille"
+        ],
+        "odd": 3.65,
+        "p": 0.2873,
+        "fairOdd": 3.48,
+        "ev": 0.0487,
+        "quality": 0.0295,
+        "kelly": 0.0184,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.88,
+          3.65,
+          2.07
+        ],
+        "refOdds": [
+          3.84,
+          3.36,
+          2.11
+        ],
+        "margin1x": 0.0148
+      },
+      {
+        "eventId": "f96c1137c9d3f7e2e691275a2988fa1d",
+        "sportKey": "soccer_france_ligue_one",
+        "league": "Ligue 1",
+        "home": "Le Havre",
+        "away": "Strasbourg",
+        "kickoff": "2026-11-28T19:45:00Z",
+        "market": "1N2",
+        "marketKey": "h2h",
+        "line": "",
+        "idx": 1,
+        "pick": "N",
+        "pickName": "Match nul",
+        "names": [
+          "Victoire Le Havre",
+          "Match nul",
+          "Victoire Strasbourg"
+        ],
+        "odd": 3.84,
+        "p": 0.2735,
+        "fairOdd": 3.656,
+        "ev": 0.0502,
+        "quality": 0.0293,
+        "kelly": 0.0177,
+        "refSource": "Pinnacle",
+        "odds1x": [
+          3.23,
+          3.84,
+          2.24
+        ],
+        "refOdds": [
+          3.3,
+          3.53,
+          2.25
+        ],
+        "margin1x": 0.0164
+      }
+    ],
+    "combo": null
+  },
   "2026-11-26": {
     "date": "2026-11-26",
     "updatedAt": "2026-11-26T13:43:14Z",
@@ -1175,14 +1295,6 @@
         "margin1x": 0.0154
       }
     ],
-    "combo": null
-  },
-  "2026-10-28": {
-    "date": "2026-10-28",
-    "updatedAt": "2026-10-28T21:53:49Z",
-    "eventsScanned": 2,
-    "valueBets": 0,
-    "top": [],
     "combo": null
   }
 }
